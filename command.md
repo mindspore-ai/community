@@ -2,7 +2,7 @@
 
 All of the projects in MindSpore Community are maintained by Bot.
 That means the developers can comment below every Pull Request or Issue to trigger Bot Commands.
-The Commands incluing as follows:
+The Commands include the following:
 
 <table class="command">
     <thead>
