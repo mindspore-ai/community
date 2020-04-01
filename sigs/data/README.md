@@ -11,13 +11,13 @@ This is the working repo for the Data special interest group (SIG). This repo co
 # Logistics
 
 * SIG leads will drive the meeting.
-* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/sigs/data
+* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/data
 * Feedbacks and topic requests are welcome by all.
 
 # Discussion
 
 * Slack channel https://app.slack.com/client/TUKCY4QDR/C010RPN6QNP?cdn_fallback=2
-* Documents and artifacts: https://gitee.com/mindspore/community/sigs/data
+* Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/data
 
 # Meeting notes
 
