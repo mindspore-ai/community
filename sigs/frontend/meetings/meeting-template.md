@@ -1,4 +1,4 @@
-# Thursday April 2, 2020 at 21:30pm GMT+8
+# Thursday April xx, 2020 at xx:xxpm GMT+8
 
 ## Agenda
 
