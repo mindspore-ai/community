@@ -22,3 +22,6 @@ This is the working repo for the FrontEnd Special Interest Group (SIG). This rep
 * Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/frontend
 
 # Meeting notes
+
+* [Saturday May 16, 2020](./meetings/001-20200516.md)
+* [Friday June 5, 2020](./meetings/002-20200605.md)
