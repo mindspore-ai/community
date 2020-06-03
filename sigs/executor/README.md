@@ -23,3 +23,4 @@ This is the working repo for the Executor Special Interest Group (SIG). This rep
 
 # Meeting notes
 
+* [Thursday June 4, 2020](./meetings/001-20200604.md)
