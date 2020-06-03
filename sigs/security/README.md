@@ -20,3 +20,4 @@ This is the working repo for the MindArmour special interest group (SIG). This r
 * Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/security
 
 # Meeting notes
+* [Thursday June 04, 2020](./meetings/001-20200604.md)
