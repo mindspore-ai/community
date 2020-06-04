@@ -25,3 +25,4 @@ This is the working repo for the Compiler special interest group (SIG). This rep
 
 # Meeting notes
 * [Tuesday May 18, 2020](./meetings/001-20200518.md)
+* [Friday June 05, 2020](./meetings/002-20200605.md)
