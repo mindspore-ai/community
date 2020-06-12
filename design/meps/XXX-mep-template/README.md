@@ -7,7 +7,7 @@ If any of those approvers is no longer appropriate than changes to that list
 should be approved by the remaining approvers and/or the owning SIG.
 -->
 | title | authors | owning-sig | participating-sigs | status | creation-date | reviewers | approvers | stage | milestone |
-| ----- | ------- | ---------- | ------------------ | ------ | ------------- |--------- | --------- | ----- | --------- |
+| ----- | ------- | ---------- | ------------------ | ------ | ------------- |---------- | --------- | ----- | --------- |
 | MEP Template | @leonwanghui | sig-xxx | sig-xxx, sig-yyy | provisional/implementable/implemented/deferred/rejected/withdrawn/replaced | yyyy-mm-dd | TBD | TBD | alpha/beta/stable | alpha: "v0.5", beta: "v0.6", stable: "v1.0" |
 
 # MEP-XXX: Your short, descriptive title
