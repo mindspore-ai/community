@@ -25,3 +25,4 @@ This is the working repo for the FrontEnd Special Interest Group (SIG). This rep
 
 * [Saturday May 16, 2020](./meetings/001-20200516.md)
 * [Friday June 5, 2020](./meetings/002-20200605.md)
+* [Friday July 3, 2020](./meetings/003-20200703.md)
