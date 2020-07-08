@@ -21,3 +21,4 @@ This is the working repo for the MindArmour special interest group (SIG). This r
 
 # Meeting notes
 * [Thursday June 04, 2020](./meetings/001-20200604.md)
+* [Friday July 03, 2020](./meetings/002-20200703.md)
