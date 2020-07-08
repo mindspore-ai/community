@@ -24,3 +24,4 @@ This is the working repo for the Data special interest group (SIG). This repo co
 * [Thursday April 2, 2020](./meetings/001-20200402.md)
 * [Friday May 15, 2020](./meetings/002-20200515.md)
 * [Friday June 03, 2020](./meetings/003-20200603.md)
+* [Friday July 03, 2020](./meetings/004-20200703.md)
