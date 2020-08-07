@@ -10,7 +10,7 @@ This is the working repo for the Compiler special interest group (SIG). This rep
 
 ## SIG Leads
 
-* Ding Jian (Huawei)
+* Wei Luning (Huawei)
 
 ## Logistics
 
