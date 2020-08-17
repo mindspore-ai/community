@@ -1,4 +1,4 @@
-# MindSpore AKG Special Interest Group (SIG)
+# MindSpore Lite Special Interest Group (SIG)
 
 This is the working repo for the mslite Special Interest Group (SIG). This repo contains all the artifacts, materials, meeting notes and proposals regarding **MS Lite Converter** , **MS Lite Runtime**. Feedbacks and contributions are welcomed.
 1. **Converter**: converter is an offline tool has three parts, frontend, IR, and backend, aims to generate a compact model with applying graph optimizations and post training quantization. 
