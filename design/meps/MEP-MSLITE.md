@@ -1,7 +1,7 @@
 
 | title   | authors                          | owning-sig | participating-sigs | status      | creation-date | reviewers | approvers | stage | milestone     |
 | ------- | -------------------------------- | ---------- | ------------------ | ----------- | ------------- | --------- | --------- | ----- | ------------- |
-| MEP-MS-Lite | @zhengli  @zhiqiangzhai @chaijun | ms-lite |  | provisional | 2020-08-18    |  | TBD       | beta  | beta : "v0.7" |
+| MEP-mslite | @zhengli  @zhiqiangzhai @chaijun | mslite |  | provisional | 2020-08-18    |  | TBD       | beta  | beta : "v0.7" |
 
 # MEP-MS-LITE: MindSpore Lite
 
