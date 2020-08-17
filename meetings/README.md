@@ -1,3 +1,0 @@
-## MindSpore community meeting
-
-Coming soon...
