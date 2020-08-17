@@ -3,13 +3,13 @@
 | ------- | -------------------------------- | ---------- | ------------------ | ----------- | ------------- | --------- | --------- | ----- | ------------- |
 | MEP-mslite | @zhengli  @zhiqiangzhai @chaijun | mslite |  | provisional | 2020-08-18    |  | TBD       | beta  | beta : "v0.7" |
 
-# MEP-MS-LITE: MindSpore Lite
+# MEP-mslite: MindSpore Lite
 
 ## Table of Contents
 
 <!-- toc -->
 
-- [MEP-MS-Lite: MindSpore Lite](#mep-mindspore-lite)
+- [MEP-mslite: MindSpore Lite](#mep-mindspore-lite)
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
   - [Motivation](#motivation)
