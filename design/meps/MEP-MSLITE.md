@@ -1,15 +1,15 @@
 
 | title   | authors                          | owning-sig | participating-sigs | status      | creation-date | reviewers | approvers | stage | milestone     |
 | ------- | -------------------------------- | ---------- | ------------------ | ----------- | ------------- | --------- | --------- | ----- | ------------- |
-| MEP-MS-Lite | @zhengli  @zhiqiangzhai @chaijun | ms-lite |                    | provisional | 2020-08-18    |           | TBD       | beta  | beta : "v0.5" |
+| MEP-MS-Lite | @zhengli  @zhiqiangzhai @chaijun | ms-lite |  | provisional | 2020-08-18    |  | TBD       | beta  | beta : "v0.7" |
 
-# MEP-AKG: MindSpore Lite
+# MEP-MS-LITE: MindSpore Lite
 
 ## Table of Contents
 
 <!-- toc -->
 
-- [MEP-MS-lite: MindSpore Lite](#mep-akg-auto-kernel-generator)
+- [MEP-MS-Lite: MindSpore Lite](#mep-mindspore-lite)
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
   - [Motivation](#motivation)
@@ -131,7 +131,7 @@ function verification and performance testing.
 - Support fp64, fp32, fp16, int8 operations.
 
 ## Drawbacks
-- MS lite does not support on-device training yet, it will come soon...
+- MS lite does not support on-device training yet, it is coming soon...
 
 ## Alternatives
 - MNN[1], TF lite[2] and TNN[3] are outstanding on-device AI frameworks. 
