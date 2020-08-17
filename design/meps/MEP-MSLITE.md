@@ -1,4 +1,3 @@
-# 
 
 | title   | authors                          | owning-sig | participating-sigs | status      | creation-date | reviewers | approvers | stage | milestone     |
 | ------- | -------------------------------- | ---------- | ------------------ | ----------- | ------------- | --------- | --------- | ----- | ------------- |
@@ -18,7 +17,7 @@
     - [Non-Goals](#non-goals)
   - [Proposal](#proposal)
     - [User Stories](#user-stories-optional)
-      - [Generate a compact target model and low latency and low consumption runtime](#Generate a compact target model and low latency and low consumption runtime)
+      - [Generate a compact target model and low latency and low consumption runtime](#generate-a-compact-target-model-and-low-latency-and-low-consumption-runtime)
   - [Design Details](#design-details)
     - [Test Plan](#test-plan)
   - [Implementation History](#implementation-history)
