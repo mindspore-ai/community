@@ -4,7 +4,7 @@
 
 ## Conference links
 
-## Attendees 
+## Attendees
 * Tom (Huawei)
 
 ## Notes
