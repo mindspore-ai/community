@@ -25,3 +25,4 @@ in the mailing list. SIG artifacts can be found in the [sigs repository](sigs).
 | Visualization | This SIG is responsible for the development of MindSpore visualization tools. |
 | Security | This SIG is responsible for the development of MindSpore security related tools. |
 | AKG | This SIG is responsible for the development of MindSpore auto kernel generator. |
+| MSLITE | This SIG is responsible for the development of MindSpore lite. |
