@@ -27,7 +27,7 @@
   
   <!-- /toc -->
 ## Summary
-MindSpore(MS) lite is an extremely light-weight deep learning inference framework, 
+MindSpore(MS) Lite is an extremely light-weight deep learning inference framework, 
 and designed for smart-phones and embedded devices, such as watches, headsets, and various IoT devices. 
 It supports Android and iOS, as well as Harmony os, and has industry leading performance. 
                                 
@@ -39,12 +39,12 @@ On-device AI can dramatically reduce latency, conserve bandwidth,
 improve privacy and enable smarter applications. 
 
 ### Goals
-- Compatibility: supports MindSpore model, as well as mainstream third-party models, such as TensorFlow lite, Caffe 1.0 and ONNX.
+- Compatibility: supports MindSpore model, as well as mainstream third-party models, such as TensorFlow Lite, Caffe 1.0 and ONNX.
 - High-performance: 
 generates small, low power consumption and fast inference target model for various hardware backends.
 
 - Versatility: supports Harmony, Android and iOS os.
-- Light-weight: small shared library size, should be less than 1 MB, and could be easily deployed on 
+- Light-weight: small shared library size, should be less than 1MB, and could be easily deployed on 
 resource limited devices. 
 
 ### Non-Goals
@@ -52,7 +52,7 @@ resource limited devices.
 
 ## Proposal
 
-MS lite consists of converter and a runtime library.
+MS Lite consists of converter and a runtime library.
 The converter is an offline tool can handle most of the model translation work. 
 The runtime library deploys to device and executes online, 
 it has Lite RT and Lite Micro two modes.
@@ -71,8 +71,7 @@ while Lite Micro is for extremely resource limited devices, such as watches, hea
     Graph optimizations, such as operator fusion and constant folding, make model more compact.
     Post training quantization transfers fp32 model into fix-point int8 model. 
     It brings nearly 4x smaller model size, low latency and low consumption for inference process. 
-        
-    MS lite also applies a variety of optimization schemes to NN operations, including using Winograd 
+    MS Lite also applies a variety of optimization schemes to NN operations, including using Winograd 
 algorithm in convolution and deconvolution, Strassen algorithm in matrix multiplication.
 Operations support fp64, fp32, fp16 and int8, and are highly optimized with acceleration by 
 neon instructions, hand-written assemble, multi-thread, memory reuse, heterogeneous computing, etc.
@@ -83,20 +82,20 @@ neon instructions, hand-written assemble, multi-thread, memory reuse, heterogene
    
 - Light weight
 
-    MS lite is highly Optimized under GHLO and GLLO. It has small foot-print, 
-    MS lite runtime is about 800 kB, and MS Micro is less than 200 KB. 
+    MS Lite is highly Optimized under GHLO and GLLO. It has small foot-print, 
+    MS Lite runtime is about 800 kB, and MS Micro is less than 200 KB. 
     It is flexible and can easily deploy to mobile and a variety of embedded devices.     
 ### User Stories
 
 #### Generate a compact target model and low latency and low consumption runtime
 
 Since devices has limited resource with few ROM, RAM, and power, how to deploy AI model to 
-device is very challenge. MS lite aims to solve the challenge for users, and provides user-friendly, 
+device is very challenge. MS Lite aims to solve the challenge for users, and provides user-friendly, 
 flexible tool to help users to make their own models more slim and more efficiency.
  
 ## Design Details
 
-MS lite consists of converter and runtime. 
+MS Lite consists of converter and runtime. 
 The converter is an offline tool has three parts, frontend, IR, and backend.
 Runtime deploys to device and executes online.
 
@@ -115,12 +114,12 @@ Runtime deploys to device and executes online.
 
 ### Test Plan
 
-MS lite employed pytests and nosetest to launch the testing process, 
-and there are two types of testing strategies in MS lite:
+MS Lite employed pytests and nosetest to launch the testing process, 
+and there are two types of testing strategies in MS Lite:
 
 - **Unit Test.** Every operation, optimization or pass in MS has its own unitest. 
 
-- **System test**. The ms lite module has its own component testing. 
+- **System test**. The ms Lite module has its own component testing. 
 Basically we classify the testing into compilation verification, 
 function verification and performance testing.
 
@@ -131,13 +130,13 @@ function verification and performance testing.
 - Support fp64, fp32, fp16, int8 operations.
 
 ## Drawbacks
-- MS lite does not support on-device training yet, it is coming soon...
+- MS Lite does not support on-device training yet, it is coming soon...
 
 ## Alternatives
-- MNN[1], TF lite[2] and TNN[3] are outstanding on-device AI frameworks. 
-MS lite is for on-device AI, and MS cloud is for on-cloud AI, 
+- MNN[1], TF Lite[2] and TNN[3] are outstanding on-device AI frameworks. 
+MS Lite is for on-device AI, and MS cloud is for on-cloud AI, 
 both of them are in scope of Huawei's MindSpore AI framework. 
-They share same IR, and optimization passes. MS lite is more flexible. 
+They share same IR, and optimization passes. MS Lite is more flexible. 
 
 ## References
 - [1] https://github.com/alibaba/MNN 

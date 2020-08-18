@@ -6,7 +6,7 @@ This is the working repo for the mslite Special Interest Group (SIG). This repo 
 
 # SIG Leads
 
-* Zheng Li (Huawei)
+* Zhiqiang Zhai (Huawei)
 
 # Logistics
 
