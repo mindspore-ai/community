@@ -1,7 +1,7 @@
 # MindSpore Security Special Interest Group (SIG)
 
 This is the working repo for the MindArmour special interest group (SIG). This repo contains all the artifacts, materials, meeting notes and proposals regarding **model security** and **Data privacy protection** in MindSpore. Feedbacks and contributions are welcome.
-1. **model security**: The model security contains four features: attack, detect, defense and evaluate. 
+1. **model security**: The model security contains four features: attack, detect, defense and evaluate.
 2. **Data privacy protection**: We will implemented this feature very soon.
 
 # SIG Leads
@@ -22,3 +22,4 @@ This is the working repo for the MindArmour special interest group (SIG). This r
 # Meeting notes
 * [Thursday June 04, 2020](./meetings/001-20200604.md)
 * [Friday July 03, 2020](./meetings/002-20200703.md)
+* [Saturday August 08, 2020](./meetings/003-20200808.md)

@@ -2,7 +2,7 @@
 This is the working repo for the MDP Special Interest Group (SIG). MindSpore Deep Probabilistic Programming (MDP) is a programming library for Bayesian deep learning. The target of MDP is to intergrade the gap between deep learning and Bayesian learning. This repo contains all the  artifacts,  materials, meeting notes and proposals regarding  **Probabilistic Programming**  ,  **Deep Probabilistic Programming** ,  **Toolbox** . Feedbacks and contributions are welcomed.
 
 1. Probabilistic Programming: Probabilistic Programming (PP) focuses on professional Bayesian learning, incluiding statistical distributions classes used to generate stochastic tensors and probabilistic inference algorithms.
-2. Deep Probabilistic Programming: Deep Probabilistic Programming (DPP) aims to provide composable BNN modules, which contains bnn layers, bnn, transforms and context.
+2. Deep Probabilistic Programming: Deep Probabilistic Programming (DPP) aims to provide composable BNN modules, which contains bnn layers, bnn modules, transforms and context.
 3. Toolbox: Toolbox provides a set of BNN tools for some specific applications, sunch as Uncertainty Estimation, OoD Detection and so on.
 ## SIG Leads
 Chen Jianfei (Tsinghua University)

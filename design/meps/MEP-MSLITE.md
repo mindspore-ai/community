@@ -3,20 +3,20 @@
 | ------- | -------------------------------- | ---------- | ------------------ | ----------- | ------------- | --------- | --------- | ----- | ------------- |
 | MEP-mslite | @zhengli  @zhiqiangzhai @chaijun | mslite |  | provisional | 2020-08-18    |  | TBD       | beta  | beta : "v0.7" |
 
-# MEP-mslite: MindSpore Lite
+# MEP-MSLITE: MindSpore Lite
 
 ## Table of Contents
 
 <!-- toc -->
 
-- [MEP-mslite: MindSpore Lite](#mep-mindspore-lite)
+- [MEP-MSLITE: MindSpore Lite](#mep-mslite-mindspore-lite)
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
   - [Motivation](#motivation)
     - [Goals](#goals)
     - [Non-Goals](#non-goals)
   - [Proposal](#proposal)
-    - [User Stories](#user-stories-optional)
+    - [User Stories](#user-stories)
       - [Generate a compact target model and low latency and low consumption runtime](#generate-a-compact-target-model-and-low-latency-and-low-consumption-runtime)
   - [Design Details](#design-details)
     - [Test Plan](#test-plan)
@@ -24,7 +24,7 @@
   - [Drawbacks](#drawbacks)
   - [Alternatives](#alternatives)
   - [References](#references-optional)
-  
+
   <!-- /toc -->
 ## Summary
 MindSpore(MS) Lite is an extremely light-weight deep learning inference framework, 
@@ -32,11 +32,8 @@ and designed for smart-phones and embedded devices, such as watches, headsets, a
 It supports Android and iOS, as well as Harmony os, and has industry leading performance. 
                                 
 ## Motivation
-Since increased computing power and sensor data, intelligence is moving towards edge devices. 
-Improved AI algorithms are driving the trend towards machine learning be run on 
-the end device, such as smart-phones or automobiles, rather than in the cloud.
-On-device AI can dramatically reduce latency, conserve bandwidth, 
-improve privacy and enable smarter applications. 
+Since increased computing power and sensor data, intelligence is moving towards edge devices. Improved AI algorithms are driving the trend towards machine learning be run on the end device, such as smart-phones or automobiles, rather than in the cloud.
+On-device AI can dramatically reduce latency, conserve bandwidth, improve privacy and enable smarter applications.
 
 ### Goals
 - Compatibility: supports MindSpore model, as well as mainstream third-party models, such as TensorFlow Lite, Caffe 1.0 and ONNX.
@@ -61,9 +58,9 @@ while Lite Micro is for extremely resource limited devices, such as watches, hea
 
 - Compatibility
 
-    provides an abundant of operator parsers for MindSpore, Tensorflow Lite, Caffe, ONNX, 
+    provides an abundant of operator parsers for MindSpore, TensorFlow Lite, Caffe, ONNX,
     and supports common neural networks in CV and NLP, 208+ CPU operators, and 60+ GPU operators.
-   
+
 - High performance
 
     Many optimization methods, including graph optimizations, post training quantization,
@@ -76,10 +73,10 @@ algorithm in convolution and deconvolution, Strassen algorithm in matrix multipl
 Operations support fp64, fp32, fp16 and int8, and are highly optimized with acceleration by 
 neon instructions, hand-written assemble, multi-thread, memory reuse, heterogeneous computing, etc.
 
-- Versatility   
+- Versatility
 
     Supports Harmony, iOS and Android os, supports smart-phones, watches, headsets, and various IoT devices.
-   
+
 - Light weight
 
     MS Lite is highly Optimized under GHLO and GLLO. It has small foot-print, 
@@ -99,18 +96,12 @@ MS Lite consists of converter and runtime.
 The converter is an offline tool has three parts, frontend, IR, and backend.
 Runtime deploys to device and executes online.
 
-- **Frontend.** Frontend aims to parse model from MindSpore, Tensorflow Lite, Caffe and ONNX in protobuf. 
+- **Frontend.** Frontend aims to parse model from MindSpore, TensorFlow Lite, Caffe and ONNX in protobuf.
 - **IR.** IR is to define ANF, including tensor, operations, and graph.
-- **Backend.** Backend is an optimizer based ANF graph, including GHLO, GLLO, and quantization.
-               GHLO is short for "graph high level optimization", common optimization methods, 
-               such as operators fusion, operator substitution, and constant folding, are included. 
-               GLLO is short for "graph low level optimization", low level optimization methods 
-               are related to hardware, such as layout adjustment, mixed-precision, etc.
-                
+- **Backend.** Backend is an optimizer based ANF graph, including GHLO, GLLO, and quantization. `GHLO` is short for "graph high level optimization", common optimization methods, such as operators fusion, operator substitution, and constant folding, are included. `GLLO` is short for "graph low level optimization", low level optimization methods are related to hardware, such as layout adjustment, mixed-precision, etc.
 - **Runtime.** Runtime has Lite RT and Lite Micro two modes.
-  
-  <img src="./ms-lite-arch.jpg" style="zoom:80%" div align=center/>
 
+  <img src="./ms-lite-arch.jpg" style="zoom:80%" div align=center/>
 
 ### Test Plan
 
@@ -126,7 +117,7 @@ function verification and performance testing.
 ## Implementation History
 - Support high and low level graph optimization.
 - Support post training quantization.
-- Support Arm CPU and Mali GPU. 
+- Support Arm CPU and Mali GPU.
 - Support fp64, fp32, fp16, int8 operations.
 
 ## Drawbacks
@@ -139,6 +130,6 @@ both of them are in scope of Huawei's MindSpore AI framework.
 They share same IR, and optimization passes. MS Lite is more flexible. 
 
 ## References
-- [1] https://github.com/alibaba/MNN 
+- [1] https://github.com/alibaba/MNN
 - [2] https://www.tensorflow.org/lite
-- [3] https://github.com/Tencent/TNN 
+- [3] https://github.com/Tencent/TNN

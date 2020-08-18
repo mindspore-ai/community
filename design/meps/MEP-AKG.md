@@ -1,5 +1,3 @@
-# 
-
 | title   | authors                          | owning-sig | participating-sigs | status      | creation-date | reviewers | approvers | stage | milestone     |
 | ------- | -------------------------------- | ---------- | ------------------ | ----------- | ------------- | --------- | --------- | ----- | ------------- |
 | MEP-AKG | @anyrenwei  @ckey_dou @dylangeng | akg        |                    | provisional | 2020-06-16    |           | TBD       | beta  | beta : "v0.5" |
@@ -17,7 +15,7 @@
     - [Goals](#goals)
     - [Non-Goals](#non-goals)
   - [Proposal](#proposal)
-    - [User Stories](#user-stories-optional)
+    - [User Stories](#user-stories)
       - [Deep Graph Optimization](#deep-graph-optimization)
       - [Optimize Dynamic Neural Network](#optimize-dynamic-neural-network)
   - [Design Details](#design-details)
@@ -26,7 +24,7 @@
   - [Drawbacks](#drawbacks)
   - [Alternatives](#alternatives)
   - [References](#references-optional)
-  
+
   <!-- /toc -->
 
 ## Summary
@@ -92,13 +90,13 @@ nitty-gritty.
 AKG aims to generate high-performance target code for fusing operators with specific patterns on different hardware backends. So three basic processes should be contained in akg as follows.
 - **Operator Expression.**
   AKG defines several basic operators which can be used to compose a complicated fused operator. These basic operators have the same granularity with MindSpore's IR. We introduce json to expressed the relation of the basic operators in one fused operator which brings weak dependency between MindSpore and AKG.
-  
+
 - **Schedule initialize based on polyhedral.**
-  
+
   When akg obtained the dsl of operators which would be fused, it would transform the operator dsl into formularIR(now we use HalidIR as tvm) and then into isl schedule tree. Next the polyhedral schedule process begin. With the help of pluto algorithm and other optimizations the schedule tree will do some transformations including vectorization, loop tiling, mem promotion and loop distribution, which can help us to improve the parallel capability and data locality.
 
 - **Emit instructions on different hardware from IR.**
-  
+
   In order to generate correctness and high-performance codes for different hardware, The IR should be optimized respectively, which consists of double buffer optimization, storage rewrite optimization and inject sync optimization.
 
 
@@ -113,15 +111,15 @@ bogged down.
 
 #### Deep Graph Optimization
 
-Since the network is becoming more deeper and larger, there are more opportunity to fused different operation into one to optimiza network performance. 
+Since the network is becoming more deeper and larger, there are more opportunity to fused different operation into one to optimize network performance.
 AKG tools has the ability to auto-generate target code based on composited dsl, without scheduling procedure.
 After automatic operator fusion and operator re-composition in graph level, AKG tools can generates high-performance target code for these composited pattern.
 
 #### Optimize Dynamic Neural Network
 
-Networks are exhibiting more and more dynamism, especially in the fields of deep graph analysis and NLP. 
-Tensors in a model may have dynamic shapes such as batch size, image size, sequence length, etc. 
-Models are expressed with control-flow, such as recursion, conditionals and loops. 
+Networks are exhibiting more and more dynamism, especially in the fields of deep graph analysis and NLP.
+Tensors in a model may have dynamic shapes such as batch size, image size, sequence length, etc.
+Models are expressed with control-flow, such as recursion, conditionals and loops.
 Within these different dynamic requirement, AKG can generate one general target code on davinci hardware(different hardware) using for different shape of one common operator.
 
 ## Design Details
@@ -135,12 +133,12 @@ proposal will be implemented, this is the place to discuss them.
 
 <!--![Image text](akg-design.png) {:height="75%" width="75%"} -->
 
-AKG composes with four basic optimization module, normalization, auto schedule, instruction emit and backend optimization. 
-- **normalization.** The mainly optimization of normalization includes three address transform, common subexpression elimination, copy propagation and so on. 
-- **auto schedule.** The auto schedule module mainly have vectorization, loop tiling, mem promotion and loop distribution. 
-- **instruction emit.** The instruction emitting module has the optimization about loop normalization, auto pragma and emit instruction. 
+AKG composes with four basic optimization module, normalization, auto schedule, instruction emit and backend optimization.
+- **normalization.** The mainly optimization of normalization includes three address transform, common subexpression elimination, copy propagation and so on.
+- **auto schedule.** The auto schedule module mainly have vectorization, loop tiling, mem promotion and loop distribution.
+- **instruction emit.** The instruction emitting module has the optimization about loop normalization, auto pragma and emit instruction.
 - **backend optimization.** The backend optimization module consists of double buffer optimization, storage rewrite optimization and inject sync optimization.
-  
+
   <img src="akg-design.png" style="zoom:80%" div align=center/>
 
 When GraphKernel is enabled, ops are reconstructed in the graph level. The new ops described in the format of json will be translated into DSL in AKG and then compiled to the target binary.
@@ -173,7 +171,7 @@ when drafting this test plan.
 
 AKG employed pytests and nosetest to launch the testing process, and there are three types of testing strategies in AKG:
 
-- **Unit Test.** Every optimization or pass in AKG has its own unitest. 
+- **Unit Test.** Every optimization or pass in AKG has its own unitest.
 
 - **System test**. The akg module has its own component testing. Basically we classify the testing into compilation verification, function verification and performance testing.
 
@@ -204,7 +202,7 @@ Major milestones might include
 <!--
 Why should this MEP _not_ be implemented?
 -->
-- The schedule generated directly by pluto algorithm during the polyhedral process would exist some issues on both correctness and performance in some scenarioes. So some extra passes have to added before emitting instructions. 
+- The schedule generated directly by pluto algorithm during the polyhedral process would exist some issues on both correctness and performance in some scenarios. So some extra passes have to added before emitting instructions.
 
 ## Alternatives
 
@@ -216,5 +214,5 @@ information to express the idea and why it was not acceptable.
 - Both TVM[1] and TC[2] are outstanding tools which can automatically synthesize high-performance machine learning kernel. However, neither of them could generate codes for Davinci cores(cce codes) as davinci cores have more complicated multi-level memory design(L0-A/B/C, L1 and UB) as well as specific dataflow constraint. Besides, TVM adopted schedule space model and had to write the schedule all by ourselves while akg used polyhedral techniques to initialize the schedule automatically, which referenced from the designing of TC.
 
 ## References
-- [1] https://github.com/apache/incubator-tvm 
+- [1] https://github.com/apache/incubator-tvm
 - [2] https://github.com/facebookresearch/TensorComprehensions
