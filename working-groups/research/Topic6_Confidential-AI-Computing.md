@@ -1,4 +1,4 @@
-# Topic6:  Confidential AI Computing 
+# Topic6:  Confidential AI Computing
 
 ## Motivation:
 * In the training and deployment process of AI services, several vital resources such as data, models, and computing resources may belong to different parties. A large amount of data will move across trust domains. The problems of data privacy protection and model confidentiality protection are prominent.
@@ -13,4 +13,4 @@ Realize an Confidential AI Computing framework, or its key technologies,  with f
 
 ## How To Join:
 * Submit an issue/PR based on community discussion for consultation or claim on related topics
-* Submit your proposal to us by email wangze14@huawei.com
+* Submit your proposal to us by email <wangze14@huawei.com>

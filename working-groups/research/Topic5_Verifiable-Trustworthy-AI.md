@@ -1,4 +1,4 @@
-# Topic5:  Verifiable/certifiable Trustworthy AI 
+# Topic5:  Verifiable/certifiable Trustworthy AI
 
 ## Motivation:
 * Many aspects of trustworthy AI (or responsible AI), such as adversarial robustness, backdoor, fairness, privacy protection capabilities, and accountability, have gradually attracted the attention of the industry and academia.
@@ -12,4 +12,4 @@
 
 ## How To Join:
 * Submit an issue/PR based on community discussion for consultation or claim on related topics
-* Submit your proposal to us by email wangze14@huawei.com
+* Submit your proposal to us by email <wangze14@huawei.com>

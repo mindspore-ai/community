@@ -13,4 +13,4 @@
 
 ## How To Join:
 * Submit an issue/PR based on community discussion for consultation or claim on related topics
-* Submit your proposal to us by email peng.yuanpeng@huawei.com
+* Submit your proposal to us by email <peng.yuanpeng@huawei.com>

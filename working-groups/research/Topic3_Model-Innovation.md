@@ -11,8 +11,8 @@
 * Trillion distributed graph data storage, segmentation and sampling
 
 ## Method：
-​We expect the applicant can conduct model innovation research based on MindSpore, and hope to get your valuable suggestions to MindSpore in the process. We will do our best to improve the capabilities of the MindSpore framework and  provide you with the most powerful technical support.
+​We expect the applicant can conduct model innovation research based on MindSpore, and hope to get your valuable suggestions to MindSpore in the process. We will do our best to improve the capabilities of the MindSpore framework and provide you with the most powerful technical support.
 
 ## How To Join：
 * Submit an issue/PR based on community discussion for consultation or claim on related topics
-* Submit your proposal to us by email wang1@huawei.com
+* Submit your proposal to us by email <wang1@huawei.com>

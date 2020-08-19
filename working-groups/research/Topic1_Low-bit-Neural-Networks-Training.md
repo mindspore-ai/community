@@ -1,4 +1,4 @@
-# Topic1:  Low-bit Neural Networks Training  
+# Topic1:  Low-bit Neural Networks Training
 
 ## Motivation:
 ​At present, mixed precision can automatically adjust the accuracy of fp16 and fp32 for the network to improve training performance and memory optimization. Because operators have different costs on different AI chips, all optimization strategies for different AI chips are different. The network configuration of different hardware is different, so how to automatically generate the precision adjustment strategy that adapts to various hardware, especially the low bit strategy has become a difficult problem.
@@ -13,4 +13,4 @@
 
 ## How To Join：
 * Submit an issue/PR based on community discussion for consultation or claim on related topics
-* Submit your proposal to us by email baochong@huawei.com
+* Submit your proposal to us by email <baochong@huawei.com>
