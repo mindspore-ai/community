@@ -253,7 +253,7 @@ summary of the SIG's work to the community. SIGs are also responsible to:
 * Keep up-to-date meeting notes, linked from the SIG's page in the community
 repo
 * Announce meeting agenda and minutes after each meeting, on the
-mindspore-discuss mailing list and/or IRC or slack or other channel.
+`mindspore-discuss` mailing list and/or IRC or slack or other channel.
 * Ensure the SIG's decision making is archived (i.e on IRC meeting log)
 * Report activity in overall MindSpore community meetings
 * Participate in release planning meetings, retrospective, etc (if relevant)

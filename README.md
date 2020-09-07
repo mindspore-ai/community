@@ -19,7 +19,7 @@ following information.
 
 Community charter is documented in [governance.md](governance.md), this is
 an initial draft and will need to be approved and updated by the TSC. We
-also have [sig document](sigs.md) and [working group document](working-groups.md)
+also have [sig document](sigs/README.md) and [working group document](working-groups/README.md)
 charter provided.
 
 ## Code Of Conduct

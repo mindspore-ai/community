@@ -1,6 +1,6 @@
 # SIGs - Special Interest Groups
 
-As described in the MindSpore [governance](governance.md), Special
+As described in the MindSpore [governance](../governance.md), Special
 Interest Groups (SIGs) are persistent groups responsible for specific parts of
 the project. SIGs have open and transparent proceedings to develop goals and
 implement code contributions. SIGs are also responsible for ongoing maintenance
@@ -10,7 +10,7 @@ of the code in their areas.
 
 If you are interested in participating, please [join the discussion](https://mailweb.mindspore.cn/postorious/lists/)
 in the respective list. Details about any upcoming meetings will also be shared
-in the mailing list. SIG artifacts can be found in the [sigs repository](sigs).
+in the mailing list. SIG artifacts can be found in the current repository.
 
 ## Current SIGs
 
@@ -26,3 +26,4 @@ in the mailing list. SIG artifacts can be found in the [sigs repository](sigs).
 | Security | This SIG is responsible for the development of MindSpore security related tools. |
 | AKG | This SIG is responsible for the development of MindSpore auto kernel generator. |
 | MSLITE | This SIG is responsible for the development of MindSpore lite. |
+| MDP | This SIG is responsible for the development of MindSpore programming library for Bayesian deep learning. |
