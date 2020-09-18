@@ -1,24 +1,24 @@
+# MindSpore API注释规范
+
 <!-- TOC -->
 
-- [总体说明](#总体说明)
-- [Python API注释规范](#python-api注释规范)
-    - [注释格式](#注释格式)
-    - [注意事项](#注意事项)
-    - [Python示例](#Python示例)
-        - [类](#类)
-        - [方法](#方法)
-        - [公式](#公式)
-        - [链接](#链接)
-- [C++ API注释规范](#c-api注释规范)
-    - [注释格式](#注释格式)
-    - [注意事项](#注意事项)
-    - [C++示例](#C++示例)
+- [MindSpore API注释规范](#mindspore-api注释规范)
+    - [总体说明](#总体说明)
+    - [Python API注释规范](#python-api注释规范)
+        - [注释格式](#注释格式)
+        - [注意事项](#注意事项)
+        - [Python示例](#python示例)
+            - [类](#类)
+            - [方法](#方法)
+            - [公式](#公式)
+            - [链接](#链接)
+    - [C++ API注释规范](#c-api注释规范)
 
 <!-- /TOC -->
 
 ## 总体说明
 - MindSpore Python代码注释遵循[Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)，由Sphinx工具自动生成API文档，注释样例和支持情况可参考[Example Google Style Python Docstrings](https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html)和[Support for NumPy and Google style docstrings](https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html)。
-- MindSpore C++代码由Doxygen工具自动生成API文档，注释样例和支持情况可参考[Documenting the code](http://www.doxygen.nl/manual/docblocks.html)。
+- MindSpore C++代码需按照命名空间的设计，分别编写Markdown文件。
 
 ## Python API注释规范
 
@@ -77,7 +77,7 @@ Outputs:
     - 注释中包含反斜杠时，需要将头部的`"""`改成`r"""`。
     - 冒号要求：关键字（如`Args`、`Returns`等）后面有冒号":"；参数名（如`Arg1`、`Arg2`等）后面有冒号":"，冒号后需有空格。`Summary`和`Returns`的内容中不能包含冒号。
     - 空行要求：不同类型（如`Args`、`Returns`等）的内容之间需有空行，同种类型（如`Arg1`、`Arg2`等）的内容之间不需要空行。采用无序或有序列表描述内容时，整个列表内容与上方内容之间需增加一个空行。
-    - 空格要求：`Args`和`Raises`内容的换行需要缩进4个空格，`Args`的子参数或取值、`Inputs`、`Outputs`和`Returns`等无序或有序列表内容的换行不需要缩进，与上一行的正文起始位置对齐。`Args`中参数名和类型的(之间需要有空格。
+    - 空格要求：`Args`和`Raises`内容的换行需要缩进4个空格，`Args`的子参数或取值、`Inputs`、`Outputs`和`Returns`等无序或有序列表内容的换行不需要缩进，与上一行的正文起始位置对齐。`Args`中参数名和类型的`(`之间需要有空格。
 - `Args`注释说明
     - 常见参数类型有：
         - 基本数据类型：`int`、`float`、`bool`、`str`、`list`、`dict`、`set`、`tuple`、`numpy.ndarray`。
@@ -86,7 +86,6 @@ Outputs:
         - list类型：list[具体类型]，如`list[str]`。
         - 可选类型统一格式：(类型, optional)。
         - 其他类型：Tensor或其他具体类型或方法名。
-    - 指针参数的参数名不需要加*，只写变量名即可。
 - `Returns`注释说明
     - 如果返回值类型或维度发生变化，需要说明返回值与输入的关系。
     - 多个返回值时，分行写，网页显示时不分行，无序列表的方式可支持分行。
@@ -111,18 +110,21 @@ Outputs:
       xxx :math:`formula` xxx
       ```
     - 公式中带有含下划线的变量，且下划线后存在多个字母（如xxx_yyy），请根据实际需要选择以下其中一种方式。
-        1. 多个字母用{}括起来（如xxx_{yyy}），可将下划线后的内容作为下标，显示为![image](uploads/e21979bda56e9ce2a3b063737f1f00f7/image.png)。
+        1. 多个字母用{}括起来（如xxx_{yyy}），可将下划线后的内容作为下标，显示为$xxx_{yyy}$。
         2. 在下划线前增加反斜杠（如xxx\\_yyy），可将完整显示变量名称，显示为xxx_yyy。
 - 父类方法的显示
   - 默认不显示父类方法。
   - 可通过在Sphinx工程rst文件的模块下添加`:inherited-members:`，指定需要显示父类方法，详细可参考<https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html>。
 - 链接
   - 只显示标题（如例子中的name），不显示详细地址。
-    ```
+
     引用的地方需这样写：
+    ```
     `name`_
+    ```
 
     提供链接的地方需这样写：
+    ```
     .. _`name`: https://xxx
     ```
     注意：
@@ -181,14 +183,14 @@ Outputs:
 ```python
 class Tensor(Tensor_):
     """
-    Tensor for data storage.
+    Tensor is used for data storage.
 
-    Tensor inherits tensor object in C++ side, some functions are implemented
-    in C++ side and some functions are implemented in Python layer.
+    Tensor inherits tensor object in C++.
+    Some functions are implemented in C++ and some functions are implemented in Python.
 
     Args:
         input_data (Tensor, float, int, bool, tuple, list, numpy.ndarray): Input data of the tensor.
-        dtype (:class:`mindspore.dtype`): Should be None, bool or numeric type defined in `mindspore.dtype`.
+        dtype (:class:`mindspore.dtype`): Input data should be None, bool or numeric type defined in `mindspore.dtype`.
             The argument is used to define the data type of the output tensor. If it is None, the data type of the
             output tensor will be as same as the `input_data`. Default: None.
 
@@ -196,43 +198,46 @@ class Tensor(Tensor_):
         Tensor, with the same shape as `input_data`.
 
     Examples:
-        >>> # init a tensor with input data
+        >>> # initialize a tensor with input data
         >>> t1 = Tensor(np.zeros([1, 2, 3]), mindspore.float32)
         >>> assert isinstance(t1, Tensor)
-        >>> assert t1.shape() == (1, 2, 3)
-        >>> assert t1.dtype() == mindspore.float32
+        >>> assert t1.shape == (1, 2, 3)
+        >>> assert t1.dtype == mindspore.float32
         >>>
-        >>> # init a tensor with a float scalar
+        >>> # initialize a tensor with a float scalar
         >>> t2 = Tensor(0.1)
         >>> assert isinstance(t2, Tensor)
-        >>> assert t2.dtype() == mindspore.float64
+        >>> assert t2.dtype == mindspore.float64
     """
 
     def __init__(self, input_data, dtype=None):
         ...
 ```
 
+显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.html#mindspore.Tensor)。
+
 #### 方法
 ```python
 def ms_function(fn=None, obj=None, input_signature=None):
     """
-    Creates a callable MindSpore graph from a python function.
+    Create a callable MindSpore graph from a python function.
 
     This allows the MindSpore runtime to apply optimizations based on graph.
 
     Args:
         fn (Function): The Python function that will be run as a graph. Default: None.
-        obj (Object): The Python Object that provide information for identify compiled function. Default: None.
-        input_signature (MetaTensor): The MetaTensor to describe the input arguments. The MetaTensor specifies
+        obj (Object): The Python Object that provides the information for identifying the compiled function. Default:
+            None.
+        input_signature (MetaTensor): The MetaTensor which describes the input arguments. The MetaTensor specifies
             the shape and dtype of the Tensor and they will be supplied to this function. If input_signature
-            is specified, every input to `fn` must be a `Tensor`. And the input parameters of `fn` cannot accept
-            `**kwargs`. The shape and dtype of actual inputs should keep same with input_signature, or TypeError
-            will be raised. Default: None.
+            is specified, each input to `fn` must be a `Tensor`. And the input parameters of `fn` cannot accept
+            `**kwargs`. The shape and dtype of actual inputs should keep the same as input_signature. Otherwise,
+            TypeError will be raised. Default: None.
 
     Returns:
-        Function, if `fn` is not None, returns a callable that will execute the compiled function; If `fn` is None,
-        returns a decorator and when this decorator invokes with a single `fn` argument, the callable is equal to the
-        case when `fn` is not None.
+        Function, if `fn` is not None, returns a callable function that will execute the compiled function; If `fn` is
+        None, returns a decorator and when this decorator invokes with a single `fn` argument, the callable function is
+        equal to the case when `fn` is not None.
 
     Examples:
         >>> def tensor_add(x, y):
@@ -261,15 +266,17 @@ def ms_function(fn=None, obj=None, input_signature=None):
     ...
 ```
 
+显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.html#mindspore.ms_function)。
+
 #### 公式
 ```python
-class Conv2D(PrimitiveWithInfer):
+class Conv2d(_Conv):
     r"""
     2D convolution layer.
 
     Applies a 2D convolution over an input tensor which is typically of shape :math:`(N, C_{in}, H_{in}, W_{in})`,
-    where :math:`N` is batch size and :math:`C_{in}` is channel number. For each batch of shape
-    :math:`(C_{in}, H_{in}, W_{in})`, the formula is defined as:
+    where :math:`N` is batch size, :math:`C_{in}` is channel number, and :math:`H_{in}, W_{in})` are height and width.
+    For each batch of shape :math:`(C_{in}, H_{in}, W_{in})`, the formula is defined as:
 
     .. math::
 
@@ -279,9 +286,7 @@ class Conv2D(PrimitiveWithInfer):
     """
 ```
 
-显示效果：
-
-![image](./resource/2D_convolution_layer.png)
+显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.nn.html#mindspore.nn.Conv2d)。
 
 #### 链接
 ```python
@@ -300,90 +305,23 @@ class BatchNorm(PrimitiveWithInfer):
     """
 ```
 
-显示效果：
-
-![image](./resource/batch_normalization.png)
+显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.ops.html#mindspore.ops.BatchNorm)。
 
 ## C++ API注释规范
 
-### 注释格式
+- Markdown文件命名需与命名空间相同。
+- Markdown文件内部格式如下，可参考[样例](https://www.mindspore.cn/doc/api_cpp/zh-CN/master/lite.html)。
+  ```
+  # The name of namespace
+  
+  The link of header file.
 
-类和方法的注释都采用如下格式：
+  ## The name of class
 
-```c++
-/// \brief Description.
-///
-/// More elaborate description.
-///
-/// \note
-/// Description.
-///
-/// \param param_name Description.
-///
-/// \return Description.
-///
-/// \code
-/// Sample code
-/// \endcode
-/// Description of sample code.
-///
-```
+  The description of class.
 
-其中，  
-- `brief`：简单描述该接口的功能。
-- `More elaborate description`：详细描述该接口的功能和如何使用等信息。
-- `note`：描述使用该接口时需要注意的事项。
-- `param`：接口参数信息，包含参数名、参数类型、取值范围、默认值等。
-- `retval`：返回值信息，包含返回值类型等。
-- `code`：样例代码。
+  The name of attribute or function.
 
-### 注意事项
-- 整体要求
-    - 类或方法必须书写的注释项有：`brief`、`param`和`retval`。如果函数中没有相关信息（如`param`、`retval`等），不需要写None，直接省略注释项即可。
-    - 空行要求：不同类型（如`param`、`retval`等）的内容之间需有空行，同种类型（如`param1`、`param2`等）的内容之间不需要空行。
-    - 空格要求：关键字和内容之间需要有空格。
-- 公式
-    - 行公式（单独占一行，居中）
-      ```
-      /// \f[
-      /// math formula，涉及的数学公式
-      /// \f]
-      ```
-    - 行内嵌公式（与其他同行文字显示在一起，不居中）
-      ```
-      xxx \f$ 行内的数学公式 \f$ xxx
-      ```
-### C++示例
-
-```c++
-class MSPREDICT_API Tensor {
-   ...
-
-   ///\brief Constructor of MindSpore predict tensor.
-   ///
-   ///\param[in] dt Data Type of the tensor, see introduction to 'enum DataType'
-   /// for supported type.
-   ///\param[in] dims Dimension Values such as height and width, which defined
-   /// the shape of the tensor.
-   ///\param[in] format Tensor format, see introduction to 'enum Format' for
-   /// supported format.
-   ///\param[in] data Data of the tensor.
-   ///
-   ///\return Instance of MindSpore predict tensor.
-   ///
-   ///\note
-   /// Length of data should align with dt, format and dims, otherwise the
-   /// application might run into unexpected error,
-   /// such as segment fault.
-   /// For example, dt is DT_FLOAT, format is FORMAT_NCHW, dims is [1,3,300,300],
-   /// then minimum length of data should
-   /// be 1 * 3 * 300 * 300 * sizeof(float).
-   Tensor(DataType dt, const std::vector<int64_t> &dims, Format format, void *data);
-
-   ...
-}
-```
-
-显示效果：
-
-![image](./resource/tensor.png)
+  The description of attribute or function.
+  
+  ```
