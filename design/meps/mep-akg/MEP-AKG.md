@@ -143,7 +143,7 @@ AKG composes with four basic optimization module, normalization, auto schedule, 
 
 When GraphKernel is enabled, ops are reconstructed in the graph level. The new ops described in the format of json will be translated into DSL in AKG and then compiled to the target binary.
 
-  <img src="https://images.gitee.com/uploads/images/2020/0618/093458_8e3a1221_6569326.png" style="zoom:80%" div align=center />
+  <img src="akg_in_mindspore.png" style="zoom:80%" div align=center />
 
 
 <!-- ![输入图片说明](https://images.gitee.com/uploads/images/2020/0618/093458_8e3a1221_6569326.png "屏幕截图.png") -->
