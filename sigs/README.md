@@ -27,3 +27,4 @@ in the mailing list. SIG artifacts can be found in the current repository.
 | AKG | This SIG is responsible for the development of MindSpore auto kernel generator. |
 | MSLITE | This SIG is responsible for the development of MindSpore lite. |
 | MDP | This SIG is responsible for the development of MindSpore programming library for Bayesian deep learning. |
+| Parallel | This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference. |
