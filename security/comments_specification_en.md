@@ -94,7 +94,7 @@ Outputs:
     - If the return value type or dimension changes, describe the relationship between the return value and the input.
     - If there are multiple return values, write them in different lines. The line difference is not displayed on the web page. The unordered list supports return values in different lines.
 - `Examples` Comment
-    - For the content in `Examples`, add ```>>>``` at the beginning of each line of code, and add ```...``` at the beginning of each line of multiple lines of code (including class or function definitions, artificial line breaks, etc.) or empty lines. No sign is required at the beginning of the output result line.
+    - For the content in `Examples`, ```>>>``` should be added at the beginning of each line of code. For multiple lines (including classes, function definitions or manual switch line) and blank lines, ```...``` is needed at the beginning of these lines. There is no need to add any symbols at the beginning of the output result line.
     - Actual code needs to be provided in `Examples`. If you need to refer to other Examples, use Note.
     - The comments of the ops operator are written in PyNative mode. If the operator can be executed, the execution result must be provided.
     - Import can be omitted in the case of industry consensus, such as np and nn.
