@@ -71,6 +71,6 @@ IRC频道与日志，您可以在这里找到所有的频道和记录[IRC Channe
 ```
 <freesky-edward> #link [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/) 是主页
 <freesky-edward> [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/) 是主页
-<freesky-edward> #link the main page is [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/) 
+<freesky-edward> #link the main page is [http://wiki.debian.org/MeetBot/](http://wiki.debian.org/MeetBot/)
 浏览这里
 ```

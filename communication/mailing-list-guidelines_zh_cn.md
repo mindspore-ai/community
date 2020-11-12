@@ -15,12 +15,11 @@
 
 | 列表名称 | 邮件地址 | 描述 |
 | :------ | :------ | :--- |
-| Contact | contact@mindspore.cn | |
-| MindSpore-infra | mindspore-infra@mindspore.cn | |
 | MindSpore-discuss | mindspore-discuss@mindspore.cn | |
+| MindSpore-infra | mindspore-infra@mindspore.cn | |
 | MindSpore-research | mindspore-research@mindspore.cn | |
-| MindSpore-tsc | mindspore-tsc@mindspore.cn | |
 | MindSpore-security | mindspore-security@mindspore.cn | |
+| MindSpore-tsc | mindspore-tsc@mindspore.cn | |
 
 ### 如何发送邮件到邮件列表？
 
@@ -32,9 +31,8 @@
 
 要查看邮件列表中以前发布的电子邮件，请访问以下存档地址：
 
-- **[Contact](https://mailweb.mindspore.cn/hyperkitty/list/contact@mindspore.cn/)**
-- **[MindSpore-infra](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-infra@mindspore.cn/)**
 - **[MindSpore-discuss](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-discuss@mindspore.cn/)**
+- **[MindSpore-infra](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-infra@mindspore.cn/)**
 - **[MindSpore-research](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-research@mindspore.cn/)**
-- **[MindSpore-tsc](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-tsc@mindspore.cn/)**
 - **[MindSpore-security](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-security@mindspore.cn/)**
+- **[MindSpore-tsc](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-tsc@mindspore.cn/)**

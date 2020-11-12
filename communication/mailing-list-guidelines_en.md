@@ -15,12 +15,11 @@ If you have never subscribed to the mail list, do as follows:
 
 | List name | Post address | Description |
 | :-------- | :----------- | :---------- |
-| Contact | contact@mindspore.cn | |
-| MindSpore-infra | mindspore-infra@mindspore.cn | |
 | MindSpore-discuss | mindspore-discuss@mindspore.cn | |
+| MindSpore-infra | mindspore-infra@mindspore.cn | |
 | MindSpore-research | mindspore-research@mindspore.cn | |
-| MindSpore-tsc | mindspore-tsc@mindspore.cn | |
 | MindSpore-security | mindspore-security@mindspore.cn | |
+| MindSpore-tsc | mindspore-tsc@mindspore.cn | |
 
 ### How Do I Send an Email to the Mail List?
 
@@ -32,9 +31,8 @@ All community memberships in this mail list will receive your email.
 
 To view previous emails, visit the following archive addresses:
 
-- **[Contact](https://mailweb.mindspore.cn/hyperkitty/list/contact@mindspore.cn/)**
-- **[MindSpore-infra](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-infra@mindspore.cn/)**
 - **[MindSpore-discuss](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-discuss@mindspore.cn/)**
+- **[MindSpore-infra](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-infra@mindspore.cn/)**
 - **[MindSpore-research](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-research@mindspore.cn/)**
-- **[MindSpore-tsc](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-tsc@mindspore.cn/)**
 - **[MindSpore-security](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-security@mindspore.cn/)**
+- **[MindSpore-tsc](https://mailweb.mindspore.cn/hyperkitty/list/mindspore-tsc@mindspore.cn/)**

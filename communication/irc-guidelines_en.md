@@ -6,7 +6,7 @@ MindSpore community holds its various public meetings on **[IRC](https://en.wiki
 
 * #mindspore-discuss
 * #mindspore-sc
-  
+
 on Freenode. Everyone is encouraged to attend, [Connect to IRC via webclient](https://webchat.freenode.net/?randomnick=1&channels=%23mindspore-discuss%2C%23mindspore-sc&prompt=1&uio=d4)
 
 webclient recommended:
@@ -21,7 +21,7 @@ IRC channels and logged. You can find all channels and all logs here:
 
 The meeting channel can be managed by meeting chair with bot command, which is used by # prefix character. The basic commands are shown below:
 
-#startmeeting - (chair) Start the meeting on channel. the meeting topic should be given on the rest. e.g. ``#startmeeting infra``  
+#startmeeting - (chair) Start the meeting on channel. the meeting topic should be given on the rest. e.g. ``#startmeeting infra``
 #topic - (chair) - (chair) Start a topic on channel to make sure all partners focus on a special topic.
 #endmeeting - (chair) End the whole meeting.
 
