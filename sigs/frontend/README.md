@@ -8,7 +8,7 @@ This is the working repo for the FrontEnd Special Interest Group (SIG). This rep
 
 # SIG Leads
 
-* Deng Yiping (Huawei)
+* Jin Xiaoxian (Huawei)
 
 # Logistics
 

@@ -7,7 +7,7 @@ This is the working repo for the MindArmour special interest group (SIG). This r
 
 # SIG Leads
 
-* Liu Liu (Huawei)
+* Wang Ze (Huawei)
 
 # Logistics
 
