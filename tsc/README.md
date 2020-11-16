@@ -4,7 +4,7 @@ The role and responsibilities of the Technical Steering Committee are defined in
 the [governance](../governance.md) document.
 
 The Technical Steering Committee meets regularly and calls are available for
-any community member to join via [**WeLink Meeting**](https://www.huaweicloud.com/en-us/product/welink-download.html) on the **3th Thursday** every month (UTC+8)
+any community member to join via **Zoom** on the **3rd Thursday** every month (UTC+8)
 from *4:00pm* to *5:00pm*.
 
 Agendas for upcoming meetings and notes from completed meetings are published
