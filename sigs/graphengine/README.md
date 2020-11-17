@@ -6,7 +6,7 @@ This is the working repo for the GraphEngine Special Interest Group (SIG). This 
 
 # SIG Leads
 
-* Bao Chong (Huawei)
+* Yang Wei (Huawei)
 
 # Logistics
 

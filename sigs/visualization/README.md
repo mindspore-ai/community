@@ -4,7 +4,7 @@ This is the working repo for the `Visualization` special interest group (SIG). T
 
 # SIG Leads
 
-* Gao congli (Huawei)
+* Gao Congli (Huawei)
 
 # Logistics
 

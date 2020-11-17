@@ -8,7 +8,7 @@ This is the working repo for the Executor Special Interest Group (SIG). This rep
 
 # SIG Leads
 
-* Lu Pengcheng (Huawei)
+* Wang Kaisheng (Huawei)
 
 # Logistics
 
