@@ -8,7 +8,7 @@ of the code in their areas.
 
 ## Joining a SIG
 
-If you are interested in participating, please [join the discussion](https://mailweb.mindspore.cn/postorious/lists/)
+If you are interested in participating, please [join the discussion](https://mailweb.mindspore.cn/postorius/lists/)
 in the respective list. Details about any upcoming meetings will also be shared
 in the mailing list. SIG artifacts can be found in the current repository.
 
