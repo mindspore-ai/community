@@ -8,7 +8,7 @@ This is the working repository for the Parallel Special Interest Group (SIG). Th
 
 # SIG Leads
 
-* Zhai Zhiqiang (Huawei)
+* Cheng Li (University of Science and Technology of China)
 
 # Logistics
 
