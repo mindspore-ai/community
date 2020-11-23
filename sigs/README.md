@@ -27,5 +27,5 @@ in the mailing list. SIG artifacts can be found in the current repository.
 | AKG | This SIG is responsible for the development of MindSpore auto kernel generator. | [@anyrenwei](https://gitee.com/anyrenwei)(zhangrenwei1@huawei.com) |
 | MSLITE | This SIG is responsible for the development of MindSpore lite. | [@zhaizhiqiang](https://gitee.com/zhaizhiqiang)(zhaizhiqiang@huawei.com) |
 | MDP | This SIG is responsible for the development of MindSpore programming library for Bayesian deep learning. | [@jianfeichen](https://gitee.com/jianfeichen)(chrisjianfeichen@gmail.com) |
-| Parallel | This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference. | [@stsuteng](https://gitee.com/stsuteng)(suteng@huawei.com) |
+| Parallel | This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference. | [@dr-orange](https://gitee.com/dr-orange)(chengli7@ustc.edu.cn) |
 | Serving | This SIG is responsible for the development of MindSpore Serving module. | [@xu-yfei](https://gitee.com/xu-yfei)(xuyongfei@huawei.com) |
