@@ -62,7 +62,10 @@ The format items are described as follows:
 - `Raises`: exception information, including the exception type and meaning.
 - `Examples`: sample code
 
-For comments of operators and cells, add `Inputs` and `Outputs` before `Examples` to describe the input and output types and shapes of the operators after instantiation. The input name can be the same as that in the example. It is recommended that the corresponding mathematical formula be provided in the comment.
+For comments of operators and cells, add `Inputs`, `Outputs` and `Supported Platforms` before `Examples`.
+
+- `Inputs` and `Outputs`: describes the input and output types and shapes of the operators after instantiation. The input name can be the same as that in the example. It is recommended to provide the corresponding mathematical formula in the comment.
+- `Supported Platforms`: describes the hardware platforms supported by the operator. Add `` before and after the platform name, and use space to separate them when there are more than one.
 
 ```rst
 Inputs:
@@ -71,6 +74,9 @@ Inputs:
 
 Outputs:
     Type and shape, description.
+
+Supported Platforms:
+    ``Ascend`` ``GPU`` ``CPU``
 ```
 
 ### Precautions
@@ -267,13 +273,13 @@ def ms_function(fn=None, obj=None, input_signature=None):
         ...     return z
         ...
         >>> @ms_function
-        >>> def tensor_add_with_dec(x, y):
+        ... def tensor_add_with_dec(x, y):
         ...     z = F.tensor_add(x, y)
         ...     return z
         ...
         >>> @ms_function(input_signature=(MetaTensor(mindspore.float32, (1, 1, 3, 3)),
         ...                               MetaTensor(mindspore.float32, (1, 1, 3, 3))))
-        >>> def tensor_add_with_sig(x, y):
+        ... def tensor_add_with_sig(x, y):
         ...     z = F.tensor_add(x, y)
         ...     return z
         ...
