@@ -4,6 +4,11 @@
 
 MindSpore Molecular Modeling WG aims to build a community collaboration for deep learning framework's application in molecular modeling and simulation.
 
+# WG Co-chairs
+
+* Yi Yang (Shenzhen Bay Laboratory)
+* Jun Zhang (Shenzhen Bay Laboratory)
+
 ## Motivation
 
 Deep learning is transforming many areas in science, and it has great potential in

@@ -24,7 +24,7 @@ Working Group artifacts can be found in the current repository.
 
 ## Current WGs
 
-| WG name | Responsibilities |
-| :------- | :--------------- |
-| Research | <center>&mdash;</center> |
-| MM | <center>&mdash;</center> |
+| WG name | Responsibilities | WG Leads |
+| :------ | :--------------- | :------- |
+| Research | <center>&mdash;</center> | <center>&mdash;</center> |
+| MM | Molecular Modeling WG aims to build a community collaboration for deep learning framework's application in molecular modeling and simulation. | [@helloyesterday](https://gitee.com/helloyesterday) [@jz_90](https://gitee.com/jz_90) |
