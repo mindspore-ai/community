@@ -11,7 +11,7 @@ This is the working repo for the GraphEngine Special Interest Group (SIG). This 
 # Logistics
 
 * SIG leads will drive the meeting.
-* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/graphengine
+* Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/graphengine
 * Feedbacks and topic requests are welcome by all.
 
 # Discussion
@@ -21,4 +21,5 @@ This is the working repo for the GraphEngine Special Interest Group (SIG). This 
 
 # Meeting notes
 
-
+* [Friday May 15, 2020](./meetings/001-20200515.md)
+* [Friday July 31, 2020](./meetings/002-20200731.md)

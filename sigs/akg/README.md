@@ -13,7 +13,7 @@ This is the working repo for the AKG Special Interest Group (SIG). This repo con
 # Logistics
 
 * SIG leads will drive the meeting.
-* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/akg
+* Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/akg
 * Feedbacks and topic requests are welcomed by all.
 
 # Discussion

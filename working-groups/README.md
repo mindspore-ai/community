@@ -26,6 +26,6 @@ Working Group artifacts can be found in the current repository.
 
 | WG name | Responsibilities | WG Leads |
 | :------ | :--------------- | :------- |
-| Research | <center>&mdash;</center> | <center>&mdash;</center> |
-| MM | Molecular Modeling WG aims to build a community collaboration for deep learning framework's application in molecular modeling and simulation. | [@helloyesterday](https://gitee.com/helloyesterday) [@jz_90](https://gitee.com/jz_90) |
-| DOC | Discuss for improving MindSpore documentation. |[@leiyuning](https://gitee.com/jonahlei)|
+| [Research](research/README.md) | <center>&mdash;</center> | <center>&mdash;</center> |
+| [MM](mm/README.md) | Molecular Modeling WG aims to build a community collaboration for deep learning framework's application in molecular modeling and simulation. | [@helloyesterday](https://gitee.com/helloyesterday) [@jz_90](https://gitee.com/jz_90) |
+| [Doc](doc/README.md) | Discussion for improving MindSpore documentation. |[@leiyuning](https://gitee.com/jonahlei)|

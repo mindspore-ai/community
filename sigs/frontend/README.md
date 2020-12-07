@@ -13,7 +13,7 @@ This is the working repo for the FrontEnd Special Interest Group (SIG). This rep
 # Logistics
 
 * SIG leads will drive the meeting.
-* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/frontend
+* Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/frontend
 * Feedbacks and topic requests are welcomed by all.
 
 # Discussion

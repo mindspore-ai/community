@@ -9,12 +9,12 @@ This is the working repo for the `Visualization` special interest group (SIG). T
 # Logistics
 
 * SIG leads will drive the meeting.
-* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/visualization
+* Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/visualization
 * Feedbacks and topic requests are welcome by all.
 
 # Discussion
 
-* Slack channel https://app.slack.com/client/TUKCY4QDR/C0119H4M5KJ/details/members?cdn_fallback=2
+* Slack channel: https://app.slack.com/client/TUKCY4QDR/C0119H4M5KJ/details/members?cdn_fallback=2
 * Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/visualization
 
 # Meeting notes

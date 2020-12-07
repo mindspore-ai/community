@@ -15,7 +15,7 @@ If this is your first time, please read our contributor guidelines: https://gite
 
 
 **Which issue(s) this PR fixes**:
-<!-- 
+<!--
 *Automatically closes linked issue when PR is merged.
 Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
 -->

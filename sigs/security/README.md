@@ -12,7 +12,7 @@ This is the working repo for the MindArmour special interest group (SIG). This r
 # Logistics
 
 * SIG leads will drive the meeting.
-* Meeting annoucement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/security
+* Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/security
 * Feedbacks and topic requests are welcome by all.
 
 # Discussion
