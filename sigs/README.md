@@ -35,4 +35,5 @@ in the mailing list. SIG artifacts can be found in the current repository.
 | [MSLITE](mslite/README.md) | This SIG is responsible for the development of MindSpore lite. | [@zhaizhiqiang](https://gitee.com/zhaizhiqiang)(zhaizhiqiang@huawei.com) |
 | [MDP](mdp/README.md) | This SIG is responsible for the development of MindSpore programming library for Bayesian deep learning. | [@jianfeichen](https://gitee.com/jianfeichen)(chrisjianfeichen@gmail.com) |
 | [Parallel](parallel/README.md) | This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference. | [@dr-orange](https://gitee.com/dr-orange)(chengli7@ustc.edu.cn) |
+| [AdaptiveTraining](adaptivetraining/README.md) | This SIG is to develop an adaptive distributed training system that can train the neural networks in elastic clusters without affecting the convergence. | [@luomai-edin](https://gitee.com/luomai-edin)(luo.mai@outlook.com) |
 | [Serving](serving/README.md) | This SIG is responsible for the development of MindSpore Serving module. | [@xu-yfei](https://gitee.com/xu-yfei)(xuyongfei@huawei.com) |
