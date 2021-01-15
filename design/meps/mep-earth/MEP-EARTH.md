@@ -2,7 +2,7 @@
 | ----- | ------- | ---------- | ------------------ | ------ | ------------- |---------- | --------- | ----- | --------- |
 | MEP-EARTH | @wangmin0104  | wg-earth | sig-parallel, sig-akg | provisional | 2021-01-06 | TBD | TBD | NA | "v1.1" |
 
-# MEP-EARTH: MindSpore Earth System Modeling
+# MEP-EARTH: MindSpore AI for Earth
 
 ## Table of Contents
 
