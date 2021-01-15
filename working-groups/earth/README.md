@@ -1,8 +1,8 @@
-﻿# MindSpore Earth System Modeling Working Group (WG)
+﻿# MindSpore AI for Earth Working Group (WG)
 
 <!-- TOC -->
 
-- [MindSpore Earth System Modeling Working Group (WG)](#mindspore-earth-system-modeling-working-group-wg)
+- [MindSpore AI for Earth Working Group (WG)](#mindspore-ai-for-earth-working-group-wg)
     - [Summary](#summary)
     - [WG Leads](#wg-leads)
     - [Motivation](#motivation)
@@ -26,7 +26,7 @@ Most of the existing ocean and climate models are solved by numerical methods. S
 
 ## Goals
 
-The goals of the Earth WG are as follows:
+The goals of the AI for Earth WG are as follows:
 
 - To design a user-friendly programming model and API for the implementation of ocean and climate model.
 
@@ -36,7 +36,7 @@ The goals of the Earth WG are as follows:
 
 ## Method
 
-​We expect the applicant can conduct earth system modeling research based on MindSpore, and hope to get your valuable suggestions to MindSpore in the process. We will do our best to improve the capabilities of the MindSpore framework and provide you with the most powerful technical support.
+​We expect the applicant can conduct AI for Earth research based on MindSpore, and hope to get your valuable suggestions to MindSpore in the process. We will do our best to improve the capabilities of the MindSpore framework and provide you with the most powerful technical support.
 
 ## How to Join
 
