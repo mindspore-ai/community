@@ -1,8 +1,8 @@
 | title | authors | owning-sig | participating-sigs | status | creation-date | reviewers | approvers | stage | milestone |
 | ----- | ------- | ---------- | ------------------ | ------ | ------------- |---------- | --------- | ----- | --------- |
-| MEP-EARTH | @wangmin0104  | wg-earth | sig-parallel, sig-akg | provisional | 2021-01-06 | TBD | TBD | NA | "v1.1" |
+| MEP-AI4EARTH | @wangmin0104  | wg-ai4earth | sig-parallel, sig-akg | provisional | 2021-01-06 | TBD | TBD | NA | "v1.1" |
 
-# MEP-EARTH: MindSpore AI for Earth
+# MEP-AI4EARTH: MindSpore AI for Earth
 
 ## Table of Contents
 
