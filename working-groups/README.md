@@ -30,3 +30,4 @@ Working Group artifacts can be found in the current repository.
 | [MM](mm/README.md) | Molecular Modeling WG aims to build a community collaboration for deep learning framework's application in molecular modeling and simulation. | [@helloyesterday](https://gitee.com/helloyesterday) [@jz_90](https://gitee.com/jz_90) |
 | [Doc](doc/README.md) | Discussion for improving MindSpore documentation. |[@leiyuning](https://gitee.com/jonahlei)|
 | [AI4EARTH](ai4earth/README.md) | AI for Earth WG aims to build a community collaboration for deep learning framework's application in earth system modeling. | [@hxmhuang](https://gitee.com/hxmhuang) |
+| [QUANTUM](quantum/README.md) | AI for Quantum WG aims to build a community collaboration for deep learning framework's application in quantum system modeling. | [@physicist01](https://gitee.com/physicist01) |
