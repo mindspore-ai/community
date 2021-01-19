@@ -42,4 +42,4 @@ The goals of the AI for Earth WG are as follows:
 
 - Submit an issue/PR based on community discussion for consultation or claim on related topics.
 
-- Submit your proposal to us by email wangmin106@huawei.com.
+- Submit your proposal to us by email hxm@tsinghua.edu.cn.
