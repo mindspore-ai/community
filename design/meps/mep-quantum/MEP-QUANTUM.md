@@ -34,7 +34,7 @@ The goals of this project are as follows:
 
 - To design a user-friendly programming and API for the implementation of quantum neural network (QNN).
 
-- To develop a high-performance quantum simulator that can support the simulation of quantum circuit wwith 50 or more qubits.
+- To develop a high-performance quantum simulator that can support the simulation of quantum circuit with 50 or more qubits.
 
 - To build a reinforcement learning framework for optimizing quantum control.
 
