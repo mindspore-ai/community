@@ -24,3 +24,4 @@ This is the working repo for the `Visualization` special interest group (SIG). T
 * [Thursday August 06, 2020](./meetings/003-20200806.md)
 * [Thursday September 03, 2020](./meetings/004-20200903.md)
 * [Wednesday January 13, 2021](./meetings/005-20210113.md)
+* [Sunday February 7, 2021](./meetings/006-20210207.md)
