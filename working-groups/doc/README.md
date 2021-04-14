@@ -17,7 +17,7 @@ MindSpore Doc WG aims to improve MindSpore documentation and related learning re
 
 ## WG Leads
 
-Yuning Lei (Huawei Technologies Co., Ltd.)
+Zhipeng Tan (Huawei Technologies Co., Ltd.)
 
 ## Motivation
 
@@ -35,6 +35,6 @@ The goals of the Doc WG are as follows:
 
 - Submit an issue/PR based on community discussion for consultation or claim on related topics.
 
-- Submit your proposal to us by email leiyuning@huawei.com.
+- Submit your proposal to us by email tanzhipeng.tan@huawei.com.
 
 For more details, read: <https://gitee.com/mindspore/docs/blob/master/CONTRIBUTING_DOC.md>
