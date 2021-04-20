@@ -52,7 +52,7 @@ Examples:
     >>> Sample Code
 ```
 
-其中，  
+其中，
 
 - `Summary`：简单描述该接口的功能。
 - `More elaborate description`：详细描述该接口的功能和如何使用等信息。
@@ -86,21 +86,215 @@ Supported Platforms:
     - 以目录为粒度生成API时，__init__文件头部的注释内容会呈现在网页开头；以文件为粒度生成API时，该文件头部的注释内容会呈现在网页开头。这些注释内容需包含相应模块的整体说明。
     - 注释中包含反斜杠时，需要将头部的`"""`改成`r"""`。
     - 冒号要求：关键字（如`Args`、`Returns`等）后面有冒号":"；参数名（如`Arg1`、`Arg2`等）后面有冒号":"，冒号后需有空格。`Summary`和`Returns`的内容中不能包含冒号。
-    - 空行要求：不同类型（如`Args`、`Returns`等）的内容之间需有空行，同种类型（如`Arg1`、`Arg2`等）的内容之间不需要空行。采用无序或有序列表描述内容时，整个列表内容与上方内容之间需增加一个空行。
-    - 空格要求：`Args`和`Raises`内容的换行需要缩进4个空格，`Args`的子参数或取值、`Inputs`、`Outputs`和`Returns`等无序或有序列表内容的换行不需要缩进，与上一行的正文起始位置对齐。`Args`中参数名和类型的`(`之间需要有空格。
+    - 空行要求：
+
+        不同类型（如`Args`、`Returns`等）的内容之间需有空行，同种类型（如`Arg1`、`Arg2`等）的内容之间不需要空行。
+
+        ```python
+        """
+        High-Level API for Training or Testing.
+
+        Args:
+            network (Cell): A training or testing network.
+            loss_fn (Cell): Objective function, if loss_fn is None, the
+                network should contain the logic of loss and grads calculation, and the logic
+                of parallel if needed. Default: None.
+
+        Returns:
+            function, original function.
+        ```
+
+        采用无序或有序列表描述内容时，整个列表内容与上方内容之间需增加一个空行。
+
+        ```python
+        """
+        Args:
+            amp_level (str): Option for argument `level` in `mindspore.amp.build_train_network`, level for mixed
+                precision training. Supports ["O0", "O2", "O3", "auto"]. Default: "O0".
+
+                - O0: Do not change.
+                - O2: Cast network to float16, keep batchnorm run in float32, using dynamic loss scale.
+                - O3: Cast network to float16, with additional property 'keep_batchnorm_fp32=False'.
+                - auto: Set to level to recommended level in different devices. Set level to O2 on GPU, Set
+                  level to O3 Ascend. The recommended level is choose by the export experience, cannot
+                  always generalize. User should specify the level for special network.
+
+                O2 is recommended on GPU, O3 is recommended on Ascend.
+        """
+        ```
+
+    - 空格要求：
+
+        `Args`和`Raises`内容的换行需要缩进4个空格。
+
+        ```python
+        """
+        Args:
+            lr_power (float): Learning rate power controls how the learning rate decreases during training,
+                must be less than or equal to zero. Use fixed learning rate if `lr_power` is zero.
+            use_locking (bool): If `True`, the var and accumulation tensors will be protected from being updated.
+                Default: False.
+
+        Raises:
+            TypeError: If `lr`, `l1`, `l2`, `lr_power` or `use_locking` is not a float.
+                If `use_locking` is not a bool.
+                If dtype of `var`, `accum`, `linear` or `grad` is neither float16 nor float32.
+                If dtype of `indices` is not int32.
+        """
+        ```
+
+        `Args`的子参数或取值、`Inputs`、`Outputs`和`Returns`等无序或有序列表内容的换行不需要缩进，与上一行的正文起始位置对齐。
+
+        ```python
+        """
+        Args
+            parallel_mode (str): There are five kinds of parallel modes, "stand_alone", "data_parallel",
+                "hybrid_parallel", "semi_auto_parallel" and "auto_parallel". Default: "stand_alone".
+
+                - stand_alone: Only one processor is working.
+                - data_parallel: Distributes the data across different processors.
+                - hybrid_parallel: Achieves data parallelism and model parallelism
+                  manually.
+                - semi_auto_parallel: Achieves data parallelism and model parallelism by
+                  setting parallel strategies.
+
+        Inputs:
+            - **var** (Parameter) - The variable to be updated. The data type must be float16 or float32.
+            - **accum** (Parameter) - The accumulation to be updated, must be same data type and shape as `var`.
+            - **linear** (Parameter) - the linear coefficient to be updated, must be same data type and shape
+              as `var`.
+            - **grad** (Tensor) - A tensor of the same type as `var`, for the gradient.
+            - **indices** (Tensor) - A vector of indices in the first dimension of `var` and `accum`.
+              The shape of `indices` must be the same as `grad` in the first dimension. The type must be int32.
+
+        Outputs:
+            Tuple of 3 Tensor, the updated parameters.
+
+            - **var** (Tensor) - Tensor, has the same shape and data type as `var`.
+            - **accum** (Tensor) - Tensor, has the same shape and data type as `accum`.
+            - **linear** (Tensor) - Tensor, has the same shape and data type as `linear`.
+
+        Returns:
+            Function, if `fn` is not None, returns a callable function that will execute the compiled function; If `fn` is
+            None, returns a decorator and when this decorator invokes with a single `fn` argument, the callable function is
+            equal to the case when `fn` is not None.
+        """
+        ```
+
+        `Args`中参数名和类型的`(`之间需要有空格。
+
+        ```python
+        """
+        Args:
+            lr (float): The learning rate value, must be positive.
+        """
+        ```
+
 - `Args`注释说明
     - 常见参数类型有：
         - 基本数据类型：`int`、`float`、`bool`、`str`、`list`、`dict`、`set`、`tuple`、`numpy.ndarray`。
+
+            ```python
+            """
+            Args:
+                arg1 (int): Some description.
+                arg2 (float): Some description.
+                arg3 (bool): Some description.
+                arg4 (str): Some description.
+                arg5 (list): Some description.
+                arg6 (dict): Some description.
+                arg7 (set): Some description.
+                arg8 (tuple): Some description.
+                arg9 (numpy.ndarray): Some description.
+            """
+            ```
+
         - dtype：如果是mindspore.dtype里的值，写成`mindspore.dtype`，如果是numpy类型，写成`numpy.dtype`。其他按实际情况写。
+
+            ```python
+            """
+            Args:
+                arg1 (mindspore.dtype): Some description.
+            """
+            ```
+
         - 一个参数有多个可选类型：Union[类型1, 类型2]，如`Union[Tensor, Number]`。
+
+            ```python
+            """
+            Args:
+                arg1 (Union[Tensor, Number]): Some description.
+            """
+            ```
+
         - list类型：list[具体类型]，如`list[str]`。
+
+            ```python
+            """
+            Args:
+                arg1 (list[str]): Some description.
+            """
+            ```
+
         - 可选类型统一格式：(类型, optional)。
+
+            ```python
+            """
+            Args:
+                arg1 (bool, optional): Some description.
+            """
+            ```
+
         - 其他类型：Tensor或其他具体类型或方法名。
+
+            ```python
+            """
+            Args:
+                arg1 (Tensor): Some description.
+            """
+            ```
+
 - `Returns`注释说明
     - 如果返回值类型或维度发生变化，需要说明返回值与输入的关系。
     - 多个返回值时，分行写，网页显示时不分行，无序列表的方式可支持分行。
+
+        ```python
+        """
+        Returns:
+            - DatasetNode, the root node of the IR tree.
+            - Dataset, the root dataset of the IR tree.
+        """
+        ```
+
 - `Examples`注释说明
     - `Examples`中的内容需在每行代码开头加上```>>>```，多行代码（含类或函数定义、人为换行等）或空行的开头需加上```...```，输出结果行开头不需要加任何符号。
+
+        ```python
+        """
+        Examples:
+            >>> import mindspore as ms
+            >>> import mindspore.nn as nn
+            >>> class Net(nn.Cell):
+            ...     def __init__(self, dense_shape):
+            ...         super(Net, self).__init__()
+            ...         self.dense_shape = dense_shape
+            ...     def construct(self, indices, values):
+            ...         x = SparseTensor(indices, values, self.dense_shape)
+            ...         return x.values, x.indices, x.dense_shape
+            ...
+            >>> indices = Tensor([[0, 1], [1, 2]])
+            >>> values = Tensor([1, 2], dtype=ms.float32)
+            >>> out = Net((3, 4))(indices, values)
+            >>> print(out[0])
+            [1. 2.]
+            >>> print(out[1])
+            [[0 1]
+             [1 2]]
+            >>> print(out[2])
+            (3, 4)
+            """
+        ```
+
     - `Examples`中需提供实际的代码，如果需提示参考其他Examples，请使用Note。
     - ops算子注释采用PyNative模式写作，可运行的需给出运行结果。
     - 业界共识的情况可省略import，如np、nn等。
@@ -344,7 +538,7 @@ class BatchNorm(PrimitiveWithInfer):
 
   ```markdown
   # The name of namespace
-  
+
   The link of header file.
 
   ## The name of class
@@ -354,5 +548,5 @@ class BatchNorm(PrimitiveWithInfer):
   The name of attribute or function.
 
   The description of attribute or function.
-  
+
   ```
