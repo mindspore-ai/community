@@ -20,6 +20,20 @@ This is the working repo for the Data special interest group (SIG). This repo co
 * Slack channel: <https://app.slack.com/client/TUKCY4QDR/C010RPN6QNP?cdn_fallback=2>
 * Documents and artifacts: <https://gitee.com/mindspore/community/tree/master/sigs/data>
 
+## Representative vedios
+
+* [mindspore data processing introduction](https://www.bilibili.com/video/BV1RZ4y1W7FL)
+* [mindspore data loading and data format conversion](https://www.mindspore.cn/tutorial/training/zh-CN/master/quick_start/quick_video/loading_the_dataset_and_converting_data_format.html)
+* [optimize data processing](https://www.mindspore.cn/tutorial/training/zh-CN/master/quick_start/quick_video/optimize_data_processing.html)
+
+## Main issue To be solved
+
+> Here we call for developer joining us to develop a better Dataset processing system, following is mainly issue in each season.<br>
+> **Comment in issue please if you have any quetions and for better communication**.
+> Also you can find all the issue in gitee by filter with label [comp/data](https://gitee.com/mindspore/mindspore/issues?assignee_id=&author_id=&branch=&collaborator_ids=&issue_search=&label_ids=58023093&label_text=comp/data&milestone_id=&program_id=&scope=&sort=&state=open)
+
+* [Main issue of Q2](https://gitee.com/mindspore/mindspore/issues/I3MXRO)
+
 ## Meeting notes
 
 * [Thursday April 2, 2020](./meetings/001-20200402.md)
@@ -33,3 +47,4 @@ This is the working repo for the Data special interest group (SIG). This repo co
 * [Wednesday November 04, 2020](./meetings/009-20201104.md)
 * [Monday November 23, 2020](./meetings/010-20201123.md)
 * [Wednesday April 14, 2021](./meetings/011-20210414.md)
+
