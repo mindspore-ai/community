@@ -33,6 +33,13 @@ based on CNCF Code Of Conduct.
 You can find both the [Individual Contributor License Agreement](ICLA.md)
 and [Corporate Contributor License Agreement](CCLA.pdf).
 
+### Individual contributors
+
+For individual contributor, please click [CLA online sign page](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZtaW5kc3BvcmU=)
+and choose the `Sign Individual CLA` button to sign ICLA.
+
+### Corporation employees
+
 ## Useful CI Commands
 
 Please check out some of the most useful [CI command](command.md)
