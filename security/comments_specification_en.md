@@ -27,13 +27,16 @@
 
 The comments of classes and methods are in the following format:
 
-```rst
+```text
 Summary.
 
 More elaborate description.
 
+.. warning::
+    Warning description.
+
 Note:
-    Description.
+    Note description.
 
 Args:
     Arg1 (Type): Description. Default: xxx.
@@ -56,6 +59,7 @@ The format items are described as follows:
 
 - `Summary`: briefly describes the API function.
 - `More elaborate description`: describes the function and usage of an API in detail.
+- `warning`: describes warnings for using an API to avoid negative consequences.
 - `Note`: describes precautions for using an API. Do not use `Notes`.
 - `Args`: API parameter information, including the parameter name, type, value range, and default value.
 - `Returns`: return value information, including the return value type.
@@ -67,7 +71,7 @@ For comments of operators and cells, add `Inputs`, `Outputs` and `Supported Plat
 - `Inputs` and `Outputs`: describes the input and output types and shapes of the operators after instantiation. The input name can be the same as that in the example. It is recommended to provide the corresponding mathematical formula in the comment.
 - `Supported Platforms`: describes the hardware platforms supported by the operator. Add `` before and after the platform name, and use space to separate them when there are more than one.
 
-```rst
+```text
 Inputs:
     - **input_name1** (Type) - Description.
     - **input_name2** (Type) - Description.
@@ -90,8 +94,7 @@ Supported Platforms:
 
         A blank line is required between contents of different types (such as `Args` and `Returns`). A blank line is not required between contents of the same type (for example, `Arg1` and `Arg2`).
 
-        ```python
-        """
+        ```text
         High-Level API for Training or Testing.
 
         Args:
@@ -106,8 +109,7 @@ Supported Platforms:
 
         If the content is described in an unordered or ordered list, a blank line must be added between the content in the list and the content above the list.
 
-        ```python
-        """
+        ```text
         Args:
             amp_level (str): Option for argument `level` in `mindspore.amp.build_train_network`, level for mixed
                 precision training. Supports ["O0", "O2", "O3", "auto"]. Default: "O0".
@@ -120,15 +122,13 @@ Supported Platforms:
                   always generalize. User should specify the level for special network.
 
                 O2 is recommended on GPU, O3 is recommended on Ascend.
-        """
         ```
 
     - Space requirements:
 
         The newline characters of `Args` and `Raises` must be indented by four spaces.
 
-        ```python
-        """
+        ```text
         Args:
             lr_power (float): Learning rate power controls how the learning rate decreases during training,
                 must be less than or equal to zero. Use fixed learning rate if `lr_power` is zero.
@@ -140,62 +140,71 @@ Supported Platforms:
                 If `use_locking` is not a bool.
                 If dtype of `var`, `accum`, `linear` or `grad` is neither float16 nor float32.
                 If dtype of `indices` is not int32.
-        """
         ```
 
-        The sub-parameters or values of `Args` and line breaks for disordered or ordered content of `Inputs`, `Outputs` and `Returns` do not need indents and are aligned with the start position of the previous line.
+        The following contents do not need indents and are aligned with the start position of the previous line.
 
-        ```python
-        """
-        Args
-            parallel_mode (str): There are five kinds of parallel modes, "stand_alone", "data_parallel",
-                "hybrid_parallel", "semi_auto_parallel" and "auto_parallel". Default: "stand_alone".
+        1. The sub-parameters or values of `Args`
 
-                - stand_alone: Only one processor is working.
-                - data_parallel: Distributes the data across different processors.
-                - hybrid_parallel: Achieves data parallelism and model parallelism
-                  manually.
-                - semi_auto_parallel: Achieves data parallelism and model parallelism by
-                  setting parallel strategies.
+            ```text
+            Args:
+                parallel_mode (str): There are five kinds of parallel modes, "stand_alone", "data_parallel",
+                    "hybrid_parallel", "semi_auto_parallel" and "auto_parallel". Default: "stand_alone".
 
-        Inputs:
-            - **var** (Parameter) - The variable to be updated. The data type must be float16 or float32.
-            - **accum** (Parameter) - The accumulation to be updated, must be same data type and shape as `var`.
-            - **linear** (Parameter) - the linear coefficient to be updated, must be same data type and shape
-              as `var`.
-            - **grad** (Tensor) - A tensor of the same type as `var`, for the gradient.
-            - **indices** (Tensor) - A vector of indices in the first dimension of `var` and `accum`.
-              The shape of `indices` must be the same as `grad` in the first dimension. The type must be int32.
+                    - stand_alone: Only one processor is working.
+                    - data_parallel: Distributes the data across different processors.
+                    - hybrid_parallel: Achieves data parallelism and model parallelism
+                      manually.
+                    - semi_auto_parallel: Achieves data parallelism and model parallelism by
+                      setting parallel strategies.
+            ```
 
-        Outputs:
-            Tuple of 3 Tensor, the updated parameters.
+        2. The line breaks for disordered or ordered content of `Inputs`, `Outputs` and `Returns`
 
-            - **var** (Tensor) - Tensor, has the same shape and data type as `var`.
-            - **accum** (Tensor) - Tensor, has the same shape and data type as `accum`.
-            - **linear** (Tensor) - Tensor, has the same shape and data type as `linear`.
+            ```text
+            Inputs:
+                - **var** (Parameter) - The variable to be updated. The data type must be float16 or float32.
+                - **accum** (Parameter) - The accumulation to be updated, must be same data type and shape as `var`.
+                - **linear** (Parameter) - the linear coefficient to be updated, must be same data type and shape
+                  as `var`.
+                - **grad** (Tensor) - A tensor of the same type as `var`, for the gradient.
+                - **indices** (Tensor) - A vector of indices in the first dimension of `var` and `accum`.
+                  The shape of `indices` must be the same as `grad` in the first dimension. The type must be int32.
 
-        Returns:
-            Function, if `fn` is not None, returns a callable function that will execute the compiled function; If `fn` is
-            None, returns a decorator and when this decorator invokes with a single `fn` argument, the callable function is
-            equal to the case when `fn` is not None.
-        """
-        ```
+            Outputs:
+                Tuple of 3 Tensor, the updated parameters.
+
+                - **var** (Tensor) - Tensor, has the same shape
+                  and data type as `var`.
+                - **accum** (Tensor) - Tensor, has the same shape
+                  and data type as `accum`.
+                - **linear** (Tensor) - Tensor, has the same shape
+                  and data type as `linear`.
+            ```
+
+        3. `Note` and `warning`
+
+            ```text
+            .. warning::
+                This is warning text. Use a warning for information the user must
+                understand to avoid negative consequences.
+
+                If warning text runs over a line, make sure the lines wrap and are indented to
+                the same level as the warning tag.
+            ```
 
         In `Args`, there must be a space between the parameter name and the `(` of the type.
 
-        ```python
-        """
+        ```text
         Args:
             lr (float): The learning rate value, must be positive.
-        """
         ```
 
 - `Args` Comment
     - Common parameter types are as follows:
         - Basic data types: `int`, `float`, `bool`, `str`, `list`, `dict`, `set`, `tuple` and `numpy.ndarray`.
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (int): Some description.
                 arg2 (float): Some description.
@@ -206,71 +215,57 @@ Supported Platforms:
                 arg7 (set): Some description.
                 arg8 (tuple): Some description.
                 arg9 (numpy.ndarray): Some description.
-            """
             ```
 
         - dtype: For the value of mindspore.dtype, set this parameter to `mindspore.dtype`. For the value of the numpy type, set this parameter to `numpy.dtype`. Set other parameters based on the actual requirements.
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (mindspore.dtype): Some description.
-            """
             ```
 
         - One parameter with multiple optional types: Union [type 1, type 2], for example, `Union[Tensor, Number]`.
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (Union[Tensor, Number]): Some description.
-            """
             ```
 
         - List type: list[Specific type], for example, `list[str]`.
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (list[str]): Some description.
-            """
             ```
 
         - The format of optional types is as follows: (Type, optional).
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (bool, optional): Some description.
-            """
             ```
 
         - Other types: Tensor, other specific types, or method names.
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (Tensor): Some description.
-            """
             ```
 
 - `Returns` Comment
     - If the return value type or dimension changes, describe the relationship between the return value and the input.
     - If there are multiple return values, write them in different lines. The line difference is not displayed on the web page. The unordered list supports return values in different lines.
 
-        ```python
-        """
+        ```text
         Returns:
             - DatasetNode, the root node of the IR tree.
             - Dataset, the root dataset of the IR tree.
-        """
         ```
 
 - `Examples` Comment
     - For the content in `Examples`, ```>>>``` should be added at the beginning of each line of code. For multiple lines (including classes, function definitions or manual switch line) and blank lines, ```...``` is needed at the beginning of these lines. There is no need to add any symbols at the beginning of the output result line.
 
-         ```python
-        """
+         ```text
         Examples:
             >>> import mindspore as ms
             >>> import mindspore.nn as nn
@@ -292,7 +287,6 @@ Supported Platforms:
              [1 2]]
             >>> print(out[2])
             (3, 4)
-            """
         ```
 
     - Actual code needs to be provided in `Examples`. If you need to refer to other Examples, use Note.
@@ -305,7 +299,7 @@ Supported Platforms:
 - Formula
     - Line formula (in the middle of the singly occupied line)
 
-        ```rst
+        ```text
         .. math::
 
             formula
@@ -313,7 +307,7 @@ Supported Platforms:
 
     - Line-embedded formula (displayed together with other peer text, not in the middle)
 
-        ```rst
+        ```text
         xxx :math:`formula` xxx
         ```
 
@@ -328,13 +322,13 @@ Supported Platforms:
 
         Write a quotation in the following format:
 
-        ```rst
+        ```text
         `name`_
         ```
 
         Provide a link in the following format:
 
-        ```rst
+        ```text
         .. _`name`: https://xxx
         ```
 
@@ -344,19 +338,19 @@ Supported Platforms:
 
         Alternatively, you can use the following simplified format, that is, write only in the place where the reference is made.
 
-        ```rst
+        ```text
         `name <https://xxx>`_
         ```
 
     - Display the detailed address:
 
-        ```rst
+        ```text
         https://xxx
         ```
 
 - Table (For details, see section <https://sublime-and-sphinx-guide.readthedocs.io/en/latest/tables.html#list-table-directive>.)
 
-    ```rst
+    ```text
     .. list-table:: Title            # Table title
     :widths: 25 25 25               # Table column width
     :header-rows: 1
@@ -381,7 +375,7 @@ Supported Platforms:
 - By default, the detailed description is displayed in one line. If you need to display it in another line, write it in the form of a list or code-block.
     - List mode:
 
-        ```rst
+        ```text
         - Content1
         - Content2
         - Content3
@@ -389,7 +383,7 @@ Supported Platforms:
 
     - Code-Block mode:
 
-        ```rst
+        ```text
         .. code-block::
 
         Content1
