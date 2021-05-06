@@ -27,13 +27,16 @@
 
 类和方法的注释都采用如下格式：
 
-```rst
+```text
 Summary.
 
 More elaborate description.
 
+.. warning::
+    Warning description.
+
 Note:
-    Description.
+    Note description.
 
 Args:
     Arg1 (Type): Description. Default: xxx.
@@ -56,6 +59,7 @@ Examples:
 
 - `Summary`：简单描述该接口的功能。
 - `More elaborate description`：详细描述该接口的功能和如何使用等信息。
+- `warning`：描述使用该接口时需要警告的事项，以免造成负面影响。
 - `Note`：描述使用该接口时需要注意的事项。特别注意不能写成`Notes`。
 - `Args`：接口参数信息，包含参数名、参数类型、取值范围、默认值等。
 - `Returns`：返回值信息，包含返回值类型等。
@@ -67,7 +71,7 @@ Examples:
 - `Inputs`和`Outputs`：用于描述实例化后，算子的输入和输出的类型和shape，输入名可以和样例相同。建议在注释中给出对应的数学公式。
 - `Supported Platforms`：用于描述算子支持的硬件平台，名称前后需添加``，存在多个时使用空格隔开。
 
-```rst
+```text
 Inputs:
     - **input_name1** (Type) - Description.
     - **input_name2** (Type) - Description.
@@ -90,8 +94,7 @@ Supported Platforms:
 
         不同类型（如`Args`、`Returns`等）的内容之间需有空行，同种类型（如`Arg1`、`Arg2`等）的内容之间不需要空行。
 
-        ```python
-        """
+        ```text
         High-Level API for Training or Testing.
 
         Args:
@@ -106,8 +109,7 @@ Supported Platforms:
 
         采用无序或有序列表描述内容时，整个列表内容与上方内容之间需增加一个空行。
 
-        ```python
-        """
+        ```text
         Args:
             amp_level (str): Option for argument `level` in `mindspore.amp.build_train_network`, level for mixed
                 precision training. Supports ["O0", "O2", "O3", "auto"]. Default: "O0".
@@ -120,15 +122,13 @@ Supported Platforms:
                   always generalize. User should specify the level for special network.
 
                 O2 is recommended on GPU, O3 is recommended on Ascend.
-        """
         ```
 
     - 空格要求：
 
         `Args`和`Raises`内容的换行需要缩进4个空格。
 
-        ```python
-        """
+        ```text
         Args:
             lr_power (float): Learning rate power controls how the learning rate decreases during training,
                 must be less than or equal to zero. Use fixed learning rate if `lr_power` is zero.
@@ -140,62 +140,71 @@ Supported Platforms:
                 If `use_locking` is not a bool.
                 If dtype of `var`, `accum`, `linear` or `grad` is neither float16 nor float32.
                 If dtype of `indices` is not int32.
-        """
         ```
 
-        `Args`的子参数或取值、`Inputs`、`Outputs`和`Returns`等无序或有序列表内容的换行不需要缩进，与上一行的正文起始位置对齐。
+        以下内容的换行不需要缩进，与上一行的正文起始位置对齐。
 
-        ```python
-        """
-        Args
-            parallel_mode (str): There are five kinds of parallel modes, "stand_alone", "data_parallel",
-                "hybrid_parallel", "semi_auto_parallel" and "auto_parallel". Default: "stand_alone".
+        1. `Args`的子参数或取值
 
-                - stand_alone: Only one processor is working.
-                - data_parallel: Distributes the data across different processors.
-                - hybrid_parallel: Achieves data parallelism and model parallelism
-                  manually.
-                - semi_auto_parallel: Achieves data parallelism and model parallelism by
-                  setting parallel strategies.
+            ```text
+            Args:
+                parallel_mode (str): There are five kinds of parallel modes, "stand_alone", "data_parallel",
+                    "hybrid_parallel", "semi_auto_parallel" and "auto_parallel". Default: "stand_alone".
 
-        Inputs:
-            - **var** (Parameter) - The variable to be updated. The data type must be float16 or float32.
-            - **accum** (Parameter) - The accumulation to be updated, must be same data type and shape as `var`.
-            - **linear** (Parameter) - the linear coefficient to be updated, must be same data type and shape
-              as `var`.
-            - **grad** (Tensor) - A tensor of the same type as `var`, for the gradient.
-            - **indices** (Tensor) - A vector of indices in the first dimension of `var` and `accum`.
-              The shape of `indices` must be the same as `grad` in the first dimension. The type must be int32.
+                    - stand_alone: Only one processor is working.
+                    - data_parallel: Distributes the data across different processors.
+                    - hybrid_parallel: Achieves data parallelism and model parallelism
+                      manually.
+                    - semi_auto_parallel: Achieves data parallelism and model parallelism by
+                      setting parallel strategies.
+            ```
 
-        Outputs:
-            Tuple of 3 Tensor, the updated parameters.
+        2. `Inputs`、`Outputs`和`Returns`等无序或有序列表内容
 
-            - **var** (Tensor) - Tensor, has the same shape and data type as `var`.
-            - **accum** (Tensor) - Tensor, has the same shape and data type as `accum`.
-            - **linear** (Tensor) - Tensor, has the same shape and data type as `linear`.
+            ```text
+            Inputs:
+                - **var** (Parameter) - The variable to be updated. The data type must be float16 or float32.
+                - **accum** (Parameter) - The accumulation to be updated, must be same data type and shape as `var`.
+                - **linear** (Parameter) - the linear coefficient to be updated, must be same data type and shape
+                  as `var`.
+                - **grad** (Tensor) - A tensor of the same type as `var`, for the gradient.
+                - **indices** (Tensor) - A vector of indices in the first dimension of `var` and `accum`.
+                  The shape of `indices` must be the same as `grad` in the first dimension. The type must be int32.
 
-        Returns:
-            Function, if `fn` is not None, returns a callable function that will execute the compiled function; If `fn` is
-            None, returns a decorator and when this decorator invokes with a single `fn` argument, the callable function is
-            equal to the case when `fn` is not None.
-        """
-        ```
+            Outputs:
+                Tuple of 3 Tensor, the updated parameters.
+
+                - **var** (Tensor) - Tensor, has the same shape
+                  and data type as `var`.
+                - **accum** (Tensor) - Tensor, has the same shape
+                  and data type as `accum`.
+                - **linear** (Tensor) - Tensor, has the same shape
+                  and data type as `linear`.
+            ```
+
+        3. `Note`和`warning`
+
+            ```text
+            .. warning::
+                This is warning text. Use a warning for information the user must
+                understand to avoid negative consequences.
+
+                If warning text runs over a line, make sure the lines wrap and are indented to
+                the same level as the warning tag.
+            ```
 
         `Args`中参数名和类型的`(`之间需要有空格。
 
-        ```python
-        """
+        ```text
         Args:
             lr (float): The learning rate value, must be positive.
-        """
         ```
 
 - `Args`注释说明
     - 常见参数类型有：
         - 基本数据类型：`int`、`float`、`bool`、`str`、`list`、`dict`、`set`、`tuple`、`numpy.ndarray`。
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (int): Some description.
                 arg2 (float): Some description.
@@ -206,71 +215,57 @@ Supported Platforms:
                 arg7 (set): Some description.
                 arg8 (tuple): Some description.
                 arg9 (numpy.ndarray): Some description.
-            """
             ```
 
         - dtype：如果是mindspore.dtype里的值，写成`mindspore.dtype`，如果是numpy类型，写成`numpy.dtype`。其他按实际情况写。
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (mindspore.dtype): Some description.
-            """
             ```
 
         - 一个参数有多个可选类型：Union[类型1, 类型2]，如`Union[Tensor, Number]`。
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (Union[Tensor, Number]): Some description.
-            """
             ```
 
         - list类型：list[具体类型]，如`list[str]`。
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (list[str]): Some description.
-            """
             ```
 
         - 可选类型统一格式：(类型, optional)。
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (bool, optional): Some description.
-            """
             ```
 
         - 其他类型：Tensor或其他具体类型或方法名。
 
-            ```python
-            """
+            ```text
             Args:
                 arg1 (Tensor): Some description.
-            """
             ```
 
 - `Returns`注释说明
     - 如果返回值类型或维度发生变化，需要说明返回值与输入的关系。
     - 多个返回值时，分行写，网页显示时不分行，无序列表的方式可支持分行。
 
-        ```python
-        """
+        ```text
         Returns:
             - DatasetNode, the root node of the IR tree.
             - Dataset, the root dataset of the IR tree.
-        """
         ```
 
 - `Examples`注释说明
     - `Examples`中的内容需在每行代码开头加上```>>>```，多行代码（含类或函数定义、人为换行等）或空行的开头需加上```...```，输出结果行开头不需要加任何符号。
 
-        ```python
-        """
+        ```text
         Examples:
             >>> import mindspore as ms
             >>> import mindspore.nn as nn
@@ -292,7 +287,6 @@ Supported Platforms:
              [1 2]]
             >>> print(out[2])
             (3, 4)
-            """
         ```
 
     - `Examples`中需提供实际的代码，如果需提示参考其他Examples，请使用Note。
@@ -305,7 +299,7 @@ Supported Platforms:
 - 公式
     - 行公式（单独占一行，居中）
 
-      ```rst
+      ```text
       .. math::
 
          formula
@@ -313,7 +307,7 @@ Supported Platforms:
 
     - 行内嵌公式（与其他同行文字显示在一起，不居中）
 
-      ```rst
+      ```text
       xxx :math:`formula` xxx
       ```
 
@@ -328,13 +322,13 @@ Supported Platforms:
 
         引用的地方需这样写：
 
-        ```rst
+        ```text
         `name`_
         ```
 
         提供链接的地方需这样写：
 
-        ```rst
+        ```text
         .. _`name`: https://xxx
         ```
 
@@ -344,19 +338,19 @@ Supported Platforms:
 
         或者可以采用以下简化写法，只在引用的地方写即可。
 
-        ```rst
+        ```text
         `name <https://xxx>`_
         ```
 
     - 直接显示详细地址。
 
-        ```rst
+        ```text
         https://xxx
         ```
 
 - 表格（详细可参考<https://sublime-and-sphinx-guide.readthedocs.io/en/latest/tables.html#list-table-directive>）
 
-    ```rst
+    ```text
     .. list-table:: Title            # 表格标题
     :widths: 25 25 25               # 表格列宽
     :header-rows: 1
@@ -381,7 +375,7 @@ Supported Platforms:
 - 详细说明默认不换行，如需换行，需以列表或code-block的方式写作。
     - 列表方式：
 
-        ```rst
+        ```text
         - Content1
         - Content2
         - Content3
@@ -389,7 +383,7 @@ Supported Platforms:
 
     - code-block方式：
 
-        ```rst
+        ```text
         .. code-block::
 
         Content1
