@@ -295,7 +295,7 @@ Supported Platforms:
     - 导入路径较长和必须自定义别名的导入需要加`from xxx import xxx as something`或`import xxx`，导入路径短的尽量放到代码中。
 - `Inputs`和`Outputs`注释说明
 
-    - 类型是Tensor时，需描述shape，并按:math:`(N, C, X)`格式写作。
+    - 类型是Tensor时，需描述shape，并按:math:\`(N, C, X)\`格式写作。
 - 公式
     - 行公式（单独占一行，居中）
 

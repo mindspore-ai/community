@@ -295,7 +295,7 @@ Supported Platforms:
     - If the import path is long or a user-defined alias is required, add `from xxx import xxx as something` or `import xxx`. If the import path is short, place it in the code.
 - `Inputs` and `Outputs` Comment
 
-    - If the data type is Tensor, describe the shape in the format of :math:`(N, C, X)`.
+    - If the data type is Tensor, describe the shape in the format of :math:\`(N, C, X)\`.
 - Formula
     - Line formula (in the middle of the singly occupied line)
 
