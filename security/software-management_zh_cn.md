@@ -12,7 +12,7 @@
 
 ### 本文的改进和修订说明
 
-- 本文档由[MindSpore技术委员会](https://gitee.com/mindspore/community/tree/master/tsc)（ Technical Steering Committee, TSC）主导起草和维护。本文档的最新版本可以在 [这里](https://gitee.com/mindspore/community/tree/master/security/software-management.md) 找到。
+- 本文档由[MindSpore技术委员会](https://gitee.com/mindspore/community/tree/master/tsc)（ Technical Steering Committee, TSC）主导起草和维护。本文档的最新版本可以在 [这里](https://gitee.com/mindspore/community/tree/master/security/software-management_zh_cn.md) 找到。
 - 任何对于本文中涉及的规则的增加，修改，删除都**必须**被追踪，[请进入该追踪系统](https://gitee.com/mindspore/community/issues) 。
 - 最终规则经过社区充分的讨论后，由技术委员会定稿。
 
