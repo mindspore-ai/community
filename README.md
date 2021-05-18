@@ -30,7 +30,7 @@ based on CNCF Code Of Conduct.
 
 ## Contributor License Agreement
 
-You can find both the [Individual Contributor License Agreement](ICLA.txt)
+You can find both the [Individual Contributor License Agreement](ICLA.pdf)
 and [Corporate Contributor License Agreement](CCLA.pdf).
 
 ### Individual contributors
