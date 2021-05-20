@@ -1,14 +1,23 @@
 ![MindSpore Logo](MindSpore-logo.png "MindSpore logo")
-============================================================
+======================================================
+
+<!-- TOC -->
 
 - [MindSpore Community](#mindspore-community)
     - [Charter](#charter)
     - [Code Of Conduct](#code-of-conduct)
     - [Contributor License Agreement](#contributor-license-agreement)
+        - [Individual contributors](#individual-contributors)
+        - [Corporation contributors](#corporation-contributors)
     - [Useful CI Commands](#useful-ci-commands)
     - [Communications](#communications)
     - [CVE Report](#cve-report)
     - [Slide Template](#slide-template)
+    - [License](#license)
+
+<!-- /TOC -->
+
+English | [查看中文](./README_CN.md)
 
 # MindSpore Community
 
@@ -38,7 +47,7 @@ and [Corporate Contributor License Agreement](CCLA.pdf).
 For individual contributor, please click [CLA online sign page](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZtaW5kc3BvcmU=)
 and choose the `Sign Individual CLA` button to sign Contributor License Agreement.
 
-### Corporation employees
+### Corporation contributors
 
 Corporation employee would not be permitted to sign the CLA until the corporation
 has signed CCLA document, and he(she) can click [CLA online sign page](https://clasign.osinfra.cn/sign/Z2l0ZWUlMkZtaW5kc3BvcmU=)
@@ -62,3 +71,7 @@ folder.
 ## Slide Template
 
 MindSpore community themed slide templates if you need to make a presentation.
+
+## License
+
+[Apache License 2.0](LICENSE)
