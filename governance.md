@@ -26,32 +26,36 @@ of SIGs with the first elections to occur after 1 year.
 The MindSpore community adheres to the following principles:
 
 * __Open__: MindSpore is open source. See repository guidelines and CLA, below.
+
 * __Welcoming and respectful__: See Code of Conduct, below.
-* __Transparent and accessible__: Work and collaboration should be done in
-public. See SIG governance, below.
-* __Merit__: Ideas and contributions are accepted according to their technical
-merit and alignment with project objectives, scope and design principles.
-* __Speed__: Contributing the time and effort to ensure fast decision-making is
-key to ensuring that the specifications produced is aligned to the fast
-iteration of machine learning technologies.
+
+* __Transparent and accessible__: Work and collaboration should be done in public. See SIG governance, below.
+
+* __Merit__: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope and design principles.
+
+* __Speed__: Contributing the time and effort to ensure fast decision-making is key to ensuring that the specifications produced is aligned to the fast iteration of machine learning technologies.
 
 ## Community Roles
 
 ### Contributors
+
 Contributors are the developers who have contributed code and got merged. They
 can have issues and PRs assigned to them. They also have voting privileges.
 Contributors can be active in many ways including but not limited to:
 
 * Authoring or reviewing PRs, but do not have right to merge
+
 * Filing or commenting on issues
-* Contributing to SIG, WG, or community discussions (e.g. IRC, meetings,
-  email discussion forums, Stack Overflow, etc)
+
+* Contributing to SIG, WG, or community discussions (e.g. IRC, meetings, email discussion forums, Stack Overflow, etc)
+
 * Creator of content, promoting and advocating the MindSpore community.
 
 The first group of Contributors will be appointed and more Contributors will be
 added accordingly.
 
 ### Approvers
+
 Approvers are *Contributors* who have the right to merge code. Approvers are
 responsible for reviewing contributions for acceptance by considering not just
 code quality but also holistic impact of the contribution including
@@ -64,16 +68,21 @@ After the first year all the Approvers need to be qualified through open
 elections.
 
 ### Community Partners
+
 Community Partners are organizations (include but not limited to companies,
   universities, research institutes, industrial associations, open source
   foundations/communities/projects, etc.) that support MindSpore in one or more
   of the following ways:
-* Having employees participate in SIGs, Working Groups, or the Technical
-Steering Committee
+* Having employees participate in SIGs, Working Groups, or the Technical Steering Committee
+
 * Hosting a workshop or meetup for MindSpore
+
 * Providing resources for building or hosting MindSpore assets
+
 * Doing media or PR activities to promote MindSpore
+
 * Shipping a product that supports MindSpore
+
 * Collaborating in open source development with MindSpore
 
 Community Partners do not have any voting rights, except via their employees
@@ -82,6 +91,7 @@ organizations. Being a Community Partner does not by itself confer any
 compliance or certification to the Community Partner's products.
 
 ### Community Manager
+
 Community manager is the people who help run day to day MindSpore governance
 operations. The role is appointed by the Technical Steering Committee and does
 not have any code or voting related privileges by its own right. The role does
@@ -93,10 +103,10 @@ approved by the Technical Steering Committee.
 The MindSpore community is organized in the following manner, with all
 governance and execution being planned and coordinated as follows:
 
-* **Technical Steering Committee** is made up of a set number of people whose
-charter it is to define and iterate on the vision, goals, and governance process
-of the MindSpore community.
+* **Technical Steering Committee** is made up of a set number of people whose charter it is to define and iterate on the vision, goals, and governance process of the MindSpore community.
+
 * **Special  Interest Groups (SIGs)** are persistent groups that are responsible
+
 for specific parts of the project. SIGs must have open and transparent
 proceedings. Anyone is welcomed to participate and contribute provided they
 follow the [Code of Conduct](code-of-conduct_en.md). The purpose of a SIG is to
@@ -104,9 +114,8 @@ develop a set of goals to be achieved over a set period of time, and then to
 gather input, drive consensus and closure, implement code contributions, and
 other related activities to achieve the goal. SIGs are also responsible for
 ongoing maintenance of the code in their areas.
-* **Working Groups** are groups that are formed to address issues that cross SIG
-boundaries. Working groups do not own any feature code ownership or other long
-term artifacts. Working groups can report back and act through involved SIGs.
+
+* **Working Groups** are groups that are formed to address issues that cross SIG boundaries. Working groups do not own any feature code ownership or other long term artifacts. Working groups can report back and act through involved SIGs.
 
 ## Language
 
@@ -122,30 +131,30 @@ highly encouraged. An i18n WG could be formed to address multi-lang support.
 The Technical Steering Committee has a set of rights and responsibilities
 including the following:
 
-* Define, evolve, and defend the vision, values, mission, and scope of the
-community.
-* Define, evolve, and defend a [Code of Conduct](code-of-conduct_en.md),  which
-must include a neutral and unbiased process for resolving conflicts.
-* Define and evolve project governance structures and policies,
-including how members become Contributors, approvers, SIG chairs, etc.
-* Charter and refine policy for defining new community groups (Special Interest
-Groups, Working Groups, and any future possible defined structure), and
-establish transparency and accountability policies for such groups.
-* Decide, for the purpose of elections, who is a  member of standing of the
-MindSpore community, and what privileges that entails.
-* Decide which functional areas and scope are part of the MindSpore community,
-including accepting new or pruning old SIGs and Working Groups.
-* Decide how and when official releases of MindSpore artifacts are made and what
-they include.
+* Define, evolve, and defend the vision, values, mission, and scope of the community.
+
+* Define, evolve, and defend a [Code of Conduct](code-of-conduct_en.md),  which must include a neutral and unbiased process for resolving conflicts.
+
+* Define and evolve project governance structures and policies, including how members become Contributors, approvers, SIG chairs, etc.
+
+* Charter and refine policy for defining new community groups (Special Interest Groups, Working Groups, and any future possible defined structure), and establish transparency and accountability policies for such groups.
+
+* Decide, for the purpose of elections, who is a  member of standing of the MindSpore community, and what privileges that entails.
+
+* Decide which functional areas and scope are part of the MindSpore community, including accepting new or pruning old SIGs and Working Groups.
+
+* Decide how and when official releases of MindSpore artifacts are made and what they include.
+
 * Declare releases when quality/feature/other requirements are met.
-* Control access to, establish processes regarding, and provide a final
-escalation path for any MindSpore repository, which currently includes all
-repositories under the MindSpore organizations
-* Control and delegate access to and establish processes regarding other project
-resources/assets, including artifact repositories, build and test infrastructure,
-web sites and their domains, blogs, social-media accounts, etc.
+
+* Control access to, establish processes regarding, and provide a final escalation path for any MindSpore repository, which currently includes all repositories under the MindSpore organizations
+
+* Control and delegate access to and establish processes regarding other project resources/assets, including artifact repositories, build and test infrastructure, web sites and their domains, blogs, social-media accounts, etc.
+
 * Define any certification process.
+
 * Manage the MindSpore brand and any outbound marketing.
+
 * Make decisions by majority vote if consensus cannot be reached.
 
 #### Structure
@@ -222,6 +231,7 @@ the following SIGs will be present:
 | Visualization | This SIG is responsible for the development of MindSpore visualization tools. |
 | Security | This SIG is responsible for the development of MindSpore security related tools. |
 | AKG | This SIG is responsible for the development of MindSpore auto kernel generator. |
+| DX | This SIG is responsible for improving the experience of those who upstream contribute or develop applications for MindSpore community. |
 
 #### Structure
 
@@ -250,17 +260,20 @@ discussions, designs, and decisions, and periodically communicate a high-level
 summary of the SIG's work to the community. SIGs are also responsible to:
 
 * Meet regularly, at least monthly
-* Keep up-to-date meeting notes, linked from the SIG's page in the community
-repo
-* Announce meeting agenda and minutes after each meeting, on the
-`mindspore-discuss` mailing list and/or IRC or slack or other channel.
+
+* Keep up-to-date meeting notes, linked from the SIG's page in the community repo
+
+* Announce meeting agenda and minutes after each meeting, on the `mindspore-discuss` mailing list and/or IRC or slack or other channel.
+
 * Ensure the SIG's decision making is archived (i.e on IRC meeting log)
+
 * Report activity in overall MindSpore community meetings
+
 * Participate in release planning meetings, retrospective, etc (if relevant)
-* Actively triage issues, PRs, test failures, etc. related to code and tests
-owned by the SIG
-* Use the above forums as the primary means of working, communicating, and
-collaborating, as opposed to private emails and meetings
+
+* Actively triage issues, PRs, test failures, etc. related to code and tests owned by the SIG
+
+* Use the above forums as the primary means of working, communicating, and collaborating, as opposed to private emails and meetings
 
 #### Decision making
 
@@ -286,9 +299,10 @@ Working Groups (WGs) are primarily used to facilitate topics of discussion that
 cross SIG lines, or are topics which are short-lived and require a limited set
 of decisions to be agreed upon. Working groups:
 
-* do not own feature code that will be included in a certain release (document
-  not applied here)
+* do not own feature code that will be included in a certain release (document not applied here)
+
 * have a clear goal measured through specific deliverables
+
 * could choose to be retired after most of the goals are achieved
 
 Working Groups can create glue code, specifications, recommendations, or
@@ -296,15 +310,19 @@ implementations for submission to the relevant SIGs for approval and acceptance.
 At time of inception of this organizational structure, the following WGs will be
 present initially:
 
-   * Doc
-   * Infra
+* Doc
+
+* Infra
 
 Working Groups are formed by submitting a proposal via PR to the Technical
 Steering Committee. The proposal should cover:
 
 * what is the exact problem being worked on
+
 * what is the exit criteria
+
 * who are the chairs (up to 2)
+
 * what are the meeting and discussion mechanics
 
 ## Repository Guidelines
@@ -312,9 +330,11 @@ Steering Committee. The proposal should cover:
 All repositories under the MindSpore org:
 
 * Must adopt the MindSpore [Code of Conduct](code-of-conduct_en.md).
-* All code projects use the Apache 2.0 license. Documentation repositories must
-use the Creative Commons License version 4.0.
+
+* All code projects use the Apache 2.0 license. Documentation repositories must use the Creative Commons License version 4.0.
+
 * Must adopt the MindSpore CI bot
+
 * Repository must be approved by the Technical Steering Committee
 
 Repositories can be removed when they are inactive by archiving them.
