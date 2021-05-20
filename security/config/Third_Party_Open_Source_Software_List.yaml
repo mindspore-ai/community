@@ -215,3 +215,7 @@ mindspore:
         cpeName: Khronos Group - OpenCL - Headers
         version: v2020.06.16
         url: https://github.com/KhronosGroup/OpenCL-Headers/
+    Khronos Group - OpenCL - Headers:
+        cpeName: Khronos Group - OpenCL - Headers
+        version: v2020.12.18
+        url: https://github.com/KhronosGroup/OpenCL-Headers/
