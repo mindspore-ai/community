@@ -219,3 +219,44 @@ mindspore:
         cpeName: Khronos Group - OpenCL - Headers
         version: v2020.12.18
         url: https://github.com/KhronosGroup/OpenCL-Headers/
+akg:
+    incubator-tvm:
+        cpeName: tvm
+        version: 0.6
+        url: https://github.com/apache/tvm
+    isl:
+        cpeName: isl
+        version: 0.22
+        url: http://isl.gforge.inria.fr/
+    gmp:
+        cpeName: gmp
+        version: 6.1.2
+        url: https://gmplib.org/repo/
+    googletest:
+        cpeName: googletest
+        version: 1.8.1
+        url: http://code.google.com/p/googletest/
+    Python:
+        cpeName: Python
+        version: 3.7.5
+        url: https://www.python.org/
+    numpy:
+        cpeName: numpy
+        version: 1.17.0
+        url: https://www.numpy.org
+    decorator:
+        cpeName: decorator
+        version: 4.4.0
+        url: https://github.com/micheles/decorator
+    xgboost:
+        cpeName: xgboost
+        version: 0.9
+        url: https://github.com/dmlc/xgboost
+    Scipy:
+        cpeName: Scipy
+        version: 1.5.3
+        url: http://scipy.org/
+    pytest:
+        cpeName: pytest
+        version: 5.4.3
+        url: https://docs.pytest.org/en/latest/
