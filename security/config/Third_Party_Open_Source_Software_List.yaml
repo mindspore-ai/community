@@ -260,3 +260,40 @@ akg:
         cpeName: pytest
         version: 5.4.3
         url: https://docs.pytest.org/en/latest/
+mindarmour:
+    Python:
+        cpeName: Python
+        version: 3.7.5
+        url: https://www.python.org/
+    numpy:
+        cpeName: numpy
+        version: 1.17.0
+        url: https://www.numpy.org
+    Scipy:
+        cpeName: Scipy
+        version: 1.5.3
+        url: http://scipy.org/
+    pytest:
+        cpeName: pytest
+        version: 4.3.1
+        url: https://docs.pytest.org/en/latest/
+    matplotlib:
+        cpeName: matplotlib
+        version: 3.2.1
+        url: https://matplotlib.org
+    setuptools:
+        cpeName: setuptools
+        version: 40.8.0
+        url: https://github.com/pypa/setuptools
+    scikit-learn:
+        cpeName: scikit-learn
+        version: 0.23.1
+        url: https://scikit-learn.org/stable/
+    wheel:
+        cpeName: wheel
+        version: 0.32.0
+        url: https://github.com/pypa/wheel
+    Pillow:
+        cpeName: Pillow
+        version: 2.0.0
+        url: https://python-pillow.org
