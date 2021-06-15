@@ -23,6 +23,8 @@ This is the working repo for the Compiler special interest group (SIG). This rep
 * [Slack channel](https://app.slack.com/client/TUKCY4QDR/C011RSWRN3S?cdn_fallback=2)
 * [Documents and artifacts](https://gitee.com/mindspore/community/tree/master/sigs/compiler)
 
-# Meeting notes
+## Meeting notes
+
 * [Tuesday May 18, 2020](./meetings/001-20200518.md)
 * [Friday June 05, 2020](./meetings/002-20200605.md)
+* [Thursday June 10, 2021](./meetings/003-20210610.md)
