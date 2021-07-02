@@ -219,6 +219,14 @@ mindspore:
         cpeName: Khronos Group - OpenCL - Headers
         version: v2020.12.18
         url: https://github.com/KhronosGroup/OpenCL-Headers/
+    okhttp:
+        cpeName: okhttp
+        version:  3.14.9
+        url: https://square.github.io/okhttp/
+    The Legion of the Bouncy Castle:
+        cpeName: The Legion of the Bouncy Castle
+        version: 1.68
+        url: http://www.bouncycastle.org/
 akg:
     incubator-tvm:
         cpeName: tvm
