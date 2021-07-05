@@ -1,6 +1,6 @@
 | title | authors | owning-sig | participating-sigs | status | creation-date | reviewers | approvers | stage | milestone |
 | ----- | ------- | ---------- | ------------------ | ------ | ------------- |---------- | --------- | ----- | --------- |
-| MEP-QUANTUM | @donghufeng, @kangyangzc  | wg-quantum | sig-parallel | provisional | 2021-01-19 | TBD | TBD | NA | "v1.0" |
+| MEP-QUANTUM | @donghufeng, @kangyangzc  | quantum | sig-parallel | provisional | 2021-06-17 | TBD | TBD | NA | "v0.2" |
 
 # MEP-QUANTUM: MindSpore QUANTUM
 
@@ -20,7 +20,7 @@
 
 ## Summary
 
-Quantum computing is a disruptive approach to go beyond the capability of classical computers in the Post-Moore era. In 2019, quantum computational supremacy was experimentally demonstrated[1], meaning that the existing quantum chips can be used to perform certern tasks much faster than all classical computers. The next step is to find practical applications for these quantum chips, where machine learning is a natural choice. In fact, quantum machine learning is a fast-growing research area combining both quantum computation and classical machine learning, which can potentially achieve breakthroughs for both fields of research. The Quantum WG aims to foster a community for solving both classical and quantum problems by a collaboration in building a software framework for quantum machine learning.
+Quantum computing is a disruptive approach to go beyond the capability of classical computers in the Post-Moore era. In 2019, quantum computational supremacy was experimentally demonstrated[1], meaning that the existing quantum chips can be used to perform certern tasks much faster than all classical computers. The next step is to find practical applications for these quantum chips, where machine learning is a natural choice. In fact, quantum machine learning is a fast-growing research area combining both quantum computation and classical machine learning, which can potentially achieve breakthroughs for both fields of research. The Quantum SIG aims to foster a community for solving both classical and quantum problems by a collaboration in building a software framework for quantum machine learning.
 
 ## Motivation
 
