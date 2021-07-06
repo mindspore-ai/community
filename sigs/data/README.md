@@ -32,7 +32,7 @@ This is the working repo for the Data special interest group (SIG). This repo co
 > **Comment in issue please if you have any quetions and for better communication**.
 > Also you can find all the issue in gitee by filter with label [comp/data](https://gitee.com/mindspore/mindspore/issues?assignee_id=&author_id=&branch=&collaborator_ids=&issue_search=&label_ids=58023093&label_text=comp/data&milestone_id=&program_id=&scope=&sort=&state=open)
 
-* [Main issue of Q2](https://gitee.com/mindspore/mindspore/issues/I3MXRO)
+* [Main issue of Q3](https://gitee.com/mindspore/mindspore/issues/I3MXRO)
 
 ## Meeting notes
 
