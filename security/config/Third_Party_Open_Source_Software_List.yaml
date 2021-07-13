@@ -129,7 +129,7 @@ mindspore:
         url: https://pypi.python.org/pypi/defusedxml
     google/protobuf:
         cpeName: google/protobuf
-        version: 3.8.0
+        version: 3.13.0
         url: https://github.com/protocolbuffers/protobuf
     cffi:
         cpeName: cffi
