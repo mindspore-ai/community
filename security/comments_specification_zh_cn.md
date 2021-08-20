@@ -57,7 +57,7 @@ Examples:
 
 其中，
 
-- `Summary`：简单描述该接口的功能。
+- `Summary`：简单描述该接口的功能。若该描述为动词开头，模块内需统一用第一人称（即动词原形）或第三人称（即动词后加s），推荐用第一人称。
 - `More elaborate description`：详细描述该接口的功能和如何使用等信息。
 - `warning`：描述使用该接口时需要警告的事项，以免造成负面影响。
 - `Note`：描述使用该接口时需要注意的事项。特别注意不能写成`Notes`。
@@ -89,6 +89,7 @@ Supported Platforms:
     - 类或方法必须书写的注释项有：`Summary`、`Args`、`Returns`和`Raises`。如果函数中没有相关信息（如`Args`、`Returns`和`Raises`等），不需要写None（如`Raises：None`），直接省略注释项即可。
     - 以目录为粒度生成API时，__init__文件头部的注释内容会呈现在网页开头；以文件为粒度生成API时，该文件头部的注释内容会呈现在网页开头。这些注释内容需包含相应模块的整体说明。
     - 注释中包含反斜杠时，需要将头部的`"""`改成`r"""`。
+    - 注释内容若为动词开头，模块内需统一用第一人称（即动词原形）或第三人称（即动词后加s），推荐用第一人称。
     - 冒号要求：关键字（如`Args`、`Returns`等）后面有冒号":"；参数名（如`Arg1`、`Arg2`等）后面有冒号":"，冒号后需有空格。`Summary`和`Returns`的内容中不能包含冒号。
     - 空行要求：
 
@@ -429,7 +430,7 @@ class Tensor(Tensor_):
         ...
 ```
 
-显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.html#mindspore.Tensor)。
+显示效果可访问[这里](https://www.mindspore.cn/docs/api/zh-CN/master/api_python/mindspore/mindspore.Tensor.html)。
 
 #### 方法
 
@@ -482,7 +483,7 @@ def ms_function(fn=None, obj=None, input_signature=None):
     ...
 ```
 
-显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.html#mindspore.ms_function)。
+显示效果可访问[这里](https://www.mindspore.cn/docs/api/zh-CN/master/api_python/mindspore/mindspore.ms_function.html)。
 
 #### 公式
 
@@ -491,7 +492,7 @@ class Conv2d(_Conv):
     r"""
     2D convolution layer.
 
-    Applies a 2D convolution over an input tensor which is typically of shape :math:`(N, C_{in}, H_{in}, W_{in})`,
+    Apply a 2D convolution over an input tensor which is typically of shape :math:`(N, C_{in}, H_{in}, W_{in})`,
     where :math:`N` is batch size, :math:`C_{in}` is channel number, and :math:`H_{in}, W_{in})` are height and width.
     For each batch of shape :math:`(C_{in}, H_{in}, W_{in})`, the formula is defined as:
 
@@ -503,7 +504,7 @@ class Conv2d(_Conv):
     """
 ```
 
-显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.nn.html#mindspore.nn.Conv2d)。
+显示效果可访问[这里](https://www.mindspore.cn/docs/api/zh-CN/master/api_python/nn/mindspore.nn.Conv2d.html)。
 
 #### 链接
 
@@ -523,12 +524,12 @@ class BatchNorm(PrimitiveWithInfer):
     """
 ```
 
-显示效果可访问[这里](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.ops.html#mindspore.ops.BatchNorm)。
+显示效果可访问[这里](https://www.mindspore.cn/docs/api/zh-CN/master/api_python/ops/mindspore.ops.BatchNorm.html)。
 
 ## C++ API注释规范
 
 - Markdown文件命名需与命名空间相同。
-- Markdown文件内部格式如下，可参考[样例](https://www.mindspore.cn/doc/api_cpp/zh-CN/master/lite.html)。
+- Markdown文件内部格式如下，可参考[样例](https://www.mindspore.cn/lite/api/zh-CN/master/api_cpp/mindspore.html)。
 
   ```markdown
   # The name of namespace
