@@ -8,21 +8,21 @@ This is the working repo for the Serving Special Interest Group (SIG). This repo
 4. Support data pre-processing and post-processing sink to the service back-end.
 5. Support multiple models.
 
-# SIG Leads
+## SIG Leads
 
 * Xu Yongfei (Huawei)
 
-# Logistics
+## Logistics
 
 * SIG leads will drive the meeting.
 * Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/serving
 * Feedbacks and topic requests are welcomed by all.
 
-# Discussion
+## Discussion
 
 * Slack channel: *TBD*
 * Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/serving
 
-# Meeting notes
+## Meeting notes
 
-
+* [Thursday August 5, 2021](./meetings/001-20210805.md)
