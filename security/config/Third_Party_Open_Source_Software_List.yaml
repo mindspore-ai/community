@@ -475,3 +475,23 @@ mindelec:
         cpeName: pythonocc-core
         url: https://github.com/tpaviot/pythonocc
         version: 7.5.1
+    numpy:
+        cpeName: numpy
+        version: 1.17.0
+        url: https://www.numpy.org
+    matplotlib:
+        cpeName: matplotlib
+        version: 3.2.1
+        url: https://matplotlib.org
+    opencv-python:
+        cpeName: opencv-python
+        version: 4.1.2.30
+        url: https://github.com/skvark/opencv-python
+    easydict:
+        cpeName: easydict
+        version: '1.9'
+        url: https://github.com/makinacorpus/easydict
+    Pillow:
+        cpeName: Pillow
+        version: 8.2.0
+        url: https://python-pillow.org
