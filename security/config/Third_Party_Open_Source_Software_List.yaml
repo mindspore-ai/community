@@ -495,3 +495,7 @@ mindelec:
         cpeName: Pillow
         version: 8.2.0
         url: https://python-pillow.org
+    Scipy:
+        cpeName: Scipy
+        version: 1.5.2
+        url: http://scipy.org/
