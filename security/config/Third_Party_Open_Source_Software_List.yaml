@@ -11,10 +11,6 @@ mindspore:
         cpeName: sentencepiece
         version: v0.1.92
         url: https://github.com/google/sentencepiece
-    setuptools:
-        cpeName: setuptools
-        version: 41.1.0
-        url: https://github.com/pypa/setuptools
     Eigen:
         cpeName: Eigen
         version: 3.3.7
@@ -103,10 +99,6 @@ mindspore:
         cpeName: CMSIS
         version: 5.7.0
         url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
-    asttokens:
-        cpeName: asttokens
-        version: 1.1.13
-        url: https://github.com/gristlabs/asttokens
     Python:
         cpeName: Python
         version: 3.9.2
@@ -127,14 +119,6 @@ mindspore:
         cpeName: pyzmq
         version: 19.0.1
         url: https://pypi.python.org/pypi/defusedxml
-    google/protobuf:
-        cpeName: google/protobuf
-        version: 3.13.0
-        url: https://github.com/protocolbuffers/protobuf
-    cffi:
-        cpeName: cffi
-        version: 1.12.3
-        url: http://cffi.readthedocs.org
     pycocotools:
         cpeName: pycocotools
         version: 2.0.1
@@ -143,6 +127,10 @@ mindspore:
         cpeName: OpenCL-CLHPP
         version: 2.0.12
         url: https://github.com/KhronosGroup/OpenCL-CLHPP
+    google/protobuf:
+        cpeName: google/protobuf
+        version: 3.13.0
+        url: https://github.com/protocolbuffers/protobuf
     gRPC:
         cpeName: gRPC
         version: 1.27.3
@@ -252,10 +240,6 @@ akg:
         cpeName: numpy
         version: 1.17.0
         url: https://www.numpy.org
-    decorator:
-        cpeName: decorator
-        version: 4.4.0
-        url: https://github.com/micheles/decorator
     xgboost:
         cpeName: xgboost
         version: 0.9
@@ -289,18 +273,10 @@ mindarmour:
         cpeName: matplotlib
         version: 3.2.1
         url: https://matplotlib.org
-    setuptools:
-        cpeName: setuptools
-        version: 40.8.0
-        url: https://github.com/pypa/setuptools
     scikit-learn:
         cpeName: scikit-learn
         version: 0.23.1
         url: https://scikit-learn.org/stable/
-    wheel:
-        cpeName: wheel
-        version: 0.32.0
-        url: https://github.com/pypa/wheel
     Pillow:
         cpeName: Pillow
         version: 2.0.0
@@ -422,9 +398,6 @@ mindinsight:
         cpeName: pyyaml
         url: https://pypi.org/project/PyYAML/
         version: 5.3.1
-    setuptools:
-        cpeName: setuptools
-        url: https://github.com/pypa/setuptools
         version: 41.1.0
     tensorflow-onnx:
         cpeName: tensorflow-onnx
