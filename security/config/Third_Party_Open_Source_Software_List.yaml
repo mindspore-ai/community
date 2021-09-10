@@ -99,6 +99,10 @@ mindspore:
         cpeName: CMSIS
         version: 5.7.0
         url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
+    asttokens:
+        cpeName: asttokens
+        version: 1.1.13
+        url: https://github.com/gristlabs/asttokens
     Python:
         cpeName: Python
         version: 3.9.2
