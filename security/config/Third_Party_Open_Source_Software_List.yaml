@@ -290,10 +290,6 @@ mindinsight:
         cpeName: Flask
         url: http://flask.pocoo.org/
         version: 1.1.1
-    Flask-Cors:
-        cpeName: Flask-Cors
-        url: https://github.com/corydolphin/flask-cors
-        version: 3.0.8
     Pillow:
         cpeName: Pillow
         url: https://python-pillow.org
@@ -302,10 +298,6 @@ mindinsight:
         cpeName: PyTorch
         url: https://pytorch.org/
         version: 1.5.0
-    SPIRV-Tools:
-        cpeName: SPIRV-Tools
-        url: https://github.com/KhronosGroup/SPIRV-Tools
-        version: v2020.6
     SlickGrid:
         cpeName: SlickGrid
         url: http://slickgrid.net
@@ -314,10 +306,6 @@ mindinsight:
         cpeName: TensorFlow
         url: https://www.tensorflow.org/; https://github.com/tensorflow/tensorflow
         version: 1.15.2
-    Vulkan-ValidationLayers:
-        cpeName: Vulkan-ValidationLayers
-        url: https://github.com/KhronosGroup/Vulkan-ValidationLayers
-        version: sdk-1.2.162.0
     Werkzeug:
         cpeName: Werkzeug
         url: https://github.com/pallets/werkzeug
@@ -382,10 +370,6 @@ mindinsight:
         cpeName: onnxruntime
         url: https://github.com/microsoft/onnxruntime
         version: 1.5.2
-    pip:
-        cpeName: pip
-        url: https://github.com/pypa/pip
-        version: 20.0.2
     psutil:
         cpeName: psutil
         url: https://github.com/giampaolo/psutil
@@ -394,10 +378,6 @@ mindinsight:
         cpeName: pybind11
         url: https://pybind11.readthedocs.io/en/latest/
         version: 2.4.3
-    pytest:
-        cpeName: pytest
-        url: https://docs.pytest.org/en/latest/
-        version: 5.4.3
     pyyaml:
         cpeName: pyyaml
         url: https://pypi.org/project/PyYAML/
