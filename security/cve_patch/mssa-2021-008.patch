@@ -1,0 +1,43 @@
+From 5aab6599e7280d2512a87434c174f13a0a2e7008 Mon Sep 17 00:00:00 2001
+From: lzk <liuzhongkai2@huawei.com>
+Date: Fri, 21 May 2021 01:25:06 -0700
+Subject: [PATCH] array cross the border
+
+---
+ .../backend/kernel_compiler/cpu/nnacl/infer/tile_infer.c     | 3 +++
+ mindspore/lite/src/runtime/kernel/arm/base/tile_base.cc      | 5 +++++
+ 2 files changed, 8 insertions(+)
+
+diff --git a/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/tile_infer.c b/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/tile_infer.c
+index 19e20e71bd..df36be303a 100644
+--- a/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/tile_infer.c
++++ b/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/tile_infer.c
+@@ -63,6 +63,9 @@ int TileInferShape(const TensorC *const *inputs, size_t inputs_size, TensorC **o
+     return NNACL_INPUT_TENSOR_ERROR;
+   }
+   multiples_size = data_num;
++  if (inputs[1]->data_type_ != kNumberTypeInt && inputs[1]->data_type_ != kNumberTypeInt32) {
++    return NNACL_INPUT_TENSOR_ERROR;
++  }
+   int *input1_data = inputs[1]->data_;
+   if (input1_data == NULL) {
+     return NNACL_INFER_INVALID;
+diff --git a/mindspore/lite/src/runtime/kernel/arm/base/tile_base.cc b/mindspore/lite/src/runtime/kernel/arm/base/tile_base.cc
+index 54548699d0..6898bcffff 100644
+--- a/mindspore/lite/src/runtime/kernel/arm/base/tile_base.cc
++++ b/mindspore/lite/src/runtime/kernel/arm/base/tile_base.cc
+@@ -50,6 +50,11 @@ int TileCPUKernel::ReSize() {
+       MS_LOG(ERROR) << "tile's input1 data_num cannot be larger than input0's shape_size.";
+       return false;
+     }
++    if (in_tensors_[1]->data_type() != kNumberTypeInt && in_tensors_[1]->data_type() != kNumberTypeInt32) {
++      MS_LOG(ERROR) << "in_tensors_[1]->data_type():" << in_tensors_[1]->data_type()
++                    << " must be kNumberTypeInt32 or kNumberTypeInt!";
++      return RET_ERROR;
++    }
+     auto input1_addr = reinterpret_cast<int *>(in_tensors_[1]->data_c());
+     for (int i = 0; i < in_tensors_[1]->ElementsNum(); ++i) {
+       tile_parameter_->dims_[i] = i;
+-- 
+2.17.1
+

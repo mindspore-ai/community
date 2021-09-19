@@ -1,0 +1,27 @@
+From e0cbe113745a38be7b3afa0dff63a819e4490005 Mon Sep 17 00:00:00 2001
+From: lzk <liuzhongkai2@huawei.com>
+Date: Fri, 21 May 2021 01:11:07 -0700
+Subject: [PATCH] div 0 bug fix
+
+---
+ .../lite/tools/converter/parser/tflite/tflite_conv_parser.cc  | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/mindspore/lite/tools/converter/parser/tflite/tflite_conv_parser.cc b/mindspore/lite/tools/converter/parser/tflite/tflite_conv_parser.cc
+index 3e552883af..c2aac03799 100644
+--- a/mindspore/lite/tools/converter/parser/tflite/tflite_conv_parser.cc
++++ b/mindspore/lite/tools/converter/parser/tflite/tflite_conv_parser.cc
+@@ -111,6 +111,10 @@ ops::PrimitiveC *TfliteDepthwiseConv2DParser::Parse(const std::unique_ptr<tflite
+   auto weight_shape = weight_tensor->shape;
+   prim->set_kernel_size({weight_shape[1], weight_shape[2]});
+   prim->set_in_channel(weight_shape[3]);
++  if (tflite_attr->depth_multiplier == 0) {
++    MS_LOG(ERROR) << "depth_multiplier must not be zero!";
++    return nullptr;
++  }
+   prim->set_group(weight_shape[3] / tflite_attr->depth_multiplier);
+ 
+   // get data tensor
+-- 
+2.17.1
+

@@ -1,0 +1,27 @@
+From e0cbe113745a38be7b3afa0dff63a819e4490005 Mon Sep 17 00:00:00 2001
+From: lzk <liuzhongkai2@huawei.com>
+Date: Fri, 21 May 2021 01:11:07 -0700
+Subject: [PATCH] div 0 bug fix
+
+---
+ mindspore/lite/src/runtime/kernel/arm/fp32/reduce_fp32.cc | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/mindspore/lite/src/runtime/kernel/arm/fp32/reduce_fp32.cc b/mindspore/lite/src/runtime/kernel/arm/fp32/reduce_fp32.cc
+index 044fd170e1..f1e45d47e0 100644
+--- a/mindspore/lite/src/runtime/kernel/arm/fp32/reduce_fp32.cc
++++ b/mindspore/lite/src/runtime/kernel/arm/fp32/reduce_fp32.cc
+@@ -117,6 +117,10 @@ int ReduceCPUKernel::Run() {
+     outer_size_ = outer_sizes_.at(i);
+     inner_size_ = inner_sizes_.at(i);
+     axis_size_ = axis_sizes_.at(i);
++    if (axis_size_ == 0) {
++      MS_LOG(ERROR) << "axis_size_ is must not be zero!";
++      return RET_ERROR;
++    }
+     auto error_code = ParallelLaunch(static_cast<const lite::InnerContext *>(this->context_)->thread_pool_, ReduceImpl,
+                                      this, context_->thread_num_);
+     if (error_code != RET_OK) {
+-- 
+2.17.1
+
