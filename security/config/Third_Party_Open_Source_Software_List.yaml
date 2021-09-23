@@ -49,7 +49,7 @@ mindspore:
         url: https://python-pillow.org
     abseil-cpp:
         cpeName: abseil-cpp
-        version: 20200225
+        version: 20200923.3
         url: https://github.com/abseil/abseil-cpp/@https://abseil.io
     mkl-dnn:
         cpeName: mkl-dnn
@@ -137,7 +137,7 @@ mindspore:
         url: https://github.com/protocolbuffers/protobuf
     gRPC:
         cpeName: gRPC
-        version: 1.27.3
+        version: 1.36.1
         url: https://grpc.io
     c-ares:
         cpeName: c-ares
@@ -219,6 +219,10 @@ mindspore:
         cpeName: The Legion of the Bouncy Castle
         version: 1.68
         url: http://www.bouncycastle.org/
+    re2:
+        cpeName: re2
+        version: 2019-12-01
+        url: https://github.com/google/re2
 akg:
     incubator-tvm:
         cpeName: tvm
@@ -345,7 +349,7 @@ mindinsight:
     grpc:
         cpeName: grpc
         url: https://github.com/grpc/grpc
-        version: v1.35.0
+        version: v1.36.1
     gunicorn:
         cpeName: gunicorn
         url: http://gunicorn.org/
