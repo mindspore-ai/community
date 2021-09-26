@@ -456,3 +456,67 @@ mindelec:
         cpeName: Scipy
         version: 1.5.2
         url: http://scipy.org/
+serving:
+    abseil-cpp:
+        cpeName: abseil-cpp
+        version: 20200923.3
+        url: https://github.com/abseil/abseil-cpp
+    c-ares:
+        cpeName: c-ares
+        version: 1.15.0
+        url: https://c-ares.haxx.se/
+    Eigen:
+        cpeName: Eigen
+        version: 3.3.7
+        url: http://eigen.tuxfamily.org/index.php?title=Main_Page
+    google/glog:
+        cpeName: google/glog
+        version: 0.4.0
+        url: https://github.com/google/glog
+    google/protobuf:
+        cpeName: google/protobuf
+        version: 3.13.0
+        url: https://github.com/protocolbuffers/protobuf
+    gRPC:
+        cpeName: gRPC
+        version: 1.36.1
+        url: https://grpc.io
+    googletest:
+        cpeName: googletest
+        version: 1.8.1
+        url: http://code.google.com/p/googletest/
+    JSON for Modern C++:
+        cpeName: JSON for Modern C++
+        version: 3.6.1
+        url: https://github.com/nlohmann/json
+    libevent:
+        cpeName: libevent
+        version: 2.1.12
+        url: https://libevent.org/
+    pybind11:
+        cpeName: pybind11
+        version: 2.6.1
+        url: https://pybind11.readthedocs.io/en/latest/
+    re2:
+        cpeName: re2
+        version: 20191201
+        url: https://github.com/google/re2
+    zlib:
+        cpeName: zlib
+        version: 1.2.11
+        url: https://www.zlib.net/
+    numpy:
+        cpeName: numpy
+        version: 1.17.0
+        url: https://www.numpy.org
+    psutil:
+        cpeName: psutil
+        url: https://github.com/giampaolo/psutil
+    grpcio:
+        cpeName: grpcio
+        version: 1.36.0
+        url: https://grpc.io/
+    requests:
+        cpeName: requests
+        version: 2.22.0
+        url: https://docs.python-requests.org/en/latest/
