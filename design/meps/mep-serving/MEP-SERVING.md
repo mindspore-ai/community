@@ -13,26 +13,34 @@ should be approved by the remaining approvers and/or the owning SIG.
 # MEP-SERVING: Serving
 
 ## Table of Contents
-<!-- toc -->
-- [Summary](#summary)
-- [Motivation](#motivation)
-  - [Goals](#goals)
-  - [Non-Goals](#non-goals)
-- [Proposal](#proposal)
-  - [User Stories (optional)](#user-stories-optional)
-    - [Story 1](#story-1)
-    - [Story 2](#story-2)
-  - [Notes/Constraints/Caveats (optional)](#notesconstraintscaveats-optional)
-  - [Risks and Mitigations](#risks-and-mitigations)
-- [Design Details](#design-details)
-  - [Graduation Criteria](#graduation-criteria)
-  - [Upgrade / Downgrade Strategy](#upgrade--downgrade-strategy)
-- [Implementation History](#implementation-history)
-- [Drawbacks](#drawbacks)
-- [Alternatives](#alternatives)
-- [Infrastructure Needed (optional)](#infrastructure-needed-optional)
-- [References (optional)](#references-optional)
-<!-- /toc -->
+
+<!-- TOC -->
+
+- [MEP-SERVING: Serving](#mep-serving-serving)
+    - [Table of Contents](#table-of-contents)
+    - [Summary](#summary)
+    - [Motivation](#motivation)
+        - [Goals](#goals)
+        - [Non-Goals](#non-goals)
+    - [Proposal](#proposal)
+        - [User Stories (optional)](#user-stories-optional)
+            - [Story 1](#story-1)
+            - [Story 2](#story-2)
+        - [Notes/Constraints/Caveats (optional)](#notesconstraintscaveats-optional)
+        - [Risks and Mitigations](#risks-and-mitigations)
+    - [Design Details](#design-details)
+        - [Test Plan](#test-plan)
+        - [Graduation Criteria](#graduation-criteria)
+            - [Alpha -> Beta Graduation](#alpha---beta-graduation)
+            - [Beta -> Stable Graduation](#beta---stable-graduation)
+        - [Upgrade / Downgrade Strategy](#upgrade--downgrade-strategy)
+    - [Implementation History](#implementation-history)
+    - [Drawbacks](#drawbacks)
+    - [Alternatives](#alternatives)
+    - [Infrastructure Needed (optional)](#infrastructure-needed-optional)
+    - [References (optional)](#references-optional)
+
+<!-- /TOC -->
 
 ## Summary
 
@@ -56,7 +64,6 @@ updates.
 -->
 
 MindSpore Serving is a lightweight and high-performance service module that helps MindSpore developers efficiently deploy online inference services in the production environment. After completing model training using MindSpore, you can export the MindSpore model and use MindSpore Serving to create an inference service for the model. Currently, only Ascend 910 is supported.
-
 
 ## Motivation
 
@@ -117,9 +124,11 @@ bogged down.
 NA
 
 #### Story 1
+
 NA
 
 #### Story 2
+
 NA
 
 ### Notes/Constraints/Caveats (optional)
@@ -156,43 +165,46 @@ proposal will be implemented, this is the place to discuss them.
 -->
 
 1. RESTful
-```
-POST http://${HOST_IP}:${PORT_NUM}/model/${MODEL_NAME}[/version/${VERSION}]:${METHOD_NAME}
-```
+
+    ```bash
+    POST http://${HOST_IP}:${PORT_NUM}/model/${MODEL_NAME}[/version/${VERSION}]:${METHOD_NAME}
+    ```
 
 2. instances format
-```
-{
-  "instances":[
-      {
-        "tagx": "foo",
-        "signalx": [1,2,3,4,5],
-        "sensorx": [[1,2], [3,4]]
-      },
-      {
-        "tagx": {"b64": "bytes_data_base64_code"},
-        "signalx": 3,
-        "sensorx": [[4,5], [6,8], [4,5], [6,8]]
-      }
-  ]
-}
-```
+
+    ```json
+    {
+      "instances":[
+          {
+            "tagx": "foo",
+            "signalx": [1,2,3,4,5],
+            "sensorx": [[1,2], [3,4]]
+          },
+          {
+            "tagx": {"b64": "bytes_data_base64_code"},
+            "signalx": 3,
+            "sensorx": [[4,5], [6,8], [4,5], [6,8]]
+          }
+      ]
+    }
+    ```
 
 3. replay
-```
-{
-  "instances":[
-      {
-        "label": "new"
-      },
-      {
-        "tagx": {"b64": "bytes_data_base64_code"},
-        "signalx": 3,
-        "sensorx": [[4,5], [6,8], [4,5], [6,8]]
-      }
-  ]
-}
-```
+
+    ```json
+    {
+      "instances":[
+          {
+            "label": "new"
+          },
+          {
+            "tagx": {"b64": "bytes_data_base64_code"},
+            "signalx": 3,
+            "sensorx": [[4,5], [6,8], [4,5], [6,8]]
+          }
+      ]
+    }
+    ```
 
 ### Test Plan
 
@@ -200,6 +212,7 @@ POST http://${HOST_IP}:${PORT_NUM}/model/${MODEL_NAME}[/version/${VERSION}]:${ME
 **Note:** *Not required until targeted at a release.*
 
 Consider the following in developing a test plan for this enhancement:
+
 - Will there be e2e and integration tests, in addition to unit tests?
 - How will it be tested in isolation vs with other components?
 
@@ -218,7 +231,6 @@ when drafting this test plan.
 
 2.st
 
-
 ### Graduation Criteria
 
 <!--
@@ -231,10 +243,11 @@ should keep this high-level with a focus on what signals will be looked at to
 determine graduation.
 
 Consider the following in developing the graduation criteria for this enhancement:
+
 - Maturity levels (`alpha`, `beta`, `stable`)
 - Deprecation policy (TBD)
 
-Clearly define what graduation means by either linking to the [API doc definition](https://www.mindspore.cn/api/en/master/index.html), or by redefining what graduation means.
+Clearly define what graduation means by either linking to the [API doc definition](https://www.mindspore.cn/docs/api/en/master/index.html), or by redefining what graduation means.
 
 In general, we try to use the same stages (alpha, beta, stable), regardless how the
 functionality is accessed.
@@ -269,6 +282,7 @@ this is in the test plan.
 
 Consider the following in developing an upgrade/downgrade strategy for this
 enhancement:
+
 - What changes (in invocations, configurations, API use, etc.) is an existing
   cluster required to make on upgrade in order to keep previous behavior?
 - What changes (in invocations, configurations, API use, etc.) is an existing
@@ -282,12 +296,14 @@ NA
 <!--
 Major milestones in the life cycle of a MEP should be tracked in this section.
 Major milestones might include
+
 - the `Summary` and `Motivation` sections being merged signaling SIG acceptance
 - the `Proposal` section being merged signaling agreement on a proposed design
 - the date implementation started
 - the first MindSpore release where an initial version of the MEP was available
 - the version of MindSpore where the MEP graduated to general availability
 - when the MEP was retired or superseded
+
 -->
 
 NA

@@ -20,11 +20,11 @@ This is the working repo for the Data special interest group (SIG). This repo co
 * Slack channel: <https://app.slack.com/client/TUKCY4QDR/C010RPN6QNP?cdn_fallback=2>
 * Documents and artifacts: <https://gitee.com/mindspore/community/tree/master/sigs/data>
 
-## Representative vedios
+## Representative videos
 
 * [mindspore data processing introduction](https://www.bilibili.com/video/BV1RZ4y1W7FL)
-* [mindspore data loading and data format conversion](https://www.mindspore.cn/tutorial/training/zh-CN/master/quick_start/quick_video/loading_the_dataset_and_converting_data_format.html)
-* [optimize data processing](https://www.mindspore.cn/tutorial/training/zh-CN/master/quick_start/quick_video/optimize_data_processing.html)
+* [mindspore data loading and data format conversion](https://www.mindspore.cn/docs/programming_guide/zh-CN/master/quick_start/quick_video/loading_the_dataset_and_converting_data_format.html)
+* [optimize data processing](https://www.mindspore.cn/docs/programming_guide/zh-CN/master/quick_start/quick_video/optimize_data_processing.html)
 
 ## Main issue To be solved
 
