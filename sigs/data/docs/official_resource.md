@@ -1,5 +1,5 @@
 ## Resource about Dataset in mindspore.cn
 
-* [data loading and processing](https://www.mindspore.cn/tutorial/zh-CN/master/dataset.html)
-* [data pipeline](https://www.mindspore.cn/doc/programming_guide/zh-CN/master/data_pipeline.html)
-* [dataset API introduction](https://www.mindspore.cn/doc/api_python/zh-CN/master/mindspore/mindspore.dataset.html)
+* [data loading and processing](https://www.mindspore.cn/tutorials/zh-CN/master/index.html)
+* [dataset sample](https://www.mindspore.cn/docs/programming_guide/zh-CN/master/dataset_sample.html)
+* [dataset API introduction](https://www.mindspore.cn/docs/api/zh-CN/master/api_python/mindspore.dataset.html)
