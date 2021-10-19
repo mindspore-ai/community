@@ -13,6 +13,9 @@
             - [公式](#公式)
             - [链接](#链接)
     - [C++ API注释规范](#c-api注释规范)
+        - [注释格式](#注释格式)
+        - [注意事项](#注意事项)
+        - [完整示例](#完整示例)
 
 <!-- /TOC -->
 
@@ -392,6 +395,28 @@ Supported Platforms:
         Content3
         ```
 
+- 在注释中引用其他接口。
+
+    - 引用class。
+
+      只写接口名：
+
+      ```text
+      :class:`AdamNoUpdateParam`
+      ```
+
+      若存在重复接口名，则需引用完整模块名和类名：
+
+      ```text
+      :class:`mindspore.ops.LARS`
+      ```
+
+    - 引用function，必须写上完整模块名和函数名。
+
+      ```text
+      :func:`mindspore.compression.quant.create_quant_config`
+      ```
+
 ### Python示例
 
 #### 类
@@ -528,20 +553,157 @@ class BatchNorm(PrimitiveWithInfer):
 
 ## C++ API注释规范
 
-- Markdown文件命名需与命名空间相同。
-- Markdown文件内部格式如下，可参考[样例](https://www.mindspore.cn/lite/api/zh-CN/master/api_cpp/mindspore.html)。
+### 注释格式
 
-  ```markdown
-  # The name of namespace
+所有接口注释都采用如下格式：
 
-  The link of header file.
+```cpp
+/// \brief Short description
+///
+/// Detailed description.
+///
+/// \note
+/// Describe what to be aware of when using this interface.
+///
+/// \f[
+/// math formula
+/// \f]
+/// XXX \f$ formulas in the line \f$ XXX
+///
+/// \param[in] Parameter_name meaning, range of values, other instructions.
+///
+/// \return Returns a description of the value, the cause of the error,
+///     and the corresponding solution.
+///
+/// \par Example
+/// \code
+/// Example code
+/// \endcode
+```
 
-  ## The name of class
+其中：
 
-  The description of class.
+- `\brief`：简要描述。
 
-  The name of attribute or function.
+    ```cpp
+    /// \brief Function to create a CocoDataset.
+    ```
 
-  The description of attribute or function.
+- `Detailed description`：详细描述。
 
-  ```
+    ```cpp
+    ///  Base class for all recognizable patterns.
+    ///  We implement an Expression Template approach using static polymorphism based on
+    ///  the Curiously Recurring Template Pattern (CRTP) which "achieves a similar effect
+    ///  to the use of virtual functions without the costs..." as described in:
+    ///  https://en.wikipedia.org/wiki/Expression_templates and
+    ///  https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+    ///  The TryCapture function tries to capture the pattern with the given node.
+    ///  The GetNode function builds a new node using the captured values.
+    ```
+
+- `\note`：使用该接口的注意事项。
+
+    ```cpp
+    /// \note
+    /// The generated dataset has multi-columns
+    ```
+
+- 公式写法。
+
+    多行公式写法：
+
+    ```cpp
+    /// \f[
+    /// x>=y
+    /// \f]
+    ```
+
+    行内公式写法，公式位于两个`\f$`之间：
+
+    ```cpp
+    /// \brief Computes the boolean value of \f$x>=y\f$ element-wise.
+    ```
+
+- `\param[in]`：传入参数描述。
+
+    ```cpp
+    /// \param[in] weight Defines the width of memory to request
+    /// \param[in] height Defines the height of memory to request
+    /// \param[in] type Defines the data type of memory to request
+    ```
+
+- `\return`：返回值描述。
+
+    ```cpp
+    /// \return Reference count of a certain memory currently.
+    ```
+
+- 示例代码，格式如下，`\par Example`作为前缀，示例代码位于`\code`和`\endcode`之间：
+
+    ```cpp
+    /// \par Example
+    /// \code
+    /// /* Set number of workers(threads) to process the dataset in parallel */
+    /// std::shared_ptr<Dataset> ds = ImageFolder(folder_path, true);
+    /// ds = ds->SetNumWorkers(16);
+    /// \endcode
+    ```
+
+### 注意事项
+
+1. 需要生成文档的接口注释内容统一使用`///`引导而不是使用`//`引导；
+2. 不要间断注释，空行使用`///`；
+3. 引用在C++ API中具有同名的外部名称时，避免生成错误链接，需要在前面添加`@ref`标识：
+
+    ```cpp
+    /// \brief Referring to @ref mindspore.nn.Cell for detail.
+    ```
+
+### 完整示例
+
+```cpp
+/// \brief Function to create a CocoDataset.
+/// \note The generated dataset has multi-columns :
+///     - task='Detection', column: [['image', dtype=uint8], ['bbox', dtype=float32], ['category_id', dtype=uint32],
+///                                  ['iscrowd', dtype=uint32]].
+///     - task='Stuff', column: [['image', dtype=uint8], ['segmentation',dtype=float32], ['iscrowd', dtype=uint32]].
+///     - task='Keypoint', column: [['image', dtype=uint8], ['keypoints', dtype=float32],
+///                                 ['num_keypoints', dtype=uint32]].
+///     - task='Panoptic', column: [['image', dtype=uint8], ['bbox', dtype=float32], ['category_id', dtype=uint32],
+///                                 ['iscrowd', dtype=uint32], ['area', dtype=uitn32]].
+/// \param[in] dataset_dir Path to the root directory that contains the dataset.
+/// \param[in] annotation_file Path to the annotation json.
+/// \param[in] task Set the task type of reading coco data, now support 'Detection'/'Stuff'/'Panoptic'/'Keypoint'.
+/// \param[in] decode Decode the images after reading.
+/// \param[in] sampler Shared pointer to a sampler object used to choose samples from the dataset. If sampler is not
+///     given, a `RandomSampler` will be used to randomly iterate the entire dataset (default = RandomSampler()).
+/// \param[in] cache Tensor cache to use (default=nullptr which means no cache is used).
+/// \param[in] extra_metadata Flag to add extra meta-data to row. (default=false).
+/// \return Shared pointer to the CocoDataset.
+/// \par Example
+/// \code
+/// /* Define dataset path and MindData object */
+/// std::string folder_path = "/path/to/coco_dataset_directory";
+/// std::string annotation_file = "/path/to/annotation_file";
+/// std::shared_ptr<Dataset> ds = Coco(folder_path, annotation_file);
+///
+/// /* Create iterator to read dataset */
+/// std::shared_ptr<Iterator> iter = ds->CreateIterator();
+/// std::unordered_map<std::string, mindspore::MSTensor> row;
+/// iter->GetNextRow(&row);
+///
+/// /* Note: In COCO dataset, each dictionary has keys "image" and "annotation" */
+/// auto image = row["image"];
+/// \endcode
+inline std::shared_ptr<CocoDataset> Coco(const std::string &dataset_dir, const std::string &annotation_file,
+                                         const std::string &task = "Detection", const bool &decode = false,
+                                         const std::shared_ptr<Sampler> &sampler = std::make_shared<RandomSampler>(),
+                                         const std::shared_ptr<DatasetCache> &cache = nullptr,
+                                         const bool &extra_metadata = false) {
+  return std::make_shared<CocoDataset>(StringToChar(dataset_dir), StringToChar(annotation_file), StringToChar(task),
+                                       decode, sampler, cache, extra_metadata);
+}
+```
+
+根据以上注释内容输出的API文档页面为[Function mindspore::dataset::Coco](https://www.mindspore.cn/lite/api/en/master/generate/function_mindspore_dataset_Coco-1.html)。
