@@ -1,0 +1,29 @@
+From e0cbe113745a38be7b3afa0dff63a819e4490005 Mon Sep 17 00:00:00 2001
+From: lzk <liuzhongkai2@huawei.com>
+Date: Fri, 21 May 2021 01:11:07 -0700
+Subject: [PATCH] div 0 bug fix
+
+---
+ .../kernel_compiler/cpu/nnacl/infer/space_to_batch_infer.c  | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/space_to_batch_infer.c b/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/space_to_batch_infer.c
+index c19082141d..e1b73101b3 100644
+--- a/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/space_to_batch_infer.c
++++ b/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/space_to_batch_infer.c
+@@ -51,6 +51,12 @@ int SpaceToBatchInferShape(const TensorC *const *inputs, size_t inputs_size, Ten
+     block_w = block_shape[1];
+   }
+ 
++  if (block_shape[0] == 0) {
++    return NNACL_ERR;
++  }
++  if (block_w == 0) {
++    return NNACL_ERR;
++  }
+   outputs[0]->shape_[kNHWC_N] = input->shape_[kNHWC_N] * (block_shape[0] * block_w);
+   outputs[0]->shape_[kNHWC_H] = (input->shape_[kNHWC_H] + paddings[0] + paddings[1]) / block_shape[0];
+   outputs[0]->shape_[kNHWC_W] = (input->shape_[kNHWC_W] + padding_left + padding_right) / block_w;
+-- 
+2.17.1
+

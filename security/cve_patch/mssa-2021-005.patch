@@ -1,0 +1,26 @@
+From 5aab6599e7280d2512a87434c174f13a0a2e7008 Mon Sep 17 00:00:00 2001
+From: lzk <liuzhongkai2@huawei.com>
+Date: Fri, 21 May 2021 01:25:06 -0700
+Subject: [PATCH] array cross the border
+
+---
+ .../kernel_compiler/cpu/nnacl/infer/sparse_to_dense_infer.c    | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/sparse_to_dense_infer.c b/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/sparse_to_dense_infer.c
+index 4b44ec7568..89620c9634 100644
+--- a/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/sparse_to_dense_infer.c
++++ b/mindspore/ccsrc/backend/kernel_compiler/cpu/nnacl/infer/sparse_to_dense_infer.c
+@@ -27,6 +27,9 @@ int SparseToDenseInferShape(const TensorC *const *inputs, size_t inputs_size, Te
+ #endif
+ 
+   TensorC *output = outputs[0];
++  if (inputs_size < 3) {
++    return NNACL_INPUT_TENSOR_ERROR;
++  }
+   const TensorC *input1 = inputs[1];
+   const TensorC *input2 = inputs[2];
+   SetDataTypeFormat(output, input2);
+-- 
+2.17.1
+
