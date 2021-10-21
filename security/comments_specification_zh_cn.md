@@ -417,6 +417,24 @@ Supported Platforms:
       :func:`mindspore.compression.quant.create_quant_config`
       ```
 
+- 接口描述中，变量名或接口名使用符号\`包裹，变量值使用符号\'或\"包裹。
+
+    - 变量名或接口名。
+
+      ```text
+      This part is a more detailed overview of `Mul` operation. For more details about Quantization,
+      please refer to the implementation of subclass of `Observer`.
+
+      Other losses derived from this should implement their own `construct` and use method `self.get_loss`
+      to apply reduction to loss values.
+      ```
+
+    - 变量值。
+
+      ```text
+      If `reduction` is not one of 'none', 'mean', 'sum'.
+      ```
+
 ### Python示例
 
 #### 类
