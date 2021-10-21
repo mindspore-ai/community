@@ -13,6 +13,9 @@
             - [Formula](#formula)
             - [Link](#link)
     - [C++ API Comment Specifications](#c-api-comment-specifications)
+        - [Comment Format](#comment-format)
+        - [Precautions](#precautions)
+        - [C++ Example](#c-example)
 
 <!-- /TOC -->
 
@@ -392,6 +395,28 @@ Supported Platforms:
         Content3
         ```
 
+- Reference other APIs in comments.
+
+    - Reference class.
+
+       Only write API name:
+
+       ```text
+       :class:`AdamNoUpdateParam`
+       ```
+
+       If there are duplicate API names, you need to quote the complete module name and class name:
+
+       ```text
+       :class:`mindspore.ops.LARS`
+       ```
+
+     - To quote function, the complete module name and function name must be written.
+
+       ```text
+       :func:`mindspore.compression.quant.create_quant_config`
+       ```
+
 ### Python Example
 
 #### Class
@@ -528,20 +553,157 @@ For details about the display effect, click [here](https://www.mindspore.cn/docs
 
 ## C++ API Comment Specifications
 
-- The name of the Markdown file must be the same as that of the namespace.
-- The internal format of the Markdown file is as follows. For details, see [Sample](https://www.mindspore.cn/lite/api/en/master/api_cpp/mindspore.html).
+### Comment Format
 
-  ```markdown
-  # The name of namespace
+All API comments follow the following format:
 
-  The link of header file.
+```cpp
+/// \brief Short description
+///
+/// Detailed description.
+///
+/// \note
+/// Describe what to be aware of when using this interface.
+///
+/// \f[
+/// math formula
+/// \f]
+/// XXX \f$ formulas in the line \f$ XXX
+///
+/// \param[in] Parameter_name meaning, range of values, other instructions.
+///
+/// \return Returns a description of the value, the cause of the error,
+///     and the corresponding solution.
+///
+/// \par Example
+/// \code
+/// Example code
+/// \endcode
+```
 
-  ## The name of class
+in which,
 
-  The description of class.
+- `\brief`: A brief description.
 
-  The name of attribute or function.
+    ```cpp
+    /// \brief Function to create a CocoDataset.
+    ```
 
-  The description of attribute or function.
+- `Detailed description`: A detailed description.
 
-  ```
+    ```cpp
+    ///  Base class for all recognizable patterns.
+    ///  We implement an Expression Template approach using static polymorphism based on
+    ///  the Curiously Recurring Template Pattern (CRTP) which "achieves a similar effect
+    ///  to the use of virtual functions without the costs..." as described in:
+    ///  https://en.wikipedia.org/wiki/Expression_templates and
+    ///  https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
+    ///  The TryCapture function tries to capture the pattern with the given node.
+    ///  The GetNode function builds a new node using the captured values.
+    ```
+
+- `\note`: Precautions for using this API.
+
+    ```cpp
+    /// \note
+    /// The generated dataset has multi-columns
+    ```
+
+- Formula writing.
+
+    Multi-line formula writing:
+
+    ```cpp
+    /// \f[
+    /// x>=y
+    /// \f]
+    ```
+
+    Line-embedded formula writing, the formula is located between two `\f$`:
+
+    ```cpp
+    /// \brief Computes the boolean value of \f$x>=y\f$ element-wise.
+    ```
+
+- `\param[in]`: input parameter description.
+
+    ```cpp
+    /// \param[in] weight Defines the width of memory to request
+    /// \param[in] height Defines the height of memory to request
+    /// \param[in] type Defines the data type of memory to request
+    ```
+
+- `\return`: return value description.
+
+    ```cpp
+    /// \return Reference count of a certain memory currently.
+    ```
+
+- The format of the sample code is as follows, with `\par Example` as the prefix, and the sample code is located between `\code` and `\endcode`. To make it easier to read, add 4 spaces for relative indentation:
+
+    ```cpp
+    /// \par Example
+    /// \code
+    ///     /* Set number of workers(threads) to process the dataset in parallel */
+    ///     std::shared_ptr<Dataset> ds = ImageFolder(folder_path, true);
+    ///     ds = ds->SetNumWorkers(16);
+    /// \endcode
+    ```
+
+### Precautions
+
+1. The API annotation content of the document that needs to be generated is guided by `///` instead of using `//`;
+2. Don't break comments, use `///` for blank lines;
+3. When quoting an external name with the same name in the C++ API, to avoid generating incorrect links, you need to add the `@ref` mark in front:
+
+    ```cpp
+    /// \brief Referring to @ref mindspore.nn.Cell for detail.
+    ```
+
+### C++ Example
+
+```cpp
+/// \brief Function to create a CocoDataset.
+/// \note The generated dataset has multi-columns :
+///     - task='Detection', column: [['image', dtype=uint8], ['bbox', dtype=float32], ['category_id', dtype=uint32],
+///                                  ['iscrowd', dtype=uint32]].
+///     - task='Stuff', column: [['image', dtype=uint8], ['segmentation',dtype=float32], ['iscrowd', dtype=uint32]].
+///     - task='Keypoint', column: [['image', dtype=uint8], ['keypoints', dtype=float32],
+///                                 ['num_keypoints', dtype=uint32]].
+///     - task='Panoptic', column: [['image', dtype=uint8], ['bbox', dtype=float32], ['category_id', dtype=uint32],
+///                                 ['iscrowd', dtype=uint32], ['area', dtype=uitn32]].
+/// \param[in] dataset_dir Path to the root directory that contains the dataset.
+/// \param[in] annotation_file Path to the annotation json.
+/// \param[in] task Set the task type of reading coco data, now support 'Detection'/'Stuff'/'Panoptic'/'Keypoint'.
+/// \param[in] decode Decode the images after reading.
+/// \param[in] sampler Shared pointer to a sampler object used to choose samples from the dataset. If sampler is not
+///     given, a `RandomSampler` will be used to randomly iterate the entire dataset (default = RandomSampler()).
+/// \param[in] cache Tensor cache to use (default=nullptr which means no cache is used).
+/// \param[in] extra_metadata Flag to add extra meta-data to row. (default=false).
+/// \return Shared pointer to the CocoDataset.
+/// \par Example
+/// \code
+///      /* Define dataset path and MindData object */
+///      std::string folder_path = "/path/to/coco_dataset_directory";
+///      std::string annotation_file = "/path/to/annotation_file";
+///      std::shared_ptr<Dataset> ds = Coco(folder_path, annotation_file);
+///
+///      /* Create iterator to read dataset */
+///      std::shared_ptr<Iterator> iter = ds->CreateIterator();
+///      std::unordered_map<std::string, mindspore::MSTensor> row;
+///      iter->GetNextRow(&row);
+///
+///      /* Note: In COCO dataset, each dictionary has keys "image" and "annotation" */
+///      auto image = row["image"];
+/// \endcode
+inline std::shared_ptr<CocoDataset> Coco(const std::string &dataset_dir, const std::string &annotation_file,
+                                         const std::string &task = "Detection", const bool &decode = false,
+                                         const std::shared_ptr<Sampler> &sampler = std::make_shared<RandomSampler>(),
+                                         const std::shared_ptr<DatasetCache> &cache = nullptr,
+                                         const bool &extra_metadata = false) {
+  return std::make_shared<CocoDataset>(StringToChar(dataset_dir), StringToChar(annotation_file), StringToChar(task),
+                                       decode, sampler, cache, extra_metadata);
+}
+```
+
+The API document page output according to the above comments is [Function mindspore::dataset::Coco](https://www.mindspore.cn/lite/api/en/master/generate/function_mindspore_dataset_Coco-1.html).
