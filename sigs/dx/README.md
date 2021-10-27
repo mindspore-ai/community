@@ -29,3 +29,15 @@ This is the working repo for the Developer eXperience Special Interest Group (SI
 - Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/dx  
 
 ## Meeting notes
+
+- [Wednesday, March 9, 2021](./meetings/001-20210309.md)
+- [Tuesday, March 23, 2021](./meetings/002-20210323.md)
+- [Wednesday, April 7, 2021](./meetings/003-20210407.md)
+- [Wednesday, April 27, 2021](./meetings/004-20210427.md)
+- [Tuesday, May 11, 2021](./meetings/005-20210511.md)
+- [Thursday, June 24, 2021](./meetings/006-20210624.md)
+- [Tuesday, July 13, 2021](./meetings/007-20210713.md)
+- [Tuesday, July 27, 2021](./meetings/008-20210727.md)
+- [Tuesday, September 7, 2021](./meetings/009-20210907.md)
+- [Tuesday, October 12, 2021](./meetings/010-20211012.md)
+
