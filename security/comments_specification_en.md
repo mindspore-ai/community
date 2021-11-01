@@ -417,6 +417,25 @@ Supported Platforms:
        :func:`mindspore.compression.quant.create_quant_config`
        ```
 
+- In the interface description, the variable name or interface name should be wrapped with the symbol \',
+  and the variable value should be wrapped with the symbol \' or \".
+
+    - Variable name or interface name.
+
+      ```text
+      This part is a more detailed overview of `Mul` operation. For more details about Quantization,
+      please refer to the implementation of subclass of `Observer`.
+
+      Other losses derived from this should implement their own `construct` and use method `self.get_loss`
+      to apply reduction to loss values.
+      ```
+
+    - variable value.
+
+      ```text
+      If `reduction` is not one of 'none', 'mean', 'sum'.
+      ```
+
 ### Python Example
 
 #### Class
