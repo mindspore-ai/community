@@ -103,10 +103,6 @@ mindspore:
         cpeName: asttokens
         version: 1.1.13
         url: https://github.com/gristlabs/asttokens
-    Python:
-        cpeName: Python
-        version: 3.9.2
-        url: https://www.python.org/
     icu:
         cpeName: icu
         version: '67.1'
@@ -151,8 +147,8 @@ mindspore:
         cpeName: pandas
         version: 1.0.4
         url: https://pandas.pydata.org/
-    sqlite3:
-        cpeName: sqlite3
+    sqlite:
+        cpeName: sqlite
         version: 3.32.2
         url: http://www3.sqlite.org/index.html
     easydict:
@@ -240,10 +236,6 @@ akg:
         cpeName: googletest
         version: 1.8.1
         url: http://code.google.com/p/googletest/
-    Python:
-        cpeName: Python
-        version: 3.7.5
-        url: https://www.python.org/
     numpy:
         cpeName: numpy
         version: 1.17.0
