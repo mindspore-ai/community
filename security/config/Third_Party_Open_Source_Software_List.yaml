@@ -354,6 +354,10 @@ mindinsight:
         cpeName: marshmallow
         url: https://github.com/marshmallow-code/marshmallow
         version: 3.10.0
+    networkx:
+        cpeName: networkx
+        url: https://github.com/networkx/networkx
+        version: 2.5
     numpy:
         cpeName: numpy
         url: https://www.numpy.org
