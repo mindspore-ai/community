@@ -42,3 +42,4 @@ This is the working repo for the Developer eXperience Special Interest Group (SI
 - [Tuesday, October 12, 2021](./meetings/010-20211012.md)
 - [Tuesday, November 9, 2021](./meetings/011-20211109.md)
 - [Tuesday, November 23, 2021](./meetings/012-20211123.md)
+- [Tuesday, December 7, 2021](./meetings/013-20211207.md)
