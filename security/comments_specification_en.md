@@ -436,6 +436,19 @@ Supported Platforms:
       If `reduction` is not one of 'none', 'mean', 'sum'.
       ```
 
+- The deprecated operator needs to specify the recommended api, and "Deprecated" needs to be added in the Supported Platforms.
+
+    ```python
+    class BasicLSTMCell(PrimitiveWithInfer):
+        """
+        It's similar to operator :class:`DynamicRNN`. BasicLSTMCell will be deprecated in the future.
+        Please use DynamicRNN instead.
+
+        Supported Platforms:
+            Deprecated
+        """
+    ```
+
 ### Python Example
 
 #### Class

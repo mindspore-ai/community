@@ -435,6 +435,19 @@ Supported Platforms:
       If `reduction` is not one of 'none', 'mean', 'sum'.
       ```
 
+- 废弃算子需要写明建议使用的接口，以及需要在支持平台中写上Deprecated。
+
+    ```python
+    class BasicLSTMCell(PrimitiveWithInfer):
+        """
+        It's similar to operator :class:`DynamicRNN`. BasicLSTMCell will be deprecated in the future.
+        Please use DynamicRNN instead.
+
+        Supported Platforms:
+            Deprecated
+        """
+    ```
+
 ### Python示例
 
 #### 类
