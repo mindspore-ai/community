@@ -103,7 +103,7 @@ Supported Platforms:
 
         Args:
             network (Cell): A training or testing network.
-            loss_fn (Cell): Objective function, if loss_fn is None, the
+            loss_fn (Cell): Objective function, if `loss_fn` is None, the
                 network should contain the logic of loss and grads calculation, and the logic
                 of parallel if needed. Default: None.
 
@@ -121,11 +121,11 @@ Supported Platforms:
                 - O0: Do not change.
                 - O2: Cast network to float16, keep batchnorm run in float32, using dynamic loss scale.
                 - O3: Cast network to float16, with additional property 'keep_batchnorm_fp32=False'.
-                - auto: Set to level to recommended level in different devices. Set level to O2 on GPU, Set
-                  level to O3 Ascend. The recommended level is choose by the export experience, cannot
+                - auto: Set to level to recommended level in different devices. Set level to "O2" on GPU, set
+                  level to "O3" Ascend. The recommended level is choose by the export experience, cannot
                   always generalize. User should specify the level for special network.
 
-                O2 is recommended on GPU, O3 is recommended on Ascend.
+                "O2" is recommended on GPU, "O3" is recommended on Ascend.
         ```
 
     - Space requirements:
@@ -136,7 +136,7 @@ Supported Platforms:
         Args:
             lr_power (float): Learning rate power controls how the learning rate decreases during training,
                 must be less than or equal to zero. Use fixed learning rate if `lr_power` is zero.
-            use_locking (bool): If `True`, the var and accumulation tensors will be protected from being updated.
+            use_locking (bool): If True, the var and accumulation tensors will be protected from being updated.
                 Default: False.
 
         Raises:
@@ -442,7 +442,7 @@ Supported Platforms:
     class BasicLSTMCell(PrimitiveWithInfer):
         """
         It's similar to operator :class:`DynamicRNN`. BasicLSTMCell will be deprecated in the future.
-        Please use DynamicRNN instead.
+        Please use :class:`DynamicRNN` instead.
 
         Supported Platforms:
             Deprecated
@@ -503,9 +503,9 @@ def ms_function(fn=None, obj=None, input_signature=None):
         obj (Object): The Python Object that provides the information for identifying the compiled function. Default:
             None.
         input_signature (MetaTensor): The MetaTensor which describes the input arguments. The MetaTensor specifies
-            the shape and dtype of the Tensor and they will be supplied to this function. If input_signature
+            the shape and dtype of the Tensor and they will be supplied to this function. If `input_signature`
             is specified, each input to `fn` must be a `Tensor`. And the input parameters of `fn` cannot accept
-            `**kwargs`. The shape and dtype of actual inputs should keep the same as input_signature. Otherwise,
+            `**kwargs`. The shape and dtype of actual inputs should keep the same as `input_signature`. Otherwise,
             TypeError will be raised. Default: None.
 
     Returns:
