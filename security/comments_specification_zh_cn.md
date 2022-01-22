@@ -448,6 +448,25 @@ Supported Platforms:
         """
     ```
 
+- 添加图片。
+
+    格式：`.. image:: {name.png}`。
+
+    其中`{name.png}`为图片名称，并将图片提交到<https://gitee.com/mindspore/mindspore/tree/master/docs/api/api_python>中对应模块的目录下。
+
+    如在`mindspore.dataset.audio.transforms.FrequencyMasking`接口注释中添加图片`frequency_masking.png`：
+
+    ```python
+    class FrequencyMasking(AudioTensorOperation):
+    """
+    Some description.
+
+    .. image:: frequency_masking.png
+    """
+    ```
+
+    并将图片提交至：<https://gitee.com/mindspore/mindspore/blob/master/docs/api/api_python/dataset_audio/frequency_masking.png>。
+
 ### Python示例
 
 #### 类

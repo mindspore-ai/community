@@ -449,6 +449,25 @@ Supported Platforms:
         """
     ```
 
+- Add images.
+
+    format: `.. image:: {name.png}`
+
+    `{name.png}` is the name of the image, and submit the image to the directory of the corresponding module in <https://gitee.com/mindspore/mindspore/tree/master/docs/api/api_python>.
+
+    For example, add image named `frequency_masking.png` to the comments of `mindspore.dataset.audio.transforms.FrequencyMasking`:
+
+    ```python
+    class FrequencyMasking(AudioTensorOperation):
+    """
+    Some description.
+
+    .. image:: frequency_masking.png
+    """
+    ```
+
+    And then submit the image to <https://gitee.com/mindspore/mindspore/blob/master/docs/api/api_python/dataset_audio/frequency_masking.png>.
+
 ### Python Example
 
 #### Class
