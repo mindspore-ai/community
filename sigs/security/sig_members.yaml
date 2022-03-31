@@ -23,6 +23,11 @@ Members:
   email: 1216617903@qq.com
   interest: recommendation system, graph neural networks and federated learning
 
+- name: Rice Zhang
+  gitee_home: https://gitee.com/hu2175
+  email: 8623924@qq.com
+  interest: multiparty computation (MPC)
+  
 Reviewers:
 - name: Mr. Jin
   gitee_home: https://gitee.com/jxlang910
