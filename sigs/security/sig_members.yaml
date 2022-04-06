@@ -27,7 +27,12 @@ Members:
   gitee_home: https://gitee.com/hu2175
   email: 8623924@qq.com
   interest: secure multi-party computation (MPC), private set intersection (PSI)
-  
+
+- name: Kewei
+  gitee_home: https://gitee.com/qmckw
+  email: 2512235663@qq.com
+  interest: graph neural networks, federated learning, differential privacy and Deep Photo Style Transfer.
+    
 Reviewers:
 - name: Mr. Jin
   gitee_home: https://gitee.com/jxlang910
