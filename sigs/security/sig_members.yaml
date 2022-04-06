@@ -26,7 +26,7 @@ Members:
 - name: Rice Zhang
   gitee_home: https://gitee.com/hu2175
   email: 8623924@qq.com
-  interest: multiparty computation (MPC)
+  interest: secure multi-party computation (MPC), private set intersection (PSI)
   
 Reviewers:
 - name: Mr. Jin
