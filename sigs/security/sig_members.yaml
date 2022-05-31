@@ -1,5 +1,5 @@
-Description: This file records all members of AI Security SIG, please add your information as jxlang910.
-Members:
+Description: This file records all members of AI Security SIG, please add your information as follows.
+Contributors:
 - name: Mr. Hu
   gitee_home: https://gitee.com/Mr_GerhardtHu_Fox
   email: 780308144@qq.com 
@@ -8,6 +8,7 @@ Members:
 - name: Mr. Jin
   gitee_home: https://gitee.com/jxlang910
   email: 1070882265@qq.com
+  interest: AI model robustness, federated learning, cryptography
 
 - name: Mr. Wei
   gitee_home: https://gitee.com/weiyikang
@@ -32,11 +33,6 @@ Members:
   gitee_home: https://gitee.com/qmckw
   email: 2512235663@qq.com
   interest: graph neural networks, federated learning, differential privacy and Deep Photo Style Transfer.
-    
-Reviewers:
-- name: Mr. Jin
-  gitee_home: https://gitee.com/jxlang910
-  email: 1070882265@qq.com
 
 Committers:
 - name: Mr. Jin
@@ -44,6 +40,14 @@ Committers:
   email: 1070882265@qq.com
 
 Maintainers:
+- name: Ze Wang
+  gitee_home: https://gitee.com/randywangze
+  email: richardwangze@foxmail.com
+
 - name: Mr. Jin
   gitee_home: https://gitee.com/jxlang910
   email: 1070882265@qq.com
+
+- name: emmmmtang
+  gitee_home: https://gitee.com/emmmmtang
+  email: 1203355251@qq.com
