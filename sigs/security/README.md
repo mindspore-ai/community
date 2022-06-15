@@ -8,7 +8,7 @@ AI Security SIG 聚焦于人工智能领域的模型安全和数据隐私保护�
 
 ## SIG代码仓
 
-1. [MindAarmour](https://gitee.com/mindspore/mindarmour)
+1. [MindArmour](https://gitee.com/mindspore/mindarmour)
 2. [联邦学习云侧](https://gitee.com/mindspore/mindspore/tree/master/mindspore/ccsrc/fl) 、[联邦学习端侧](https://gitee.com/mindspore/mindspore/tree/master/mindspore/lite/java/java/fl_client/src/main/java/com/mindspore/flclient)
 
 ## SIG负责人
