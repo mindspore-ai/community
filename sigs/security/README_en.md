@@ -9,7 +9,7 @@ AI Security SIG focus on model security and data privacy protection in the field
 
 ## SIG code repositories
 
-1. [MindAarmour](https://gitee.com/mindspore/mindarmour).
+1. [MindArmour](https://gitee.com/mindspore/mindarmour).
 2. [Federated learning's server](https://gitee.com/mindspore/mindspore/tree/master/mindspore/ccsrc/fl), [Federated learning's client](https://gitee.com/mindspore/mindspore/tree/master/mindspore/lite/java/java/fl_client/src/main/java/com/mindspore/flclient).
 
 ## SIG maintainers
