@@ -27,6 +27,7 @@ We also welcome friends with ideas to create their own sigs!
 | [MSLITE](mslite/README.md)                 | This SIG is responsible for the development of MindSpore lite.                                                                                                    | [@zhaizhiqiang](https://gitee.com/zhaizhiqiang) |
 | [Parallel](parallel/README.md)             | This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference. | [@baiyouhui](https://gitee.com/bert0108) |
 | [DataCompliance](datacompliance/README.md) | This SIG aims to reduce the risk of license compliance and help developers to use and share datasets legally.                                                     | [@gopikrishnanrajbahadur](https://gitee.com/gopikrishnanrajbahadur) [@clement_li](https://gitee.com/clement_li) |
+| [MindQuantum](mindquantum/README.md)        | This SIG is responsible for the development of MindSpore quantum software and algorithms.             | [@dorothy20212021](https://gitee.com/dorothy20212021)  |
 
 ## Resources
 
