@@ -21,6 +21,7 @@ SIG的全称是Special Interest Groups，即“特别兴趣小组”。MindSpore
 | [MSLITE](mslite/README.md)                 | 端侧AI技术                    | [@zhaizhiqiang](https://gitee.com/zhaizhiqiang)                                                                 |
 | [Parallel](parallel/README.md)             | 自动并行技术                    | [@baiyouhui](https://gitee.com/bert0108)                                                                        |
 | [DataCompliance](datacompliance/README.md) | 数据合规风险分析                  | [@gopikrishnanrajbahadur](https://gitee.com/gopikrishnanrajbahadur) [@clement_li](https://gitee.com/clement_li) |
+| [MindQuantum](mindquantum/README.md)          | 量子计算软件与算法               | [@dorothy20212021](https://gitee.com/dorothy20212021)                                                                   |
 
 ## 学习资源
 
