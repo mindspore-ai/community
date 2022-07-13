@@ -37,13 +37,20 @@
 
 ## 模型描述
 
-蛋白质结构预测工具是利用计算机高效计算获取蛋白质空间结构的软件。该计算方法一直存在精度不足的缺陷，直至2020年谷歌DeepMind团队的[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)【1】【2】取得CASP14比赛中蛋白质3D结构预测的榜首，才让这一缺陷得以弥补。本次开源的蛋白质结构预测推理工具模型部分与其相同，在多序列比对阶段，采用了[MMseqs2](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v1.full.pdf)【3】进行序列检索，相比于原版算法端到端运算速度有2-3倍提升。
+Alphafold2提出了一个新的结构去同时嵌入MSA和残基-残基对的特征（pairwise features），新的输出表示去确保准确的端到端训练，以及新的辅助loss。此外，在finetune训练之前，AlphaFold2首先预训练了一把，在MSA上使用BERT任务遮盖住一些氨基酸再还原回来，此外还使用自蒸馏，自估计的loss去自监督学习——先用训好的模型在只有氨基酸序列的数据上生成预测结果，然后只保留高确信度的，然后使用这个数据预训练，在训练时把输入加上更强的drop out和mask，来增大学习难度，去预测完整信息时高确信度的结果。
+
+结构由两部分组成，Evoformer和结构模块（Structure Module）。Evoformer输入MSA，模板，自己的氨基酸序列，输出MSA信息和残基-残基对关系（刚刚提到的pairwise features）建模。结构模块中，丢掉MSA中的其他氨基酸序列，只保留目标的那一条，然后再加上pairwise features，去计算更新backbone frames，预测所有氨基酸的方位和距离，肽键的长度和角度，氨基酸内部的扭转角度等。Evoformer即进化版Transformer，用来计算MSA和pairwise features。输入MSA和pairwise features，通过很多注意力层，最终输出MSA和pairwise faetures。
+
+基于2021年谷歌DeepMind团队的[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)在多序列比对阶段，采用了[MMseqs2](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v1.full.pdf)进行序列检索，相比于原版算法端到端运算速度有2-3倍提升。
+
+
+
 
 ## 环境要求
 
 ### 硬件环境与框架
 
-本代码运行基于Ascend处理器硬件环境与[MindSpore](https://www.mindspore.cn/) AI框架，当前版本需基于最新库上master代码（2021-11-08之后的代码）[编译](https://www.mindspore.cn/install/detail?path=install/r1.5/mindspore_ascend_install_source.md&highlight=%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91)，
+本代码运行基于Nvidia GPU/Tesla V100/Ascend处理器（三种都可以，参考华为之前的是Ascend系列为主）与[MindSpore](https://www.mindspore.cn/) AI框架，当前版本需基于最新库上master代码（2021-11-08之后的代码）[编译](https://www.mindspore.cn/install/detail?path=install/r1.5/mindspore_ascend_install_source.md&highlight=%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91)，
 MindSpore环境参见[MindSpore教程](https://www.mindspore.cn/tutorials/zh-CN/master/index.html)，环境安装后需要运行以下命令配置环境变量：
 
 ``` shell
@@ -60,9 +67,6 @@ MMseqs2用于生成多序列比对(multiple sequence alignments，MSA)，MMseqs2
 export PATH=$(pwd)/mmseqs/bin/:$PATH
 ```
 
-### MindSpore Serving安装
-
-我们提供以服务模式运行推理，该模式使用MindSpore Serving提供高效推理服务，多条序列推理时避免重复编译，大幅提高推理效率，MindSpore Serving安装和配置可以参考[MindSpore Serving安装页面](https://www.mindspore.cn/serving/docs/zh-CN/r1.5/serving_install.html)。
 
 ## 数据准备
 
@@ -86,87 +90,6 @@ export PATH=$(pwd)/mmseqs/bin/:$PATH
 - [HHsearch](https://github.com/soedinglab/hh-suite)
 - [kalign](https://msa.sbc.su.se/downloads/kalign/current.tar.gz)
 
-## 脚本说明
-
-### 脚本及样例代码
-
-```bash
-├── mindscience
-    ├── MindSPONGE
-        ├── mindsponge
-            ├── fold
-                ├── README_CN.md                    // fold 相关中文说明
-                ├── run.py                          // 推理脚本
-                ├── model.py                        // 主模型
-                ├── requirements.txt                  // 依赖包
-                ├── serving_server.py               // 服务模式服务端脚本
-                ├── serving_cline.py                // 服务模式客户端脚本
-                ├── fold_service
-                    ├── servable_config.py              // 服务模式配置脚本
-                ├── module
-                    ├── basic_module.py                 // 基础模块
-                    ├── evoformer_module.py             // evoformer模块
-                    ├── structure_module.py             // 结构模块
-                ├── data
-                    ├── feature
-                        ├── data_transforms.py              //msa和template数据处理
-                        ├── feature_extraction.py           //msa和template特征提取
-                    ├── tools
-                        ├── data_process.py                 // 搜索msa和template
-                        ├── data_tools.py                   // 数据处理脚本
-                        ├── mmcif_parsing.py                // mmcif解析脚本
-                        ├── msa_search.sh                   // mmseqs2搜索msa的shell脚本
-                        ├── parsers.py                      // 解析文件脚本
-                        ├── templates.py                    // 模板搜索脚本
-                ├── config
-                    ├── config.py                           //参数配置脚本
-                    ├── global_config.py                    //全局参数配置脚本
-                ├── common
-                    ├── generate_pdb.py                     // 生成pdb
-                    ├── r3.py                               // 3D坐标转换
-                    ├── residue_constants.py                // 氨基酸残基常量
-                    ├── utils.py                            // 功能函数
-```
-
-### 推理示例
-
-```bash
-用法：run.py [--seq_length PADDING_SEQENCE_LENGTH]
-             [--input_fasta_path INPUT_PATH][--msa_result_path MSA_RESULT_PATH]
-             [--database_dir DATABASE_PATH][--database_envdb_dir DATABASE_ENVDB_PATH]
-             [--hhsearch_binary_path HHSEARCH_PATH][--pdb70_database_path PDB70_PATH]
-             [--template_mmcif_dir TEMPLATE_PATH][--max_template_date TRMPLATE_DATE]
-             [--kalign_binary_path KALIGN_PATH][--obsolete_pdbs_path OBSOLETE_PATH]
-
-
-选项：
-  --seq_length             补零后序列长度，目前支持256/512/1024/2048
-  --input_fasta_path       FASTA文件，用于预测蛋白质结构的蛋白质序列
-  --msa_result_path        保存mmseqs2检索得到的msa结果路径
-  --database_dir           搜索msa时的数据库
-  --database_envdb_dir     搜索msa时的扩展数据库
-  --hhsearch_binary_path   hhsearch可执行文件路径
-  --pdb70_database_path    供hhsearch使用的pdb70数据库路径
-  --template_mmcif_dir     具有mmcif结构模板的路径
-  --max_template_date      模板最新发布的时间
-  --kalign_binary_path     kalign可执行文件路径
-  --obsolete_pdbs_path     PDB IDs的映射文件路径
-```
-
-### 推理过程
-
- 加载alphafold checkpoint，下载地址[点击这里](https://download.mindspore.cn/model_zoo/research/hpc/molecular_dynamics/protein_fold_1.ckpt)，根据自身需求选择合适蛋白质序列配置，当前提供256/512/1024/2048四个标准配置，推理过程如下：
-
-1. 输入参数需要通过`fold_service/config.py`配置，参数含义参见[推理示例](#推理示例)
-
-2. 参数配置好后，先使用`serving_server.py`启动服务端进程，进程成功启动时log显示如下：
-
-    ``` log
-        Serving: Serving gRPC server start success, listening on 127.0.0.1:5500
-        Serving: Serving RESTful server start success, listening on 127.0.0.1:1500
-    ```
-
-3. 服务端进程成功启动后运行`serving_client.py`即可进行推理，第一次推理需要编译
 
 #### 推理结果
 
@@ -190,32 +113,171 @@ export PATH=$(pwd)/mmseqs/bin/:$PATH
 | TM-score | 98.01% |
 |运行时间|541.56s|
 
-### TMscore对比图
 
-- 34条CASP14结果与alphafold2对比：
+## Citations
 
-<div align=center>
-<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/all_experiment_data.jpg" alt="all_data" width="600"/>
-</div>
+```bibtex
+@misc{unpublished2021alphafold2,
+    title   = {Alphafold2},
+    author  = {John Jumper},
+    year    = {2020},
+    archivePrefix = {arXiv},
+    primaryClass = {q-bio.BM}
+}
+```
 
-### 预测结果对比图
+```bibtex
+@article{Rao2021.02.12.430858,
+    author  = {Rao, Roshan and Liu, Jason and Verkuil, Robert and Meier, Joshua and Canny, John F. and Abbeel, Pieter and Sercu, Tom and Rives, Alexander},
+    title   = {MSA Transformer},
+    year    = {2021},
+    publisher = {Cold Spring Harbor Laboratory},
+    URL     = {https://www.biorxiv.org/content/early/2021/02/13/2021.02.12.430858},
+    journal = {bioRxiv}
+}
+```
 
-- T1079(长度505)：
+```bibtex
+@article {Rives622803,
+    author  = {Rives, Alexander and Goyal, Siddharth and Meier, Joshua and Guo, Demi and Ott, Myle and Zitnick, C. Lawrence and Ma, Jerry and Fergus, Rob},
+    title   = {Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences},
+    year    = {2019},
+    doi     = {10.1101/622803},
+    publisher = {Cold Spring Harbor Laboratory},
+    journal = {bioRxiv}
+}
+```
 
-<div align=center>
-<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/seq_64.gif" alt="T1079" width="400"/>
-</div>
+```bibtex
+@article {Elnaggar2020.07.12.199554,
+    author  = {Elnaggar, Ahmed and Heinzinger, Michael and Dallago, Christian and Rehawi, Ghalia and Wang, Yu and Jones, Llion and Gibbs, Tom and Feher, Tamas and Angerer, Christoph and Steinegger, Martin and BHOWMIK, DEBSINDHU and Rost, Burkhard},
+    title   = {ProtTrans: Towards Cracking the Language of Life{\textquoteright}s Code Through Self-Supervised Deep Learning and High Performance Computing},
+    elocation-id = {2020.07.12.199554},
+    year    = {2021},
+    doi     = {10.1101/2020.07.12.199554},
+    publisher = {Cold Spring Harbor Laboratory},
+    URL     = {https://www.biorxiv.org/content/early/2021/05/04/2020.07.12.199554},
+    eprint  = {https://www.biorxiv.org/content/early/2021/05/04/2020.07.12.199554.full.pdf},
+    journal = {bioRxiv}
+}
+```
 
-- T1044(长度2180)：
+```bibtex
+@misc{king2020sidechainnet,
+    title   = {SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning}, 
+    author  = {Jonathan E. King and David Ryan Koes},
+    year    = {2020},
+    eprint  = {2010.08162},
+    archivePrefix = {arXiv},
+    primaryClass = {q-bio.BM}
+}
+```
 
-<div align=center>
-<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/seq_21.jpg" alt="T1044" width="400"/>
-</div>
+```bibtex
+@misc{alquraishi2019proteinnet,
+    title   = {ProteinNet: a standardized data set for machine learning of protein structure}, 
+    author  = {Mohammed AlQuraishi},
+    year    = {2019},
+    eprint  = {1902.00249},
+    archivePrefix = {arXiv},
+    primaryClass = {q-bio.BM}
+}
+```
 
-## 引用
+```bibtex
+@misc{gomez2017reversible,
+    title     = {The Reversible Residual Network: Backpropagation Without Storing Activations}, 
+    author    = {Aidan N. Gomez and Mengye Ren and Raquel Urtasun and Roger B. Grosse},
+    year      = {2017},
+    eprint    = {1707.04585},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.CV}
+}
+```
 
-[1] Jumper J, Evans R, Pritzel A, et al. Applying and improving AlphaFold at CASP14[J].  Proteins: Structure, Function, and Bioinformatics, 2021.
+```bibtex
+@misc{fuchs2021iterative,
+    title   = {Iterative SE(3)-Transformers},
+    author  = {Fabian B. Fuchs and Edward Wagstaff and Justas Dauparas and Ingmar Posner},
+    year    = {2021},
+    eprint  = {2102.13419},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.LG}
+}
+```
 
-[2] Jumper J, Evans R, Pritzel A, et al. Highly accurate protein structure prediction with AlphaFold[J]. Nature, 2021, 596(7873): 583-589.
+```bibtex
+@misc{satorras2021en,
+    title   = {E(n) Equivariant Graph Neural Networks}, 
+    author  = {Victor Garcia Satorras and Emiel Hoogeboom and Max Welling},
+    year    = {2021},
+    eprint  = {2102.09844},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.LG}
+}
+```
 
-[3] Mirdita M, Ovchinnikov S, Steinegger M. ColabFold-Making protein folding accessible to all[J]. BioRxiv, 2021.
+```bibtex
+@misc{su2021roformer,
+    title   = {RoFormer: Enhanced Transformer with Rotary Position Embedding},
+    author  = {Jianlin Su and Yu Lu and Shengfeng Pan and Bo Wen and Yunfeng Liu},
+    year    = {2021},
+    eprint  = {2104.09864},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.CL}
+}
+```
+
+```bibtex
+@article{Gao_2020,
+    title   = {Kronecker Attention Networks},
+    ISBN    = {9781450379984},
+    url     = {http://dx.doi.org/10.1145/3394486.3403065},
+    DOI     = {10.1145/3394486.3403065},
+    journal = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
+    publisher = {ACM},
+    author  = {Gao, Hongyang and Wang, Zhengyang and Ji, Shuiwang},
+    year    = {2020},
+    month   = {Jul}
+}
+```
+
+```bibtex
+@article {Si2021.05.10.443415,
+    author  = {Si, Yunda and Yan, Chengfei},
+    title   = {Improved protein contact prediction using dimensional hybrid residual networks and singularity enhanced loss function},
+    elocation-id = {2021.05.10.443415},
+    year    = {2021},
+    doi     = {10.1101/2021.05.10.443415},
+    publisher = {Cold Spring Harbor Laboratory},
+    URL     = {https://www.biorxiv.org/content/early/2021/05/11/2021.05.10.443415},
+    eprint  = {https://www.biorxiv.org/content/early/2021/05/11/2021.05.10.443415.full.pdf},
+    journal = {bioRxiv}
+}
+```
+
+```bibtex
+@article {Costa2021.06.02.446809,
+    author  = {Costa, Allan and Ponnapati, Manvitha and Jacobson, Joseph M. and Chatterjee, Pranam},
+    title   = {Distillation of MSA Embeddings to Folded Protein Structures with Graph Transformers},
+    year    = {2021},
+    doi     = {10.1101/2021.06.02.446809},
+    publisher = {Cold Spring Harbor Laboratory},
+    URL     = {https://www.biorxiv.org/content/early/2021/06/02/2021.06.02.446809},
+    eprint  = {https://www.biorxiv.org/content/early/2021/06/02/2021.06.02.446809.full.pdf},
+    journal = {bioRxiv}
+}
+```
+
+```bibtex
+@article {Baek2021.06.14.448402,
+    author  = {Baek, Minkyung and DiMaio, Frank and Anishchenko, Ivan and Dauparas, Justas and Ovchinnikov, Sergey and Lee, Gyu Rie and Wang, Jue and Cong, Qian and Kinch, Lisa N. and Schaeffer, R. Dustin and Mill{\'a}n, Claudia and Park, Hahnbeom and Adams, Carson and Glassman, Caleb R. and DeGiovanni, Andy and Pereira, Jose H. and Rodrigues, Andria V. and van Dijk, Alberdina A. and Ebrecht, Ana C. and Opperman, Diederik J. and Sagmeister, Theo and Buhlheller, Christoph and Pavkov-Keller, Tea and Rathinaswamy, Manoj K and Dalwadi, Udit and Yip, Calvin K and Burke, John E and Garcia, K. Christopher and Grishin, Nick V. and Adams, Paul D. and Read, Randy J. and Baker, David},
+    title   = {Accurate prediction of protein structures and interactions using a 3-track network},
+    year    = {2021},
+    doi     = {10.1101/2021.06.14.448402},
+    publisher = {Cold Spring Harbor Laboratory},
+    URL     = {https://www.biorxiv.org/content/early/2021/06/15/2021.06.14.448402},
+    eprint  = {https://www.biorxiv.org/content/early/2021/06/15/2021.06.14.448402.full.pdf},
+    journal = {bioRxiv}
+}
+```
