@@ -5,7 +5,7 @@
 * https://gitee.com/mindspore/mindscience/tree/master/MindSPONGE/mindsponge/fold
 
 <div align=center>
-<img src="https://gitee.com/turings-cat/community/blob/master/reproduce/AlphaFold2-Chinese/docs/seq_64.gif" alt="T1079" width="400"/>
+<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/seq_64.gif" alt="T1079" width="400"/>
 </div>
 
 # 目录
@@ -195,7 +195,7 @@ export PATH=$(pwd)/mmseqs/bin/:$PATH
 - 34条CASP14结果与alphafold2对比：
 
 <div align=center>
-<img src="https://gitee.com/turings-cat/community/blob/master/reproduce/AlphaFold2-Chinese/docs/all_experiment_data.jpg" alt="all_data" width="600"/>
+<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/all_experiment_data.jpg" alt="all_data" width="600"/>
 </div>
 
 ### 预测结果对比图
@@ -203,13 +203,13 @@ export PATH=$(pwd)/mmseqs/bin/:$PATH
 - T1079(长度505)：
 
 <div align=center>
-<img src="https://gitee.com/turings-cat/community/blob/master/reproduce/AlphaFold2-Chinese/docs/seq_64.gif" alt="T1079" width="400"/>
+<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/seq_64.gif" alt="T1079" width="400"/>
 </div>
 
 - T1044(长度2180)：
 
 <div align=center>
-<img src="https://gitee.com/turings-cat/community/blob/master/reproduce/AlphaFold2-Chinese/docs/seq_21.jpg" alt="T1044" width="400"/>
+<img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/seq_21.jpg" alt="T1044" width="400"/>
 </div>
 
 ## 引用
