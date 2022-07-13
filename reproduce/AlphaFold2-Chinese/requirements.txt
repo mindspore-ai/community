@@ -1,0 +1,5 @@
+absl-py==0.13.0
+biopython=1.79
+ml-collections==0.1.0
+scipy==1.7.0
+numpy==1.19.5
