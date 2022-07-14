@@ -69,7 +69,7 @@ Examples:
 - `Raises`：异常信息，包含异常类型、含义等。
 - `Examples`：样例代码。
 
-针对算子和Cell的注释，需要在`Examples`前添加`Inputs`、`Outputs`和`Supported Platforms`三项内容。
+**针对算子和Cell的注释，需要在`Examples`前添加`Inputs`、`Outputs`和`Supported Platforms`三项内容。**
 
 - `Inputs`和`Outputs`：用于描述实例化后，算子的输入和输出的类型和shape，输入名可以和样例相同。建议在注释中给出对应的数学公式。
 - `Supported Platforms`：用于描述算子支持的硬件平台，名称前后需添加``，存在多个时使用空格隔开。
