@@ -39,7 +39,7 @@
 
 Alphafold2提出了一个新的结构去同时嵌入MSA和残基-残基对的特征（pairwise features），新的输出表示去确保准确的端到端训练，以及新的辅助loss。此外，在finetune训练之前，AlphaFold2首先预训练了一把，在MSA上使用BERT任务遮盖住一些氨基酸再还原回来，此外还使用自蒸馏，自估计的loss去自监督学习——先用训好的模型在只有氨基酸序列的数据上生成预测结果，然后只保留高确信度的，然后使用这个数据预训练，在训练时把输入加上更强的drop out和mask，来增大学习难度，去预测完整信息时高确信度的结果。
 
-结构由两部分组成，Evoformer和结构模块（Structure Module）。Evoformer输入MSA，模板，自己的氨基酸序列，输出MSA信息和残基-残基对关系（刚刚提到的pairwise features）建模。结构模块中，丢掉MSA中的其他氨基酸序列，只保留目标的那一条，然后再加上pairwise features，去计算更新backbone frames，预测所有氨基酸的方位和距离，肽键的长度和角度，氨基酸内部的扭转角度等。Evoformer即进化版Transformer，用来计算MSA和pairwise features。输入MSA和pairwise features，通过很多注意力层，最终输出MSA和pairwise faetures。
+结构由两部分组成，Evoformer和结构模块（Structure Module）。Evoformer输入MSA，模板，自己的氨基酸序列，输出MSA信息和残基-残基对关系（刚刚提到的pairwise features）建模。结构模块中，丢掉MSA中的其他氨基酸序列，只保留目标的那一条，然后再加上pairwise features，去计算更新backbone frames，预测所有氨基酸的方位和距离，肽键的长度和角度，氨基酸内部的扭转角度等。Evoformer即进化版Transformer，用来计算MSA和pairwise features。输入MSA和pairwise features，通过很多注意力层，最终输出MSA和pairwise features。
 
 基于2021年谷歌DeepMind团队的[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)在多序列比对阶段，采用了[MMseqs2](https://www.biorxiv.org/content/10.1101/2021.08.15.456425v1.full.pdf)进行序列检索，相比于原版算法端到端运算速度有2-3倍提升。
 
