@@ -8,32 +8,10 @@
 <img src="https://gitee.com/turings-cat/community/raw/master/reproduce/AlphaFold2-Chinese/docs/seq_64.gif" alt="T1079" width="400"/>
 </div>
 
-# 目录
+# AlphaFold2中文版网页端（无需代码，一键生成）
 
-<!-- TOC -->
+https://colab.research.google.com/github/Tssck/AlphaFold2-Chinese/blob/main/Fold_CN.ipynb#scrollTo=kOblAo-xetgx
 
-- [目录](#目录)
-    - [模型描述](#模型描述)
-    - [环境要求](#环境要求)
-        - [硬件环境与框架](#硬件环境与框架)
-        - [MMseqs2安装](#mmseqs2安装)
-        - [MindSpore Serving安装](#mindspore_serving安装)
-    - [数据准备](#数据准备)
-        - [MSA所需数据库](#msa所需数据库)
-        - [Template所需工具和数据](#template所需工具和数据)
-            - [数据](#数据)
-            - [工具](#工具)
-    - [脚本说明](#脚本说明)
-        - [脚本及样例代码](#脚本及样例代码)
-        - [推理示例](#推理示例)
-        - [推理过程](#推理过程)
-            - [推理结果](#推理结果)
-    - [推理性能](#推理性能)
-        - [TMscore对比图](#tmscore对比图)
-        - [预测结果对比图](#预测结果对比图)
-    - [引用](#引用)
-
-<!-- /TOC -->
 
 ## 模型描述
 
