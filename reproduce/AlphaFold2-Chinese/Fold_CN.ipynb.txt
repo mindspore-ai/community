@@ -115,7 +115,7 @@
         "#@markdown ### MSA options (custom MSA upload, single sequence, pairing mode)\n",
         "msa_mode = \"MMseqs2 (UniRef+Environmental)\" #@param [\"MMseqs2 (UniRef+Environmental)\", \"MMseqs2 (UniRef only)\",\"single_sequence\",\"custom\"]\n",
         "pair_mode = \"unpaired+paired\" #@param [\"unpaired+paired\",\"paired\",\"unpaired\"] {type:\"string\"}\n",
-        "#@markdown - \"unpaired+paired\" = pair sequences from same species + unpaired MSA, \"unpaired\" = seperate MSA for each chain, \"paired\" - only use paired sequences.\n",
+        "#@markdown - \"unpaired+paired\" = pair sequences from same species + unpaired MSA, \"unpaired\" = separate MSA for each chain, \"paired\" - only use paired sequences.\n",
         "\n",
         "# decide which a3m to use\n",
         "if msa_mode.startswith(\"MMseqs2\"):\n",
