@@ -1,4 +1,12 @@
 mindspore:
+    cffi:
+        cpeName: cffi
+        version: 1.12.3
+        url:
+    onednn:
+        cpeName: Onednn
+        version: 2.2
+        url:
     flatbuffers:
         cpeName: flatbuffers
         version: 1.11.0
@@ -258,6 +266,22 @@ mindspore:
         url: https://github.com/google/re2
         handler: shenwei41
 akg:
+    dlpack:
+        cpeName: dlpack
+        version: 0acb731e0e43d15deee27b66f10e4c5b4e667913
+        url:
+    dmlc-core:
+        cpeName: dmlc-core
+        version: 808f485387f9a03f78fa9f1159f387d0d91b7a28
+        url:
+    rang:
+        cpeName: rang
+        version: cabe04d6d6b05356fa8f9741704924788f0dd762
+        url:
+    decorator:
+        cpeName: decorator
+        version: 4.4.0
+        url:
     incubator-tvm:
         cpeName: tvm
         version: 0.6
@@ -304,6 +328,14 @@ akg:
         url: https://llvm.org
         handler: looop5
 mindarmour:
+    openssl:
+        cpeName: openssl
+        version: 1.1.1
+        url:
+    sklearn:
+        cpeName: sklern
+        version: 0.23.1
+        url:
     numpy:
         cpeName: numpy
         version: 1.17.0
@@ -334,6 +366,46 @@ mindarmour:
         url: https://python-pillow.org
         handler: shenwei41
 mindinsight:
+    Flask-Cors:
+        cpeName: Flask-Cors
+        version: 3.0.8
+        url:
+    itsdangerous:
+        cpeName: itsdangerous
+        version: 1.1.0
+        url:
+    Jinja2:
+        cpeName: Jinja2
+        version: 2.10.1
+        url:
+    MarkupSafe:
+        cpeName: MarkupSafe
+        version: 1.1.1
+        url:
+    python-dateutil:
+        cpeName: python-dateutil
+        version: 2.8.1
+        url:
+    pytz:
+        cpeName: pytz
+        version: 2020.1
+        url:
+    future:
+        cpeName: future
+        version: 0.18.2
+        url:
+    SPIRV-Tools:
+        cpeName: SPIRV-Tools
+        version: 2020.6
+        url:
+    Vulkan-ValidationLayers:
+        cpeName: Vulkan-ValidationLayers
+        version: 1.2.162.0
+        url:
+    SPIRV-Headers:
+        cpeName: SPIRV-Headers
+        version: 1.5.4
+        url:
     Flask:
         cpeName: Flask
         url: http://flask.pocoo.org/
