@@ -30,7 +30,7 @@ MindSpore开源社区
 
 #### 1.1 命名
 
-<font size=3>**规则 1.1.1 包名，模块名：小写，不使用下划线。**</font>
+<font size=3>**规则 1.1.1 包（Package）、模块（Module）名使用意义完整的英文描述，采用小写加下划线（lower_with_under）的风格命名。**</font>
 
 <font size=3>**规则 1.1.2 类名：使用驼峰格式，首字母大写，私有类下划线前缀。**</font>
 
