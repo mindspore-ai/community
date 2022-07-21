@@ -69,7 +69,7 @@ Examples:
 - `Raises`：异常信息，包含异常类型、含义等。
 - `Examples`：样例代码。
 
-**针对算子和Cell的注释，需要在`Examples`前添加`Inputs`、`Outputs`和`Supported Platforms`三项内容。**
+针对算子和Cell的注释，需要在`Examples`前添加`Inputs`、`Outputs`和`Supported Platforms`三项内容。
 
 - `Inputs`和`Outputs`：用于描述实例化后，算子的输入和输出的类型和shape，输入名可以和样例相同。建议在注释中给出对应的数学公式。
 - `Supported Platforms`：用于描述算子支持的硬件平台，名称前后需添加``，存在多个时使用空格隔开。
@@ -713,47 +713,34 @@ class BatchNorm(PrimitiveWithInfer):
 ### 完整示例
 
 ```cpp
-/// \brief Function to create a CocoDataset.
-/// \note The generated dataset has multi-columns :
-///     - task='Detection', column: [['image', dtype=uint8], ['bbox', dtype=float32], ['category_id', dtype=uint32],
-///                                  ['iscrowd', dtype=uint32]].
-///     - task='Stuff', column: [['image', dtype=uint8], ['segmentation',dtype=float32], ['iscrowd', dtype=uint32]].
-///     - task='Keypoint', column: [['image', dtype=uint8], ['keypoints', dtype=float32],
-///                                 ['num_keypoints', dtype=uint32]].
-///     - task='Panoptic', column: [['image', dtype=uint8], ['bbox', dtype=float32], ['category_id', dtype=uint32],
-///                                 ['iscrowd', dtype=uint32], ['area', dtype=uitn32]].
+/// \brief Function to create a MnistDataset.
+/// \note The generated dataset has two columns ["image", "label"].
 /// \param[in] dataset_dir Path to the root directory that contains the dataset.
-/// \param[in] annotation_file Path to the annotation json.
-/// \param[in] task Set the task type of reading coco data, now support 'Detection'/'Stuff'/'Panoptic'/'Keypoint'.
-/// \param[in] decode Decode the images after reading.
+/// \param[in] usage Part of dataset of MNIST, can be "train", "test" or "all" (default = "all").
 /// \param[in] sampler Shared pointer to a sampler object used to choose samples from the dataset. If sampler is not
 ///     given, a `RandomSampler` will be used to randomly iterate the entire dataset (default = RandomSampler()).
 /// \param[in] cache Tensor cache to use (default=nullptr which means no cache is used).
-/// \param[in] extra_metadata Flag to add extra meta-data to row. (default=false).
-/// \return Shared pointer to the CocoDataset.
+/// \return Shared pointer to the MnistDataset.
 /// \par Example
 /// \code
-/// /* Define dataset path and MindData object */
-/// std::string folder_path = "/path/to/coco_dataset_directory";
-/// std::string annotation_file = "/path/to/annotation_file";
-/// std::shared_ptr<Dataset> ds = Coco(folder_path, annotation_file);
+///      /* Define dataset path and MindData object */
+///      std::string folder_path = "/path/to/mnist_dataset_directory";
+///      std::shared_ptr<Dataset> ds = Mnist(folder_path, "all", std::make_shared<RandomSampler>(false, 20));
 ///
-/// /* Create iterator to read dataset */
-/// std::shared_ptr<Iterator> iter = ds->CreateIterator();
-/// std::unordered_map<std::string, mindspore::MSTensor> row;
-/// iter->GetNextRow(&row);
+///      /* Create iterator to read dataset */
+///      std::shared_ptr<Iterator> iter = ds->CreateIterator();
+///      std::unordered_map<std::string, mindspore::MSTensor> row;
+///      iter->GetNextRow(&row);
 ///
-/// /* Note: In COCO dataset, each dictionary has keys "image" and "annotation" */
-/// auto image = row["image"];
+///      /* Note: In MNIST dataset, each dictionary has keys "image" and "label" */
+///      auto image = row["image"];
 /// \endcode
-inline std::shared_ptr<CocoDataset> Coco(const std::string &dataset_dir, const std::string &annotation_file,
-                                         const std::string &task = "Detection", const bool &decode = false,
-                                         const std::shared_ptr<Sampler> &sampler = std::make_shared<RandomSampler>(),
-                                         const std::shared_ptr<DatasetCache> &cache = nullptr,
-                                         const bool &extra_metadata = false) {
-  return std::make_shared<CocoDataset>(StringToChar(dataset_dir), StringToChar(annotation_file), StringToChar(task),
-                                       decode, sampler, cache, extra_metadata);
+inline std::shared_ptr<MnistDataset> MS_API
+Mnist(const std::string &dataset_dir, const std::string &usage = "all",
+      const std::shared_ptr<Sampler> &sampler = std::make_shared<RandomSampler>(),
+      const std::shared_ptr<DatasetCache> &cache = nullptr) {
+  return std::make_shared<MnistDataset>(StringToChar(dataset_dir), StringToChar(usage), sampler, cache);
 }
 ```
 
-根据以上注释内容输出的API文档页面为[Function mindspore::dataset::Coco](https://www.mindspore.cn/lite/api/en/master/generate/function_mindspore_dataset_Coco-1.html)。
+根据以上注释内容输出的API文档页面为[Function mindspore::dataset::Coco](https://www.mindspore.cn/lite/api/en/master/generate/function_mindspore_dataset_Mnist-1.html)。
