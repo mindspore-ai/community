@@ -1,6 +1,6 @@
 ## SIG简介
 
-AI Security SIG 聚焦于人工智能领域的模型安全和数据隐私保护，主要包括以下几个方向：
+Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，主要包括以下几个方向：
 
 1. **模型鲁棒性和可靠性**：对抗样本、对抗训练、AI可解释、数据概念漂移检测、模型故障注入评估。
 2. **隐私保护**：差分隐私训练、联邦学习、数据脱敏、隐私泄露评估。
@@ -73,7 +73,7 @@ AI Security SIG 聚焦于人工智能领域的模型安全和数据隐私保护�
 
 ## 成员说明
 
-AI Security SIG的成员身份包含Contributors、Committers、Maintainers，并且记录在[SIG名单](./sig_members.yaml)中，各角色的描述和申请条件如下：
+Trusted AI SIG的成员身份包含Contributors、Committers、Maintainers，并且记录在[SIG名单](./sig_members.yaml)中，各角色的描述和申请条件如下：
 
 ### Contributors
 
