@@ -23,8 +23,8 @@ This is the working repo for the Data special interest group (SIG). This repo co
 ## Representative videos
 
 * [mindspore data processing introduction](https://www.bilibili.com/video/BV1RZ4y1W7FL)
-* [mindspore data loading and data format conversion](https://www.mindspore.cn/docs/programming_guide/zh-CN/master/quick_start/quick_video/loading_the_dataset_and_converting_data_format.html)
-* [optimize data processing](https://www.mindspore.cn/docs/programming_guide/zh-CN/master/quick_start/quick_video/optimize_data_processing.html)
+* [mindspore data loading and data format conversion](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/teaching_video/video/%E5%8A%A0%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E8%BD%AC%E6%8D%A2%E6%A0%BC%E5%BC%8F.mp4)
+* [optimize data processing](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/teaching_video/video/%E4%BC%98%E5%8C%96%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.mp4)
 
 ## Main issue To be solved
 
