@@ -1,0 +1,42 @@
+name: MindSpore SIG
+description: The full name of SIG is "special interest groups". The intention of establishing various technical sigs is to provide an open communication platform for experts, professors and students in this field, promote technical exchanges and win-win cooperation through meeting sharing, project development and other activities, and improve the influence and technical ability of SIG members. Especially for college students, after joining SIGs, they can participate in the project development activities of MindSpore under the guidance of experts, master the advanced technology in the industry, and prepare for future work; You can also communicate face-to-face with industry experts and professors to solve your doubts in scientific research and meet your own bole. Up to now, MindSpore community has established more than ten sigs, including not only the front-end and back-end technologies of MindSpore framework itself, but also algorithm research such as AI security and scientific computing. We also welcome friends with ideas to create their own sigs!
+SIG list:
+  - name: DevelopereXperience SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/dx/README.md
+    introduction: This SIG is responsible for improving the experience of those who upstream contribute or develop applications for MindSpore community.
+  - name: Trusted AI SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/security/README_en.md
+    introduction: This SIG is responsible for developing trusted AI technologies.
+  - name: Usability SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
+    introduction: This SIG is responsible for improving the usability of MindSpore for developers.
+  - name: FrontEnd SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
+    introduction: This SIG is responsible for the development of MindSpore front-end expression.
+  - name: Compiler SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/compiler/README.md
+    introduction: This SIG is responsible for the development of MindSpore high level graph compilation.
+  - name: Executor SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/executor/README.md
+    introduction: This SIG is responsible for the development of MindSpore back-end support for pipeline.
+  - name: ModelZoo SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/modelzoo/README.md
+    introduction: This SIG is responsible for the development of MindSpore modelzoo and additional ops.
+  - name: Data SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/data/README.md
+    introduction: This SIG is responsible for the development of MindSpore data processing and data format transformation.
+  - name: Visualization SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/visualization/README.md
+    introduction: This SIG is responsible for the development of Visualized debugging and optimization.
+  - name: MSLITE SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mslite/README.md
+    introduction: This SIG is responsible for the development of MindSpore lite.
+  - name: Parallel SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/parallel/README.md
+    introduction: This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference.
+  - name: DataCompliance SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/datacompliance/README.md
+    introduction: This SIG aims to reduce the risk of license compliance and help developers to use and share datasets legally.
+  - name: MindQuantum SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantum/README.md
+    introduction: This SIG is responsible for the development of MindSpore quantum software and algorithms.

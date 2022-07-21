@@ -1,0 +1,42 @@
+name: MindSpore SIG
+description: SIG的全称是Special Interest Groups，即“特别兴趣小组”。MindSpore社区成立各技术SIG的初衷是为该领域的专家、教授和学生提供一个开放交流的平台，通过会议分享、项目开发等活动促进技术交流、合作共赢，并使得SIG成员的影响力和技术能力得到提升。特别是对于高校的同学们，加入SIG后可以在专家的指导下参与MindSpore的项目开发活动，掌握业界先进的技术，为将来工作做好准备；也可以和业界专家、教授面对面交流，解决自己在科研中遇到的疑惑，遇到自己的伯乐。截止目前，MindSpore社区已经成立十多个SIG，不仅包含MindSpore框架本身的前端、后端技术，还包括AI安全、科学计算等算法研究，我们也欢迎有想法的的朋友们创建自己的SIG！
+SIG list:
+  - name: DevelopereXperience SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/dx/README.md
+    introduction: MindSpore-Gitee社区的开发者体验提升
+  - name: Trusted AI SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/security/README.md
+    introduction: AI安全、AI可解释和隐私保护技术
+  - name: Usability SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
+    introduction: MindSpore框架的易用性提升
+  - name: FrontEnd SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
+    introduction: MindSpore前端表达技术
+  - name: Compiler SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/compiler/README.md
+    introduction: MindSpore图编译技术
+  - name: Executor SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/executor/README.md
+    introduction: MindSpore后端控制流技术
+  - name: ModelZoo SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/modelzoo/README.md
+    introduction: AI模型的设计和训练
+  - name: Data SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/data/README.md
+    introduction: 数据处理和增强技术
+  - name: Visualization SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/visualization/README.md
+    introduction: 模型调试调优可视化技术
+  - name: MSLITE SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mslite/README.md
+    introduction: 端侧AI技术
+  - name: Parallel SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/parallel/README.md
+    introduction: 自动并行技术
+  - name: DataCompliance SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/datacompliance/README.md
+    introduction: 数据合规风险分析
+  - name: MindQuantum SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantum/README.md
+    introduction: 量子计算软件与算法
