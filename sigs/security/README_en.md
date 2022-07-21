@@ -1,6 +1,6 @@
 # SIG Introduction
 
-AI Security SIG focus on model security and data privacy protection in the field of artificial intelligence, mainly including the following directions:
+Trusted AI SIG focus on models and data trust technology in the field of artificial intelligence, mainly including the following directions:
 :
 
 1. **AI Model's robustness and reliability**: Adversarial samples, adversarial training, explainable AI, data concept drift detection and model fault injection.
@@ -74,7 +74,7 @@ Person in charge: Maintainers
 
 ## SIG members description
 
-The membership of the AI Security SIG includes Contributors, Committers, and Maintainers, and is recorded in the [members list](./sig_members.yaml). The description and application conditions of each role are as follows:
+The membership of the Trusted AI SIG includes Contributors, Committers, and Maintainers, and is recorded in the [members list](./sig_members.yaml). The description and application conditions of each role are as follows:
 
 ### Contributors
 
