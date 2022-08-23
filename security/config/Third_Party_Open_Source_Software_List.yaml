@@ -129,7 +129,7 @@ mindspore:
         handler: shenwei41
     asttokens:
         cpeName: asttokens
-        version: 2.0.0
+        version: 2.0.4
         url: https://github.com/gristlabs/asttokens
         handler: henryshi1
     icu:
