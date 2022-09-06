@@ -1,50 +1,104 @@
-# MindSpore Data Special Interest Group (SIG)
+## SIG简介
 
-This is the working repo for the Data special interest group (SIG). This repo contains all the artifacts, materials, meeting notes and proposals regarding **dataset - data processing** and **mindrecord - data format** in MindSpore. Feedbacks and contributions are welcome.
+数据SIG（DATA SIG） 聚焦于MindSpore框架中的数据处理模块，致力于为MindSpore提供更丰富、灵活、易用的数据操作能力，方便用户随心所欲“把玩”手中的数据，并接入到MindSpore中进行训练。
 
-1. **Data Processing**: You can understand it as a Dataset, which is mainly responsible for reading the user's data into a Dataset, then performing related data enhancement operations (such as: resize, onehot, rotate, shuffle, batch ...), and finally provide the Dataset to the training process.
-2. **Data Format**: It can conveniently normalize the user's training data to a unified format (MindRecord). The specific operation steps are as follows: The user can easily convert the training data into MindRecord data by defining the training data schema and calling the Python API interface. The format is then read into a Dataset through MindDataset and provided to the training process.
+数据处理模块：支持更多业界基准数据集一键读取，支持业界常用的、最新的数据预处理操作。主要负责将用户的数据高效读取到MindSpore框架，然后执行相关的数据增强操作（调整大小、旋转、混洗、批处理...），最终将数据集提供给训练过程。
+数据格式模块：支持聚合存储、高效读取的数据格式MindRecord，实现数据统一存储、访问，使得训练时数据读取更加快速。同时MindRecord支持灵活控制数据切分和高效索引，可以支持超大规模的分布式训练场景。
 
-## SIG Leads
+## SIG代码仓
 
-* Liu Cunwei (Huawei)
+1. [代码仓](https://gitee.com/mindspore/mindspore)
+2. [Data SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/data)
 
-## Logistics
+## Maintainers
 
-* SIG leads will drive the meeting.
-* Meeting announcement will be posted on our gitee channel: <https://gitee.com/mindspore/community/tree/master/sigs/data>
-* Feedbacks and topic requests are welcome by all.
+* Luoyang   （华为MindSpore开发者体验专家，SIG Lead，负责数据处理模块技术领域总体规划、发展布道师）
+* Xiaotianci（华为MindSpore数据专家，负责MindSpore数据模块关键问题的识别与改进）
 
-## Discussion
+## Contributors
 
-* Slack channel: <https://app.slack.com/client/TUKCY4QDR/C010RPN6QNP?cdn_fallback=2>
-* Documents and artifacts: <https://gitee.com/mindspore/community/tree/master/sigs/data>
+* Jony 2015 （华为资深架构师，MindSpore AI数据处理技术专家，负责数据模块的技术能力规划与构建）
 
-## Representative videos
+## 2022年目标
 
-* [mindspore data processing introduction](https://www.bilibili.com/video/BV1RZ4y1W7FL)
-* [mindspore data loading and data format conversion](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/teaching_video/video/%E5%8A%A0%E8%BD%BD%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E8%BD%AC%E6%8D%A2%E6%A0%BC%E5%BC%8F.mp4)
-* [optimize data processing](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/teaching_video/video/%E4%BC%98%E5%8C%96%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86.mp4)
+1. 组织管理：制定SIG组织管理规范，邀请高校成员、招募开发者参与SIG运作（2名Maintainers + 至少8名Contributors）；
+2. 生态拓展：发展50+位DATA SIG成员，其中重点发展5位资深开发者、10位优秀开发者；
+3. 特性开发：在数据处理模块中规划2+个新特性，并发布任务，招募开发者共同设计开发；
+4. 活动开展：组织DATA模块教程体验活动、文档检视和改进活动、特性体验与反馈活动，收集改进建议200+，征集技术文章50+；
 
-## Main issue To be solved
+## 主要活动
 
-> Here we call for developer joining us to develop a better Dataset processing system, following is mainly issue in each season.<br>
-> **Comment in issue please if you have any quetions and for better communication**.
-> Also you can find all the issue in gitee by filter with label [comp/data](https://gitee.com/mindspore/mindspore/issues?assignee_id=&author_id=&branch=&collaborator_ids=&issue_search=&label_ids=58023093&label_text=comp/data&milestone_id=&program_id=&scope=&sort=&state=open)
+### 1. 线上技术/特性分享会
 
-* [Main issue of Q3](https://gitee.com/mindspore/mindspore/issues/I3MXRO)
+* 活动定位：分享MindSpore数据处理模块的技术和特性，促进开发者深入使用MindData。
+* 活动形式：邀请内部开发专家、社区开发者、高校师生分享话题
+* 活动频率：每1-2个月1次，每次围绕同一个共同主题分享3-4个话题
+* 分享范围：相关的技术话题，包括但不限于：
+ 1. MindData常用特性/新特性介绍与演示；
+ 2. MindData特性改进建议、特性需求收集、使用体验反馈；
+ 3. MindData学习心得、开发经验、使用建议
+ 5. MindData开发任务分发、设计评议、开发讨论、验收颁奖等。
+* 分享嘉宾：任何SIG成员，包括高校师生、业界专家、开发者均可
 
-## Meeting notes
+### 2. MindData特性/基础架构开发
 
-* [Thursday April 2, 2020](./meetings/001-20200402.md)
-* [Friday May 15, 2020](./meetings/002-20200515.md)
-* [Wednesday June 03, 2020](./meetings/003-20200603.md)
-* [Friday July 03, 2020](./meetings/004-20200703.md)
-* [Wednesday August 05, 2020](./meetings/005-20200805.md)
-* [Thursday August 06, 2020](./meetings/006-20200806.md)
-* [Thursday September 03, 2020](./meetings/007-20200903.md)
-* [Friday October 16, 2020](./meetings/008-20201016.md)
-* [Wednesday November 04, 2020](./meetings/009-20201104.md)
-* [Monday November 23, 2020](./meetings/010-20201123.md)
-* [Wednesday April 14, 2021](./meetings/011-20210414.md)
+* 活动定位：共同参与MindData架构开发，丰富数据处理能力，提升数据处理模块的易用性。
+* 活动形式：定期发布大颗粒特性开发任务，招募开发者共同参与，完成者可获得奖品或者实习工资、实习证明
+* 活动频率：每季度发布/刷新任务
+* 现有相关任务：
+  1. [DATA SIG开源实习任务](https://gitee.com/mindspore/community/issues/I55ET9)
 
+### 3.资料改进活动
+
+* 活动定位：降低MindData入门门槛，令开发者能够快速上手，由浅到深了解到数据处理模块提供的能力。
+* 活动形式：组织教程体验活动、文档检视和改进活动、特性体验与反馈活动，开发者通过在技术分享会，或提交issue/PR形式提出问题建议或修改，累积积分获得奖品
+* 活动频率：不定期举行
+
+### 4. 周例会
+
+* 时间：周六或周日晚上7点，每1-2周开展一次
+* 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流
+* 例会议题：
+  1. 固定议题：SIG成员领取的特性开发任务进展与问题交流
+  2. 选报议题：特性开发阶段性成果演示
+  3. 选报议题：SIG组织管理（如运作规则讨论、Maintainers&Contributors担任人员及职责刷新）
+* 组织者：各位Contributors和核心开发者轮流组织
+* 轮值表：SIG核心成员轮值组织
+
+## SIG组织管理
+
+SIG的成员身份包括Members、Contributors、Maintainers，各角色的描述和申请条件如下：
+
+## #Members（正式成员）
+
+* 权益：参与SIG的各项活动与交流
+* 申请条件：填写SIG成员申请表（加入微信交流群时发放）
+
+### Contributors（核心贡献者）
+
+* 职责：牵头负责技术开发、日常运营、宣传推广、活动组织等领域某一特定方向的规划、组织与管理工作
+* 权益：事迹录入SIG荣誉殿堂，并在申请MindSpore布道师或资深布道师时具有优先权
+* 申请条件：已经成为Members，有意愿负责某一特定方向并制定出工作方案，并在SIG例会上经过其他Maintainers与Contributors多数通过。
+
+#### Maintainers（负责人）
+
+* 职责：负责SIG的总体规划与策略制定，把握SIG发展方向、审核重点工作方案
+* 权益：事迹录入SIG荣誉殿堂，优秀Maintainers有机会成为MindSpore TSC（技术委员会）成员
+* 申请条件：已经成为Contributors一年以上，在所负责领域有突出贡献，获得至少一位Maintainers推荐，并在SIG例会上经过其他Maintainers与Contributors多数通过。
+
+## 近期活动与例会预告
+
+1. 技术分享会
+2. SIG例会
+
+## 往期活动与例会
+
+[2021 MindSpore Data SIG Meeting](https://www.bilibili.com/video/BV1m64y12741)
+
+[2021 MindSpore | MindData Overview](https://www.bilibili.com/video/BV1YK411c7dM)
+
+[2020 MindInsight MindData联合例会](https://www.bilibili.com/video/BV1U54y1i717)
+
+[2020 五一两日集训营 MindSpore数据处理详解](https://www.bilibili.com/video/BV1RZ4y1W7FL)
+
+[2020 MindSpore Data SIG Meeting](https://www.bilibili.com/video/BV1dt4y1m7tX)
