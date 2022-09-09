@@ -1,29 +1,121 @@
-# MindSpore Usability Special Interest Group (SIG)
+## SIG简介
 
-This is the working repo for the **Usability Special Interest Group (SIG)**. This repo contains all the artifacts, materials, meeting notes and proposals regarding **usability design, debugging and tuning ability, information experience, article content richness and quality** in MindSpore. Feedbacks and contributions are welcomed.
+易用性SIG（Usability SIG）致力于和开发者共同打造易学易用、灵活高效的AI框架，持续提升MindSpore易用性，助力开发者成功，所涉及的易用性技术领域主要包括以下方面：
 
-- **Usability Design**: including API usability, richness of operators and models, installation supports on multiple OS (Windows/Linux/Mac)
+1. 信息体验：教程、视频、指南、文档、官网、在线体验等信息资料内容的易理解、易学习程度；
+2. 环境准备：一键式安装方式，多平台安装支持度，编程开发环境（IDE）的一键安装、智能辅助编程能力；
+4. 数据处理：数据处理接口的丰富度与自动调优能力；
+5. 模型开发：API/算子/模型/语法对主流网络的支持程度及易使用程度；
+6. 调试调优：使用框架进行功能调试、性能调试、精度调试的问题快速定位能力，以及框架本身的故障恢复、断点续训能力；
+7. 部署推理：端边云全场景、轻量化部署能力；
+8. 智能化服务：提供智能化服务，方便用户学习和使用MindSpore，如MindSpore知识问答机器人。
 
-- **Debugging and Tuning Usability**: including usability of error reporting, self-debugging, and performance/accuracy tuning
+易用性SIG是为广大开发者提供的共同交流和学习的平台，欢迎大家一起来分享、交流和共同提升MindSpore的易用性，帮助开发者学好、用好MindSpore，并获得成功。
 
-- **Information Experience**: including information experience of API documentation, user's guide, tutorial, codelabs and official website
+## SIG代码仓
 
-- **Article Content Richness and Quality**: including content richness and quality of developer's cases, industry best practices and advanced technology articles
+1. [易用性相关工具代码仓](https://gitee.com/msu-sig)
+2. [MindSpore易点通专栏](https://zhuanlan.zhihu.com/p/505794142)
 
-## SIG Leads
+## Maintainers
 
-- Zhang Tong (Huawei)
+* Xiong Shengwu （武汉理工大学计算机科学与技术学院院长）
+* Wang Lei （华为资深架构师，MindSpore首席体验官，SIG发起人）
 
-## Logistics
+## Contributors
 
-- SIG leads will drive the meeting.  
-- Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/usability
-- Feedbacks and topic requests are welcomed by all.  
+* Tong （华为MindSpore开发者体验专家，SIG Lead，负责易用性技术领域总体规划、发展布道师）
+* 阿青（华为MindSpore信息体验专家，SIG信息体验Contributor，负责资料与产品体验系列改进活动的组织、用户满意度调查）
+* aaa000（华为运营专家，SIG运营Contributor，负责SIG运营与宣传推广）
+* iambowen（华为MindSporeAI工程技术专家，负责安装、智能化服务领域的易用性技术能力构建）
+* CQU弟中弟（华为MindSpore易用性专家，负责MindSpore易用性关键问题的识别与重点改进、套件领域的易用性技术能力构建）
+* 张辉（MindSpore资深开发者张小白，负责XXX）
+* 丁一超（MindSpore资深开发者，华为云云享专家，昇腾优秀开发者，负责XXX）
+* 胡琦（MindSpore资深开发者，华为云年度十佳博主，HUAWEI Developer Experts，负责XXX）
 
-## Discussion
+## 2022年目标
 
-- Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/usability  
+1. 组织管理：制定SIG组织管理规范，邀请高校师生、开发者参与SIG运作（2名Maintainers + 至少8名Contributors）；
+2. 生态拓展：发展200位易用性SIG正式成员、1000+易用性关注者；发展5位布道师（布道10次）、10位资深开发者、30位优秀开发者（成为D2）；生态撬动比达到1:20；
+3. 特性开发：在易用性技术领域中增加至少5个新特性，招募高校师生、开发者共同参与需求开发；
+4. 活动开展：易用性改进体验活动参与人次1000+，收集易用性改进建议200+；开展技术分享活动直播8次，征集外部技术文章50+；
+5. 易用性专栏建设：在知乎上建设MindSpore易点通专栏，收录原创文章40+（外部贡献比例50%+）
 
-## Meeting notes
+## 主要活动
 
-TBD
+### 1. 线上技术分享会
+
+* 活动定位：共同探讨AI框架易用性的相关话题
+* 活动形式：定期邀请业界专家、高校师生、资深开发者分享话题
+* 活动频率：每1-2个月1次，每次围绕同一个共同主题分享3-4个话题
+* 分享范围：与易用性技术领域相关的技术话题，包括但不限于：
+  1. MindSpore最新易用性特性介绍与演示
+  2. AI工程方法与技术，如安装、数据处理、模型开发、调试调优、推理部署……等方面
+  3. AI领域应用案例，如CV/NLP/Audio/推荐……等领域
+  4. 学习心得、开发经验、使用建议
+  5. SIG特性开发任务介绍与成果展示等
+* 分享嘉宾：任何SIG成员，包括高校师生、业界专家、开发者均可
+* 组织者：各位Contributors轮流组织
+
+### 2. 易用性特性开发
+
+* 活动定位：共同参与易用性特性开发，打造易学易用、灵活高效的AI框架
+* 活动形式：定期发布大颗粒特性开发任务，招募开发者共同参与，完成者可获得奖品或者实习工资、实习证明
+* 活动频率：每季度发布/刷新任务
+* 易用性现有相关任务：
+  1. [易用性SIG开源实习任务](https://gitee.com/mindspore/community/issues/I55JQY)
+  2. [社区常规任务](https://gitee.com/mindspore/community/issues/I4YQNG?from=project-issue)
+* 组织者：易用性技术领域Contributors
+
+### 3. 资料与产品体验改进活动
+
+* 活动定位：开展产品体验活动，收集建议及体验评价，持续提升资料与产品综合体验
+* 活动形式：开发者通过提交issue/PR形式提出问题建议或修改，累积积分获得奖品
+* 活动频率：不定期举行
+* 活动规划：
+  1. 资料体验：分期系列活动，针对官网上线的视频、教程及API等内容，开展众测体验活动
+  2. 产品体验：随新发布版本进行，针对版本发布的功能特性开展体验活动
+
+### 4. 周例会
+
+* 时间：周六或周日晚上7点，每1-2周开展一次
+* 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流
+* 例会议题：
+  1. 固定议题：SIG成员领取的特性开发任务进展与问题交流
+  2. 选报议题：特性开发阶段性成果演示
+  3. 选报议题：SIG组织管理（如运作规则讨论、Maintainers&Contributors担任人员及职责刷新）
+* 组织者：各位Contributors和核心开发者轮流组织
+* 轮值表：Tong、iambowen、何朋朋、王强强、王峰、彭爱华
+
+## SIG组织管理
+
+### 成员身份说明
+
+SIG的成员身份包括Members、Contributors、Maintainers，各角色的描述和申请条件如下：
+
+#### Members（正式成员）
+
+* 权益：参与SIG的各项活动与交流
+* 申请条件：填写SIG成员申请表（加入微信交流群时发放）
+
+#### Contributors（核心贡献者）
+
+* 职责：牵头负责技术开发、日常运营、宣传推广、活动组织等领域某一特定方向的规划、组织与管理工作
+* 权益：事迹录入SIG荣誉殿堂，并在申请MindSpore布道师或资深布道师时具有优先权
+* 申请条件：已经成为Members，有意愿负责某一特定方向并制定出工作方案，并在SIG例会上经过其他Maintainers与Contributors多数通过。
+
+#### Maintainers（负责人）
+
+* 职责：负责SIG的总体规划与策略制定，把握SIG发展方向、审核重点工作方案
+* 权益：事迹录入SIG荣誉殿堂，优秀Maintainers有机会成为MindSpore TSC（技术委员会）成员
+* 申请条件：已经成为Contributors一年以上，在所负责领域有突出贡献，获得至少一位Maintainers推荐，并在SIG例会上经过其他Maintainers与Contributors多数通过。
+
+## 近期活动与例会预告
+
+1. 技术分享会
+2. SIG例会
+
+## 往期活动与例会
+
+* [2022年5月28日：易用性SIG技术分享会——从零开始“易”起上手](https://mp.weixin.qq.com/s/QfyMS0mJoPnDer4RQHiGfg)
+* [2022年4月16日：易用性SIG技术分享会——聊聊AI框架的易用性](https://mp.weixin.qq.com/s/vu-tfpxXgJuU5LLXgdyAgQ)

@@ -1,30 +1,105 @@
-# MindSpore FrontEnd Special Interest Group (SIG)
+## SIG简介
 
-This is the working repo for the FrontEnd Special Interest Group (SIG). This repo contains all the artifacts, materials, meeting notes and proposals regarding **basic elements** , **operators and layers**, **training interfaces**, **distributed training**,  and any other frontend programs in MindSpore. Feedbacks and contributions are welcomed.
+FrontEnd SIG（Usability SIG）致力于打造开发态友好的框架，帮助开发者减少代码量，提高开发效率。  
+FrontEnd所涉及的技术领域主要包括以下方面：
 
-1. **Basic Elements**: Basic data structure definitions, including Parameter, Tensor, Cell and so on.
-2. **Operators and Layers**: Provide operators and functions, neural network layers, loss functions and optimizers.
-3. **Training Interfaces**: Interfaces for model training, evaluating and predicting, including high-level wrapped APIs, checkpoint related APIs, callbacks and so on.
-4. **Distributed Training**: Interfaces for data parallel, model parallel or auto parallel. Common communication operators are also included.
+1. High-Level：训练推理的管理接口Model、Callback、混合精度、模型导出等接口，方便用户实现整网流程的控制。
+2. Low-Level：基础的Tensor、Cell、NN-Layer、优化器等接口，方便用户更加灵活的构建网络和控制执行流程
+3. 统一的模型：提供多种格式的模型，满足端、边、云等不同场景
+4. 动静统一：动态图和静态图统一的编码方式
 
-## SIG Leads
+FrontEnd SIG是为广大开发者提供的共同交流和学习的平台，欢迎大家一起来分享、交流和共同提升MindSpore的能力，帮助开发者学好、用好MindSpore，并获得成功。
 
-* Jin Xiaoxian (Huawei)
+## Maintainers
 
-## Logistics
+* Jin YaoHui （高校教师，MindSpore自身开发者，SIG发起人）
+* King Xian （MindSpore 首席架构师）
 
-* SIG leads will drive the meeting.
-* Meeting announcement will be posted on our gitee channel: https://gitee.com/mindspore/community/tree/master/sigs/frontend
-* Feedbacks and topic requests are welcomed by all.
+## Contributors
 
-## Discussion
+* Tati (华为MindSpore开发者，布道师，负责xxx)
+* 王东海 (华为MindSpore开发者，负责xxx)
+* OF (国产机器学习框架核心研发，负责千亿模型训练项目)
 
-* Slack channel: https://app.slack.com/client/TUKCY4QDR/C011B2DSC6B?cdn_fallback=2
-* Documents and artifacts: https://gitee.com/mindspore/community/tree/master/sigs/frontend
+## 2022年目标
 
-## Meeting notes
+1. 组织管理：制定SIG组织管理规范，邀请Maintainers与Contributors初始成员参与SIG运作（2名Maintainers + 至少5名Contributors）；
+2. 生态拓展：发展50位FrontEndSIG正式成员、200+关注者；发展3位布道师、5位资深开发者、10位优秀开发者；
+3. 特性开发：在FrontEnd技术领域中增加至少5个新特性并招募开发者共建；
+4. 活动开展：FrontEnd改进体验活动参与人次20+，收集接口改进建议50+；开展技术分享活动直播5次，征集技术文章20+；
 
-* [Saturday May 16, 2020](./meetings/001-20200516.md)
-* [Friday June 5, 2020](./meetings/002-20200605.md)
-* [Friday July 3, 2020](./meetings/003-20200703.md)
-* [Monday April 26, 2021](./meetings/004-20210426.md)
+具体步骤：
+  (1) 组织社区会议，结合友商(PyTorch、TF)的功能，收集用户表达及接口功能等方面的改进建议50+。
+  (2) 组织Maintainers进行功能分析，选出需要且适合社区开发者实现的接口20+。
+  (3) 对外发布社区任务，让开发者进行任务认领。
+  (4) 开发者合入代码，并输出技术分享文档。
+
+## 主要活动
+
+### 1. 线上技术分享会
+
+* 活动定位：共同探讨FrontEnd特性的相关话题
+* 活动形式：定期邀请业界专家、高校师生、资深开发者分享话题
+* 活动频率：每1-2个月1次，每次围绕同一个共同主题分享2-3个话题
+* 分享范围：与FrontEnd技术领域相关的技术话题，包括但不限于：
+  1. FrontEnd接口使用感受
+  2. 优化改进点讨论
+  3. 学习心得、开发经验、使用建议
+  4. SIG特性开发任务介绍与成果展示等
+* 分享嘉宾：任何SIG成员，包括高校师生、业界专家、开发者均可
+* 组织者：各位Contributors轮流组织
+
+### 2. FrontEnd特性开发
+
+* 活动定位：共同参与FrontEnd特性开发，打造功能完善且易用的框架
+* 活动形式：定期发布大颗粒特性开发任务，招募开发者共同参与，完成者可获得奖品或者实习工资、实习证明
+* 活动频率：每季度发布/刷新任务
+* 活动内容：待讨论完善
+* 组织者：各技术领域Contributors
+
+### 3. 资料与产品体验改进活动
+
+* 活动定位：开展产品体验活动，收集建议及体验评价，持续提升资料与产品综合体验
+* 活动形式：开发者通过提交issue/PR形式提出问题建议或修改，累积积分获得奖品
+* 活动频率：不定期举行
+* 活动规划：
+  1. 资料体验：分期系列活动，针对官网上线的视频、教程及API等内容，开展众测体验活动
+  2. 产品体验：随新发布版本进行，针对版本发布的功能特性开展体验活动
+
+### 4. 周例会
+
+* 时间：周六或周日晚上7点，每2周开展一次
+* 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流
+* 例会议题：
+  1. 固定议题：SIG成员领取的特性开发任务进展与问题交流
+  2. 选报议题：特性开发阶段性成果演示
+  3. 选报议题：SIG组织管理（如运作规则讨论、Maintainers&Contributors担任人员及职责刷新）
+* 组织者：各位Contributors和核心开发者轮流组织
+
+## SIG组织管理
+
+### 成员身份说明
+
+SIG的成员身份包括Members、Contributors、Maintainers，各角色的描述和申请条件如下：
+
+#### Members（正式成员）
+
+* 权益：参与SIG的各项活动与交流
+* 申请条件：填写SIG成员申请表（加入微信交流群时发放）
+
+#### Contributors（核心贡献者）
+
+* 职责：牵头负责技术开发、日常运营、宣传推广、活动组织等领域某一特定方向的规划、组织与管理工作
+* 权益：事迹录入SIG荣誉殿堂，并在申请MindSpore布道师或资深布道师时具有优先权
+* 申请条件：已经成为Members，有意愿负责某一特定方向并制定出工作方案，并在SIG例会上经过其他Maintainers与Contributors多数通过。
+
+#### Maintainers（负责人）
+
+* 职责：负责SIG的总体规划与策略制定，把握SIG发展方向、审核重点工作方案
+* 权益：事迹录入SIG荣誉殿堂，优秀Maintainers有机会成为MindSpore TSC（技术委员会）成员
+* 申请条件：已经成为Contributors一年以上，在所负责领域有突出贡献，获得至少一位Maintainers推荐，并在SIG例会上经过其他Maintainers与Contributors多数通过。
+
+## 近期活动与例会预告
+
+1. 技术分享会
+2. SIG例会
