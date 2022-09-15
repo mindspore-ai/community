@@ -47,11 +47,6 @@ mindspore:
         version: 4.1.2.30
         url: https://github.com/skvark/opencv-python
         handler: shenwei41
-    Libtiff:
-        cpeName: Libtiff
-        version: 4.2.0
-        url: http://www.libtiff.org/
-        handler: shenwei41
     Scipy:
         cpeName: Scipy
         version: 1.5.2
@@ -69,7 +64,7 @@ mindspore:
         handler: shenwei41
     abseil-cpp:
         cpeName: abseil-cpp
-        version: 20200923.3
+        version: 20210324.2
         url: https://github.com/abseil/abseil-cpp/@https://abseil.io
         handler: shenwei41
     mkl-dnn:
@@ -134,7 +129,7 @@ mindspore:
         handler: henryshi1
     icu:
         cpeName: icu
-        version: '67.1'
+        version: '69.1'
         url: https://chromium.googlesource.com/chromium/deps/icu/
         handler: shenwei41
     openmpi:
@@ -186,7 +181,7 @@ mindspore:
         handler: shenwei41
     sqlite:
         cpeName: sqlite
-        version: 3.32.2
+        version: 3.36.0
         url: http://www3.sqlite.org/index.html
         handler: shenwei41
     easydict:
@@ -200,7 +195,7 @@ mindspore:
         handler: shenwei41
     OpenCV:
         cpeName: OpenCV
-        version: 4.5.1
+        version: 4.5.2
         url: http://www.opencv.org/
         handler: shenwei41
     six:
