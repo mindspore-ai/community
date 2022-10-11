@@ -52,6 +52,26 @@ mindspore:
         version: 1.5.2
         url: http://scipy.org/
         handler: henryshi1
+    robin_hood_hashing:
+        cpeName: robin_hood_hashing
+        version: 3.11.5
+        url: https://github.com/martinus/robin_hood_hashing
+        handler: henryshi1
+    astunparse:
+        cpeName: astunparse
+        version: 1.6.3
+        url: https://github.com/simonpercivall/astunparse
+        handler: henryshi1
+    dirent:
+        cpeName: dirent
+        version: 1.23.2
+        url: https://github.com/tronkko/dirent
+        handler: herryshi1
+    fast_transfromer:
+        cpeName: fast_transfromer
+        version: 0.5.0
+        url: https://github.com/NVIDIA/FasterTransformer
+        handler: herryshi1
     Cython:
         cpeName: Cython
         version: 0.29.15
