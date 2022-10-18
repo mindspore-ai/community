@@ -1,0 +1,28 @@
+name: MindSpore 生态
+type: Library
+description: 用于增强AI模型开发、部署，AI科研的开源项目库
+list:
+  - name: mindcv
+    links: https://github.com/mindspore-ecosystem/mindcv
+    introduction: A toolbox of vision models and algorithms based on MindSpore.
+    date: 2022-10-28
+  - name: mindnlp
+    links: https://github.com/mindspore-ecosystem/mindnlp
+    introduction: An open source NLP library based on MindSpore.
+    date: 2022-10-28
+  - name: mindface
+    links: https://github.com/mindspore-ecosystem/mindface
+    introduction: MindFace is an open source toolkit based on MindSpore, containing the most advanced face recognition and detection models, such as ArcFace, RetinaFace and other models.
+    date: 2022-10-28
+  - name: mindaudio
+    links: https://github.com/mindspore-ecosystem/mindaudio
+    introduction: An open source audio research toolbox based on MindSpore in audio direction. 
+    date: 2022-10-28
+  - name: TensorLayerX
+    links: https://github.com/tensorlayer/TensorLayerX
+    introduction: A Unified Deep Learning and Reinforcement Learning Framework for All Hardwares, Backends and OS.
+    date: 2022-10-28
+  - name: Cybertron
+    links: https://github.com/lvyufeng/Cybertron
+    introduction: Mindspore implementation of transformers.
+    date: 2022-10-28

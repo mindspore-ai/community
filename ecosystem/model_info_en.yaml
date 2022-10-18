@@ -1,0 +1,16 @@
+name: MindSpore Ecosystem
+type: Model
+description: Opensource SOTA models for specific task.
+list:
+  - name: AECRNet
+    links: https://github.com/Booooooooooo/AECRNet-MindSpore
+    introduction: MindSpore implementation of Contrastive Learning for Compact Single Image Dehazing, CVPR2021.
+    date: 2022-10-28
+  - name: GoodsRecognition
+    links: https://github.com/pprp/GoodsRecognition.MindSpore
+    introduction: Top1 solution of Retail product identification competition.
+    date: 2022-10-28
+  - name: TSD
+    links: https://github.com/grispeut/TSD_mindspore
+    introduction: Top1 solution of The 3rd Huawei Cloud Unmanned Vehicle Challenge Cup.
+    date: 2022-10-28
