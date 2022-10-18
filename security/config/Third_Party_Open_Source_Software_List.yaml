@@ -49,7 +49,7 @@ mindspore:
         handler: shenwei41
     Scipy:
         cpeName: Scipy
-        version: 1.5.2
+        version: 1.5.4
         url: http://scipy.org/
         handler: henryshi1
     robin_hood_hashing:
