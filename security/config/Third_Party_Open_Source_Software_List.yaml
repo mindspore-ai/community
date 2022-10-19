@@ -284,62 +284,85 @@ akg:
     dlpack:
         cpeName: dlpack
         version: 0acb731e0e43d15deee27b66f10e4c5b4e667913
-        url:
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/dmlc/dlpack
+        handler: looop5
     dmlc-core:
         cpeName: dmlc-core
         version: 808f485387f9a03f78fa9f1159f387d0d91b7a28
-        url:
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/dmlc/dmlc-core
+        handler: looop5
     rang:
         cpeName: rang
         version: cabe04d6d6b05356fa8f9741704924788f0dd762
-        url:
+        language: C++
+        license: The Unlicense
+        url: https://github.com/agauniyal/rang
+        handler: looop5
     decorator:
         cpeName: decorator
         version: 4.4.0
-        url:
+        language: Python
+        license: BSD-2-Clause license
+        url: https://github.com/micheles/decorator
+        handler: looop5
     incubator-tvm:
         cpeName: tvm
         version: 0.6
+        language: Python/C++
+        license: Apache License V2.0
         url: https://github.com/apache/tvm
         handler: looop5
     isl:
         cpeName: isl
         version: 0.22
-        url: http://isl.gforge.inria.fr/
-        handler: looop5
-    gmp:
-        cpeName: gmp
-        version: 6.1.2
-        url: https://gmplib.org/repo/
+        language: C
+        license: MIT License
+        url: https://libisl.sourceforge.io/
         handler: looop5
     googletest:
         cpeName: googletest
         version: 1.8.1
+        language: C++
+        license: BSD 3-Clause License
         url: http://code.google.com/p/googletest/
         handler: henryshi1 
     numpy:
         cpeName: numpy
         version: 1.17.0
+        language: Python
+        license: BSD 3-Clause License
         url: https://www.numpy.org
         handler: henryshi1
     xgboost:
         cpeName: xgboost
         version: 0.9
+        language: Python
+        license: Apache License V2.0
         url: https://github.com/dmlc/xgboost
         handler: looop5
     Scipy:
         cpeName: Scipy
         version: 1.5.3
+        language: Python
+        license: BSD 3-Clause License
         url: http://scipy.org/
         handler: henryshi1
     pytest:
         cpeName: pytest
         version: 5.4.3
+        language: Python
+        license: MIT License
         url: https://docs.pytest.org/en/latest/
         handler: henryshi1
     llvm:
         cpeName: llvm
         version: 12.0.1
+        language: C++
+        license: Apache 2.0 License with LLVM exceptions
         url: https://llvm.org
         handler: looop5
 mindarmour:
