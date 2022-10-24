@@ -529,21 +529,21 @@ mindinsight:
         handler: zhujiaxing
     itsdangerous:
         cpeName: itsdangerous
-        version: >=1.1.0
+        version: ">=1.1.0"
         language: python
         license: BSD 3-Clause License
         url: https://itsdangerous.palletsprojects.com
         handler: zhujiaxing
     Jinja2:
         cpeName: Jinja2
-        version: >=2.10.1
+        version: ">=2.10.1"
         language: python
         license: BSD 3-Clause License
         url: https://pypi.org/project/MarkupSafe/
         handler: zhujiaxing
     MarkupSafe:
         cpeName: MarkupSafe
-        version: >=1.1.1
+        version: ">=1.1.1"
         language: python
         license: BSD 3-Clause License
         url: https://pypi.org/project/MarkupSafe/
@@ -571,14 +571,14 @@ mindinsight:
         handler: zhujiaxing
     Flask:
         cpeName: Flask
-        version: >=2.1.0
+        version: ">=2.1.0"
         language: python
         license: BSD 3-Clause License
         url: https://flask.palletsprojects.com
         handler: zhujiaxing
     Pillow:
         cpeName: Pillow
-        version: >=6.2.0
+        version: ">=6.2.0"
         language: python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
@@ -592,14 +592,14 @@ mindinsight:
         handler: zhujiaxing
     Werkzeug:
         cpeName: Werkzeug
-        version: >2.1.0
+        version: ">2.1.0"
         language: python
         license: BSD 3-Clause License
         url: https://werkzeug.palletsprojects.com/
         handler: zhujiaxing
     XlsxWriter:
         cpeName: XlsxWriter
-        version: >=1.3.2
+        version: ">=1.3.2"
         language: python
         license: BSD 3-Clause License
         url: https://xlsxwriter.readthedocs.io/
@@ -648,21 +648,21 @@ mindinsight:
         handler: zhujiaxing
     google-pasta:
         cpeName: google-pasta
-        version: >=0.1.8
+        version: ">=0.1.8"
         language: python
         license: Apache License Version 2.0
         url: https://github.com/google/pasta/
         handler: zhujiaxing
     grpc:
         cpeName: grpc
-        version: >=1.39.0
+        version: ">=1.39.0"
         language: python
         license: Apache License Version 2.0
         url: https://github.com/grpc/grpc
         handler: zhujiaxing
     gunicorn:
         cpeName: gunicorn
-        version: >=20.0.4
+        version: ">=20.0.4"
         language: python
         license: MIT License
         url: http://gunicorn.org/
@@ -676,7 +676,7 @@ mindinsight:
         handler: zhujiaxing
     marshmallow:
         cpeName: marshmallow
-        version: >=3.10.0
+        version: ">=3.10.0"
         language: python
         license: MIT License
         url: https://github.com/marshmallow-code/marshmallow
@@ -710,14 +710,14 @@ mindinsight:
         handler: zhujiaxing
     psutil:
         cpeName: psutil
-        version: >=5.7.0
+        version: ">=5.7.0"
         language: python
         license: BSD 3-Clause License
         url: https://github.com/giampaolo/psutil
         handler: zhujiaxing
     pyyaml:
         cpeName: pyyaml
-        version: >=5.3.1
+        version: ">=5.3.1"
         language: python
         license: MIT License
         url: https://pypi.org/project/PyYAML/
@@ -731,7 +731,7 @@ mindinsight:
         handler: zhujiaxing
     treelib:
         cpeName: treelib
-        version: >=1.6.1
+        version: ">=1.6.1"
         language: python
         license: Apache License V2.0
         url: https://github.com/caesar0301/treelib
@@ -787,7 +787,7 @@ mindinsight:
         handler: zhujiaxing
     yapf:
         cpeName: yapf
-        version: >=0.30.0
+        version: ">=0.30.0"
         language: js
         license: Apache License V2.0
         url: https://github.com/google/yapf
