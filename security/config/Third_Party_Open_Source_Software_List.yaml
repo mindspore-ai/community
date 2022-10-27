@@ -374,30 +374,6 @@ mindspore:
         handler: shenwei41
         milestone: B-SIG-Data
 akg:
-    dlpack:
-        cpeName: dlpack
-        version: 0acb731e0e43d15deee27b66f10e4c5b4e667913
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/dmlc/dlpack
-        handler: looop5
-        milestone: B-SIG-AKG
-    dmlc-core:
-        cpeName: dmlc-core
-        version: 808f485387f9a03f78fa9f1159f387d0d91b7a28
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/dmlc/dmlc-core
-        handler: looop5
-        milestone: B-SIG-AKG
-    rang:
-        cpeName: rang
-        version: cabe04d6d6b05356fa8f9741704924788f0dd762
-        language: C++
-        license: The Unlicense
-        url: https://github.com/agauniyal/rang
-        handler: looop5
-        milestone: B-SIG-AKG
     decorator:
         cpeName: decorator
         version: 4.4.0
@@ -795,49 +771,65 @@ mindinsight:
 mindelec:
     pyevtk:
         cpeName: pyevtk
-        url: https://github.com/paulo-herrera/PyEVTK
         version: 1.4.1
-        handler:
-        milestone:
+        language: python
+        license: MIT License
+        url: https://github.com/paulo-herrera/PyEVTK
+        handler: kangyangzc
+        milestone: B-MBA
     pythonocc-core:
         cpeName: pythonocc-core
-        url: https://github.com/tpaviot/pythonocc
         version: 7.5.1
-        handler:
+        language: c++
+        license: LGPL-3.0-only
+        url: https://github.com/tpaviot/pythonocc
+        handler: kangyangzc
         milestone: B-MBA
     numpy:
         cpeName: numpy
         version: 1.17.0
+        language: python
+        license: BSD 3-Clause License
         url: https://www.numpy.org
-        handler:
+        handler: zhujiaxing
         milestone: B-SIG-FrontEnd
     matplotlib:
         cpeName: matplotlib
         version: 3.2.1
+        language: python
+        license: Python Software Foundation License(PSF)
         url: https://matplotlib.org
         handler: henryshi1
         milestone: B-SIG-FrontEnd
     opencv-python:
         cpeName: opencv-python
         version: 4.1.2.30
+        language: python
+        license: MIT License
         url: https://github.com/skvark/opencv-python
-        handler:
+        handler: zhao_ting_v
         milestone: B-SIG-ModelZoo
     easydict:
         cpeName: easydict
         version: '1.9'
+        language: python
+        license: GNU Lesser General Public License v3.0
         url: https://github.com/makinacorpus/easydict
-        handler:
+        handler: zhao_ting_v
         milestone: B-SIG-ModelZoo
     Pillow:
         cpeName: Pillow
         version: 8.2.0
+        language: Python
+        license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
-        handler:
+        handler: shenwei41
         milestone: B-SIG-Data
     Scipy:
         cpeName: Scipy
         version: 1.5.2
+        language: Python
+        license: BSD 3-Clause License
         url: http://scipy.org/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
