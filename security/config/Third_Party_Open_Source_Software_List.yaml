@@ -844,96 +844,137 @@ mindelec:
 serving:
     abseil-cpp:
         cpeName: abseil-cpp
-        version: 20200923.3
+        version: 20210324.2
+        language: C++
+        license: Apache-2.0 license
         url: https://github.com/abseil/abseil-cpp
-        handler:
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     c-ares:
         cpeName: c-ares
         version: 1.15.0
-        url: https://c-ares.haxx.se/
-        handler:
+        language: C
+        license: MIT license
+        url: https://github.com/c-ares/c-ares
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     Eigen:
         cpeName: Eigen
-        version: 3.3.7
-        url: http://eigen.tuxfamily.org/index.php?title=Main_Page
-        handler:
+        version: 3.4.0
+        language: C++
+        license: MPL2 license
+        url: https://gitlab.com/libeigen/eigen
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     google/glog:
         cpeName: google/glog
         version: 0.4.0
+        language: C++
+        license: New BSD License
         url: https://github.com/google/glog
-        handler:
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     google/protobuf:
         cpeName: google/protobuf
         version: 3.13.0
+        language: C++
+        license: BSD-3-Clause license
         url: https://github.com/protocolbuffers/protobuf
-        handler: henryshi1
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     gRPC:
         cpeName: gRPC
         version: 1.36.1
-        url: https://grpc.io
-        handler:
+        language: C++
+        license: Apache-2.0 license
+        url: https://github.com/grpc/grpc/
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     googletest:
         cpeName: googletest
         version: 1.8.1
-        url: http://code.google.com/p/googletest/
-        handler:
+        language: C++
+        license: BSD-3-Clause license
+        url: https://github.com/google/googletest/
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     JSON for Modern C++:
         cpeName: JSON for Modern C++
-        version: 3.6.1
+        version: 3.7.3
+        language: C++
+        license: MIT license
         url: https://github.com/nlohmann/json
-        handler: nicholas_yhr
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     libevent:
         cpeName: libevent
         version: 2.1.12
-        url: https://libevent.org/
-        handler:
+        language: C++
+        license: BSD-3-Clause license
+        url: https://github.com/libevent/libevent/
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     pybind11:
         cpeName: pybind11
         version: 2.6.1
-        url: https://pybind11.readthedocs.io/en/latest/
-        handler:
+        language: C++
+        license: BSD-3-Clause license
+        url: https://github.com/pybind/pybind11/
+        handler: xu-yfei
+        milestone: B-SIG-MSLite
+    openssl:
+        cpeName: openssl
+        version: 1.1.1k
+        language: C++
+        license: Apache-2.0 license
+        url: https://github.com/openssl/openssl
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     re2:
         cpeName: re2
         version: 20191201
+        language: C++
+        license: BSD-3-Clause license
         url: https://github.com/google/re2
-        handler:
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     zlib:
         cpeName: zlib
         version: 1.2.11
-        url: https://www.zlib.net/
-        handler:
+        language: C++
+        license: zlib/libpng license
+        url: https://github.com/madler/zlib
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     numpy:
         cpeName: numpy
         version: 1.17.0
-        url: https://www.numpy.org
-        handler:
+        language: Python
+        license: BSD-3-Clause license
+        url: https://github.com/numpy/numpy
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     psutil:
         cpeName: psutil
+        version: 5.6.1
+        language: Python
+        license: BSD-3-Clause license
         url: https://github.com/giampaolo/psutil
-        handler:
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     grpcio:
         cpeName: grpcio
         version: 1.36.0
-        url: https://grpc.io/
-        handler:
+        language: Python
+        license: Creative Commons Attribution 4.0 license, Apache-2.0 license
+        url: https://github.com/grpc/grpc.io/
+        handler: xu-yfei
         milestone: B-SIG-MSLite
     requests:
         cpeName: requests
         version: 2.22.0
-        url: https://docs.python-requests.org/en/latest/
-        handler:
+        language: Python
+        license: Apache-2.0 license
+        url: https://github.com/psf/requests/
+        handler: xu-yfei
         milestone: B-SIG-MSLite
