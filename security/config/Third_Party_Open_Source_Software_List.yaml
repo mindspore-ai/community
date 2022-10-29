@@ -449,49 +449,57 @@ akg:
 mindarmour:
     openssl:
         cpeName: openssl
-        version: 1.1.1
-        url:
-        handler:
-        milestone: B-SIG-Security
-    sklearn:
-        cpeName: sklern
-        version: 0.23.1
-        url:
-        handler:
+        version: 1.1.1k
+        language: C++
+        license: Apache-2.0 license
+        url: https://github.com/openssl/openssl
+        handler: jxlang910
         milestone: B-SIG-Security
     numpy:
         cpeName: numpy
         version: 1.17.0
+        language: Python
+        license: BSD 3-Clause License
         url: https://www.numpy.org
         handler: henryshi1
         milestone: B-SIG-FrontEnd
     Scipy:
         cpeName: Scipy
-        version: 1.5.3
+        version: 1.5.4
+        language: Python
+        license: BSD 3-Clause License
         url: http://scipy.org/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
     pytest:
         cpeName: pytest
-        version: 4.3.1
+        version: 5.4.3
+        language: Python
+        license: MIT License
         url: https://docs.pytest.org/en/latest/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
     matplotlib:
         cpeName: matplotlib
         version: 3.2.1
+        language: python
+        license: Python Software Foundation License(PSF)
         url: https://matplotlib.org
         handler: jxlang910
         milestone: B-SIG-Security
     scikit-learn:
         cpeName: scikit-learn
         version: 0.23.1
-        url: https://scikit-learn.org/stable/
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/scikit-learn/scikit-learn
         handler: jxlang910
         milestone: B-SIG-Security
     Pillow:
         cpeName: Pillow
-        version: 2.0.0
+        version: ">=8.2.0"
+        language: python
+        license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: jxlang910
         milestone: B-SIG-Security
