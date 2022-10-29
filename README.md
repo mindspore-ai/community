@@ -1,4 +1,4 @@
-![MindSpore Logo](MindSpore-logo.png "MindSpore logo")
+![MindSpore Logo](MindSpore-logo.png "MindSpore logo")1
 ======================================================
 
 <!-- TOC -->
