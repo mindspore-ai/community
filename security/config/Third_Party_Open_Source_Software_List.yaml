@@ -960,7 +960,7 @@ serving:
         cpeName: google/protobuf
         version: 3.13.0
         language: C++
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/protocolbuffers/protobuf
         handler: xu-yfei
         milestone: B-SIG-MSLite
@@ -976,13 +976,13 @@ serving:
         cpeName: googletest
         version: 1.8.1
         language: C++
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/google/googletest/
         handler: xu-yfei
         milestone: B-SIG-MSLite
     JSON for Modern C++:
         cpeName: JSON for Modern C++
-        version: 3.7.3
+        version: 3.10.1
         language: C++
         license: MIT license
         url: https://github.com/nlohmann/json
@@ -992,15 +992,15 @@ serving:
         cpeName: libevent
         version: 2.1.12
         language: C++
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/libevent/libevent/
         handler: xu-yfei
         milestone: B-SIG-MSLite
     pybind11:
         cpeName: pybind11
-        version: 2.6.1
+        version: 2.4.3,2.6.1
         language: C++
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/pybind/pybind11/
         handler: xu-yfei
         milestone: B-SIG-MSLite
@@ -1016,7 +1016,7 @@ serving:
         cpeName: re2
         version: 20191201
         language: C++
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/google/re2
         handler: xu-yfei
         milestone: B-SIG-MSLite
@@ -1030,23 +1030,23 @@ serving:
         milestone: B-SIG-MSLite
     numpy:
         cpeName: numpy
-        version: 1.17.0
+        version: ">=1.17.0"
         language: Python
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/numpy/numpy
         handler: xu-yfei
         milestone: B-SIG-MSLite
     psutil:
         cpeName: psutil
-        version: 5.6.1
+        version: ">=5.9.1"
         language: Python
-        license: BSD-3-Clause license
+        license: BSD 3-Clause license
         url: https://github.com/giampaolo/psutil
         handler: xu-yfei
         milestone: B-SIG-MSLite
     grpcio:
         cpeName: grpcio
-        version: 1.36.0
+        version: ">=1.36.0,<= 1.47.0"
         language: Python
         license: Creative Commons Attribution 4.0 license, Apache-2.0 license
         url: https://github.com/grpc/grpc.io/
@@ -1054,7 +1054,7 @@ serving:
         milestone: B-SIG-MSLite
     requests:
         cpeName: requests
-        version: 2.22.0
+        version: ">=2.22.0"
         language: Python
         license: Apache-2.0 license
         url: https://github.com/psf/requests/
