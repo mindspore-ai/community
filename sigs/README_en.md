@@ -51,3 +51,7 @@ the steering committee. The chair facilitates the discussion and helps
 synthesize proposals and decisions.
 
 [Propose now!](https://gitee.com/mindspore/community/blob/master/sigs/dx/docs/How%20to%20build%20a%20SIG%20or%20WG_cn.md)
+
+## Create a yaml file for description your SIG
+
+To display the SIG you created on MindSpore's official website, you need to use create_sig_info_template.py to create a yaml file to describe SIG related information. The format of the yaml file can be referred [here](https://gitee.com/openeuler/community/blob/master/sig/README.md).
