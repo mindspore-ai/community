@@ -42,3 +42,7 @@ SIG的全称是Special Interest Groups，即“特别兴趣小组”。MindSpore
 当你和你的朋友有了非常好的技术idea，并且希望更多的人参与到你们的探索中，那么你就可以申请成立一个新的SIG了，点击下面的链接即可查看申请流程。
 
 [申请流程](https://gitee.com/mindspore/community/blob/master/sigs/dx/docs/How%20to%20build%20a%20SIG%20or%20WG_cn.md)
+
+## 创建描述SIG的yaml文件
+
+为了将您创建的SIG在MindSpore官网展示，需要使用该目录下的create_sig_info_template.py创建一个yaml文件来描述SIG的相关信息，yaml文件的格式说明可以[参考这里](https://gitee.com/openeuler/community/blob/master/sig/README.md)。

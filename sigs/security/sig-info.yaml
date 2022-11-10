@@ -1,0 +1,77 @@
+name: security
+description: Trusted AI SIG focus on models and data trust technology in the field of artificial intelligence, including model robustness and interpretability, privacy computing, model security deployment, and so on. Our goal is to build a secure and trusted AI computing framework.
+created_on: '2019-12-31'
+mailing_list: NA
+meeting_url: https://etherpad.mindspore.cn/p/meetings-Security
+mature_level: startup
+mentors:
+- gitee_id: jxlang910
+  name: Mr. JIn
+  organization: Huawei
+  email: jinxiulang@huawei.com
+- gitee_id: emmmmtang
+  name: Mr. Tang
+  organization: Huawei
+  email: tangcong9@huawei.com
+maintainers:
+- gitee_id: jxlang910
+  name: Mr. JIn
+  organization: Huawei
+  email: jinxiulang@huawei.com
+- gitee_id: emmmmtang
+  name: Mr. Tang
+  organization: Huawei
+  email: tangcong9@huawei.com
+- gitee_id: Mr_GerhardtHu_Fox
+  name: Mr. Hu
+  organization: Northeast University
+  email: 780308144@qq.com
+repositories:
+- repo:
+  - mindspore/mindarmour
+  committers:
+  - gitee_id: jxlang910
+    name: Mr. JIn
+    organization: Huawei
+    email: jinxiulang@huawei.com
+  - gitee_id: emmmmtang
+    name: Mr. Tang
+    organization: Huawei
+    email: tangcong9@huawei.com
+  - gitee_id: ZhidanLiu
+    name: Miss Liu
+    organization: Huawei
+    email: liuzhidan5@huawei.com
+  - gitee_id: pkuliuliu
+    name: Mr. Liu
+    organization: Huawei
+    email: NA
+  contributors:
+  - gitee_id: liu_luobin
+    name: Mr. Liu
+    organization: Huawei
+    email: NA
+  - gitee_id: limingjun1
+    name: Mr. Li
+    organization: Zhejiang University of Technology
+    email: NA
+  - gitee_id: hu2175
+    name: Rice Zhang
+    organization: Zhejiang University
+    email: 8623924@qq.com
+  - gitee_id: qmckw
+    name: Kewei
+    organization: Huazhong University of Science and Technology
+    email: 2512235663@qq.com
+- repo:
+  - mindspore/mindspore
+  committers:
+  - gitee_id: jxlang910
+    name: Mr. JIn
+    organization: Huawei
+    email: jinxiulang@huawei.com
+  contributors:
+  - gitee_id: shazi4399
+    name: Mr. Zhang
+    organization: Beijing University of Posts and Telecommunications
+    email: NA
