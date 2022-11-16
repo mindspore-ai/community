@@ -1,0 +1,37 @@
+name: data
+description: This is the working repo for the Data special interest group (SIG). This repo contains all the artifacts, materials, meeting notes and proposals regarding **dataset - data processing** and **mindrecord - data format** in MindSpore.
+created_on: '2019-12-31'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: luoyang42
+  name: luoyang
+  organization: Huawei
+  email: luoyang42@huawei.com
+maintainers:
+- gitee_id: xiaotianci
+  name: xiaotianci
+  organization: Huawei
+  email: xiaotianci1@huawei.com
+- gitee_id: jonyguo
+  name: jonyguo
+  organization: Huawei
+  email: guozhijian@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore
+  committers:
+  - gitee_id: xiaotianci
+    name: xiaotianci
+    organization: Huawei
+    email: xiaotianci1@huawei.com
+  - gitee_id: jonyguo
+    name: jonyguo
+    organization: Huawei
+    email: guozhijian@huawei.com
+  contributors:
+  - gitee_id: qianyangyang
+    name: qianyangyang
+    organization: NA
+    email: hfutqyy@163.com
