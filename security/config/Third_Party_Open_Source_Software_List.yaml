@@ -154,7 +154,7 @@ mindspore:
         schName: absl
     JSON for Modern C++:
         cpeName: JSON for Modern C++
-        version: 3.6.1
+        version: 3.10.1
         language: C++
         license: MIT License
         url: https://github.com/nlohmann/json
