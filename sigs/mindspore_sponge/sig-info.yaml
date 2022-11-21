@@ -1,0 +1,85 @@
+name: mindsponge
+description: MindSpore SPONGE(Simulation Package tOwards Next GEneration molecular modelling) is a toolkit for Computational Biology based on AI framework MindSpore, which supports MD, folding and so on. It aims to provide efficient AI computational biology software for a wide range of scientific researchers, staff, teachers and students.
+created_on: '2022-08-11'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: helloyesterday
+  name: 杨奕
+  organization: 深圳湾实验室
+  email: yangyi@szbl.ac.cn
+- gitee_id: jz_90
+  name: 张骏
+  organization: 北京昌平实验室
+  email: justinzhang@pku.edu.cn
+- gitee_id: sirui63
+  name: 刘思睿
+  organization: 北京昌平实验室
+  email: liusirui@cpl.ac.cn
+maintainers:
+- gitee_id: izayoi16
+  name: dingyahao
+  organization: Huawei
+  email: dingyahao@huawei.com
+- gitee_id: xiayijie
+  name: 夏义杰
+  email: yijiexia@pku.edu.cn
+- gitee_id: dechin
+  name: 陈迪青
+  email: chendq@szbl.ac.cn
+- gitee_id: gao_hyp_xyj_admin
+  name: 黄渝鹏
+  email: 1901110300@pku.edu.cn
+- gitee_id: mamba_ni
+  name: niningxi
+  organization: Huawei
+  email: niningxi@huawei.com
+- gitee_id: cmy_melody
+  name: chenmengyun
+  organization: Huawei
+  email: chenmengyun1@huawei.com
+- gitee_id: chuht
+  name: chuhaotian
+  organization: Huawei
+  email: chuhaotian2@huawei.com
+- gitee_id: lijunbin
+  name: lijunbin
+  organization: Huawei
+  email: lijunbin4@huawei.com
+- gitee_id: cheng-hao-wang
+  name: wangchenghao
+  organization: Huawei
+  email: wangchenghao14@huawei.com
+- gitee_id: wangmin0104
+  name: wangmin
+  organization: Huawei
+  email: wangmin106@huawei.com
+- gitee_id: jialiangyu
+  name: yujialiang
+  organization: Huawei
+  email: yujialiang@huawei.com
+repositories:
+- repo:
+  - mindspore/mindscience/mindsponge
+  committers:
+  - gitee_id: mamba_ni
+    name: niningxi
+    organization: Huawei
+    email: niningxi@huawei.com
+  - gitee_id: wangmin0104
+    name: wangmin
+    organization: Huawei
+    email: wangmin106@huawei.com
+  - gitee_id: helloyesterday
+    name: 杨奕
+    organization: 深圳湾实验室
+    email: yangyi@szbl.ac.cn
+  - gitee_id: jz_90
+    name: 张骏
+    organization: 北京昌平实验室
+    email: justinzhang@pku.edu.cn
+  - gitee_id: sirui63
+    name: 刘思睿
+    organization: 北京昌平实验室
+    email: liusirui@cpl.ac.cn
