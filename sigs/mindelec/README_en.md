@@ -53,16 +53,14 @@ Build the MindSpore Elec basic toolkit based on MindSpore. The basic toolkit has
 
 * Weibing Lu, Dean/Professor, Research Institute of Southeast University
 * Wu Yang, Associate Researcher, School of Information Science and Engineering, Southeast University
-* Wenming Yu, Professor, School of Information Science and Engineering, Southeast University
-* Wenming Yu, Professor, School of Information Science and Engineering, Southeast University
+* Yong Xu, Senior Engineer, Jiangsu Haoyun Liande Information Technology Co., Ltd.
 * Jiaqi Li, Associate Professor, School of Physics, Southeast University
+* Xinlei Chen, Associate Professor, School of Electronic Information Engineering, Nanjing University of Aeronautics and Astronautics
 
 ### team members：
 
 * Members: Yujie Yuan, Shengsi MindSpore evangelist
 * Member: Kyang, Senior Engineer of Huawei MindSpore
-* Member: Che Liu, Postdoctoral Fellow, School of Information Science and Engineering, Southeast University
-* Member: Jianghan Bao, Ph.D., School of Information Science and Engineering, Southeast University
 
 * Member: Rui Weng, Ph.D student, School of Information Science and Engineering, Southeast University
 * Member: Adrian Lee, Senior Engineer of Huawei MindSpore
