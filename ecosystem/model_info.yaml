@@ -1,16 +1,16 @@
 name: MindSpore 生态
 type: Model
-description: 面向特定任务的SOTA模型及其衍生工具 
+description: 面向特定任务的SOTA模型及其衍生工具
 list:
   - name: AECRNet
     links: https://github.com/Booooooooooo/AECRNet-MindSpore
-    introduction: MindSpore implementation of Contrastive Learning for Compact Single Image Dehazing, CVPR2021.
+    introduction: Contrastive Learning for Compact Single Image Dehazing(CVPR2021)的MindSpore实现。
     date: 2022-10-28
   - name: GoodsRecognition
     links: https://github.com/pprp/GoodsRecognition.MindSpore
-    introduction: 基于MindSpore AI框架实现零售商品识别 top1方案.
+    introduction: 基于MindSpore AI框架实现零售商品识别 top1方案。
     date: 2022-10-28
   - name: TSD
     links: https://github.com/grispeut/TSD_mindspore
-    introduction: 第三届华为云无人车挑战杯复赛Top1方案.
+    introduction: 第三届华为云无人车挑战杯复赛Top1方案。
     date: 2022-10-28
