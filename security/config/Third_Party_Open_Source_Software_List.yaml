@@ -385,6 +385,7 @@ mindspore:
         url: https://github.com/scikit-learn/scikit-learn
         handler: jxlang910
         milestone: B-SIG-Security
+        schName: sklearn
     psutil:
         cpeName: psutil
         version: ">= 5.7.0"
@@ -393,7 +394,7 @@ mindspore:
         url: https://github.com/giampaolo/psutil
         handler: xu-yfei
         milestone: B-SIG-MSLite
-mindspore_un_sch:
+        schName: psutil
     cffi:
         cpeName: cffi
         version: 1.12.3
@@ -556,6 +557,14 @@ mindspore_un_sch:
         handler: yangxixin
         milestone: B-SIG-FL
         schName:
+    onnxruntime:
+        cpeName: onnxruntime
+        version: 1.6.0
+        language: python
+        license: MIT License
+        url: https://github.com/microsoft/onnxruntime
+        handler: fangzehua
+        milestone: B-SIG-ICT
 akg:
     decorator:
         cpeName: decorator
@@ -895,13 +904,6 @@ mindinsight:
         url: https://onnx.ai/
         handler: zhujiaxing
         milestone: B-SIG-Data
-    onnxruntime:
-        cpeName: onnxruntime
-        language: python
-        license: MIT License
-        url: https://github.com/microsoft/onnxruntime
-        handler: zhujiaxing
-        milestone: B-SIG-Data
     psutil:
         cpeName: psutil
         version: ">= 5.7.0"
@@ -1011,7 +1013,7 @@ mindelec:
         cpeName: pythonocc-core
         version: 7.5.1
         language: c++
-        license: LGPL-3.0-only
+        license: LGPL V3.0
         url: https://github.com/tpaviot/pythonocc
         handler: kangyangzc
         milestone: B-MBA
@@ -1102,7 +1104,7 @@ serving:
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/protocolbuffers/protobuf
-        handler: xu-yfei
+        handler: henryshi1
         milestone: B-SIG-MSLite
     grpc:
         cpeName: grpc
@@ -1164,7 +1166,7 @@ serving:
         cpeName: zlib
         version: 1.2.11
         language: C++
-        license: zlib/libpng license
+        license: zlib/libpng License
         url: https://github.com/madler/zlib
         handler: xu-yfei
         milestone: B-SIG-MSLite
