@@ -4,11 +4,11 @@ description: AI子领域的入门教程开源仓
 list:
   - name: mindspore-nlp-tutorial
     links: https://github.com/lvyufeng/mindspore-nlp-tutorial
-    introduction: Natural Language Processing Tutorial for MindSpore Users.
+    introduction: 面向MindSpore用户的自然语言处理教程。
     date: 2022-10-28
   - name: MindSpore-GAN
     links: https://github.com/lvyufeng/MindSpore-GAN
-    introduction: MindSpore implementations of Generative Adversarial Networks.
+    introduction: 生成对抗网络的MindSpore实现。
     date: 2022-10-28
   - name: d2l-mindspore
     links: https://github.com/lvyufeng/d2l-mindspore
