@@ -1,0 +1,29 @@
+name: operators/
+description:  This is the working repo for the Operators special interest group (SIG). This repo contains all the artifacts, materials, meeting notes and proposals regarding **ops - operator of computation** in MindSpore.
+created_on: '2019-12-31'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: liangchenghui
+  name: liangchenghui
+  organization: Huawei
+  email: liangchenghui@huawei.com
+maintainers:
+- gitee_id: liangchenghui
+  name: liangchenghui
+  organization: Huawei
+  email: liangchenghui@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore
+  committers:
+  - gitee_id: liangchenghui
+    name: liangchenghui
+    organization: Huawei
+    email: liangchenghui@huawei.com
+  contributors:
+  - gitee_id: zong-shuai
+    name: zongshuai
+    organization: Huawei
+    email: zongshuai1@huawei.com
