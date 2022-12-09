@@ -1,0 +1,65 @@
+name: mindelec
+description: Mindspore Elec AI SIG围绕实际生产中的各类电磁应用场景，在昇思MindSpore框架下探索和研究基于AI的电磁正问题以及反问题。例如开发高效精确的AI电磁模型，构建高效的MindSpore Elec基础工具包，提升电子产品的设计效率等。
+created_on: '2019-12-31'
+mailing_list: TO_BE_CLARIFIED
+meeting_url: TO_BE_CLARIFIED
+mature_level: startup
+mentors:
+- gitee_id: TO_BE_CLARIFIED
+  name: 陆卫兵
+  organization: 东南大学
+  email: wblu@seu.edu.cn
+maintainers:
+- gitee_id: TO_BE_CLARIFIED
+  name: 杨武
+  organization: 东南大学信息科学与工程学院
+  email: TO_BE_CLARIFIED
+- gitee_id: TO_BE_CLARIFIED
+  name: 徐勇
+  organization: 江苏浩云连德信息技术有限公司
+  email: TO_BE_CLARIFIED
+- gitee_id: TO_BE_CLARIFIED
+  name: 李家奇
+  organization: 东南大学物理学院
+  email: TO_BE_CLARIFIED
+- gitee_id: TO_BE_CLARIFIED
+  name: 陈新蕾
+  organization: 南京航空航天大学电子信息工程学院
+  email: TO_BE_CLARIFIED
+repositories:
+- repo:
+  - mindspore/mindscience
+  committers:
+  - gitee_id: hwyyj
+    name: 苑玉杰
+    organization: HUAWEI
+    email: yuanyujie@huawei.com
+  - gitee_id: kangyangzc
+    name: Kyang
+    organization: HUAWEI
+    email: yangkang22@huawei.com
+  contributors:
+  - gitee_id: TO_BE_CLARIFIED
+    name: 翁瑞
+    organization: 东南大学信息科学与工程学院
+    email: TO_BE_CLARIFIED
+  - gitee_id: adrian0711
+    name: Adrian Lee
+    organization: HUAWEI
+    email: lizhihao43@huawei.com
+  - gitee_id: zhangl9661
+    name: Lulu Zhang
+    organization: HUAWEI
+    email: zhanglulu28@huawei.com
+  - gitee_id: TO_BE_CLARIFIED
+    name: 秦洁
+    organization: 东南大学信息科学与工程学院
+    email: TO_BE_CLARIFIED
+  - gitee_id: TO_BE_CLARIFIED
+    name: 张哲
+    organization: 东南大学信息科学与工程学院
+    email: TO_BE_CLARIFIED
+  - gitee_id: TO_BE_CLARIFIED
+    name: 孙丁一
+    organization: 东南大学信息科学与工程学院
+    email: TO_BE_CLARIFIED
