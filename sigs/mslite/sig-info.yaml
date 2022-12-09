@@ -1,0 +1,28 @@
+name: mslite/
+description:  MindSpore lite is a high-performance, lightweight open source reasoning framework that can be used to meet the needs of AI applications on mobile devices. MindSpore Lite focuses on how to deploy AI technology more effectively on devices. It has been integrated into HMS (Huawei Mobile Services) to provide inferences for applications such as image classification, object detection and OCR. MindSpore Lite will promote the development and enrichment of the AI software/hardware application ecosystem.
+created_on: '2019-12-31'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: yeyunpeng2020
+  name: yeyunpeng
+  organization: Huawei
+  email: yeyunpeng1@huawei.com
+maintainers:
+- gitee_id: zhaizhiqiang
+  name: zhaizhiqiang
+  organization: Huawei
+  email: zhaizhiqiang@huawei.com
+- gitee_id: HilbertDavid
+  name: lizheng
+  organization: Huawei
+  email: lizheng53@huawei.com
+repositories:
+- repo:
+  - mindspore/lite
+  committers:
+  - gitee_id: yeyunpeng2020
+    name: yeyunpeng2020
+    organization: Huawei
+    email: yeyunpeng1@huawei.com
