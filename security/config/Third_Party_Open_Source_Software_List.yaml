@@ -37,7 +37,7 @@ mindspore:
         schName: mkl_dnn
     flatbuffers:
         cpeName: flatbuffers
-        version: 1.11.0
+        version: 2.0.0
         language: C/C++
         license: Apache License V2.0
         url: https://google.github.io/flatbuffers/
@@ -46,7 +46,7 @@ mindspore:
         schName: flatbuffers
     sentencepiece:
         cpeName: sentencepiece
-        version: v0.1.92
+        version: 0.1.92
         language: C++
         license: Apache License V2.0
         url: https://github.com/google/sentencepiece
@@ -235,7 +235,7 @@ mindspore:
         schName: libevent
     pycocotools:
         cpeName: pycocotools
-        version: ">= 2.0.1"
+        version: ">= 2.0.2"
         language: Python
         license: Apache License V2.0
         url: https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
@@ -361,7 +361,7 @@ mindspore:
         schName: opencl
     re2:
         cpeName: re2
-        version: 2019-12-01
+        version: 20191201
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/google/re2/
