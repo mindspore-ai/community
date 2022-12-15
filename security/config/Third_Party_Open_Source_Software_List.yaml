@@ -89,8 +89,8 @@ mindspore:
         handler: zhao_ting_v
         milestone: B-SIG-ModelZoo
         schName: opencv-python
-    Scipy:
-        cpeName: Scipy
+    scipy:
+        cpeName: scipy
         version: ">= 1.5.4"
         language: Python
         license: BSD 3-Clause License
@@ -374,8 +374,8 @@ mindspore:
         language: C++
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
+        handler: emmmmtang
+        milestone: B-SIG-SECURITY
         schName: openssl
     scikit-learn:
         cpeName: scikit-learn
@@ -458,15 +458,6 @@ mindspore:
         handler: kangyangzc
         milestone: B-MBA
         schName:
-    QuTiP:
-        cpeName: QuTiP
-        version: 4.5.3
-        language: Python
-        license: BSD 3-Clause License
-        url: http://qutip.org/
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
     CMSIS:
         cpeName: CMSIS
         version: 5.7.0
@@ -475,15 +466,6 @@ mindspore:
         url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
         handler: zhanghaibo5
         milestone: B-SIG-MSLite
-        schName:
-    pyzmq:
-        cpeName: pyzmq
-        version: 19.0.1
-        language: C/C++
-        license: BSD 3-Clause License
-        url: https://pypi.python.org/pypi/defusedxml
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
         schName:
     sacrebleu:
         cpeName: sacrebleu
@@ -502,15 +484,6 @@ mindspore:
         url: https://www.khronos.org/vulkan/
         handler: xu-yfei
         milestone: B-SIG-MSLite
-        schName:
-    OpenFermion:
-        cpeName: OpenFermion
-        version: 1.0.0
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/quantumlib/OpenFermion
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
         schName:
     subword-nmt:
         cpeName: subword-nmt
@@ -565,6 +538,25 @@ mindspore:
         url: https://github.com/microsoft/onnxruntime
         handler: fangzehua
         milestone: B-SIG-ICT
+        schName:
+    decorator:
+        cpeName: decorator
+        version: 4.4.0
+        language: Python
+        license: BSD 2-Clause license
+        url: https://github.com/micheles/decorator
+        handler: looop5
+        milestone: B-SIG-AKG
+        schName: decorator
+    cucollections:
+        cpeName: cucollections
+        version:
+        language:
+        license:
+        url:
+        handler:
+        milestone:
+        schName: cucollections
 akg:
     decorator:
         cpeName: decorator
@@ -574,6 +566,7 @@ akg:
         url: https://github.com/micheles/decorator
         handler: looop5
         milestone: B-SIG-AKG
+        schName: decorator
     incubator-tvm:
         cpeName: tvm
         version: 0.6
@@ -582,6 +575,7 @@ akg:
         url: https://github.com/apache/tvm
         handler: looop5
         milestone: B-SIG-AKG
+        schName:
     isl:
         cpeName: isl
         version: 0.22
@@ -590,6 +584,7 @@ akg:
         url: https://libisl.sourceforge.io/
         handler: looop5
         milestone: B-SIG-AKG
+        schName: isl
     googletest:
         cpeName: googletest
         version: 1.8.1
@@ -598,6 +593,7 @@ akg:
         url: http://code.google.com/p/googletest/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName: gtest
     numpy:
         cpeName: numpy
         version: 1.17.0
@@ -606,6 +602,7 @@ akg:
         url: https://www.numpy.org
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName:
     xgboost:
         cpeName: xgboost
         version: 0.9
@@ -614,14 +611,16 @@ akg:
         url: https://github.com/dmlc/xgboost
         handler: looop5
         milestone: B-SIG-AKG
-    Scipy:
-        cpeName: Scipy
+        schName:
+    scipy:
+        cpeName: scipy
         version: 1.5.3
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName: scipy
     pytest:
         cpeName: pytest
         version: 5.4.3
@@ -630,6 +629,7 @@ akg:
         url: https://docs.pytest.org/en/latest/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName:
     llvm:
         cpeName: llvm
         version: 12.0.1
@@ -638,6 +638,7 @@ akg:
         url: https://llvm.org
         handler: looop5
         milestone: B-SIG-AKG
+        schName:
 mindarmour:
     openssl:
         cpeName: openssl
@@ -647,6 +648,7 @@ mindarmour:
         url: https://github.com/openssl/openssl
         handler: jxlang910
         milestone: B-SIG-Security
+        schName:
     numpy:
         cpeName: numpy
         version: 1.17.0
@@ -655,6 +657,7 @@ mindarmour:
         url: https://www.numpy.org
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName:
     Scipy:
         cpeName: Scipy
         version: 1.5.4
@@ -663,6 +666,7 @@ mindarmour:
         url: http://scipy.org/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName:
     pytest:
         cpeName: pytest
         version: 5.4.3
@@ -671,6 +675,7 @@ mindarmour:
         url: https://docs.pytest.org/en/latest/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName:
     matplotlib:
         cpeName: matplotlib
         version: 3.2.1
@@ -679,6 +684,7 @@ mindarmour:
         url: https://matplotlib.org
         handler: jxlang910
         milestone: B-SIG-Security
+        schName:
     scikit-learn:
         cpeName: scikit-learn
         version: 0.23.1
@@ -687,14 +693,16 @@ mindarmour:
         url: https://github.com/scikit-learn/scikit-learn
         handler: jxlang910
         milestone: B-SIG-Security
-    Pillow:
-        cpeName: Pillow
+        schName:
+    pillow:
+        cpeName: pillow
         version: ">= 8.2.0"
         language: python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: jxlang910
         milestone: B-SIG-Security
+        schName: pillow
 mindinsight:
     Flask-Cors:
         cpeName: Flask-Cors
@@ -704,6 +712,7 @@ mindinsight:
         url: https://github.com/corydolphin/flask-cors
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     itsdangerous:
         cpeName: itsdangerous
         version: ">= 1.1.0"
@@ -712,6 +721,7 @@ mindinsight:
         url: https://itsdangerous.palletsprojects.com
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     Jinja2:
         cpeName: Jinja2
         version: ">= 2.10.1"
@@ -720,6 +730,7 @@ mindinsight:
         url: https://pypi.org/project/MarkupSafe/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     MarkupSafe:
         cpeName: MarkupSafe
         version: ">= 1.1.1"
@@ -728,6 +739,7 @@ mindinsight:
         url: https://pypi.org/project/MarkupSafe/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     SPIRV-Tools:
         cpeName: SPIRV-Tools
         version: 2020.6
@@ -736,6 +748,7 @@ mindinsight:
         url: https://github.com/KhronosGroup/SPIRV-Tools
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     Vulkan-ValidationLayers:
         cpeName: Vulkan-ValidationLayers
         version: 1.2.162.0
@@ -744,6 +757,7 @@ mindinsight:
         url: https://github.com/KhronosGroup/Vulkan-ValidationLayers
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     SPIRV-Headers:
         cpeName: SPIRV-Headers
         version: 1.5.4
@@ -752,6 +766,7 @@ mindinsight:
         url: https://github.com/KhronosGroup/SPIRV-Headers
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     Flask:
         cpeName: Flask
         version: ">= 2.1.0"
@@ -760,14 +775,16 @@ mindinsight:
         url: https://flask.palletsprojects.com
         handler: zhujiaxing
         milestone: B-SIG-Data
-    Pillow:
-        cpeName: Pillow
+        schName:
+    pillow:
+        cpeName: pillow
         version: ">= 6.2.0"
         language: python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName: pillow
     SlickGrid:
         cpeName: SlickGrid
         version: 2.4.22
@@ -776,6 +793,7 @@ mindinsight:
         url: https://github.com/6pac/SlickGrid
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     Werkzeug:
         cpeName: Werkzeug
         version: ">2.1.0"
@@ -784,6 +802,7 @@ mindinsight:
         url: https://werkzeug.palletsprojects.com/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     XlsxWriter:
         cpeName: XlsxWriter
         version: ">= 1.3.2"
@@ -792,6 +811,7 @@ mindinsight:
         url: https://xlsxwriter.readthedocs.io/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     axios:
         cpeName: axios
         version: 0.21.4
@@ -800,6 +820,7 @@ mindinsight:
         url: https://github.com/mzabriskie/axios
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     core-js:
         cpeName: core-js
         version: 3.6.5
@@ -808,6 +829,7 @@ mindinsight:
         url: https://github.com/zloirock/core-js
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     d3:
         cpeName: d3
         version: 5.15.0
@@ -816,6 +838,7 @@ mindinsight:
         url: https://d3js.org
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     d3-graphviz:
         cpeName: d3-graphviz
         version: 3.0.4
@@ -824,6 +847,7 @@ mindinsight:
         url: https://github.com/magjac/d3-graphviz
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     echarts:
         cpeName: echarts
         version: 5.2.1
@@ -832,6 +856,7 @@ mindinsight:
         url: http://echarts.apache.org/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     element-ui:
         cpeName: element-ui
         version: 2.13.0
@@ -840,6 +865,7 @@ mindinsight:
         url: http://element.eleme.io
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     google-pasta:
         cpeName: google-pasta
         version: ">= 0.1.8"
@@ -848,6 +874,7 @@ mindinsight:
         url: https://github.com/google/pasta/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     grpc:
         cpeName: grpc
         version: ">= 1.39.0"
@@ -856,6 +883,7 @@ mindinsight:
         url: https://github.com/grpc/grpc
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     gunicorn:
         cpeName: gunicorn
         version: ">= 20.0.4"
@@ -864,6 +892,7 @@ mindinsight:
         url: http://gunicorn.org/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     jquery:
         cpeName: jquery
         version: 3.5.0
@@ -872,6 +901,7 @@ mindinsight:
         url: http://jquery.com
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     marshmallow:
         cpeName: marshmallow
         version: ">= 3.10.0"
@@ -880,6 +910,7 @@ mindinsight:
         url: https://github.com/marshmallow-code/marshmallow
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     networkx:
         cpeName: networkx
         version: 2.5
@@ -888,6 +919,7 @@ mindinsight:
         url: https://github.com/networkx/networkx
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     numpy:
         cpeName: numpy
         version: ">= 1.17.0"
@@ -896,6 +928,7 @@ mindinsight:
         url: https://www.numpy.org
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     onnx:
         cpeName: onnx
         version: 1.8.0
@@ -904,6 +937,7 @@ mindinsight:
         url: https://onnx.ai/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     psutil:
         cpeName: psutil
         version: ">= 5.7.0"
@@ -912,6 +946,7 @@ mindinsight:
         url: https://github.com/giampaolo/psutil
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     pyyaml:
         cpeName: pyyaml
         version: ">= 5.3.1"
@@ -920,6 +955,7 @@ mindinsight:
         url: https://pypi.org/project/PyYAML/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     tensorflow-onnx:
         cpeName: tensorflow-onnx
         version: 1.7.1
@@ -928,6 +964,7 @@ mindinsight:
         url: https://github.com/onnx/tensorflow-onnx/tree/v1.7.1
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     treelib:
         cpeName: treelib
         version: ">= 1.6.1"
@@ -936,6 +973,7 @@ mindinsight:
         url: https://github.com/caesar0301/treelib
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vue:
         cpeName: vue
         version: 2.6.14
@@ -944,6 +982,7 @@ mindinsight:
         url: https://vuejs.org/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vue-cli:
         cpeName: vue-cli
         version: 4.5.7
@@ -952,6 +991,7 @@ mindinsight:
         url: https://cli.vuejs.org/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vue-cli-plugin-i18n:
         cpeName: vue-cli-plugin-i18n
         version: 0.6.1
@@ -960,6 +1000,7 @@ mindinsight:
         url: https://github.com/kazupon/vue-cli-plugin-i18n
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vue-i18n:
         cpeName: vue-i18n
         version: 8.25.0
@@ -968,6 +1009,7 @@ mindinsight:
         url: http://kazupon.github.io/vue-i18n/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vue-i18n-loader:
         cpeName: vue-i18n-loader
         version: 0.6.1
@@ -976,6 +1018,7 @@ mindinsight:
         url: https://www.patreon.com/kazupon
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vue-router:
         cpeName: vue-router
         version: 3.5.2
@@ -984,6 +1027,7 @@ mindinsight:
         url: http://router.vuejs.org/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     vuex:
         cpeName: vuex
         version: 3.6.2
@@ -992,6 +1036,7 @@ mindinsight:
         url: https://vuex.vuejs.org/
         handler: zhujiaxing
         milestone: B-SIG-Data
+        schName:
     yapf:
         cpeName: yapf
         version: ">= 0.30.0"
@@ -1000,15 +1045,17 @@ mindinsight:
         url: https://github.com/google/yapf
         handler: zhujiaxing
         milestone: B-SIG-Data
-mindelec:
+        schName:
+mindscience:
     pyevtk:
         cpeName: pyevtk
-        version: 1.4.1
+        version: ">= 1.4.1"
         language: python
         license: MIT License
         url: https://github.com/paulo-herrera/PyEVTK
         handler: kangyangzc
         milestone: B-MBA
+        schName: pyevtk
     pythonocc-core:
         cpeName: pythonocc-core
         version: 7.5.1
@@ -1017,6 +1064,7 @@ mindelec:
         url: https://github.com/tpaviot/pythonocc
         handler: kangyangzc
         milestone: B-MBA
+        schName:
     numpy:
         cpeName: numpy
         version: 1.17.0
@@ -1025,6 +1073,7 @@ mindelec:
         url: https://www.numpy.org
         handler: zhujiaxing
         milestone: B-SIG-FrontEnd
+        schName: numpy
     matplotlib:
         cpeName: matplotlib
         version: 3.2.1
@@ -1033,6 +1082,7 @@ mindelec:
         url: https://matplotlib.org
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName: matplotlib
     opencv-python:
         cpeName: opencv-python
         version: ">= 4.1.2.30"
@@ -1041,30 +1091,34 @@ mindelec:
         url: https://github.com/skvark/opencv-python
         handler: zhao_ting_v
         milestone: B-SIG-ModelZoo
+        schName: opencv-python
     easydict:
         cpeName: easydict
-        version: '1.9'
+        version: 1.9
         language: python
         license: GNU Lesser General Public License v3.0
         url: https://github.com/makinacorpus/easydict
         handler: zhao_ting_v
         milestone: B-SIG-ModelZoo
-    Pillow:
-        cpeName: Pillow
+        schName:
+    pillow:
+        cpeName: pillow
         version: 8.2.0
         language: Python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: shenwei41
         milestone: B-SIG-Data
-    Scipy:
-        cpeName: Scipy
+        schName: pillow
+    scipy:
+        cpeName: scipy
         version: 1.5.2
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
+        schName: scipy
 serving:
     abseil-cpp:
         cpeName: abseil-cpp
@@ -1074,6 +1128,7 @@ serving:
         url: https://github.com/abseil/abseil-cpp
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: absl
     c-ares:
         cpeName: c-ares
         version: 1.15.0
@@ -1082,6 +1137,7 @@ serving:
         url: https://github.com/c-ares/c-ares
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: c-ares
     Eigen:
         cpeName: Eigen
         version: 3.4.0
@@ -1090,6 +1146,7 @@ serving:
         url: https://gitlab.com/libeigen/eigen
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: eigen
     glog:
         cpeName: glog
         version: 0.4.0
@@ -1098,6 +1155,7 @@ serving:
         url: https://github.com/google/glog
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: glog
     protobuf:
         cpeName: protobuf
         version: 3.13.0
@@ -1106,6 +1164,7 @@ serving:
         url: https://github.com/protocolbuffers/protobuf
         handler: henryshi1
         milestone: B-SIG-MSLite
+        schName: protobuf
     grpc:
         cpeName: grpc
         version: 1.36.1
@@ -1114,6 +1173,7 @@ serving:
         url: https://github.com/grpc/grpc/
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: grpc
     googletest:
         cpeName: googletest
         version: 1.8.1
@@ -1122,6 +1182,7 @@ serving:
         url: https://github.com/google/googletest/
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: gtest
     JSON for Modern C++:
         cpeName: JSON for Modern C++
         version: 3.10.1
@@ -1130,6 +1191,7 @@ serving:
         url: https://github.com/nlohmann/json
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: json
     libevent:
         cpeName: libevent
         version: 2.1.12
@@ -1138,6 +1200,7 @@ serving:
         url: https://github.com/libevent/libevent/
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: libevent
     pybind11:
         cpeName: pybind11
         version: 2.4.3,2.6.1
@@ -1146,6 +1209,7 @@ serving:
         url: https://github.com/pybind/pybind11/
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: pybind11
     openssl:
         cpeName: openssl
         version: 1.1.1k
@@ -1154,6 +1218,7 @@ serving:
         url: https://github.com/openssl/openssl
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: openssl
     re2:
         cpeName: re2
         version: 20191201
@@ -1162,6 +1227,7 @@ serving:
         url: https://github.com/google/re2
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: re2
     zlib:
         cpeName: zlib
         version: 1.2.11
@@ -1170,6 +1236,7 @@ serving:
         url: https://github.com/madler/zlib
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: zlib
     numpy:
         cpeName: numpy
         version: ">= 1.17.0"
@@ -1178,6 +1245,7 @@ serving:
         url: https://github.com/numpy/numpy
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: numpy
     psutil:
         cpeName: psutil
         version: ">= 5.9.1"
@@ -1186,14 +1254,16 @@ serving:
         url: https://github.com/giampaolo/psutil
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: psutil
     grpcio:
         cpeName: grpcio
         version: ">= 1.36.0,<= 1.47.0"
         language: Python
-        license: Creative Commons Attribution 4.0 license, Apache License V2.0
+        license: Apache License V2.0
         url: https://github.com/grpc/grpc.io/
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: grpcio
     requests:
         cpeName: requests
         version: ">= 2.22.0"
@@ -1202,3 +1272,4 @@ serving:
         url: https://github.com/psf/requests/
         handler: xu-yfei
         milestone: B-SIG-MSLite
+        schName: requests
