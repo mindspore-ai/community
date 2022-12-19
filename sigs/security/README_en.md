@@ -1,11 +1,23 @@
 # SIG Introduction
 
-Trusted AI SIG focus on models and data trust technology in the field of artificial intelligence, mainly including the following directions:
+Trusted AI SIG focuses on models and data trusted technologies in the field of artificial intelligence, and is committed to building a safe and reliable AI computing framework, mainly including the following directions:
 :
 
 1. **AI Model's robustness and reliability**: Adversarial samples, adversarial training, explainable AI, data concept drift detection and model fault injection.
 2. **Privacy protection**: Differential privacy training, federated learning, data masking, privacy-leakage evaluation.
 3. **Model deployment security**: Model encryption and model obfuscation.
+
+## Contribution List
+
+| Name        | gitee_id           | community task score | Number of issues submitted | Number of PR submitted | Number of Technical blogs submitted | Number of meeting sharing | Number of meetings organized |
+|-------------|--------------------|----------------------|----------------------------|------------------------|-------------------------------------|---------------------------|------------------------------|
+| H. Zhang    | @shazi4399         | 80                   | 0                          | 2                      | 1                                   | 1                         | 0                            |
+| M.J. Li     | @limingjun1        | 35                   | 0                          | 2                      | 1                                   | 1                         | 0                            |
+| Z.H. Hu     | @Mr_GerhardtHu_Fox | 0                    | 0                          | 1                      | 0                                   | 1                         | 1                            |
+| Z.G.C Zhang | @zhangzhugucheng   | 0                    | 0                          | 4                      | 0                                   | 1                         | 0                            |
+| K.W. Chen   | @qmckw             | 0                    | 0                          | 1                      | 1                                   | 0                         | 0                            |
+| Q.H. Li     |                    | 0                    | 0                          | 0                      | 1                                   | 0                         | 0                            |
+| J.Y. Wang   |                    | 0                    | 0                          | 0                      | 1                                   | 0                         | 0                            |
 
 ## SIG code repositories
 
@@ -46,9 +58,7 @@ Responsible persons: Maintainers and Committers are responsible for collecting t
 
 ### 3, Publish coding projects
 
-1) [Opensource internship projects](https://gitee.com/mindspore/community/issues/I557F6)
-
-2) [Community tasks](https://gitee.com/mindspore/community/issues/I4YQNG?from=project-issue)
+[Opensource internship projects](https://gitee.com/mindspore/community/issues/I557F6)
 
 Time: once a quarter
 
@@ -60,7 +70,7 @@ Time: notify in SIG's WeChat group
 
 Contents of the regular meeting: 1) synchronize the progress of development tasks; 2) SIG members' papers sharing; 3) skill empowerment for SIG members
 
-Task claim: https://gitee.com/mindspore/community/issues/I557F6
+meeting records: https://etherpad.mindspore.cn/p/meetings-Security
 
 Person in charge: Maintainers and Committers organize in turn
 

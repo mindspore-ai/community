@@ -1,10 +1,22 @@
 ## SIG简介
 
-Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，主要包括以下几个方向：
+Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，致力于打造安全可靠的AI计算框架，主要包括以下几个方向：
 
 1. **模型鲁棒性和可靠性**：对抗样本、对抗训练、AI可解释、数据概念漂移检测、模型故障注入评估。
 2. **隐私保护**：差分隐私训练、联邦学习、数据脱敏、隐私泄露评估。
 3. **模型部署安全**：模型加密、模型混淆等技术。
+
+## SIG贡献榜
+
+| 名字          | gitee_id           | 社区任务积分 | 提交issue数量 | 提交PR数量 | 提交技术文章数量 | 例会分享次数 | 组织例会次数 |
+|-------------|--------------------|--------|-----------|--------|----------|--------|--------|
+| H. Zhang    | @shazi4399         | 80     | 0         | 2      | 1        | 1      | 0      |
+| M.J. Li     | @limingjun1        | 35     | 0         | 2      | 1        | 1      | 0      |
+| Z.H. Hu     | @Mr_GerhardtHu_Fox | 0      | 0         | 1      | 0        | 1      | 1      |
+| Z.G.C Zhang | @zhangzhugucheng   | 0      | 0         | 4      | 0        | 1      | 0      |
+| K.W. Chen   | @qmckw             | 0      | 0         | 1      | 1        | 0      | 0      |
+| Q.H. Li     |                    | 0      | 0         | 0      | 1        | 0      | 0      |
+| J.Y. Wang   |                    | 0      | 0         | 0      | 1        | 0      | 0      |
 
 ## SIG代码仓
 
@@ -45,9 +57,7 @@ Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，主�
 
 ### ３，开发任务发放
 
-①　[开源实习任务](https://gitee.com/mindspore/community/issues/I557F6)
-
-②　[社区普通任务](https://gitee.com/mindspore/community/issues/I4YQNG?from=project-issue)
+[开源实习任务](https://gitee.com/mindspore/community/issues/I557F6)
 
 时间：每季度一次
 
@@ -59,7 +69,7 @@ Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，主�
 
 例会内容：①对齐SIG成员领取的开发任务进展；②SIG成员论文分享；③技术赋能
 
-任务认领情况：https://gitee.com/mindspore/community/issues/I557F6
+例会记录：https://etherpad.mindspore.cn/p/meetings-Security
 
 负责人：Maintainers、Committers轮流组织
 
