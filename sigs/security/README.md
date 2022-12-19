@@ -18,6 +18,11 @@ Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，致�
 | Q.H. Li     |                    | 0      | 0         | 0      | 1        | 0      | 0      |
 | J.Y. Wang   |                    | 0      | 0         | 0      | 1        | 0      | 0      |
 
+**提示：** SIG成员可以提交PR更新表格数据，提交PR时需要附上相关的依据，如PR的链接、技术文章的链接等等（如果没有，请文字说明）。
+
+**温馨提示：** 点击代码页面上的编辑按钮（如下图所示），可以直接在网页上提交轻量化PR！
+![输入图片说明](light_weight_PR.png)
+
 ## SIG代码仓
 
 1. [MindArmour](https://gitee.com/mindspore/mindarmour)
