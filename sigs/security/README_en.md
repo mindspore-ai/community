@@ -9,15 +9,20 @@ Trusted AI SIG focuses on models and data trusted technologies in the field of a
 
 ## Contribution List
 
-| Name        | gitee_id           | community task score | Number of issues submitted | Number of PR submitted | Number of Technical blogs submitted | Number of meeting sharing | Number of meetings organized |
-|-------------|--------------------|----------------------|----------------------------|------------------------|-------------------------------------|---------------------------|------------------------------|
-| H. Zhang    | @shazi4399         | 80                   | 0                          | 2                      | 1                                   | 1                         | 0                            |
-| M.J. Li     | @limingjun1        | 35                   | 0                          | 2                      | 1                                   | 1                         | 0                            |
-| Z.H. Hu     | @Mr_GerhardtHu_Fox | 0                    | 0                          | 1                      | 0                                   | 1                         | 1                            |
-| Z.G.C Zhang | @zhangzhugucheng   | 0                    | 0                          | 4                      | 0                                   | 1                         | 0                            |
-| K.W. Chen   | @qmckw             | 0                    | 0                          | 1                      | 1                                   | 0                         | 0                            |
-| Q.H. Li     |                    | 0                    | 0                          | 0                      | 1                                   | 0                         | 0                            |
-| J.Y. Wang   |                    | 0                    | 0                          | 0                      | 1                                   | 0                         | 0                            |
+| Name        | gitee_id                                                  | community task score | Number of issues submitted | Number of PR submitted | Number of Technical blogs submitted | Number of meeting sharing | Number of meetings organized |
+|-------------|-----------------------------------------------------------|----------------------|----------------------------|------------------------|-------------------------------------|---------------------------|------------------------------|
+| H. Zhang    | [@shazi4399](https://gitee.com/shazi4399)                 | 80                   | 0                          | 2                      | 1                                   | 1                         | 0                            |
+| M.J. Li     | [@limingjun1](https://gitee.com/limingjun1)               | 35                   | 0                          | 2                      | 1                                   | 1                         | 0                            |
+| Z.H. Hu     | [@Mr_GerhardtHu_Fox](https://gitee.com/Mr_GerhardtHu_Fox) | 0                    | 0                          | 1                      | 0                                   | 1                         | 1                            |
+| Z.G.C Zhang | [@zhangzhugucheng](https://gitee.com/zhangzhugucheng)     | 0                    | 0                          | 4                      | 0                                   | 1                         | 0                            |
+| K.W. Chen   | [@qmckw](https://gitee.com/qmckw)                         | 0                    | 0                          | 1                      | 1                                   | 0                         | 0                            |
+| Q.H. Li     |                                                           | 0                    | 0                          | 0                      | 1                                   | 0                         | 0                            |
+| J.Y. Wang   |                                                           | 0                    | 0                          | 0                      | 1                                   | 0                         | 0                            |
+
+**Hint：** SIG members can submit PR to update the above form data. When submitting PR, you need to attach relevant evidence, such as PR link, technical article link, etc. (if not, please explain in text).
+
+**Tips：** Click the edit button on the code page (as shown in the figure below) to directly submit lightweight PR on the web page!
+![输入图片说明](light_weight_PR.png)
 
 ## SIG code repositories
 
