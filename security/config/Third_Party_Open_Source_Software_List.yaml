@@ -614,7 +614,7 @@ akg:
         schName:
     scipy:
         cpeName: scipy
-        version: 1.5.3
+        version: ">= 1.5.4"
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
@@ -639,6 +639,15 @@ akg:
         handler: looop5
         milestone: B-SIG-AKG
         schName:
+    pandas:
+        cpeName: pandas
+        version: ">= 1.0.2"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://pandas.pydata.org/
+        handler: looop5
+        milestone: B-SIG-AKG
+        schName: pandas
 mindarmour:
     openssl:
         cpeName: openssl
