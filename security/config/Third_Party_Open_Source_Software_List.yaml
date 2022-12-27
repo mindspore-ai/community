@@ -98,6 +98,15 @@ mindspore:
         handler: henryshi1
         milestone: B-SIG-FrontEnd
         schName: scipy
+    tables:
+        cpeName: tables
+        version: ">= 3.6.1"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/PyTables/PyTables
+        handler: henryshi1
+        milestone: B-SIG-FrontEnd
+        schName: tables
     robin_hood_hashing:
         cpeName: robin_hood_hashing
         version: 3.11.5
@@ -395,33 +404,6 @@ mindspore:
         handler: xu-yfei
         milestone: B-SIG-MSLite
         schName: psutil
-    cffi:
-        cpeName: cffi
-        version: 1.12.3
-        language: Python
-        license: MIT License
-        url: http://cffi.readthedocs.org
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
-    gensim:
-        cpeName: gensim
-        version: 3.8.1
-        language: Python
-        license: LGPL V2.1
-        url: http://radimrehurek.com/gensim
-        handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
-        schName:
-    Cython:
-        cpeName: Cython
-        version: 0.29.15
-        language: C/C++
-        license: Apache License V2.0
-        url: http://cython.org/
-        handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
-        schName:
     dataclasses:
         cpeName: dataclasses
         version: '0.7'
@@ -431,78 +413,15 @@ mindspore:
         handler: henryshi1
         milestone: B-SIG-FrontEnd
         schName:
-    onnx:
-        cpeName: onnx
-        version: 1.6.0
-        language: C/C++
-        license: MIT License
-        url: https://onnx.ai/
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
-    SymPy:
-        cpeName: SymPy
-        version: '1.4'
-        language: Python
-        license: BSD 3-Clause License
-        url: http://www.sympy.org/en/index.html
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
-    ProjectQ:
-        cpeName: ProjectQ
-        version: 0.5.1
-        language: Python
-        license: Apache License V2.0
-        url: https://projectq.ch/
-        handler: kangyangzc
-        milestone: B-MBA
-        schName:
-    CMSIS:
-        cpeName: CMSIS
+    cmsis:
+        cpeName: cmsis
         version: 5.7.0
         language: C
         license: Apache License V2.0
         url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
         handler: zhanghaibo5
         milestone: B-SIG-MSLite
-        schName:
-    sacrebleu:
-        cpeName: sacrebleu
-        version: 1.4.14
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/mjpost/sacrebleu
-        handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
-        schName:
-    Khronos Group - Vulkan:
-        cpeName: Khronos Group - Vulkan
-        version: 1.2.144
-        language: Python
-        license: Apache License V2.0
-        url: https://www.khronos.org/vulkan/
-        handler: xu-yfei
-        milestone: B-SIG-MSLite
-        schName:
-    subword-nmt:
-        cpeName: subword-nmt
-        version: 0.3.7
-        language: Python
-        license: MIT License
-        url: https://github.com/rsennrich/subword-nmt
-        handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
-        schName:
-    sacremoses:
-        cpeName: sacremoses
-        version: 0.0.35
-        language: Python
-        license: MIT License
-        url: https://github.com/alvations/sacremoses
-        handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
-        schName:
+        schName: cmsis
     pytest:
         cpeName: pytest
         version: 5.4.3
@@ -511,24 +430,6 @@ mindspore:
         url: https://docs.pytest.org/en/latest/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
-        schName:
-    okhttp:
-        cpeName: okhttp
-        version:  3.14.9
-        language: Java
-        license: Apache License V2.0
-        url: https://square.github.io/okhttp/
-        handler: yangxixin
-        milestone: B-SIG-FL
-        schName:
-    The Legion of the Bouncy Castle:
-        cpeName: The Legion of the Bouncy Castle
-        version: 1.68
-        language: Java
-        license: MIT License
-        url: http://www.bouncycastle.org/
-        handler: yangxixin
-        milestone: B-SIG-FL
         schName:
     onnxruntime:
         cpeName: onnxruntime
@@ -1282,3 +1183,85 @@ serving:
         handler: xu-yfei
         milestone: B-SIG-MSLite
         schName: requests
+others:
+    gensim:
+            cpeName: gensim
+            version: 3.8.1
+            language: Python
+            license: LGPL V2.1
+            url: http://radimrehurek.com/gensim
+            handler: zhao_ting_v
+            milestone: B-SIG-ModelZoo
+            schName:
+    onnx:
+        cpeName: onnx
+        version: 1.6.0
+        language: C/C++
+        license: MIT License
+        url: https://onnx.ai/
+        handler: henryshi1
+        milestone: B-SIG-FrontEnd
+        schName:
+    SymPy:
+        cpeName: SymPy
+        version: '1.4'
+        language: Python
+        license: BSD 3-Clause License
+        url: http://www.sympy.org/en/index.html
+        handler: henryshi1
+        milestone: B-SIG-FrontEnd
+        schName:
+    ProjectQ:
+        cpeName: ProjectQ
+        version: 0.5.1
+        language: Python
+        license: Apache License V2.0
+        url: https://projectq.ch/
+        handler: kangyangzc
+        milestone: B-MBA
+        schName:
+    sacrebleu:
+        cpeName: sacrebleu
+        version: 1.4.14
+        language: Python
+        license: Apache License V2.0
+        url: https://github.com/mjpost/sacrebleu
+        handler: zhao_ting_v
+        milestone: B-SIG-ModelZoo
+        schName:
+    subword-nmt:
+        cpeName: subword-nmt
+        version: 0.3.7
+        language: Python
+        license: MIT License
+        url: https://github.com/rsennrich/subword-nmt
+        handler: zhao_ting_v
+        milestone: B-SIG-ModelZoo
+        schName:
+    sacremoses:
+        cpeName: sacremoses
+        version: 0.0.35
+        language: Python
+        license: MIT License
+        url: https://github.com/alvations/sacremoses
+        handler: zhao_ting_v
+        milestone: B-SIG-ModelZoo
+        schName:
+    okhttp:
+        cpeName: okhttp
+        version:  3.14.9
+        language: Java
+        license: Apache License V2.0
+        url: https://square.github.io/okhttp/
+        handler: yangxixin
+        milestone: B-SIG-FL
+        schName:
+    The Legion of the Bouncy Castle:
+        cpeName: The Legion of the Bouncy Castle
+        version: 1.68
+        language: Java
+        license: MIT License
+        url: http://www.bouncycastle.org/
+        handler: yangxixin
+        milestone: B-SIG-FL
+        schName:
