@@ -650,33 +650,6 @@ mindinsight:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
-    SPIRV-Tools:
-        cpeName: SPIRV-Tools
-        version: 2020.6
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/SPIRV-Tools
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    Vulkan-ValidationLayers:
-        cpeName: Vulkan-ValidationLayers
-        version: 1.2.162.0
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/Vulkan-ValidationLayers
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    SPIRV-Headers:
-        cpeName: SPIRV-Headers
-        version: 1.5.4
-        language: python
-        license: MIT License
-        url: https://github.com/KhronosGroup/SPIRV-Headers
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
     Flask:
         cpeName: Flask
         version: ">= 2.1.0"
@@ -695,15 +668,6 @@ mindinsight:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName: pillow
-    SlickGrid:
-        cpeName: SlickGrid
-        version: 2.4.22
-        language: python
-        license: MIT License
-        url: https://github.com/6pac/SlickGrid
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
     Werkzeug:
         cpeName: Werkzeug
         version: ">2.1.0"
@@ -722,93 +686,12 @@ mindinsight:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
-    axios:
-        cpeName: axios
-        version: 0.21.4
-        language: js
-        license: MIT License
-        url: https://github.com/mzabriskie/axios
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    core-js:
-        cpeName: core-js
-        version: 3.6.5
-        language: js
-        license: MIT License
-        url: https://github.com/zloirock/core-js
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    d3:
-        cpeName: d3
-        version: 5.15.0
-        language: js
-        license: ISC License
-        url: https://d3js.org
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    d3-graphviz:
-        cpeName: d3-graphviz
-        version: 3.0.4
-        language: js
-        license: BSD 3-Clause License
-        url: https://github.com/magjac/d3-graphviz
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    echarts:
-        cpeName: echarts
-        version: 5.2.1
-        language: js
-        license: BSD 3-Clause License
-        url: http://echarts.apache.org/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    element-ui:
-        cpeName: element-ui
-        version: 2.13.0
-        language: js
-        license: MIT License
-        url: http://element.eleme.io
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    google-pasta:
-        cpeName: google-pasta
-        version: ">= 0.1.8"
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/google/pasta/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    grpc:
-        cpeName: grpc
-        version: ">= 1.39.0"
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/grpc/grpc
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
     gunicorn:
         cpeName: gunicorn
         version: ">= 20.0.4"
         language: python
         license: MIT License
         url: http://gunicorn.org/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    jquery:
-        cpeName: jquery
-        version: 3.5.0
-        language: js
-        license: MIT License
-        url: http://jquery.com
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
@@ -821,30 +704,12 @@ mindinsight:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
-    networkx:
-        cpeName: networkx
-        version: 2.5
-        language: python
-        license: MIT License
-        url: https://github.com/networkx/networkx
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
     numpy:
         cpeName: numpy
         version: ">= 1.17.0"
         language: python
         license: BSD 3-Clause License
         url: https://www.numpy.org
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    onnx:
-        cpeName: onnx
-        version: 1.8.0
-        language: python
-        license: Apache License V2.0
-        url: https://onnx.ai/
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
@@ -866,15 +731,6 @@ mindinsight:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
-    tensorflow-onnx:
-        cpeName: tensorflow-onnx
-        version: 1.7.1
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/onnx/tensorflow-onnx/tree/v1.7.1
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
     treelib:
         cpeName: treelib
         version: ">= 1.6.1"
@@ -884,78 +740,51 @@ mindinsight:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
-    vue:
-        cpeName: vue
-        version: 2.6.14
-        language: js
-        license: MIT License
-        url: https://vuejs.org/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    vue-cli:
-        cpeName: vue-cli
-        version: 4.5.7
-        language: js
-        license: MIT License
-        url: https://cli.vuejs.org/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    vue-cli-plugin-i18n:
-        cpeName: vue-cli-plugin-i18n
-        version: 0.6.1
-        language: js
-        license: MIT License
-        url: https://github.com/kazupon/vue-cli-plugin-i18n
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    vue-i18n:
-        cpeName: vue-i18n
-        version: 8.25.0
-        language: js
-        license: MIT License
-        url: http://kazupon.github.io/vue-i18n/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    vue-i18n-loader:
-        cpeName: vue-i18n-loader
-        version: 0.6.1
-        language: js
-        license: MIT License
-        url: https://www.patreon.com/kazupon
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    vue-router:
-        cpeName: vue-router
-        version: 3.5.2
-        language: js
-        license: MIT License
-        url: http://router.vuejs.org/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    vuex:
-        cpeName: vuex
-        version: 3.6.2
-        language: js
-        license: MIT License
-        url: https://vuex.vuejs.org/
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName:
-    yapf:
-        cpeName: yapf
-        version: ">= 0.30.0"
-        language: js
+    protobuf:
+        cpeName: protobuf
+        version: ">= 3.13.0, <= 3.20.1"
+        language: C/C++
         license: Apache License V2.0
-        url: https://github.com/google/yapf
+        url: https://github.com/protocolbuffers/protobuf
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName: protobuf
+    grpcio:
+        cpeName: grpcio
+        version: ">= 1.39.0"
+        language: Python
+        license: Apache License V2.0
+        url: https://github.com/grpc/grpc.io/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName: grpcio
+    pandas:
+        cpeName: pandas
+        version: ">= 1.0.4"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://pandas.pydata.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName: pandas
+    scikit-learn:
+        cpeName: scikit-learn
+        version: ">= 0.23.1"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/scikit-learn/scikit-learn
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName:
+    scipy:
+        cpeName: scipy
+        version: ">= 1.5.2"
+        language: Python
+        license: BSD 3-Clause License
+        url: http://scipy.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+
 mindscience:
     pyevtk:
         cpeName: pyevtk
@@ -1183,6 +1012,189 @@ serving:
         handler: xu-yfei
         milestone: B-SIG-MSLite
         schName: requests
+mindconverter:
+    networkx:
+        cpeName: networkx
+        version: 2.5
+        language: python
+        license: MIT License
+        url: https://github.com/networkx/networkx
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    protobuf:
+        cpeName: protobuf
+        version: ">= 3.13.0"
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/protocolbuffers/protobuf
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName: protobuf
+    google-pasta:
+        cpeName: google-pasta
+        version: ">= 0.1.8"
+        language: python
+        license: Apache License V2.0
+        url: https://github.com/google/pasta/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    numpy:
+        cpeName: numpy
+        version: ">= 1.17.0"
+        language: python
+        license: BSD 3-Clause License
+        url: https://www.numpy.org
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    yapf:
+        cpeName: yapf
+        version: ">= 0.30.0"
+        language: js
+        license: Apache License V2.0
+        url: https://github.com/google/yapf
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+
+vue:
+    vue:
+        cpeName: vue
+        version: 2.6.14
+        language: js
+        license: MIT License
+        url: https://vuejs.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    SlickGrid:
+        cpeName: SlickGrid
+        version: 2.4.22
+        language: python
+        license: MIT License
+        url: https://github.com/6pac/SlickGrid
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    axios:
+        cpeName: axios
+        version: 0.21.4
+        language: js
+        license: MIT License
+        url: https://github.com/mzabriskie/axios
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    core-js:
+        cpeName: core-js
+        version: 3.6.5
+        language: js
+        license: MIT License
+        url: https://github.com/zloirock/core-js
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    d3:
+        cpeName: d3
+        version: 5.15.0
+        language: js
+        license: ISC License
+        url: https://d3js.org
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    d3-graphviz:
+        cpeName: d3-graphviz
+        version: 3.0.4
+        language: js
+        license: BSD 3-Clause License
+        url: https://github.com/magjac/d3-graphviz
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    echarts:
+        cpeName: echarts
+        version: 5.2.1
+        language: js
+        license: BSD 3-Clause License
+        url: http://echarts.apache.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    element-ui:
+        cpeName: element-ui
+        version: 2.13.0
+        language: js
+        license: MIT License
+        url: http://element.eleme.io
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    vue-cli:
+        cpeName: vue-cli
+        version: 4.5.7
+        language: js
+        license: MIT License
+        url: https://cli.vuejs.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    vue-cli-plugin-i18n:
+        cpeName: vue-cli-plugin-i18n
+        version: 0.6.1
+        language: js
+        license: MIT License
+        url: https://github.com/kazupon/vue-cli-plugin-i18n
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    vue-i18n:
+        cpeName: vue-i18n
+        version: 8.25.0
+        language: js
+        license: MIT License
+        url: http://kazupon.github.io/vue-i18n/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    vue-i18n-loader:
+        cpeName: vue-i18n-loader
+        version: 0.6.1
+        language: js
+        license: MIT License
+        url: https://www.patreon.com/kazupon
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    vue-router:
+        cpeName: vue-router
+        version: 3.5.2
+        language: js
+        license: MIT License
+        url: http://router.vuejs.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    vuex:
+        cpeName: vuex
+        version: 3.6.2
+        language: js
+        license: MIT License
+        url: https://vuex.vuejs.org/
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    jquery:
+        cpeName: jquery
+        version: 3.5.0
+        language: js
+        license: MIT License
+        url: http://jquery.com
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
 others:
     gensim:
             cpeName: gensim
@@ -1264,4 +1276,40 @@ others:
         url: http://www.bouncycastle.org/
         handler: yangxixin
         milestone: B-SIG-FL
+        schName:
+    SPIRV-Tools:
+        cpeName: SPIRV-Tools
+        version: 2020.6
+        language: python
+        license: Apache License V2.0
+        url: https://github.com/KhronosGroup/SPIRV-Tools
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    Vulkan-ValidationLayers:
+        cpeName: Vulkan-ValidationLayers
+        version: 1.2.162.0
+        language: python
+        license: Apache License V2.0
+        url: https://github.com/KhronosGroup/Vulkan-ValidationLayers
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    SPIRV-Headers:
+        cpeName: SPIRV-Headers
+        version: 1.5.4
+        language: python
+        license: MIT License
+        url: https://github.com/KhronosGroup/SPIRV-Headers
+        handler: zhujiaxing
+        milestone: B-SIG-Data
+        schName:
+    tensorflow-onnx:
+        cpeName: tensorflow-onnx
+        version: 1.7.1
+        language: python
+        license: Apache License V2.0
+        url: https://github.com/onnx/tensorflow-onnx/tree/v1.7.1
+        handler: zhujiaxing
+        milestone: B-SIG-Data
         schName:
