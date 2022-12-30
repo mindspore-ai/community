@@ -1113,7 +1113,7 @@ serving:
         schName: libevent
     pybind11:
         cpeName: pybind11
-        version: 2.4.3,2.6.1
+        version: "2.4.3, 2.6.1"
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/pybind/pybind11/
@@ -1167,7 +1167,7 @@ serving:
         schName: psutil
     grpcio:
         cpeName: grpcio
-        version: ">= 1.36.0,<= 1.47.0"
+        version: ">= 1.36.0, <= 1.47.0"
         language: Python
         license: Apache License V2.0
         url: https://github.com/grpc/grpc.io/
