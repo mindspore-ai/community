@@ -568,8 +568,8 @@ mindarmour:
         handler: henryshi1
         milestone: B-SIG-FrontEnd
         schName:
-    Scipy:
-        cpeName: Scipy
+    scipy:
+        cpeName: scipy
         version: 1.5.4
         language: Python
         license: BSD 3-Clause License
@@ -606,13 +606,31 @@ mindarmour:
         schName:
     pillow:
         cpeName: pillow
-        version: ">= 8.2.0"
+        version: 9.3.0
         language: python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: jxlang910
         milestone: B-SIG-Security
         schName: pillow
+    easydict:
+        cpeName: easydict
+        version: 1.9
+        language: python
+        license: GNU Lesser General Public License v3.0
+        url: https://github.com/makinacorpus/easydict
+        handler: zhao_ting_v
+        milestone: B-SIG-Security
+        schName:
+    opencv-python:
+        cpeName: opencv-python
+        version: ">= 4.1.2.30"
+        language: python
+        license: MIT License
+        url: https://github.com/skvark/opencv-python
+        handler: zhao_ting_v
+        milestone: B-SIG-Security
+        schName: opencv-python
 mindinsight:
     Flask-Cors:
         cpeName: Flask-Cors
