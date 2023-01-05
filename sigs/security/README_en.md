@@ -75,7 +75,7 @@ Time: notify in SIG's WeChat group
 
 Contents of the regular meeting: 1) synchronize the progress of development tasks; 2) SIG members' papers sharing; 3) skill empowerment for SIG members
 
-meeting records: https://etherpad.mindspore.cn/p/meetings-Security
+meeting records: https://etherpad.mindspore.cn/p/meetings-Trusted_AI
 
 Person in charge: Maintainers and Committers organize in turn
 
