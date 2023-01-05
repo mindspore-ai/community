@@ -73,7 +73,7 @@ Trusted AI SIG 聚焦于人工智能领域的模型、数据可信技术，致�
 
 例会内容：①对齐SIG成员领取的开发任务进展；②SIG成员论文分享；③技术赋能
 
-例会记录：https://etherpad.mindspore.cn/p/meetings-Security
+例会记录：https://etherpad.mindspore.cn/p/meetings-Trusted_AI
 
 负责人：Maintainers、Committers轮流组织
 
