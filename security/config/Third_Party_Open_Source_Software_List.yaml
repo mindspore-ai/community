@@ -869,7 +869,7 @@ mindscience:
         schName: pillow
     scipy:
         cpeName: scipy
-        version: 1.5.2
+        version: 1.7.0
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
