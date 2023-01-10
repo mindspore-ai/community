@@ -7,21 +7,32 @@ SIG的全称是Special Interest Groups，即“特别兴趣小组”。MindSpore
 
 ## 目前的SIG组
 
-| SIG name                                   | 技术领域                      | SIG 负责人                                                                                                         |
-|:-------------------------------------------|:--------------------------|:----------------------------------------------------------------------------------------------------------------|
-| [DevelopereXperience](dx/README.md)        | MindSpore-Gitee社区的开发者体验提升 | [@jiancao81](https://gitee.com/jiancao81)(cao-jian@cs.sjtu.edu.cn)                                              |
-| [Trusted AI](security/README.md)          | AI安全和隐私保护技术               | [@randywangze](https://gitee.com/randywangze)                                                                   |
-| [Usability](usability/README.md)           | MindSpore框架的易用性提升         | [@zhangtong](https://gitee.com/tong-zhang)                                                                      |
-| [FrontEnd](frontend/README.md)             | MindSpore前端表达技术           | [@wangnan](https://gitee.com/wangnan39)                                                                         |
-| [Compiler](compiler/README.md)             | MindSpore图编译技术            | [@zh_qh](https://gitee.com/zh_qh)                                                                               |
-| [Executor](executor/README.md)             | MindSpore后端控制流技术          | [@kisnwang](https://gitee.com/kisnwang)                                                                         |
-| [ModelZoo](modelzoo/README.md)             | AI模型的设计和训练                | [@chenhaozhe](https://gitee.com/c_34)                                                                           |
-| [Data](data/README.md)                     | 数据处理和增强技术                 | [@liucunwei](https://gitee.com/liucunwei)                                                                       |
-| [Visualization](visualization/README.md)   | 模型调试调优可视化技术               | [@liangyongxiong](https://gitee.com/liangyongxiong1024)                                                         |
-| [MSLITE](mslite/README.md)                 | 端侧AI技术                    | [@zhaizhiqiang](https://gitee.com/zhaizhiqiang)                                                                 |
-| [Parallel](parallel/README.md)             | 自动并行技术                    | [@baiyouhui](https://gitee.com/bert0108)                                                                        |
-| [DataCompliance](datacompliance/README.md) | 数据合规风险分析                  | [@gopikrishnanrajbahadur](https://gitee.com/gopikrishnanrajbahadur) [@clement_li](https://gitee.com/clement_li) |
-| [MindQuantum](mindquantum/README.md)          | 量子计算软件与算法               | [@dorothy20212021](https://gitee.com/dorothy20212021)                                                                   |
+| SIG name                                                     | 技术领域                      | SIG 负责人                                                                                                         |
+|:-------------------------------------------------------------|:--------------------------|:----------------------------------------------------------------------------------------------------------------|
+| [DevelopereXperience](dx/README.md)                          | MindSpore-Gitee社区的开发者体验提升 | [@jiancao81](https://gitee.com/jiancao81)(cao-jian@cs.sjtu.edu.cn)                                              |
+| [Trusted AI](security/README.md)                             | AI安全和隐私保护技术               | [@randywangze](https://gitee.com/randywangze)                                                                   |
+| [Usability](usability/README.md)                             | MindSpore框架的易用性提升         | [@zhangtong](https://gitee.com/tong-zhang)                                                                      |
+| [FrontEnd](frontend/README.md)                               | MindSpore前端表达技术           | [@wangnan](https://gitee.com/wangnan39)                                                                         |
+| [Compiler](compiler/README.md)                               | MindSpore图编译技术            | [@zh_qh](https://gitee.com/zh_qh)                                                                               |
+| [Executor](executor/README.md)                               | MindSpore后端控制流技术          | [@kisnwang](https://gitee.com/kisnwang)                                                                         |
+| [ModelZoo](modelzoo/README.md)                               | AI模型的设计和训练                | [@chenhaozhe](https://gitee.com/c_34)                                                                           |
+| [Data](data/README.md)                                       | 数据处理和增强技术                 | [@liucunwei](https://gitee.com/liucunwei)                                                                       |
+| [Visualization](visualization/README.md)                     | 模型调试调优可视化技术               | [@liangyongxiong](https://gitee.com/liangyongxiong1024)                                                         |
+| [MSLITE](mslite/README.md)                                   | 端侧AI技术                    | [@zhaizhiqiang](https://gitee.com/zhaizhiqiang)                                                                 |
+| [Parallel](parallel/README.md)                               | 自动并行技术                    | [@baiyouhui](https://gitee.com/bert0108)                                                                        |
+| [DataCompliance](datacompliance/README.md)                   | 数据合规风险分析                  | [@gopikrishnanrajbahadur](https://gitee.com/gopikrishnanrajbahadur) [@clement_li](https://gitee.com/clement_li) |
+| [MindQuantum](mindquantum/README.md)                         | 量子计算软件与算法                 | [@dorothy20212021](https://gitee.com/dorothy20212021)                                                           |
+| [CulturalTourism](CulturalTourism/README.md)                 | AI与文旅行业的融合                | 孙增国（陕西师范大学计算机科学学院）                                                                                              |
+| [DeviceAdapter](DeviceAdapter/README.md)                     | 三方芯片适配MindSpore           | [@guoqi1024](https://gitee.com/guoqi1024)                                                                       |
+| [graphlearning](graphlearning/README.md)                     | 图机器学习                     | Fengxun                                                                                                         |
+| [mdp](mdp/README.md)                                         | 深度概率编程                    | Jianfei Chen (清华大学)                                                                                             |
+| [MedicalImaging](MedicalImaging/README.md)                   | 医疗影像辅助诊断                  | 张旭明（华中科技大学生命科学与技术学院）                                                                                            |
+| [mindelec](mindelec/README.md)                               | 电磁仿真计算                    | 杨卫兵（东南大学科学院）                                                                                                    |
+| [mindquantfinance](mindquantfinance/README.md)               | 量化金融分析                    | 鲁蔚征（中国人民大学）                                                                                                     |
+| [mindspore_reinforcement](mindspore_reinforcement/README.md) | 强化学习                      | 李荣鹏（浙江大学信息与电子工程学院）                                                                                              |
+| [mindspore_sponge](mindspore_sponge/README.md)               | 生物仿真计算                    | Yahao Ding                                                                                                      |
+| [RobotVision](RobotVision/README.md)                         | 机器人视觉技术                   | 孙斌（湖南大学电气与信息工程学院）                                                                                               |
+| [TimeSequence](TimeSequence/README.md)                       | 时间序列数据预测                  | 周号益（北京航空航天大学软件学院）                                                                                               |
 
 ## 学习资源
 
