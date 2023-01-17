@@ -4,39 +4,96 @@ SIG list:
   - name: DevelopereXperience SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/dx/README.md
     introduction: This SIG is responsible for improving the experience of those who upstream contribute or develop applications for MindSpore community.
+    maintainer: Jian Cao (Shanghai Jiaotong University)
   - name: Trusted AI SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/security/README_en.md
     introduction: This SIG is responsible for developing trusted AI technologies.
+    maintainer: Xiulang Jin (Huawei)
   - name: Usability SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
     introduction: This SIG is responsible for improving the usability of MindSpore for developers.
+    maintainer: Tong Zhang (Huawei)
   - name: FrontEnd SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
     introduction: This SIG is responsible for the development of MindSpore front-end expression.
+    maintainer: Nan Wang (Huawei)
   - name: Compiler SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/compiler/README.md
     introduction: This SIG is responsible for the development of MindSpore high level graph compilation.
+    maintainer: Qinghua Zhang (Huawei)
   - name: Executor SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/executor/README.md
     introduction: This SIG is responsible for the development of MindSpore back-end support for pipeline.
+    maintainer: Kaisheng Wang (Huawei)
   - name: ModelZoo SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/modelzoo/README.md
     introduction: This SIG is responsible for the development of MindSpore modelzoo and additional ops.
+    maintainer: Ting Zhao (Huawei)
   - name: Data SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/data/README.md
     introduction: This SIG is responsible for the development of MindSpore data processing and data format transformation.
+    maintainer: Yang Luo (Huawei)
   - name: Visualization SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/visualization/README.md
     introduction: This SIG is responsible for the development of Visualized debugging and optimization.
+    maintainer: Jiaxing Zhu (Huawei)
   - name: MSLITE SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mslite/README.md
     introduction: This SIG is responsible for the development of MindSpore lite.
+    maintainer: Zhiqiang Zhai (Huawei)
   - name: Parallel SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/parallel/README.md
     introduction: This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference.
+    maintainer: Jiahong Qian (Huawei)
   - name: DataCompliance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/datacompliance/README.md
     introduction: This SIG aims to reduce the risk of license compliance and help developers to use and share datasets legally.
+    maintainer: Zi Li (Huawei)
   - name: MindQuantum SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantum/README.md
     introduction: This SIG is responsible for the development of MindSpore quantum software and algorithms.
+    maintainer: Haiying Zhao (Huawei)
+  - name: CulturalTourism SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/CulturalTourism/README.md
+    introduction: AI for Cultural tourism industry
+    maintainer: Guozeng Sun（School of Computer Science, Shanxi Normal University）
+  - name: DeviceAdapter SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/DeviceAdapter/README.md
+    introduction: Adapt third party chips to mindspore
+    maintainer: Qi Guo（Huawei）
+  - name: graphlearning SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/graphlearning/README.md
+    introduction: Graph machine learning
+    maintainer: James Cheng（Chinese University of Hong Kong）
+  - name: mdp SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mdp/README.md
+    introduction: Deep Probabilistic Programming
+    maintainer: Jianfei Chen (Tsinghua University)
+  - name: MedicalImaging SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/MedicalImaging/README.md
+    introduction: Medical image-assisted diagnosis
+    maintainer: Xuming Zhang（School of Life Science and Technology, Huazhong University of Science and Technology）
+  - name: mindelec SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
+    introduction: Electromagnetic simulation calculation
+    maintainer: Weibing Yang（School of Science, Southeast University）
+  - name: mindquantfinance SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantfinance/README.md
+    introduction: Quantitative financial analysis
+    maintainer: Weizheng Lu（Renmin University of China）
+  - name: mindspore_reinforcement SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_reinforcement/README.md
+    introduction: Reinforcement learning
+    maintainer: Rongpeng Li（School of Information and Electronic Engineering, Zhejiang University）
+  - name: mindspore_sponge SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_sponge/README.md
+    introduction: Simulation package towards next generation molecular modelling
+    maintainer: Yahao Ding (Huawei)
+  - name: RobotVision SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/RobotVision/README.md
+    introduction: Robot vision technology
+    maintainer: Bin Sun（School of Electrical and Information Engineering, Hunan University）
+  - name: TimeSequence SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
+    introduction: Time-sequence data prediction
+    maintainer: Haoyi Zhou（School of Software, Beijing University of Aeronautics and Astronautics）
