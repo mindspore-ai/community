@@ -4,39 +4,96 @@ SIG list:
   - name: DevelopereXperience SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/dx/README.md
     introduction: MindSpore-Gitee社区的开发者体验提升
+    maintainer: Jian Cao (上海交通大学)
   - name: Trusted AI SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/security/README.md
     introduction: AI安全、AI可解释和隐私保护技术
+    maintainer: Xiulang Jin (Huawei)
   - name: Usability SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
     introduction: MindSpore框架的易用性提升
+    maintainer: Tong Zhang (Huawei)
   - name: FrontEnd SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
     introduction: MindSpore前端表达技术
+    maintainer: Nan Wang (Huawei)
   - name: Compiler SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/compiler/README.md
     introduction: MindSpore图编译技术
+    maintainer: Qinghua Zhang (Huawei)
   - name: Executor SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/executor/README.md
     introduction: MindSpore后端控制流技术
+    maintainer: Kaisheng Wang (Huawei)
   - name: ModelZoo SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/modelzoo/README.md
     introduction: AI模型的设计和训练
+    maintainer: Ting Zhao (Huawei)
   - name: Data SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/data/README.md
     introduction: 数据处理和增强技术
+    maintainer: Yang Luo (Huawei)
   - name: Visualization SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/visualization/README.md
     introduction: 模型调试调优可视化技术
+    maintainer: Jiaxing Zhu (Huawei)
   - name: MSLITE SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mslite/README.md
     introduction: 端侧AI技术
+    maintainer: Zhiqiang Zhai (Huawei)
   - name: Parallel SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/parallel/README.md
     introduction: 自动并行技术
+    maintainer: Jiahong Qian (Huawei)
   - name: DataCompliance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/datacompliance/README.md
     introduction: 数据合规风险分析
+    maintainer: Zi Li (Huawei)
   - name: MindQuantum SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantum/README.md
     introduction: 量子计算软件与算法
+    maintainer: Haiying Zhao (Huawei)
+  - name: CulturalTourism SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/CulturalTourism/README.md
+    introduction: AI与文旅行业的融合
+    maintainer: 孙增国（陕西师范大学计算机科学学院）
+  - name: DeviceAdapter SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/DeviceAdapter/README.md
+    introduction: 三方芯片适配MindSpore
+    maintainer: Qi Guo（Huawei）
+  - name: graphlearning SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/graphlearning/README.md
+    introduction: 图机器学习
+    maintainer: James Cheng（香港中文大学）
+  - name: mdp SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mdp/README.md
+    introduction: 深度概率编程
+    maintainer: Jianfei Chen (清华大学)
+  - name: MedicalImaging SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/MedicalImaging/README.md
+    introduction: 医疗影像辅助诊断
+    maintainer: 张旭明（华中科技大学生命科学与技术学院）
+  - name: mindelec SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
+    introduction: 电磁仿真计算
+    maintainer: 杨卫兵（东南大学科学院）
+  - name: mindquantfinance SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantfinance/README.md
+    introduction: 量化金融分析
+    maintainer: 鲁蔚征（中国人民大学）
+  - name: mindspore_reinforcement SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_reinforcement/README.md
+    introduction: 强化学习
+    maintainer: 李荣鹏（浙江大学信息与电子工程学院）
+  - name: mindspore_sponge SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_sponge/README.md
+    introduction: 生物仿真计算
+    maintainer: Yahao Ding (Huawei)
+  - name: RobotVision SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/RobotVision/README.md
+    introduction: 机器人视觉技术
+    maintainer: 孙斌（湖南大学电气与信息工程学院）
+  - name: TimeSequence SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
+    introduction: 时间序列数据预测
+    maintainer: 周号益（北京航空航天大学软件学院）
