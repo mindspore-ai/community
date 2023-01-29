@@ -449,15 +449,15 @@ mindspore:
         handler: looop5
         milestone: B-SIG-AKG
         schName: decorator
-    cucollections:
-        cpeName: cucollections
-        version:
-        language:
-        license:
-        url:
-        handler:
-        milestone:
-        schName: cucollections
+    cuCollections:
+        cpeName: cuCollections
+        version: d6ba69b1
+        language: C++/Cuda
+        license: Apache License V2.0
+        url: https://github.com/NVIDIA/cuCollections
+        handler: zyli2020
+        milestone: B-SIG-Runtime
+        schName:
 akg:
     decorator:
         cpeName: decorator
