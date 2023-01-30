@@ -29,7 +29,7 @@ MindQuantum SIG是为广大开发者提供的共同交流和学习的平台，�
 * 何天深（MndQuantum社区资深开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 何润洪（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 唐加亮（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
-* 储贻达（MindQuantum社区优秀贻开发者，负责MindQuantum生态推广、特性开发和需求收集等）
+* 储贻达（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 阿拉帕提·阿不力米提（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 陈泓霖（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 闫琪（MindQuantum社区信息体验专家，负责MindQuantum资料与产品体验系列活动组织、用户满意度调查等）
