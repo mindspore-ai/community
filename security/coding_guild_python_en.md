@@ -101,7 +101,7 @@ import xxx
 **Rule 1.3.2 Comply with the comment formats of external classes, methods, operators, and cells:**
 
 - The comment formats of `class` and `def` are the same. Use Python comments which is generally accepted by the industry, and indent the comments under a declaration. All `class` and `def`should be commented. You can write only one introduction for the classes and methods in the module.
-- For details about the comment formats, see [MindSpore Comment Specifications](https://gitee.com/mindspore/community/blob/master/security/comments_specification_en.md).
+- For details about the comment formats, see [MindSpore Comment Specifications](https://gitee.com/mindspore/community/blob/master/guidelines/docs_comments_guidelines_en.md).
 
 **Rule 1.3.3 Do not use comments to mask Pylint alarms.**
 
@@ -235,7 +235,7 @@ The correct method is to avoid using os.system. You can use standard APIs instea
 
 [Exceptions]
 
-1. If the resource release failure does not affect the subsequent program behavior, the exception that occurs during resource release can be suppressed. Examples of releasing resources include closing files, network sockets, threads, and so on. These resources are usually released in the except or fianlly block and will not be used during subsequent program operation. Therefore, unless the resources are exhausted, these exceptions cannot affect the subsequent behavior of the program. When the resource exhaustion is resolved, you only need to purify the exceptions and record logs (for future improvement). In this case, there is no need to handle other errors.
+1. If the resource release failure does not affect the subsequent program behavior, the exception that occurs during resource release can be suppressed. Examples of releasing resources include closing files, network sockets, threads, and so on. These resources are usually released in the except or finally block and will not be used during subsequent program operation. Therefore, unless the resources are exhausted, these exceptions cannot affect the subsequent behavior of the program. When the resource exhaustion is resolved, you only need to purify the exceptions and record logs (for future improvement). In this case, there is no need to handle other errors.
 2. If it is impossible to recover from an exception at a specific abstraction level, the code at that level does not need to handle the exception. Instead, the code at that level should throw an appropriate exception so that higher-level code can catch the exception and attempt to recover it. In this case, the most common implementation method is to omit the catch statement block and allow the exception to be broadcast.
 
 **Rule 2.3.2 When using try…except… to protect the code, use finally… to ensure that operation objects are released after an exception occurs.**
