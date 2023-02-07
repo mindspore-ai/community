@@ -2,9 +2,13 @@ name: MindSpore 生态
 type: Model
 description: 面向特定任务的SOTA模型及其衍生工具
 list:
+  - name: Denoising Diffusion Probabilistic Model
+    links: https://github.com/lvyufeng/denoising-diffusion-mindspore
+    introduction: Denoising Diffusion Probabilistic Model(NeurIPS 2020)的MindSpore实现。
+    date: 2023-02-07
   - name: AECRNet
     links: https://github.com/Booooooooooo/AECRNet-MindSpore
-    introduction: Contrastive Learning for Compact Single Image Dehazing(CVPR2021)的MindSpore实现。
+    introduction: Contrastive Learning for Compact Single Image Dehazing(CVPR 2021)的MindSpore实现。
     date: 2022-10-28
   - name: GoodsRecognition
     links: https://github.com/pprp/GoodsRecognition.MindSpore
