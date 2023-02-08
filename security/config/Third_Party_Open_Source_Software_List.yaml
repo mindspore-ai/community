@@ -259,7 +259,7 @@ mindspore:
         url: https://github.com/KhronosGroup/OpenCL-CLHPP
         handler: greatpanc
         milestone: B-SIG-MSLite
-        schName: opencl
+        schName: opencl-clhpp
     protobuf:
         cpeName: protobuf
         version: 3.13.0
@@ -269,6 +269,15 @@ mindspore:
         handler: henryshi1
         milestone: B-SIG-FrontEnd
         schName: protobuf
+    protobuf-arm:
+        cpeName: protobuf
+        version: 3.13.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/protocolbuffers/protobuf
+        handler: henryshi1
+        milestone: B-SIG-FrontEnd
+        schName: protobuf-arm
     grpc:
         cpeName: grpc
         version: 1.36.1
@@ -367,7 +376,7 @@ mindspore:
         url: https://github.com/KhronosGroup/OpenCL-Headers/
         handler: xu-yfei
         milestone: B-SIG-MSLite
-        schName: opencl
+        schName: opencl-headers
     re2:
         cpeName: re2
         version: 20191201
@@ -457,7 +466,7 @@ mindspore:
         url: https://github.com/NVIDIA/cuCollections
         handler: zyli2020
         milestone: B-SIG-Runtime
-        schName:
+        schName: cucollections
 akg:
     decorator:
         cpeName: decorator
@@ -1223,15 +1232,6 @@ others:
             handler: zhao_ting_v
             milestone: B-SIG-ModelZoo
             schName:
-    onnx:
-        cpeName: onnx
-        version: 1.6.0
-        language: C/C++
-        license: MIT License
-        url: https://onnx.ai/
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
     SymPy:
         cpeName: SymPy
         version: '1.4'
