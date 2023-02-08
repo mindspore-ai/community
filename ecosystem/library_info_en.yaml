@@ -2,6 +2,14 @@ name: MindSpore Ecosystem
 type: Library
 description: Opensource libraries for AI development, deployment and research.
 list:
+  - name: GammaGL
+    links: https://github.com/BUPT-GAMMA/
+    introduction: A multi-backend graph learning library.
+    date: 2022-02-07
+  - name: modelbox
+    links: https://github.com/modelbox-ai/modelbox
+    introduction: A high performance, high expansion, easy to use framework for AI application. A high performance, high expansion, easy to use framework for AI application.
+    date: 2022-02-07
   - name: TensorLayerX
     links: https://github.com/tensorlayer/TensorLayerX
     introduction: A Unified Deep Learning and Reinforcement Learning Framework for All Hardwares, Backends and OS.

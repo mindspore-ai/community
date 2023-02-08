@@ -2,6 +2,14 @@ name: MindSpore 生态
 type: Library
 description: 用于增强AI模型开发、部署，AI科研的开源项目库
 list:
+  - name: GammaGL
+    links: https://github.com/BUPT-GAMMA/
+    introduction: 多后端图学习框架。
+    date: 2022-02-07
+  - name: modelbox
+    links: https://github.com/modelbox-ai/modelbox
+    introduction: 为AI应用的开发者提供一套统一的高性能、易用的编程框架，快速基于AI全栈服务、开发跨端边云的AI行业应用。
+    date: 2022-02-07
   - name: TensorLayerX
     links: https://github.com/tensorlayer/TensorLayerX
     introduction: TensorLayerX：统一的深度强化学习框架，适用于所有硬件、后端以及操作系统。
