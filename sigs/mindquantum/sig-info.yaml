@@ -1,0 +1,65 @@
+name: mindquantum
+description: MindQuantum is a new-generation general quantum computing framework developed based on the MindSpore. It focuses on algorithm implementation and implementation in the NISQ phase.
+created_on: '2021-03-27'
+mailing_list: NA
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: donghufeng
+  name: donghufeng
+  organization: Huawei
+  email: xuxusheng2@huawei.com
+maintainers:
+- gitee_id: donghufeng
+  name: donghufeng
+  organization: Huawei
+  email: xuxusheng2@huawei.com
+- gitee_id: zhou-xu3
+  name: 周旭
+  organization: Sun Yat-sen University
+  email: zhoux229@mail2.sysu.edu.cn
+- gitee_id: dorothy20212021
+  name: dorothy
+  organization: Huawei
+  email: zhaohaiying99@163.com
+repositories:
+- repo:
+  - mindspore/mindquantum
+  committers:
+  - gitee_id: donghufeng
+    name: donghufeng
+    organization: Huawei
+    email: xuxusheng2@huawei.com 
+  contributors:
+  - gitee_id: xie-qingxing
+    name: 谢晴兴
+    organization: Wuhan University
+    email: 634436649@qq.com 
+  - gitee_id: herunhong
+    name: 何润洪
+    organization: Ocean University of China
+    email: runhong93@126.com     
+  - gitee_id: he-tianshen
+    name: 何天深
+    organization: Fudan University
+    email: NA
+  - gitee_id: he-tianshen
+    name: 何天深
+    organization: Fudan University
+    email: NA
+  - gitee_id: tang_love_coke
+    name: 唐加亮
+    organization: Shanghai University
+    email: NA
+  - gitee_id: Eta-Chu
+    name: 储贻达
+    organization: Chongqing University
+    email: NA 
+  - gitee_id: arapat-ablimit
+    name: 阿拉帕提·阿不力米提
+    organization: Ocean University of China
+    email: NA 
+  - gitee_id: chl9788
+    name: 陈泓霖
+    organization: University of Science and Technology of China
+    email: NA
