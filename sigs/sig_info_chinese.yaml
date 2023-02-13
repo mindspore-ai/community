@@ -97,3 +97,7 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
     introduction: 时间序列数据预测
     maintainer: 周号益（北京航空航天大学软件学院）
+  - name: mindflow SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.md
+    introduction: 流体仿真计算
+    maintainer: hsliu_ustc（Huawei）
