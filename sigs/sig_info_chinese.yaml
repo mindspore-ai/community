@@ -77,6 +77,10 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
     introduction: 电磁仿真计算
     maintainer: 杨卫兵（东南大学科学院）
+  - name: mindflow SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.md
+    introduction: 流体仿真计算
+    maintainer: hsliu_ustc（Huawei）
   - name: mindquantfinance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantfinance/README.md
     introduction: 量化金融分析
@@ -97,7 +101,3 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
     introduction: 时间序列数据预测
     maintainer: 周号益（北京航空航天大学软件学院）
-  - name: mindflow SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.md
-    introduction: 流体仿真计算
-    maintainer: hsliu_ustc（Huawei）
