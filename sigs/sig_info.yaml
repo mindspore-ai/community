@@ -77,6 +77,10 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
     introduction: Electromagnetic simulation calculation
     maintainer: Weibing Yang（School of Science, Southeast University）
+  - name: mindflow SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README_en.md
+    introduction: Fluid simulation calculation
+    maintainer: hsliu_ustc（Huawei）
   - name: mindquantfinance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantfinance/README.md
     introduction: Quantitative financial analysis
@@ -97,7 +101,3 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
     introduction: Time-sequence data prediction
     maintainer: Haoyi Zhou（School of Software, Beijing University of Aeronautics and Astronautics）
-  - name: mindflow SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.md
-    introduction: Fluid simulation calculation
-    maintainer: hsliu_ustc（Huawei）
