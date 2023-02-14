@@ -1,0 +1,45 @@
+name: parallel
+description: This is the working repository for the Parallel Special Interest Group (SIG). This repository contains all the artifacts, materials, meeting notes and proposals regarding Auto-parallel, Model-parallel, Pipelined model-parallel, Tensor partitioning, Cost model. Feedback and contributions are welcome.
+created_on: '2019-12-31'
+mailing_list: TO_BE_CLARIFIED
+meeting_url: TO_BE_CLARIFIED
+mature_level: startup
+mentors:
+- gitee_id: NA
+  name: Li Cheng
+  organization: University of Science and Technology of China
+  email: chengli7@ustc.edu.cn
+maintainers:
+- gitee_id: NA
+  name: Su Teng
+  organization: HUAWEI
+  email: TO_BE_CLARIFIED
+repositories:
+- repo:
+  - mindspore
+  committers:
+  - gitee_id: jiahongQian
+    name: jiahongQian
+    organization: HUAWEI
+    email: TO_BE_CLARIFIED
+  - gitee_id: wangshengnan123
+    name: wangshengnan123
+    organization: HUAWEI
+    email: TO_BE_CLARIFIED
+  contributors:
+  - gitee_id: wangjincheng2
+    name: 王金成
+    organization: 西安电子科技大学
+    email: TO_BE_CLARIFIED
+  - gitee_id: miaokongmiao
+    name: 缪孔苗
+    organization: 西安电子科技大学
+    email: TO_BE_CLARIFIED
+  - gitee_id: jiaoyuheng1
+    name: 焦宇恒
+    organization: 浙江大学
+    email: TO_BE_CLARIFIED
+  - gitee_id: huangjiani1
+    name: 黄佳妮
+    organization: 上海交通大学
+    email: TO_BE_CLARIFIED
