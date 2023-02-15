@@ -78,7 +78,7 @@ SIG list:
     introduction: Electromagnetic simulation calculation
     maintainer: Weibing Yang（School of Science, Southeast University）
   - name: mindflow SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README_en.md
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.en.md
     introduction: Fluid simulation calculation
     maintainer: hsliu_ustc（Huawei）
   - name: mindquantfinance SIG

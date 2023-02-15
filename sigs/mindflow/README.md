@@ -34,7 +34,7 @@
 
 ## 4、框架架构/代码仓
 
-![输入图片说明](https://gitee.com/mindspore/community/tree/master/sigs/mindflow/images/mindflow_archi_CN.png)
+![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/mindflow_archi_CN.png)
 
 MindFlow是基于昇思MindSpore开发的流体仿真领域套件，支持航空航天、船舶水动力学以及能源电力等行业领域的AI流场模拟，旨在于为广大的工业界科研工程人员、高校老师及学生提供高效易用的AI计算流体仿真软件。MindFlow提供了物理驱动、数据驱动、数据机理融合的AI流体仿真等多种常用功能。代码仓开源地址：
 https://gitee.com/mindspore/mindscience/tree/master/MindFlow
@@ -48,16 +48,16 @@ https://gitee.com/mindspore/mindscience/tree/master/MindFlow
 
 ### 领衔成员
 
-![输入图片说明](https://gitee.com/mindspore/community/tree/master/sigs/mindflow/images/%E5%BC%A0%E4%BC%9F%E4%BC%9F.jpeg)
+![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E5%BC%A0%E4%BC%9F%E4%BC%9F.jpeg)
 
 张伟伟，西北工业大学长江学者特聘教授，航空学院副院长，流体力学智能化国际联合研究所中方负责人。主要从事智能流体力学、气动弹性力学和飞行器设计研究。曾获得国家自然科学基金优秀青年基金、航空学会青年科技奖、空气动力学会首届青年科技奖等荣誉。现任中国空气动力学会副理事长，智能流体力学专业组主任、空气弹性力学专业委员会副主任，中国力学学会流固耦合力学专业委员会副主任、智能流体力学产业联合体副理事长兼秘书长，AST、TAML、AAMM、AIA等国际期刊编委。
 
-![输入图片说明](https://gitee.com/mindspore/community/tree/master/sigs/mindflow/images/%E8%91%A3%E5%BD%AC.jpeg)
+![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E8%91%A3%E5%BD%AC.jpeg)
 
 董彬，北京大学，北京国际数学研究中心长聘副教授、国际机器学习研究中心副主任、大数据分析与应用国家工程实验室研究员、国家生物医学成像科学中心研究员，北京大学计算与数字经济研究院副院长。2003年本科毕业于北京大学数学科学学院、2005年在新加坡国立大学数学系获得硕士学位、2009年在美国加州大学洛杉矶分校数学系获得博士学位。博士毕业后曾在美国加州大学圣迭戈分校数学系任访问助理教授、2011－2014年在美国亚利桑那大学数学系任助理教授，2014年底入职北京大学。主要研究领域为科学计算、机器学习及其在计算成像和数据分析中的应用。在国际重要学术期刊和会议上发表论文90余篇。现任期刊《Inverse Problems and Imaging》编委、《CSIAM Transactions on Applied Mathematics》、《Journal of Computational Mathematics》、《Journal of Machine Learning》副主编。主持“十三五”国家重大科技基础设施“多模态跨尺度生物医学成像设施”装置四：全尺度图像整合系统、科技部国家重点研发计划1项、国家自然科学基金重大项目1项、北京市自然科学基金重点项目1项、中组部国家“千人计划”青年项目1项、美国国家科学基金项目1项，参与科技部国家重点研发计划1项、国家自然科学基金重点项目1项、重大研究计划集成项目1项。2014年获得求是杰出青年学者奖，2015年入选中组部“千人计划”青年项目，2019年入选科技部创新人才推进计划，2020年入选中组部“万人计划”领军人才，2022年受邀在世界数学家大会（ICM）做45分钟报告。
 董彬在应用和计算数学，尤其是图像及数据分析中的数学建模和算法设计与分析中作出了突出贡献。在理论上，董彬与合作者一起将图像领域独立发展近30年的两个重要数学分支（PDE和小波方法）建立深刻的理论性联系，改变了人们对这两类方法的一些既定认识、开拓了思路，同时也诱导出了一些新的图像处理算法，在医疗影像分析中得到成功的应用。该理论工作也激发了董彬团队在深度学习方面的研究，建立了数值微分方程和深层网络构架的联系，并针对图像科学中的重要问题设计机理与数据融合的新算法。在应用上，董彬团队针对计算成像、医学影像分析、科学计算中的重要问题，设计机理与数据融合的新算法，这包括生物医学影像重建算法、图像分割算法、临床辅助决策算法、PDE正反问题计算等等。
 
-![输入图片说明](https://gitee.com/mindspore/community/tree/master/sigs/mindflow/images/%E5%AD%99%E6%B5%A9.jpeg)
+![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E5%AD%99%E6%B5%A9.jpeg)
 
 孙浩，中国人民大学高瓴人工智能学院“长聘副教授、博导"，国家高层次人才青年专家。2014年在美国哥伦比亚大学取得工程力学博士学位，随后在麻省理工学院从事博士后研究，曾任美国匹兹堡大学、美国东北大学终身序列助理教授、博导。主要从事科学智能、人工智能数理基础与交叉前沿研究，包含可诠释性深度学习、物理启发深度学习、符号强化学习与推理、数据驱动复杂动力系统建模与识别、基础设施健康监测与智能化管理等方向。在国际一流SCI期刊（如Nature Communications）和计算机顶会（如ICLR、NeurIPS）等各类重要刊物上共发表论文60余篇；主持国家高层次人才计划、国家自然科学基金委（重大研究计划、面上项目）、美国科学基金委（ECI、SCC、DRRG）、华为技术有限公司等纵/横向研究项目十余项（共计约2900万元）；研究成果受到了几十家国际知名媒体的广泛报导（例如《福克斯新闻》、《科学日报》、《麻省理工科技评论》等）。2018年入选福布斯北美“30位30岁以下精英榜（科学类）”，2019年当选“美国十大华人杰出青年”。
 
