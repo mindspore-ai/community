@@ -3,7 +3,7 @@ type: Library
 description: 用于增强AI模型开发、部署，AI科研的开源项目库
 list:
   - name: GammaGL
-    links: https://github.com/BUPT-GAMMA/
+    links: https://github.com/BUPT-GAMMA/GammaGL
     introduction: 多后端图学习框架。
     date: 2022-02-07
   - name: modelbox

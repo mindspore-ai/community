@@ -3,7 +3,7 @@ type: Library
 description: Opensource libraries for AI development, deployment and research.
 list:
   - name: GammaGL
-    links: https://github.com/BUPT-GAMMA/
+    links: https://github.com/BUPT-GAMMA/GammaGL
     introduction: A multi-backend graph learning library.
     date: 2022-02-07
   - name: modelbox
