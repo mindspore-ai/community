@@ -28,6 +28,7 @@ SIG的全称是Special Interest Groups，即“特别兴趣小组”。MindSpore
 | [mdp](mdp/README.md)                                         | 深度概率编程                    | Jianfei Chen (清华大学)                                                                                             |
 | [MedicalImaging](MedicalImaging/README.md)                   | 医疗影像辅助诊断                  | 张旭明（华中科技大学生命科学与技术学院）                                                                                            |
 | [mindelec](mindelec/README.md)                               | 电磁仿真计算                    | 杨卫兵（东南大学科学院）                                                                                                    |
+| [mindflow](mindflow/README.md)                               | 流体仿真计算                    | hsliu_ustc（Huawei）                                                                                              |
 | [mindquantfinance](mindquantfinance/README.md)               | 量化金融分析                    | 鲁蔚征（中国人民大学）                                                                                                     |
 | [mindspore_reinforcement](mindspore_reinforcement/README.md) | 强化学习                      | 李荣鹏（浙江大学信息与电子工程学院）                                                                                              |
 | [mindspore_sponge](mindspore_sponge/README.md)               | 生物仿真计算                    | Yahao Ding                                                                                                      |

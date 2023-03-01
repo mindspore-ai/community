@@ -1,5 +1,7 @@
 # Join MindSpore MindFlow SIG to help AI fluid simulation development
 
+🔥🔥🔥 [Open Source Internship Tasks](https://gitee.com/mindspore/community/issues/I55B5A?from=project-issue)
+
 ## 1.Establishment background
 
 Computational fluid dynamics is closely related to the research and development of aerospace, marine equipment, energy, and power.    However, it still faces challenges and bottlenecks from mesh generation complexity.   Automatic mesh generation sometimes can not cope with complex boundary geometry.    Manual processing is necessary.  The simulation of fluid mechanics relies on complex iterative computation, which is limited by parallel efficiency.  Moreover, it is difficult to solve high-dimensional equations. Accuracy and performance need to be balanced.
