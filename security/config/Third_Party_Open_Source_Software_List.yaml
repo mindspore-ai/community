@@ -1386,15 +1386,6 @@ mindpandas:
         handler: liyuxiaHp
         milestone: B-DataScience
         schName: urllib3
-    redis:
-        cpeName: redis
-        version: 3.5.3
-        language: C/C++
-        license: BSD 3-Clause License
-        url: https://github.com/redis/redis.git
-        handler: liyuxiaHp
-        milestone: B-DataScience
-        schName: redis
     grpcio:
         cpeName: grpcio
         version: 1.41.0
