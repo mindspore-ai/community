@@ -11,7 +11,7 @@ SIG list:
     maintainer: Xiulang Jin (Huawei)
   - name: Usability SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
-    introduction: MindSpore框架的易用性提升
+    introduction: MindSpore易用性提升
     maintainer: Tong Zhang (Huawei)
   - name: FrontEnd SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
