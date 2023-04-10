@@ -1422,3 +1422,121 @@ mindpandas:
         handler: liyuxiaHp
         milestone: B-DataScience
         schName: psutil
+federated:
+    zlib:
+        cpeName: zlib
+        version: 1.3.5
+        language: C++
+        license: zlib/libpng License
+        url: https://github.com/madler/zlib
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: zlib
+    abseil-cpp:
+        cpeName: abseil-cpp
+        version: 20200923.3
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/abseil/abseil-cpp
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: absl
+    c-ares:
+        cpeName: c-ares
+        version: 1.15.0
+        language: C++
+        license: MIT license
+        url: https://github.com/c-ares/c-ares
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: c-ares
+    flatbuffers:
+        cpeName: flatbuffers
+        version: 2.0.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/google/flatbuffers
+        handler: emmmmtang
+        milestone: B-SIG-Security
+        schName: flatbuffers
+    glog:
+        cpeName: glog
+        version: 0.4.0
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/google/glog
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: glog
+    googletest:
+        cpeName: googletest
+        version: 1.8.1
+        language: C/C++
+        license: BSD 3-Clause License
+        url: https://github.com/google/googletest
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: gtest
+    hiredis:
+        cpeName: hiredis
+        version: 1.0.2
+        language: C
+        license: BSD 3-Clause License
+        url: https://github.com/redis/hiredis
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: hiredis
+    JSON for Modern C++:
+        cpeName: JSON for Modern C++
+        version: 3.6.1
+        language: C++
+        license: MIT license
+        url: https://github.com/nlohmann/json
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: nlohmann_json
+    libevent:
+        cpeName: libevent
+        version: 2.1.12
+        language: C/C++
+        license: BSD 3-Clause License
+        url: https://github.com/libevent/libevent
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: libevent
+    openssl:
+        cpeName: openssl
+        version: 1.1.1k
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/openssl/openssl
+        handler: emmmmtang
+        milestone: B-SIG-Security
+        schName: openssl
+    protobuf:
+        cpeName: protobuf
+        version: 3.13.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/protocolbuffers/protobuf
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: protobuf
+    pybind11:
+        cpeName: pybind11
+        version: 2.6.1
+        language: C++
+        license: BSD 3-Clause License
+        url: https://github.com/pyind/pybind11
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: pybind11
+    re2:
+        cpeName: re2
+        version: 20191201
+        language: C++
+        license: BSD 3-Clause License
+        url: https://github.com/google/re2
+        handler: dairenjie
+        milestone: B-SIG-Security
+        schName: re2
