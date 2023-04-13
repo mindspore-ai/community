@@ -318,6 +318,40 @@ Supported Platforms:
     - If the formula contains an underscored variable and the underscore is followed by multiple letters (for example, xxx_yyy) , select one of the following methods based on the site requirements:
         1. Multiple letters are enclosed in braces ({}), for example, xxx_{yyy}. The content following the underscore can be used as the subscript, which is displayed as $xxx_{yyy}$.
         2. If a backslash (\\) is added before an underscore (_), for example, xxx\\_yyy, the complete variable name is displayed as xxx_yyy.
+
+    - Regular and Italic Style in Formulas
+        - Write in italic style in the following situations:
+            1. The common variable (write directly without adding special symbols)
+
+                ```text
+                x, p, a, h, ...
+                ```
+
+            2. The lowercase greek letters
+
+                ```text
+                \alpha, \beta, \gamma, \sigma, \theta, \pi, ...
+                ```
+
+        - Write in regular style in the following situations:
+            1. The mathematical functions with special meaning, such as, exp, log, sin, cos, tanh, ...
+
+                ```text
+                \exp, \log, \sin, \cos, \tanh, ...
+                ```
+
+            2. The abbreviations with special mathematical meaning, such as, max, min, lim, sum, ...
+
+                ```text
+                \max, \min, \lim, \sum, ...
+                ```
+
+            3. Other proper nouns. (Wrapped it with \text)
+
+                ```text
+                \text{sigmoid}, \test{Tanh} ...
+                ```
+
 - Parent Class Method Display
     - By default, the parent class method is not displayed.
     - You can add `:inherited-members:` to the module of the RST file in the Sphinx project to specify the parent class method to be displayed. For details, see <https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html>.
@@ -411,7 +445,7 @@ Supported Platforms:
        :class:`mindspore.ops.LARS`
        ```
 
-     - To quote function, the complete module name and function name must be written.
+    - To quote function, the complete module name and function name must be written.
 
        ```text
        :func:`mindspore.compression.quant.create_quant_config`

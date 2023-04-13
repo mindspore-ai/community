@@ -318,6 +318,40 @@ Supported Platforms:
     - 公式中带有含下划线的变量，且下划线后存在多个字母（如xxx_yyy），请根据实际需要选择以下其中一种方式。
         1. 多个字母用{}括起来（如xxx_{yyy}），可将下划线后的内容作为下标，显示为$xxx_{yyy}$。
         2. 在下划线前增加反斜杠（如xxx\\_yyy），可将完整显示变量名称，显示为xxx_yyy。
+
+    - 公式中正斜体规范
+        - 以下情况用斜体
+            1. 变量（直接书写，无需加特殊符号）
+
+                ```text
+                x, p, a, h, ...
+                ```
+
+            2. 小写希腊字母
+
+                ```text
+                \alpha, \beta, \gamma, \sigma, \theta, \pi, ...
+                ```
+
+        - 以下情况用正体
+            1. 有固定含义的数学函数，如：exp, log, sin, cos, tanh
+
+                ```text
+                \exp, \log, \sin, \cos, \tanh, ...
+                ```
+
+            2. 有特殊数学意义的缩写字母，如：max, min, lim, sum, ...
+
+                ```text
+                \max, \min, \lim, \sum, ...
+                ```
+
+            3. 其他专有名词（用\text包裹）
+
+                ```text
+                \text{sigmoid}, \test{Tanh} ...
+                ```
+
 - 父类方法的显示
     - 默认不显示父类方法。
     - 可通过在Sphinx工程rst文件的模块下添加`:inherited-members:`，指定需要显示父类方法，详细可参考<https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html>。
