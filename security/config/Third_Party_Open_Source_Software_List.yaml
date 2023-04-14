@@ -16,7 +16,7 @@ mindspore:
         url: https://github.com/scikit-learn/scikit-learn
         handler: henryshi1
         milestone: B-SIG-FrontEnd
-        schName: sklearn
+        schName: scikit-learn
     cub:
         cpeName: cub
         version: 1.8.0
@@ -212,7 +212,7 @@ mindspore:
         language: Python
         license: Apache License V2.0
         url: https://github.com/gristlabs/asttokens
-        handler: henryshi1
+        handler: huangbingjian
         milestone: B-SIG-FrontEnd
         schName: asttokens
     icu:
@@ -277,7 +277,7 @@ mindspore:
         url: https://github.com/protocolbuffers/protobuf
         handler: henryshi1
         milestone: B-SIG-FrontEnd
-        schName: protobuf-arm
+        schName: protobuf_arm
     grpc:
         cpeName: grpc
         version: 1.36.1
@@ -352,7 +352,7 @@ mindspore:
         schName: zlib
     nccl:
         cpeName: nccl
-        version: 2.7.6-1
+        version: 2.7.6-1-${CUDA_VERSION}
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/NVIDIA/nccl/
@@ -413,15 +413,6 @@ mindspore:
         handler: xu-yfei
         milestone: B-SIG-MSLite
         schName: psutil
-    dataclasses:
-        cpeName: dataclasses
-        version: '0.7'
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/ericvsmith/dataclasses
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
     cmsis:
         cpeName: cmsis
         version: 5.7.0
@@ -431,15 +422,6 @@ mindspore:
         handler: zhanghaibo5
         milestone: B-SIG-MSLite
         schName: cmsis
-    pytest:
-        cpeName: pytest
-        version: 5.4.3
-        language: Python
-        license: MIT License
-        url: https://docs.pytest.org/en/latest/
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName:
     onnxruntime:
         cpeName: onnxruntime
         version: 1.6.0
@@ -512,7 +494,7 @@ akg:
         url: https://www.numpy.org
         handler: henryshi1
         milestone: B-SIG-FrontEnd
-        schName:
+        schName: numpy
     xgboost:
         cpeName: xgboost
         version: 0.9
@@ -521,7 +503,7 @@ akg:
         url: https://github.com/dmlc/xgboost
         handler: looop5
         milestone: B-SIG-AKG
-        schName:
+        schName: xgboost
     scipy:
         cpeName: scipy
         version: ">= 1.5.4"
@@ -539,25 +521,7 @@ akg:
         url: https://docs.pytest.org/en/latest/
         handler: henryshi1
         milestone: B-SIG-FrontEnd
-        schName:
-    llvm:
-        cpeName: llvm
-        version: 12.0.1
-        language: C++
-        license: Apache 2.0 License with LLVM exceptions
-        url: https://llvm.org
-        handler: looop5
-        milestone: B-SIG-AKG
-        schName:
-    pandas:
-        cpeName: pandas
-        version: ">= 1.0.2"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://pandas.pydata.org/
-        handler: looop5
-        milestone: B-SIG-AKG
-        schName: pandas
+        schName: pytest
     ncurses:
         cpeName: ncurses
         version: 6.2
@@ -697,7 +661,7 @@ mindinsight:
         schName: pillow
     Werkzeug:
         cpeName: Werkzeug
-        version: ">2.1.0"
+        version: "> 2.1.0"
         language: python
         license: BSD 3-Clause License
         url: https://werkzeug.palletsprojects.com/
@@ -769,7 +733,7 @@ mindinsight:
         schName:
     protobuf:
         cpeName: protobuf
-        version: ">= 3.13.0, <= 3.20.1"
+        version: ">= 3.13.0 , <= 3.20.1"
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
@@ -822,15 +786,6 @@ mindscience:
         handler: kangyangzc
         milestone: B-MBA
         schName: pyevtk
-    pythonocc-core:
-        cpeName: pythonocc-core
-        version: 7.5.1
-        language: c++
-        license: LGPL V3.0
-        url: https://github.com/tpaviot/pythonocc
-        handler: kangyangzc
-        milestone: B-MBA
-        schName:
     numpy:
         cpeName: numpy
         version: 1.17.0
