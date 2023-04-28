@@ -1389,21 +1389,21 @@ mindpandas:
 federated:
     zlib:
         cpeName: zlib
-        version: 1.3.5
+        version: 1.2.11
         language: C++
         license: zlib/libpng License
         url: https://github.com/madler/zlib
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: zlib
     abseil-cpp:
         cpeName: abseil-cpp
-        version: 20200923.3
+        version: 20210324.2
         language: C++
         license: Apache License V2.0
         url: https://github.com/abseil/abseil-cpp
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: absl
     c-ares:
         cpeName: c-ares
@@ -1412,7 +1412,7 @@ federated:
         license: MIT license
         url: https://github.com/c-ares/c-ares
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: c-ares
     flatbuffers:
         cpeName: flatbuffers
@@ -1430,7 +1430,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/glog
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: glog
     googletest:
         cpeName: googletest
@@ -1439,7 +1439,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/googletest
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: gtest
     hiredis:
         cpeName: hiredis
@@ -1448,16 +1448,16 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/redis/hiredis
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: hiredis
     JSON for Modern C++:
         cpeName: JSON for Modern C++
-        version: 3.6.1
+        version: 3.10.1
         language: C++
         license: MIT license
         url: https://github.com/nlohmann/json
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: nlohmann_json
     libevent:
         cpeName: libevent
@@ -1466,7 +1466,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/libevent/libevent
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: libevent
     openssl:
         cpeName: openssl
@@ -1484,7 +1484,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: protobuf
     pybind11:
         cpeName: pybind11
@@ -1493,7 +1493,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/pyind/pybind11
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: pybind11
     re2:
         cpeName: re2
@@ -1502,5 +1502,5 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/re2
         handler: dairenjie
-        milestone: B-SIG-Security
+        milestone: B-SIG-FL
         schName: re2
