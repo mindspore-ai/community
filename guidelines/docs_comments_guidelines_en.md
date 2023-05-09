@@ -42,7 +42,7 @@ Note:
     Note description.
 
 Args:
-    Arg1 (Type): Description. Default: xxx.
+    Arg1 (Type): Description. Default: ``xxx``.
     Arg2 (Type): Description.
 
         - Sub-argument1 or Value1 of Arg2: Description.
@@ -103,9 +103,9 @@ Supported Platforms:
 
         Args:
             network (Cell): A training or testing network.
-            loss_fn (Cell): Objective function, if `loss_fn` is None, the
+            loss_fn (Cell): Objective function, if `loss_fn` is ``None``, the
                 network should contain the logic of loss and grads calculation, and the logic
-                of parallel if needed. Default: None.
+                of parallel if needed. Default: ``None``.
 
         Returns:
             function, original function.
@@ -116,16 +116,16 @@ Supported Platforms:
         ```text
         Args:
             amp_level (str): Option for argument `level` in `mindspore.amp.build_train_network`, level for mixed
-                precision training. Supports ["O0", "O2", "O3", "auto"]. Default: "O0".
+                precision training. Supports ``"O0"``, ``"O2"``, ``"O3"``, ``"auto"``. Default: ``"O0"``.
 
-                - O0: Do not change.
-                - O2: Cast network to float16, keep batchnorm run in float32, using dynamic loss scale.
-                - O3: Cast network to float16, with additional property 'keep_batchnorm_fp32=False'.
-                - auto: Set to level to recommended level in different devices. Set level to "O2" on GPU, set
-                  level to "O3" Ascend. The recommended level is choose by the export experience, cannot
+                - ``O0``: Do not change.
+                - ``O2``: Cast network to float16, keep batchnorm run in float32, using dynamic loss scale.
+                - ``O3``: Cast network to float16, with additional property 'keep_batchnorm_fp32=False'.
+                - ``auto``: Set to level to recommended level in different devices. Set level to ``"O2"`` on GPU, set
+                  level to ``"O3"`` Ascend. The recommended level is choose by the export experience, cannot
                   always generalize. User should specify the level for special network.
 
-                "O2" is recommended on GPU, "O3" is recommended on Ascend.
+                ``"O2"`` is recommended on GPU, ``"O3"`` is recommended on Ascend.
         ```
 
     - Space requirements:
@@ -136,8 +136,8 @@ Supported Platforms:
         Args:
             lr_power (float): Learning rate power controls how the learning rate decreases during training,
                 must be less than or equal to zero. Use fixed learning rate if `lr_power` is zero.
-            use_locking (bool): If True, the var and accumulation tensors will be protected from being updated.
-                Default: False.
+            use_locking (bool): If ``True``, the var and accumulation tensors will be protected from being updated.
+                Default: ``False``.
 
         Raises:
             TypeError: If `lr`, `l1`, `l2`, `lr_power` or `use_locking` is not a float.
@@ -152,14 +152,14 @@ Supported Platforms:
 
             ```text
             Args:
-                parallel_mode (str): There are five kinds of parallel modes, "stand_alone", "data_parallel",
-                    "hybrid_parallel", "semi_auto_parallel" and "auto_parallel". Default: "stand_alone".
+                parallel_mode (str): There are five kinds of parallel modes, ``"stand_alone"``, ``"data_parallel"``,
+                    ``"hybrid_parallel"``, ``"semi_auto_parallel"`` and ``"auto_parallel"``. Default: ``"stand_alone"``.
 
-                    - stand_alone: Only one processor is working.
-                    - data_parallel: Distributes the data across different processors.
-                    - hybrid_parallel: Achieves data parallelism and model parallelism
+                    - ``stand_alone``: Only one processor is working.
+                    - ``data_parallel``: Distributes the data across different processors.
+                    - ``hybrid_parallel``: Achieves data parallelism and model parallelism
                       manually.
-                    - semi_auto_parallel: Achieves data parallelism and model parallelism by
+                    - ``semi_auto_parallel``: Achieves data parallelism and model parallelism by
                       setting parallel strategies.
             ```
 
@@ -408,7 +408,7 @@ Supported Platforms:
 
     Display effect:
 
-    ![image](./resource/list_table.png)
+    ![image](./images/list_table.png)
 
 - By default, the detailed description is displayed in one line. If you need to display it in another line, write it in the form of a list or code-block.
     - List mode:
@@ -451,8 +451,8 @@ Supported Platforms:
        :func:`mindspore.compression.quant.create_quant_config`
        ```
 
-- In the interface description, the variable name or interface name should be wrapped with the symbol \',
-  and the variable value should be wrapped with the symbol \' or \".
+- In the interface description, the variable name or interface name should be wrapped with the symbol \`,
+  and the variable value should be wrapped with the symbol \``.
 
     - Variable name or interface name.
 
@@ -467,7 +467,7 @@ Supported Platforms:
     - variable value.
 
       ```text
-      If `reduction` is not one of 'none', 'mean', 'sum'.
+      If `reduction` is not one of ``'none'``, ``'mean'``, ``'sum'``.
       ```
 
 - The deprecated operator needs to specify the recommended api, and "Deprecated" needs to be added in the Supported Platforms.
@@ -517,8 +517,8 @@ class Tensor(Tensor_):
     Args:
         input_data (Tensor, float, int, bool, tuple, list, numpy.ndarray): Input data of the tensor.
         dtype (:class:`mindspore.dtype`): Input data should be None, bool or numeric type defined in `mindspore.dtype`.
-            The argument is used to define the data type of the output tensor. If it is None, the data type of the
-            output tensor will be as same as the `input_data`. Default: None.
+            The argument is used to define the data type of the output tensor. If it is ``None``, the data type of the
+            output tensor will be as same as the `input_data`. Default: ``None``.
 
     Outputs:
         Tensor, with the same shape as `input_data`.
