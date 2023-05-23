@@ -8,15 +8,6 @@ mindspore:
         handler: henryshi1
         milestone: B-SIG-FrontEnd
         schName: packaging
-    sklearn:
-        cpeName: sklearn
-        version: 0.0
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/scikit-learn/scikit-learn
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName: scikit-learn
     cub:
         cpeName: cub
         version: 1.8.0
@@ -397,7 +388,7 @@ mindspore:
         schName: openssl
     scikit-learn:
         cpeName: scikit-learn
-        version: ">= 0.0"
+        version: ">= 0.14"
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/scikit-learn/scikit-learn
