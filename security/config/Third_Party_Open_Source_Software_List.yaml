@@ -217,11 +217,11 @@ mindspore:
         schName: icu4c
     openmpi:
         cpeName: openmpi
-        version: 4.0.3
+        version: 4.1.4
         language: C/C++
         license: BSD 3-Clause License
         url: https://www.open-mpi.org/
-        handler: henryshi1
+        handler: zpac
         milestone: B-SIG-FrontEnd
         schName: ompi
     libevent:
@@ -343,7 +343,7 @@ mindspore:
         schName: zlib
     nccl:
         cpeName: nccl
-        version: 2.7.6-1-${CUDA_VERSION}
+        version: 2.16.5-1-${CUDA_VERSION}
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/NVIDIA/nccl/
@@ -394,7 +394,7 @@ mindspore:
         url: https://github.com/scikit-learn/scikit-learn
         handler: jxlang910
         milestone: B-SIG-Security
-        schName: sklearn
+        schName: scikit-learn
     psutil:
         cpeName: psutil
         version: ">= 5.7.0"
@@ -915,7 +915,7 @@ serving:
         schName: libevent
     pybind11:
         cpeName: pybind11
-        version: "2.4.3, 2.6.1"
+        version: 2.4.3
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/pybind/pybind11/
