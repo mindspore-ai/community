@@ -163,7 +163,7 @@ mindspore:
         schName: json
     pybind11:
         cpeName: pybind11
-        version: 2.6.1
+        version: 2.4.3
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/pybind/pybind11/
@@ -522,6 +522,15 @@ akg:
         handler: corleoneliu
         milestone: B-SIG-AKG
         schName: ncurses
+    pandas:
+        cpeName: pandas
+        version: ">= 1.0.2"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://pandas.pydata.org/
+        handler: looop5
+        milestone: B-SIG-AKG
+        schName: pandas
 mindarmour:
     numpy:
         cpeName: numpy
@@ -915,7 +924,7 @@ serving:
         schName: libevent
     pybind11:
         cpeName: pybind11
-        version: 2.4.3
+        version: 2.6.1
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/pybind/pybind11/
