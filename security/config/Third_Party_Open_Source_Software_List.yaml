@@ -604,6 +604,24 @@ mindarmour:
         handler: zhao_ting_v
         milestone: B-SIG-Security
         schName: opencv-python
+    wheel:
+        cpeName: wheel
+        version: 0.32.0
+        language: python
+        license: MIT License
+        url: https://github.com/pypa/wheel
+        handler: jxlang910
+        milestone: B-SIG-Security
+        schName: wheel
+    setuptools:
+        cpeName: setuptools
+        version: 40.8.0
+        language: python
+        license: MIT License
+        url: https://github.com/pypa/setuptools
+        handler: jxlang910
+        milestone: B-SIG-Security
+        schName: setuptools
 mindinsight:
     Flask-Cors:
         cpeName: Flask-Cors
