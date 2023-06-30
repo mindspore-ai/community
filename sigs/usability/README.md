@@ -29,17 +29,22 @@
 * aaa000（华为运营专家，SIG运营Contributor，负责SIG运营与宣传推广）
 * iambowen（华为MindSporeAI工程技术专家，负责安装、智能化服务领域的易用性技术能力构建）
 * CQU弟中弟（华为MindSpore易用性专家，负责MindSpore易用性关键问题的识别与重点改进、套件领域的易用性技术能力构建）
-* 张辉（MindSpore资深开发者张小白，负责XXX）
-* 丁一超（MindSpore资深开发者，华为云云享专家，昇腾优秀开发者，负责XXX）
-* 胡琦（MindSpore资深开发者，华为云年度十佳博主，HUAWEI Developer Experts，负责XXX）
+* 小铭同学（华为MindSpore DFx专家，负责MindSpore易用性以及其他DFx关键技术的规划、构建）
+* Yaoyao（华为MindSpore易用性专家，MindSpore布道师）
+* DavidFFFan（华为MindSpore工具链工程技术专家，负责MindSpore开发调试工具TroubleShooter的设计与开发）
 
-## 2022年目标
+## 体验官
 
-1. 组织管理：制定SIG组织管理规范，邀请高校师生、开发者参与SIG运作（2名Maintainers + 至少8名Contributors）；
-2. 生态拓展：发展200位易用性SIG正式成员、1000+易用性关注者；发展5位布道师（布道10次）、10位资深开发者、30位优秀开发者（成为D2）；生态撬动比达到1:20；
-3. 特性开发：在易用性技术领域中增加至少5个新特性，招募高校师生、开发者共同参与需求开发；
-4. 活动开展：易用性改进体验活动参与人次1000+，收集易用性改进建议200+；开展技术分享活动直播8次，征集外部技术文章50+；
-5. 易用性专栏建设：在知乎上建设MindSpore易点通专栏，收录原创文章40+（外部贡献比例50%+）
+体验昇思MindSpore新版本特性，发现改进点并提出Issue，深度参与MindSpore的建设，与MindSpore共同成长。
+
+[MindSpore体验官](https://www.mindspore.cn/community/SIG)
+
+## 2023年目标
+
+1. 组织管理：邀请高校师生、开发者参与SIG运作；
+2. 生态拓展：发展1000+易用性关注者，发展30位体验官/优秀开发者；
+3. 特性开发：在易用性技术领域中增加至少10个新任务，招募高校师生、开发者共同参与需求开发；
+4. 活动开展：易用性改进体验活动参与人次1000+，反馈易用性问题40+个（涵盖关键易用性问题-非文档20个）；开展技术分享活动直播8次，开发者参与议题分享20+次；
 
 ## 主要活动
 
@@ -67,7 +72,7 @@
   2. [社区常规任务](https://gitee.com/mindspore/community/issues/I4YQNG?from=project-issue)
 * 组织者：易用性技术领域Contributors
 
-### 3. 资料与产品体验改进活动
+### 3. 产品体验改进活动
 
 * 活动定位：开展产品体验活动，收集建议及体验评价，持续提升资料与产品综合体验
 * 活动形式：开发者通过提交issue/PR形式提出问题建议或修改，累积积分获得奖品
@@ -76,16 +81,14 @@
   1. 资料体验：分期系列活动，针对官网上线的视频、教程及API等内容，开展众测体验活动
   2. 产品体验：随新发布版本进行，针对版本发布的功能特性开展体验活动
 
-### 4. 周例会
+### 4. 例会
 
-* 时间：周六或周日晚上7点，每1-2周开展一次
+* 时间：周一，每周开展
 * 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流
 * 例会议题：
   1. 固定议题：SIG成员领取的特性开发任务进展与问题交流
   2. 选报议题：特性开发阶段性成果演示
   3. 选报议题：SIG组织管理（如运作规则讨论、Maintainers&Contributors担任人员及职责刷新）
-* 组织者：各位Contributors和核心开发者轮流组织
-* 轮值表：Tong、iambowen、何朋朋、王强强、王峰、彭爱华
 
 ## SIG组织管理
 
@@ -109,13 +112,3 @@ SIG的成员身份包括Members、Contributors、Maintainers，各角色的描�
 * 职责：负责SIG的总体规划与策略制定，把握SIG发展方向、审核重点工作方案
 * 权益：事迹录入SIG荣誉殿堂，优秀Maintainers有机会成为MindSpore TSC（技术委员会）成员
 * 申请条件：已经成为Contributors一年以上，在所负责领域有突出贡献，获得至少一位Maintainers推荐，并在SIG例会上经过其他Maintainers与Contributors多数通过。
-
-## 近期活动与例会预告
-
-1. 技术分享会
-2. SIG例会
-
-## 往期活动与例会
-
-* [2022年5月28日：易用性SIG技术分享会——从零开始“易”起上手](https://mp.weixin.qq.com/s/QfyMS0mJoPnDer4RQHiGfg)
-* [2022年4月16日：易用性SIG技术分享会——聊聊AI框架的易用性](https://mp.weixin.qq.com/s/vu-tfpxXgJuU5LLXgdyAgQ)
