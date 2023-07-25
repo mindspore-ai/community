@@ -280,7 +280,7 @@ mindspore:
         schName: grpc
     c-ares:
         cpeName: c-ares
-        version: 1_19_1
+        version: "1_19_1"
         language: C++
         license: MIT License, c-ares License
         url: https://github.com/c-ares/c-ares/
