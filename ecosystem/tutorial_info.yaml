@@ -4,7 +4,7 @@ description: AI子领域的入门教程开源仓
 list:
   - name: step_into_chatgpt
     links: https://github.com/mindspore-courses/step_into_chatgpt
-    introduction: MindSpore在线技术公开课之大模型专题
+    introduction: MindSpore在线技术公开课之大模型专题。
     date: 2023-9-25
   - name: MindSpore-GAN
     links: https://github.com/mindspore-courses/MindSpore-GAN
@@ -44,5 +44,5 @@ list:
     date: 2022-10-28
   - name: d2l-mindspore
     links: https://github.com/lvyufeng/d2l-mindspore
-    introduction: 《动手学深度学习》的MindSpore实现.
+    introduction: 《动手学深度学习》的MindSpore实现。
     date: 2022-10-28

@@ -4,7 +4,7 @@ description: 用于增强AI模型开发、部署，AI科研的开源项目库
 list:
   - name: xuanpolicy
     links: https://github.com/agi-brain/xuanpolicy
-    introduction: XuanPolicy: 全面统一的深度强化学习库
+    introduction: XuanPolicy：全面统一的深度强化学习库。
     date: 2023-09-25
   - name: GammaGL
     links: https://github.com/BUPT-GAMMA/GammaGL
