@@ -101,3 +101,15 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
     introduction: Time-sequence data prediction
     maintainer: Haoyi Zhou（School of Software, Beijing University of Aeronautics and Astronautics）
+  - name: OpenGADL SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/OpenGADL/README.md
+    introduction: OpenGADL software
+    maintainer: Zhou Xichuan (Professor, School of Microelectronics and Communication Engineering, Chongqing University)
+  - name: Computer Vision (CV) Suite SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/Computer%20Vision%20(CV)%20Suite%20SIG/README.md
+    introduction: CV, Computer Vision
+    maintainer: Victor (Huawei)
+  - name: MSAdapter SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/MSAdapter-SIG/README.md
+    introduction: Shengsi MindSpot ecological adaptation tool 
+    maintainer: Lai Cheng(Professor of Pengcheng Laboratory)
