@@ -5,39 +5,39 @@ list:
   - name: step_into_chatgpt
     links: https://github.com/mindspore-courses/step_into_chatgpt
     introduction: MindSpore online courses. Step into ChatGPT.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: MindSpore-GAN
     links: https://github.com/mindspore-courses/MindSpore-GAN
     introduction: Collection of MindSpore implementations of Generative Adversarial Network varieties presented in research papers.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: mindspore-classification
     links: https://github.com/mindspore-courses/mindspore-classification
     introduction: Image classification models with MindSpore.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: ABSA-MindSpore
     links: https://github.com/mindspore-courses/ABSA-MindSpore
     introduction: About Aspect Based Sentiment Analysis, MindSpore Implementations.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: Deep-Reinforcement-Learning-Algorithms-with-MindSpore
     links: https://github.com/mindspore-courses/Deep-Reinforcement-Learning-Algorithms-with-MindSpore
     introduction: MindSpore implementations of deep reinforcement learning algorithms and environments.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: heads-on-mindspore
     links: https://github.com/mindspore-courses/heads-on-mindspore
     introduction: MindSpore tutorials and fun projects including neural talk, neural style, poem writing, anime generation.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: DeepNLP-models-MindSpore
     links: https://github.com/mindspore-courses/DeepNLP-models-MindSpore
     introduction: About MindSpore implementations of various Deep NLP models in cs-224n(Stanford Univ).
-    date: 2023-9-25
+    date: 2023-09-25
   - name: Rainbow-MindSpore
     links: https://github.com/mindspore-courses/Rainbow-MindSpore
     introduction: About Rainbow-MindSpore! A step-by-step tutorial from DQN to Rainbow.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: MindSpore-Tutorial
     links: https://github.com/mindspore-courses/MindSpore-Tutorial
     introduction: MindSpore Tutorial for Deep Learning Researchers.
-    date: 2023-9-25
+    date: 2023-09-25
   - name: mindspore-nlp-tutorial
     links: https://github.com/lvyufeng/mindspore-nlp-tutorial
     introduction: Natural Language Processing Tutorial for MindSpore Users.
