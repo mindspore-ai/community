@@ -5,39 +5,39 @@ list:
   - name: step_into_chatgpt
     links: https://github.com/mindspore-courses/step_into_chatgpt
     introduction: MindSpore在线技术公开课之大模型专题。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: MindSpore-GAN
     links: https://github.com/mindspore-courses/MindSpore-GAN
     introduction: 生成对抗网络（GAN）及其变体的MindSpore实现合集。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: mindspore-classification
     links: https://github.com/mindspore-courses/mindspore-classification
     introduction: 使用MindSpore实现的图像分类模型。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: ABSA-MindSpore
     links: https://github.com/mindspore-courses/ABSA-MindSpore
     introduction: 基于方面的情感分析，使用MindSpore实现。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: Deep-Reinforcement-Learning-Algorithms-with-MindSpore
     links: https://github.com/mindspore-courses/Deep-Reinforcement-Learning-Algorithms-with-MindSpore
     introduction: MindSpore深度强化学习算法和环境实现。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: heads-on-mindspore
     links: https://github.com/mindspore-courses/heads-on-mindspore
     introduction: MindSpore教程，包括对话、风格迁移、诗歌写作、动画生成等趣味项目。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: DeepNLP-models-MindSpore
     links: https://github.com/mindspore-courses/DeepNLP-models-MindSpore
     introduction: cs-224n（斯坦福大学）中各种 Deep NLP 模型的MindSpore实现。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: Rainbow-MindSpore
     links: https://github.com/mindspore-courses/Rainbow-MindSpore
     introduction: 从 DQN 到 Rainbow 的分步教程。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: MindSpore-Tutorial
     links: https://github.com/mindspore-courses/MindSpore-Tutorial
     introduction: 面向深度学习研究人员的MindSpore教程。
-    date: 2023-9-25
+    date: 2023-09-25
   - name: mindspore-nlp-tutorial
     links: https://github.com/lvyufeng/mindspore-nlp-tutorial
     introduction: 面向MindSpore用户的自然语言处理教程。
