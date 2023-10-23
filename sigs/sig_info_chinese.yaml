@@ -103,13 +103,13 @@ SIG list:
     maintainer: 周号益（北京航空航天大学软件学院）
   - name: OpenGADL SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/OpenGADL/README.md
-    introduction:大模型自动化深度学习技术
+    introduction: 大模型自动化深度学习技术
     maintainer: 周喜川（重庆大学微电子与通信工程学院）
   - name: 计算机视觉领域套件SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/Computer%20Vision%20(CV)%20Suite%20SIG/README.md
-    introduction:计算机视觉
+    introduction: 计算机视觉
     maintainer: Wei Zheng  (Huawei)
   - name: MSAdapter SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/MSAdapter-SIG/README.md
-    introduction:昇思生态适配工具
+    introduction: 昇思生态适配工具
     maintainer:  赖铖（鹏城实验室）
