@@ -18,3 +18,15 @@ list:
     links: https://github.com/grispeut/TSD_mindspore
     introduction: 第三届华为云无人车挑战杯复赛Top1方案。
     date: 2022-10-28
+  - name: OpenDIC
+    links: https://openi.pcl.ac.cn/OpenDIC
+    introduction: 【北京大学高伟老师团队】基于深度学习的图像压缩模型库
+    date: 2023-11-09
+  - name: OpenDMC
+    links: https://openi.pcl.ac.cn/OpenDMC
+    introduction: 【北京大学高伟老师团队】基于深度学习的视频压缩模型库
+    date: 2023-11-09
+  - name: OpenPCQA
+    links: https://openi.pcl.ac.cn/PCQA
+    introduction: 【北京大学高伟老师团队】基于深度学习的三维点云质量评价模型库
+    date: 2023-11-09
