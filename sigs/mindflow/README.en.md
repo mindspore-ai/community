@@ -2,6 +2,8 @@
 
 🔥🔥🔥 [Open Source Internship Tasks](https://gitee.com/mindspore/community/issues/I55B5A?from=project-issue)
 
+🔥🔥🔥 [MindSpore Flow Repo](https://gitee.com/mindspore/mindscience/tree/master/MindFlow)
+
 ## 1.Establishment background
 
 Computational fluid dynamics is closely related to the research and development of aerospace, marine equipment, energy, and power.    However, it still faces challenges and bottlenecks from mesh generation complexity.   Automatic mesh generation sometimes can not cope with complex boundary geometry.    Manual processing is necessary.  The simulation of fluid mechanics relies on complex iterative computation, which is limited by parallel efficiency.  Moreover, it is difficult to solve high-dimensional equations. Accuracy and performance need to be balanced.
@@ -45,12 +47,10 @@ Fluid simulation software solves the fluid control equations by numerical method
 ![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/mindflow_archi.png)
 
 MindFlow is a fluid simulation kit based on Shengsi MindSpore, which supports AI flow simulation in aerospace, ship hydrodynamics, and energy and power industries.  It is aimed to provide efficient and easy-to-use AI computational fluid simulation software for industrial research engineers, teachers, and students from universities.  MindFlow provides a variety of common features such as physics-driven, data-driven, and data-mechanism-fusion AI fluid simulation.
-https://gitee.com/mindspore/mindscience/tree/master/MindFlow
 
 ## 5.Work plan
 
-● The main focus is on members' academic exchange activities to provide a reference for MindFlow evolution and function improvement.  SIG will organize one large event and several small events every year.  We will organize campus tours every quarter.  SIG will hold a large summer school event every year.  We will invite core experts in the group and prepare multiple topics for several-day lectures.  The group teachers will lead members to conduct technology research, function expansion, and bug fixing.  Members are also free to use MindFlow software for their own research and development.  The group will post open-source internship tasks in the community for students and teachers to claim.
-● Through cooperative development and other forms of cooperation, we will conduct collaborative research in the community and carry out more applications.
+The main focus is on members' academic exchange activities to provide a reference for MindFlow evolution and function improvement.  SIG will organize one large event and several small events every year.  We will organize campus tours every quarter.  SIG will hold a large summer school event every year.  We will invite core experts in the group and prepare multiple topics for several-day lectures.  The group teachers will lead members to conduct technology research, function expansion, and bug fixing.  Members are also free to use MindFlow software for their own research and development.  The group will post open-source internship tasks in the community for students and teachers to claim. Through cooperative development and other forms of cooperation, we will conduct collaborative research in the community and carry out more applications.
 
 ## 6.SIG construction
 
@@ -62,9 +62,7 @@ Zhang Weiwei, Distinguished Professor of Changjiang Scholars at Northwestern Pol
 
 ![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E8%91%A3%E5%BD%AC.jpeg)
 
-Dong Bin, Peking University, associate professor of the Beijing International Mathematics Research Center, deputy director of the International Machine Learning Research Center, researcher of the National Engineering Laboratory for Big Data Analysis and Application, researcher of the National Biomedical Imaging Science Center, and vice president of the Institute of Computing and Digital Economics of Peking University.   He graduated from the School of Mathematical Sciences of Peking University in 2003, obtained a master's degree in the Department of Mathematics of the National University of Singapore in 2005, and obtained a doctor's degree in the Department of Mathematics of the University of California, Los Angeles, in 2009.   After graduation, he served as a visiting assistant professor in the Department of Mathematics at the University of California, San Diego, USA, and an assistant professor in the Department of Mathematics at the University of Arizona, USA, from 2011 to 2014.   He joined Peking University at the end of 2014.   The main research fields are scientific computing, machine learning, and their applications in computational imaging and data analysis.   He has published more than 90 papers in important international academic journals and conferences.   He is currently the editorial board member of the journal Inverse Problems and Imaging, and the deputy chief editor of CSIAM Transactions on Applied Mathematics, Journal of Computational Mathematics, and Journal of Machine Learning.   Presided over the "13th Five-Year Plan" national major scientific and technological infrastructure "multimodal and trans-scale biomedical imaging facilities" device IV:   full-scale image integration system, 1 national key research and development plan of the Ministry of Science and Technology, 1 major project of the National Natural Science Foundation of China, 1 key project of the Beijing Natural Science Foundation, 1 youth project of the National "Thousand Talents Plan" of the Central Organization Department, and 1 project of the National Science Foundation of the United States,   Participated in 1 national key research and development plan of the Ministry of Science and Technology, 1 key project of the National Natural Science Foundation, and 1 major research plan integration project.   In 2014, he won the Outstanding Young Scholar Award of Qiushi.   In 2015, he was selected for the "Thousand Talents Program" youth program of the Central Organization Department.   In 2019, he was selected for the innovative talent promotion program of the Ministry of Science and Technology.   In 2020, he was selected as the leading talent of the "Ten Thousand Talents Program" of the Central Organization Department.   In 2022, he was invited to give a 45-minute report at the World Conference of Mathematicians (ICM).
-
-Dong Bin has made outstanding contributions to applied and computational mathematics, especially mathematical modeling and algorithm design and analysis in image and data analysis. In theory, Dong Bin and his collaborators have established a profound theoretical connection between two important mathematical branches (PDE and wavelet method) in the image field that have developed independently for nearly 30 years, which has changed people's established understanding of these two methods and broadened their thinking. At the same time, they have also induced some new image processing algorithms, which have been successfully applied in medical image analysis. This theoretical work also inspired the research of Dong Bin's team in deep learning, established the relationship between numerical differential equations and deep network architecture, and designed new algorithms for mechanism and data fusion for important problems in image science. In terms of application, Dong Bin's team designed new algorithms of mechanism and data fusion for important problems in computational imaging, medical image analysis and scientific computing, including biomedical image reconstruction algorithm, image segmentation algorithm, clinical assistant decision algorithm, PDE positive and negative problem calculation, etc.
+Dong Bin, Peking University, professor of the Beijing International Mathematics Research Center, deputy director of the International Machine Learning Research Center, researcher of the National Engineering Laboratory for Big Data Analysis and Application, researcher of the National Biomedical Imaging Science Center, and vice president of the Institute of Computing and Digital Economics of Peking University.   He graduated from the School of Mathematical Sciences of Peking University in 2003, obtained a master's degree in the Department of Mathematics of the National University of Singapore in 2005, and obtained a doctor's degree in the Department of Mathematics of the University of California, Los Angeles, in 2009.   After graduation, he served as a visiting assistant professor in the Department of Mathematics at the University of California, San Diego, USA, and an assistant professor in the Department of Mathematics at the University of Arizona, USA, from 2011 to 2014. He joined Peking University at the end of 2014. The main research fields are scientific computing, machine learning, and their applications in computational imaging and data analysis. He is currently the editorial board member of the journal Inverse Problems and Imaging, and the deputy chief editor of CSIAM Transactions on Applied Mathematics, Journal of Computational Mathematics, and Journal of Machine Learning. In 2014, he won the Outstanding Young Scholar Award of Qiushi.   In 2015, he was selected for the "Thousand Talents Program" youth program of the Central Organization Department. In 2019, he was selected for the innovative talent promotion program of the Ministry of Science and Technology.   In 2020, he was selected as the leading talent of the "Ten Thousand Talents Program" of the Central Organization Department.   In 2022, he was invited to give a 45-minute report at the World Conference of Mathematicians (ICM).
 
 ![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E5%AD%99%E6%B5%A9.jpeg)
 
@@ -74,23 +72,23 @@ Sun Hao, "Associate Professor and Doctoral Tutor of the High-level School of Art
 
 #### Name Unit Post Email
 
-Maintainer: hsliu_ustc,Senior Engineer of Shengsi MindSpore
+Maintainer: hsliu_ustc, Manager of Shengsi MindSpore
 
-Maintainer: zedeng,Post-doctor of Shengsi MindSpore
+Maintainer: zedeng, Post-doctor of Shengsi MindSpore
 
-Maintainer: Yi_zhang95,Senior Engineer of Shengsi MindSpore
+Maintainer: Yi_zhang95, Engineer of Shengsi MindSpore
 
-Team member: hong-ye-zhou,Senior Engineer of Shengsi MindSpore
+Team member: hong-ye-zhou, Engineer of Shengsi MindSpore
 
-Team member: Bokai Li,Engineer of Shengsi MindSpore
+Team member: Bokai Li, Engineer of Shengsi MindSpore
 
-Team member: liulei277,Engineer of Shengsi MindSpore
+Team member: liulei277, Engineer of Shengsi MindSpore
 
 Team member: yangge_nihilism,Engineer of Shengsi MindSpore
 
 Team member: Li Zhengyi, PhD student of Peking University lizhengyi@pku.edu.cn
 
-Team member: Li Zhuoyuan, Ph.D. student of Peking University zy.li@stu.pku.edu.cn
+Team member: Li Zhuoyuan, PhD. student of Peking University zy.li@stu.pku.edu.cn
 
 Team member: Ye Zhanhong, PhD student of Peking University 2101110053@pku.edu.cn
 
@@ -99,6 +97,14 @@ Team member: Wang Qi, PhD student of Renmin University of China qi_wang@ruc.edu.
 Team member: Hao Jiwei, Master of Beijing University of Aeronautics and Astronautics jiweihao@buaa.edu.cn
 
 Team member: Lei Yixiang, undergraduate student of Wuhan University 2020301051197@whu.edu.cn
+
+Team member: Zhang Yanglin, MPhil of the Chinese University of Hong Kong 119010446@qq.com
+
+Team member: Liang JiaMing, Master of Xidian University me@puqing.work
+
+Team member: Chen Lunhao, Undergraduate student of Guangdong Polytechnic Normal University 2085127827@qq.com
+
+Team member: Ye Zhenghao, Undergraduate student of Wuhan University yezhenghao@isrc.isca.ac.cn
 
 ### About MindSpore SIG
 

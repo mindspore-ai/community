@@ -1,6 +1,8 @@
 # 加入昇思MindFlow SIG，助力AI流体仿真发展
 
-🔥🔥🔥 [开源实习任务](https://gitee.com/mindspore/community/issues/I55B5A?from=project-issue)
+ 🔥🔥🔥[开源实习任务](https://gitee.com/mindspore/community/issues/I55B5A?from=project-issue)
+
+🔥🔥🔥 [开源代码仓](https://gitee.com/mindspore/mindscience/tree/master/MindFlow)
 
 ## 1、成立背景
 
@@ -38,13 +40,11 @@
 
 ![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/mindflow_archi_CN.png)
 
-MindFlow是基于昇思MindSpore开发的流体仿真领域套件，支持航空航天、船舶水动力学以及能源电力等行业领域的AI流场模拟，旨在于为广大的工业界科研工程人员、高校老师及学生提供高效易用的AI计算流体仿真软件。MindFlow提供了物理驱动、数据驱动、数据机理融合的AI流体仿真等多种常用功能。代码仓开源地址：
-https://gitee.com/mindspore/mindscience/tree/master/MindFlow
+MindFlow是基于昇思MindSpore开发的流体仿真领域套件，支持航空航天、船舶水动力学以及能源电力等行业领域的AI流场模拟，旨在于为广大的工业界科研工程人员、高校老师及学生提供高效易用的AI计算流体仿真软件。MindFlow提供了物理驱动、数据驱动、数据机理融合的AI流体仿真等多种常用功能。
 
 ## 5、工作计划
 
-● 前期：以成员学术交流活动为主，为MindFlow演进和功能完善提供参考。每年小组都会组织一场大型活动与数场小型活动，且固定在每个季度组织一场校园行活动，每年SIG会固定举办大型暑期学校活动，邀请组内的核心专家老师准备多个主题进行多天的授课。小组老师将带领成员进行科技调研以及代码仓功能扩展，bug修复等工作。成员也可自由使用MindFlow软件来进行自己的课题研究和开发。小组会在社区内发布开源实习任务以及众智任务，以供学生和老师认领。
-● 后期：通过合作开发等模式，在社区开展合作研究，推动更多场景落地。
+以成员学术交流活动为主，为MindFlow演进和功能完善提供参考。每年小组都会组织一场大型活动与数场小型活动，且固定在每个季度组织一场校园行活动，每年SIG会固定举办大型暑期学校活动，邀请组内的核心专家老师准备多个主题进行多天的授课。小组老师将带领成员进行科技调研以及代码仓功能扩展，bug修复等工作。成员也可自由使用MindFlow软件来进行自己的课题研究和开发。小组会在社区内发布开源实习任务以及众智任务，以供学生和老师认领。通过合作开发等模式，在社区开展合作研究，推动更多场景落地。
 
 ## 6、SIG构建
 
@@ -56,8 +56,7 @@ https://gitee.com/mindspore/mindscience/tree/master/MindFlow
 
 ![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E8%91%A3%E5%BD%AC.jpeg)
 
-董彬，北京大学，北京国际数学研究中心长聘副教授、国际机器学习研究中心副主任、大数据分析与应用国家工程实验室研究员、国家生物医学成像科学中心研究员，北京大学计算与数字经济研究院副院长。2003年本科毕业于北京大学数学科学学院、2005年在新加坡国立大学数学系获得硕士学位、2009年在美国加州大学洛杉矶分校数学系获得博士学位。博士毕业后曾在美国加州大学圣迭戈分校数学系任访问助理教授、2011－2014年在美国亚利桑那大学数学系任助理教授，2014年底入职北京大学。主要研究领域为科学计算、机器学习及其在计算成像和数据分析中的应用。在国际重要学术期刊和会议上发表论文90余篇。现任期刊《Inverse Problems and Imaging》编委、《CSIAM Transactions on Applied Mathematics》、《Journal of Computational Mathematics》、《Journal of Machine Learning》副主编。主持“十三五”国家重大科技基础设施“多模态跨尺度生物医学成像设施”装置四：全尺度图像整合系统、科技部国家重点研发计划1项、国家自然科学基金重大项目1项、北京市自然科学基金重点项目1项、国家“千人计划”青年项目1项、美国国家科学基金项目1项，参与科技部国家重点研发计划1项、国家自然科学基金重点项目1项、重大研究计划集成项目1项。2014年获得求是杰出青年学者奖，2015年入选“千人计划”青年项目，2019年入选科技部创新人才推进计划，2020年入选“万人计划”领军人才，2022年受邀在世界数学家大会（ICM）做45分钟报告。
-董彬在应用和计算数学，尤其是图像及数据分析中的数学建模和算法设计与分析中作出了突出贡献。在理论上，董彬与合作者一起将图像领域独立发展近30年的两个重要数学分支（PDE和小波方法）建立深刻的理论性联系，改变了人们对这两类方法的一些既定认识、开拓了思路，同时也诱导出了一些新的图像处理算法，在医疗影像分析中得到成功的应用。该理论工作也激发了董彬团队在深度学习方面的研究，建立了数值微分方程和深层网络构架的联系，并针对图像科学中的重要问题设计机理与数据融合的新算法。在应用上，董彬团队针对计算成像、医学影像分析、科学计算中的重要问题，设计机理与数据融合的新算法，这包括生物医学影像重建算法、图像分割算法、临床辅助决策算法、PDE正反问题计算等等。
+董彬，北京大学，北京国际数学研究中心长聘教授、国际机器学习研究中心副主任、大数据分析与应用国家工程实验室研究员、国家生物医学成像科学中心研究员，北京大学计算与数字经济研究院副院长。2003年本科毕业于北京大学数学科学学院、2005年在新加坡国立大学数学系获得硕士学位、2009年在美国加州大学洛杉矶分校数学系获得博士学位。博士毕业后曾在美国加州大学圣迭戈分校数学系任访问助理教授、2011－2014年在美国亚利桑那大学数学系任助理教授，2014年底入职北京大学。主要研究领域为科学计算、机器学习及其在计算成像和数据分析中的应用。现任期刊《Inverse Problems and Imaging》编委、《CSIAM Transactions on Applied Mathematics》、《Journal of Computational Mathematics》、《Journal of Machine Learning》副主编。2014年获得求是杰出青年学者奖，2015年入选“千人计划”青年项目，2019年入选科技部创新人才推进计划，2020年入选“万人计划”领军人才，2022年受邀在世界数学家大会（ICM）做45分钟报告。
 
 ![输入图片说明](https://gitee.com/mindspore/community/raw/master/sigs/mindflow/images/%E5%AD%99%E6%B5%A9.jpeg)
 
@@ -67,13 +66,13 @@ https://gitee.com/mindspore/mindscience/tree/master/MindFlow
 
 #### 姓名 单位 任职 邮箱
 
-Maintainer：hsliu_ustc 昇思MindSpore高级工程师
+Maintainer：hsliu_ustc 昇思MindSpore负责人
 
 Maintainer：zwdeng 昇思MindSpore博士后
 
-Maintainer：Yi_zhang95 昇思MindSpore高级工程师
+Maintainer：Yi_zhang95 昇思MindSpore工程师
 
-小组成员：hong-ye-zhou 昇思MindSpore高级工程师
+小组成员：hong-ye-zhou 昇思MindSpore工程师
 
 小组成员：Bokai Li 昇思MindSpore工程师
 
@@ -92,6 +91,14 @@ Maintainer：Yi_zhang95 昇思MindSpore高级工程师
 小组成员：郝纪伟 北京航空航天大学 硕士在读 jiweihao@buaa.edu.cn
 
 小组成员：雷译翔 武汉大学 本科在读 2020301051197@whu.edu.cn
+
+小组成员：张杨林 香港中文大学 MPhil在读 119010446@qq.com
+
+小组成员：梁嘉铭 西安电子科技大学 硕士在读 me@puqing.work
+
+小组成员：陈伦豪 广东技术师范大学 本科在读 2085127827@qq.com
+
+小组成员：叶正豪 武汉大学 本科在读 yezhenghao@isrc.isca.ac.cn
 
 ### 关于MindSpore SIG
 
