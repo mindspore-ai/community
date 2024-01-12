@@ -697,7 +697,7 @@ mindinsight:
         schName:
     gunicorn:
         cpeName: gunicorn
-        version: ">= 20.0.4"
+        version: ">= 21.2.0"
         language: python
         license: MIT License
         url: http://gunicorn.org/
