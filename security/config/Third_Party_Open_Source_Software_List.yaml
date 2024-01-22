@@ -1411,7 +1411,7 @@ federated:
         language: C++
         license: zlib/libpng License
         url: https://github.com/madler/zlib
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: zlib
     abseil-cpp:
@@ -1420,7 +1420,7 @@ federated:
         language: C++
         license: Apache License V2.0
         url: https://github.com/abseil/abseil-cpp
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: absl
     c-ares:
@@ -1429,7 +1429,7 @@ federated:
         language: C++
         license: MIT license
         url: https://github.com/c-ares/c-ares
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: c-ares
     flatbuffers:
@@ -1447,7 +1447,7 @@ federated:
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/google/glog
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: glog
     googletest:
@@ -1456,7 +1456,7 @@ federated:
         language: C/C++
         license: BSD 3-Clause License
         url: https://github.com/google/googletest
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: gtest
     hiredis:
@@ -1465,7 +1465,7 @@ federated:
         language: C
         license: BSD 3-Clause License
         url: https://github.com/redis/hiredis
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: hiredis
     JSON for Modern C++:
@@ -1474,7 +1474,7 @@ federated:
         language: C++
         license: MIT license
         url: https://github.com/nlohmann/json
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: nlohmann_json
     libevent:
@@ -1483,7 +1483,7 @@ federated:
         language: C/C++
         license: BSD 3-Clause License
         url: https://github.com/libevent/libevent
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: libevent
     openssl:
@@ -1501,7 +1501,7 @@ federated:
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: protobuf
     pybind11:
@@ -1510,7 +1510,7 @@ federated:
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/pyind/pybind11
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: pybind11
     re2:
@@ -1519,6 +1519,6 @@ federated:
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/google/re2
-        handler: dairenjie
+        handler: Rice
         milestone: B-SIG-FL
         schName: re2
