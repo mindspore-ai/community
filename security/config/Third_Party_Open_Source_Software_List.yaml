@@ -78,7 +78,7 @@ mindspore:
         license: MIT License
         url: https://github.com/skvark/opencv-python
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName: opencv-python
     scipy:
         cpeName: scipy
@@ -195,7 +195,7 @@ mindspore:
         license: Python Software Foundation License(PSF)
         url: https://matplotlib.org
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: matplotlib
     asttokens:
         cpeName: asttokens
@@ -240,7 +240,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName: pycocotools
     OpenCL-CLHPP:
         cpeName: OpenCL-CLHPP
@@ -312,7 +312,7 @@ mindspore:
         license: LGPL V3.0
         url: https://github.com/makinacorpus/easydict
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName: easydict
     libjpeg-turbo:
         cpeName: libjpeg-turbo
@@ -384,7 +384,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
         handler: emmmmtang
-        milestone: B-SIG-SECURITY
+        milestone: B-SIG-InnerDelivery
         schName: openssl
     scikit-learn:
         cpeName: scikit-learn
@@ -393,7 +393,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://github.com/scikit-learn/scikit-learn
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: scikit-learn
     psutil:
         cpeName: psutil
@@ -566,7 +566,7 @@ mindarmour:
         license: Python Software Foundation License(PSF)
         url: https://matplotlib.org
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName:
     scikit-learn:
         cpeName: scikit-learn
@@ -575,7 +575,7 @@ mindarmour:
         license: BSD 3-Clause License
         url: https://github.com/scikit-learn/scikit-learn
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName:
     pillow:
         cpeName: pillow
@@ -584,7 +584,7 @@ mindarmour:
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: pillow
     easydict:
         cpeName: easydict
@@ -593,7 +593,7 @@ mindarmour:
         license: GNU Lesser General Public License v3.0
         url: https://github.com/makinacorpus/easydict
         handler: zhao_ting_v
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName:
     opencv-python:
         cpeName: opencv-python
@@ -602,7 +602,7 @@ mindarmour:
         license: MIT License
         url: https://github.com/skvark/opencv-python
         handler: zhao_ting_v
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: opencv-python
     wheel:
         cpeName: wheel
@@ -611,7 +611,7 @@ mindarmour:
         license: MIT License
         url: https://github.com/pypa/wheel
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: wheel
     setuptools:
         cpeName: setuptools
@@ -620,7 +620,7 @@ mindarmour:
         license: MIT License
         url: https://github.com/pypa/setuptools
         handler: jxlang910
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: setuptools
 mindinsight:
     Flask-Cors:
@@ -829,7 +829,7 @@ mindscience:
         license: MIT License
         url: https://github.com/skvark/opencv-python
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName: opencv-python
     easydict:
         cpeName: easydict
@@ -838,7 +838,7 @@ mindscience:
         license: GNU Lesser General Public License v3.0
         url: https://github.com/makinacorpus/easydict
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName:
     pillow:
         cpeName: pillow
@@ -1203,7 +1203,7 @@ others:
             license: LGPL V2.1
             url: http://radimrehurek.com/gensim
             handler: zhao_ting_v
-            milestone: B-SIG-ModelZoo
+            milestone: B-SIG-Kit
             schName:
     SymPy:
         cpeName: SymPy
@@ -1230,7 +1230,7 @@ others:
         license: Apache License V2.0
         url: https://github.com/mjpost/sacrebleu
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName:
     subword-nmt:
         cpeName: subword-nmt
@@ -1239,7 +1239,7 @@ others:
         license: MIT License
         url: https://github.com/rsennrich/subword-nmt
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName:
     sacremoses:
         cpeName: sacremoses
@@ -1248,7 +1248,7 @@ others:
         license: MIT License
         url: https://github.com/alvations/sacremoses
         handler: zhao_ting_v
-        milestone: B-SIG-ModelZoo
+        milestone: B-SIG-Kit
         schName:
     okhttp:
         cpeName: okhttp
@@ -1257,7 +1257,7 @@ others:
         license: Apache License V2.0
         url: https://square.github.io/okhttp/
         handler: yangxixin
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName:
     The Legion of the Bouncy Castle:
         cpeName: The Legion of the Bouncy Castle
@@ -1266,7 +1266,7 @@ others:
         license: MIT License
         url: http://www.bouncycastle.org/
         handler: yangxixin
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName:
     SPIRV-Tools:
         cpeName: SPIRV-Tools
@@ -1312,7 +1312,7 @@ federated:
         license: zlib/libpng License
         url: https://github.com/madler/zlib
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: zlib
     abseil-cpp:
         cpeName: abseil-cpp
@@ -1321,7 +1321,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/abseil/abseil-cpp
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: absl
     c-ares:
         cpeName: c-ares
@@ -1330,7 +1330,7 @@ federated:
         license: MIT license
         url: https://github.com/c-ares/c-ares
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: c-ares
     flatbuffers:
         cpeName: flatbuffers
@@ -1339,7 +1339,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/google/flatbuffers
         handler: emmmmtang
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: flatbuffers
     glog:
         cpeName: glog
@@ -1348,7 +1348,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/glog
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: glog
     googletest:
         cpeName: googletest
@@ -1357,7 +1357,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/googletest
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: gtest
     hiredis:
         cpeName: hiredis
@@ -1366,7 +1366,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/redis/hiredis
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: hiredis
     JSON for Modern C++:
         cpeName: JSON for Modern C++
@@ -1375,7 +1375,7 @@ federated:
         license: MIT license
         url: https://github.com/nlohmann/json
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: nlohmann_json
     libevent:
         cpeName: libevent
@@ -1384,7 +1384,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/libevent/libevent
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: libevent
     openssl:
         cpeName: openssl
@@ -1393,7 +1393,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
         handler: emmmmtang
-        milestone: B-SIG-Security
+        milestone: B-SIG-InnerDelivery
         schName: openssl
     protobuf:
         cpeName: protobuf
@@ -1402,7 +1402,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: protobuf
     pybind11:
         cpeName: pybind11
@@ -1411,7 +1411,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/pyind/pybind11
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: pybind11
     re2:
         cpeName: re2
@@ -1420,5 +1420,5 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/re2
         handler: Rice
-        milestone: B-SIG-FL
+        milestone: B-SIG-InnerDelivery
         schName: re2
