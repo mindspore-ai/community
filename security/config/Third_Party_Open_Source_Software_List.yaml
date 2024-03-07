@@ -1422,3 +1422,21 @@ federated:
         handler: Rice
         milestone: B-SIG-InnerDelivery
         schName: re2
+    pocketfft:
+        cpeName: pocketfft
+        version: "cpp commitid:0f7aa12"
+        language: C
+        license: BSD 3-Clause License
+        url: https://github.com/malfet/pocketfft
+        handler: zhumingming
+        milestone: IT-SIG-融合计算
+        schName:
+    OpenBlas:
+        cpeName: OpenBlas
+        version: "0.3.21"
+        language: C/Fortran
+        license: BSD 3-Clause License
+        url: https: https://github.com/OpenMathLib/OpenBLAS
+        handler: zhumingming
+        milestone: IT-SIG-融合计算
+        schName:
