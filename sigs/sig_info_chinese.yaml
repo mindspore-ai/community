@@ -8,7 +8,7 @@ SIG list:
   - name: Trusted AI SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/security/README.md
     introduction: AI安全、AI可解释和隐私保护技术
-    maintainer: Xiulang Jin (Huawei)
+    maintainer: Siming Liu (Huawei)
   - name: Usability SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
     introduction: MindSpore易用性提升
