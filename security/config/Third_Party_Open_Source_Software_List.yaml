@@ -257,7 +257,7 @@ mindspore:
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
-        handler: henryshi1
+        handler: changzherui
         milestone: B-SIG-FrontEnd
         schName: protobuf
     protobuf-arm:
@@ -266,7 +266,7 @@ mindspore:
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
-        handler: henryshi1
+        handler: changzherui
         milestone: B-SIG-FrontEnd
         schName: protobuf_arm
     grpc:
@@ -538,7 +538,7 @@ mindarmour:
         language: Python
         license: BSD 3-Clause License
         url: https://www.numpy.org
-        handler: henryshi1
+        handler: changzherui
         milestone: B-SIG-FrontEnd
         schName:
     scipy:
