@@ -30,3 +30,7 @@ list:
     links: https://openi.pcl.ac.cn/OpenPCQA
     introduction: 【北京大学高伟老师团队】基于深度学习的三维点云质量评价模型库
     date: 2023-11-09
+  - name: Equiangular Basis Vectors
+    links: https://github.com/aassxun/Equiangular-Basis-Vectors-MindSpore
+    introduction: 【东南大学魏秀参老师团队】大规模（大类别量）分类任务的MindSpore解决方案
+    date: 2024-05-28
