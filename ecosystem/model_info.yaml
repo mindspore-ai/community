@@ -34,3 +34,7 @@ list:
     links: https://github.com/aassxun/Equiangular-Basis-Vectors-MindSpore
     introduction: 【东南大学魏秀参老师团队】大规模（大类别量）分类任务的MindSpore解决方案
     date: 2024-05-28
+  - name: Visual Scene Adaptive Framework
+    links: https://github.com/Daniel00008/Visual_Scene_Adaptive_Framework
+    introduction: 【天津大学韩亚洪老师团队】大模型引导的泛视觉场景自适应学习框架的MindSpore解决方案
+    date: 2024-06-20
