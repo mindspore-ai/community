@@ -31,7 +31,7 @@ Data Compliance SIG aims to find out the risk of license compliance and help dev
 ## SIG Leads
 
 - Gopi Krishnan Rajbahadur (Canada Queens University)
-- Li Zi (Huawei)
+- Yan Xuanchen (Huawei)
 
 ## Logistics
 
