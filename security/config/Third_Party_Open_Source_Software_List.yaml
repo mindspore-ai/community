@@ -5,8 +5,8 @@ mindspore:
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/pypa/packaging
-        handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        handler: nicholas_yhr
+        milestone: B-Deploy
         schName: packaging
     cub:
         cpeName: cub
@@ -15,7 +15,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://github.com/NVIDIA/cub
         handler: david-he91
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-OPS
         schName: cub
     onednn:
         cpeName: Onednn
@@ -24,7 +24,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/oneapi-src/oneDNN
         handler: zuochuanyong
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-InnerDelivery
         schName: mkl_dnn
     flatbuffers:
         cpeName: flatbuffers
@@ -33,7 +33,7 @@ mindspore:
         license: Apache License V2.0
         url: https://google.github.io/flatbuffers/
         handler: ljl0711
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: flatbuffers
     sentencepiece:
         cpeName: sentencepiece
@@ -51,7 +51,7 @@ mindspore:
         license: Mozilla Public License (MPL) V2.0
         url: http://eigen.tuxfamily.org/index.php?title=Main_Page
         handler: liangchenghui
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-OPS
         schName: eigen
     glog:
         cpeName: glog
@@ -60,7 +60,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://github.com/google/glog
         handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-InnerDelivery
         schName: glog
     googletest:
         cpeName: googletest
@@ -69,7 +69,7 @@ mindspore:
         license: BSD 3-Clause License
         url: http://code.google.com/p/googletest/
         handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-InnerDelivery
         schName: gtest
     opencv:
         cpeName: opencv
@@ -96,7 +96,7 @@ mindspore:
         license: BSD 3-Clause License
         url: http://scipy.org/
         handler: echomingzhu
-        milestone: B-SIG-FrontEnd
+        milestone: B-MBA
         schName: scipy
     tables:
         cpeName: tables
@@ -105,7 +105,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://github.com/PyTables/PyTables
         handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-InnerDelivery
         schName: tables
     robin_hood_hashing:
         cpeName: robin_hood_hashing
@@ -113,8 +113,8 @@ mindspore:
         language: C++
         license: MIT License
         url: https://github.com/martinus/robin_hood_hashing
-        handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        handler: hewei
+        milestone: B-SIG-Compiler
         schName: robin
     astunparse:
         cpeName: astunparse
@@ -122,7 +122,7 @@ mindspore:
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/simonpercivall/astunparse
-        handler: rainyhorse
+        handler: ZhibinGuo
         milestone: B-SIG-FrontEnd
         schName: astunparse
     dirent:
@@ -132,7 +132,7 @@ mindspore:
         license: MIT License
         url: https://github.com/tronkko/dirent
         handler: qiuzhongya
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-Ascend
         schName: dirent
     fast_transformer:
         cpeName: fast_transformer
@@ -141,7 +141,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/NVIDIA/FasterTransformer
         handler: liulili-huawei
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-Infer
         schName: fast_transformers
     Pillow:
         cpeName: Pillow
@@ -213,7 +213,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/gristlabs/asttokens
         handler: huangbingjian
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-Compiler
         schName: asttokens
     icu:
         cpeName: icu
@@ -231,26 +231,18 @@ mindspore:
         license: BSD 3-Clause License
         url: https://www.open-mpi.org/
         handler: zpac
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-Runtime
         schName: ompi
     libevent:
         cpeName: libevent
         version: 2.1.12
         language: C/C++
-        license: BSD 3-Clause License;MIT License;ISC License;BSD 2-Clause License;Creative Commons Public Domain Certification
+        license: BSD 3-Clause License;MIT License;ISC License;BSD 2-Clause
+            License;Creative Commons Public Domain Certification
         url: https://libevent.org/
         handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        milestone: B-SIG-InnerDelivery
         schName: libevent
-    pycocotools:
-        cpeName: pycocotools
-        version: ">= 2.0.2"
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: pycocotools
     OpenCL-CLHPP:
         cpeName: OpenCL-CLHPP
         version: 2.0.12
@@ -258,7 +250,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/KhronosGroup/OpenCL-CLHPP
         handler: ljl0711
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: opencl-clhpp
     protobuf:
         cpeName: protobuf
@@ -375,7 +367,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/KhronosGroup/OpenCL-Headers/
         handler: ljl0711
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: opencl-headers
     re2:
         cpeName: re2
@@ -410,8 +402,8 @@ mindspore:
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/giampaolo/psutil
-        handler: ljing-git
-        milestone: B-SIG-MSLite
+        handler: shenwei41
+        milestone: B-SIG-Data
         schName: psutil
     cmsis:
         cpeName: cmsis
@@ -420,7 +412,7 @@ mindspore:
         license: Apache License V2.0
         url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
         handler: ljl0711
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: cmsis
     onnxruntime:
         cpeName: onnxruntime
@@ -428,8 +420,8 @@ mindspore:
         language: python
         license: MIT License
         url: https://github.com/microsoft/onnxruntime
-        handler: fangzehua
-        milestone: B-SIG-ICT
+        handler: liangchenghui
+        milestone: B-SIG-OPS
         schName: onnxruntime
     decorator:
         cpeName: decorator
@@ -474,7 +466,7 @@ mindspore:
         license: Apache License V2.0
         url: https://github.com/sinojelly/mockcpp
         handler: liuchongming74
-        milestone: B-SIG-DS
+        milestone: B-SIG-Parallel
         schName: mockcpp
     pocketfft:
         cpeName: pocketfft
@@ -483,7 +475,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://github.com/malfet/pocketfft
         handler: echomingzhu
-        milestone: B-SIG-MSLite
+        milestone: B-MBA
         schName: pocketfft
     triton_common:
         cpeName: triton_common
@@ -492,7 +484,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://gitee.com/mirrors_triton-inference-server/common
         handler: jpc_chenjianping
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: triton_common
     triton_core:
         cpeName: triton_core
@@ -501,7 +493,7 @@ mindspore:
         license: BSD 3-Clause License
         url: https://gitee.com/mirrors_triton-inference-server/core
         handler: jpc_chenjianping
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: triton_core
     triton_backend:
         cpeName: triton_backend
@@ -510,8 +502,17 @@ mindspore:
         license: BSD 3-Clause License
         url: https://gitee.com/mirrors_triton-inference-server/backend
         handler: jpc_chenjianping
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-InnerDelivery
         schName: triton_backend
+    FFmpeg:
+        cpeName: ffmpeg
+        version: 5.1.2
+        language: C
+        license: GPL V2.0, GPL V3.0, LGPL V3.0
+        url: https://github.com/FFmpeg/FFmpeg
+        handler: shenwei41
+        milestone: B-SIG-Data
+        schName: FFmpeg
 akg:
     decorator:
         cpeName: decorator
@@ -546,8 +547,8 @@ akg:
         language: C++
         license: BSD 3-Clause License
         url: http://code.google.com/p/googletest/
-        handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        handler: looop5
+        milestone: B-SIG-AKG
         schName: gtest
     numpy:
         cpeName: numpy
@@ -555,8 +556,8 @@ akg:
         language: Python
         license: BSD 3-Clause License
         url: https://www.numpy.org
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
+        handler: looop5
+        milestone: B-SIG-AKG
         schName: numpy
     xgboost:
         cpeName: xgboost
@@ -573,8 +574,8 @@ akg:
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
-        handler: echomingzhu
-        milestone: B-SIG-FrontEnd
+        handler: looop5
+        milestone: B-SIG-AKG
         schName: scipy
     pytest:
         cpeName: pytest
@@ -582,8 +583,8 @@ akg:
         language: Python
         license: MIT License
         url: https://docs.pytest.org/en/latest/
-        handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        handler: looop5
+        milestone: B-SIG-AKG
         schName: pytest
     ncurses:
         cpeName: ncurses
@@ -702,7 +703,7 @@ mindinsight:
         license: MIT License
         url: https://github.com/corydolphin/flask-cors
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: Flask-Cors
     itsdangerous:
         cpeName: itsdangerous
@@ -711,7 +712,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://itsdangerous.palletsprojects.com
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: itsdangerous
     Jinja2:
         cpeName: Jinja2
@@ -720,7 +721,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://pypi.org/project/MarkupSafe/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: Jinja2
     MarkupSafe:
         cpeName: MarkupSafe
@@ -729,7 +730,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://pypi.org/project/MarkupSafe/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: MarkupSafe
     Flask:
         cpeName: Flask
@@ -738,7 +739,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://flask.palletsprojects.com
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: Flask
     pillow:
         cpeName: pillow
@@ -747,7 +748,7 @@ mindinsight:
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: pillow
     Werkzeug:
         cpeName: Werkzeug
@@ -756,7 +757,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://werkzeug.palletsprojects.com/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: Werkzeug
     XlsxWriter:
         cpeName: XlsxWriter
@@ -765,7 +766,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://xlsxwriter.readthedocs.io/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: XlsxWriter
     gunicorn:
         cpeName: gunicorn
@@ -774,7 +775,7 @@ mindinsight:
         license: MIT License
         url: http://gunicorn.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: gunicorn
     marshmallow:
         cpeName: marshmallow
@@ -783,7 +784,7 @@ mindinsight:
         license: MIT License
         url: https://github.com/marshmallow-code/marshmallow
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: marshmallow
     numpy:
         cpeName: numpy
@@ -792,7 +793,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://www.numpy.org
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: numpy
     psutil:
         cpeName: psutil
@@ -801,7 +802,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://github.com/giampaolo/psutil
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: psutil
     pyyaml:
         cpeName: pyyaml
@@ -810,7 +811,7 @@ mindinsight:
         license: MIT License
         url: https://pypi.org/project/PyYAML/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: pyyaml
     treelib:
         cpeName: treelib
@@ -819,7 +820,7 @@ mindinsight:
         license: Apache License V2.0
         url: https://github.com/caesar0301/treelib
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: treelib
     protobuf:
         cpeName: protobuf
@@ -828,7 +829,7 @@ mindinsight:
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: protobuf
     grpcio:
         cpeName: grpcio
@@ -837,7 +838,7 @@ mindinsight:
         license: Apache License V2.0
         url: https://github.com/grpc/grpc.io/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: grpcio
     pandas:
         cpeName: pandas
@@ -846,7 +847,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://pandas.pydata.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: pandas
     scikit-learn:
         cpeName: scikit-learn
@@ -855,7 +856,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: https://github.com/scikit-learn/scikit-learn
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: scikit-learn
     scipy:
         cpeName: scipy
@@ -864,7 +865,7 @@ mindinsight:
         license: BSD 3-Clause License
         url: http://scipy.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
 
 mindscience:
     pyevtk:
@@ -873,7 +874,7 @@ mindscience:
         language: python
         license: MIT License
         url: https://github.com/paulo-herrera/PyEVTK
-        handler: kangyangzc
+        handler: gongyue19941231
         milestone: B-MBA
         schName: pyevtk
     numpy:
@@ -882,8 +883,8 @@ mindscience:
         language: python
         license: BSD 3-Clause License
         url: https://www.numpy.org
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
+        handler: gongyue19941231
+        milestone: B-MBA
         schName: numpy
     matplotlib:
         cpeName: matplotlib
@@ -891,8 +892,8 @@ mindscience:
         language: python
         license: Python Software Foundation License(PSF)
         url: https://matplotlib.org
-        handler: rainyhorse
-        milestone: B-SIG-FrontEnd
+        handler: gongyue19941231
+        milestone: B-MBA
         schName: matplotlib
     opencv-python:
         cpeName: opencv-python
@@ -900,8 +901,8 @@ mindscience:
         language: python
         license: MIT License
         url: https://github.com/skvark/opencv-python
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
+        handler: gongyue19941231
+        milestone: B-MBA
         schName: opencv-python
     easydict:
         cpeName: easydict
@@ -909,8 +910,8 @@ mindscience:
         language: python
         license: GNU Lesser General Public License v3.0
         url: https://github.com/makinacorpus/easydict
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
+        handler: gongyue19941231
+        milestone: B-MBA
         schName: easydict
     pillow:
         cpeName: pillow
@@ -918,8 +919,8 @@ mindscience:
         language: Python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
-        handler: shenwei41
-        milestone: B-SIG-Data
+        handler: gongyue19941231
+        milestone: B-MBA
         schName: pillow
     scipy:
         cpeName: scipy
@@ -927,8 +928,8 @@ mindscience:
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
-        handler: echomingzhu
-        milestone: B-SIG-FrontEnd
+        handler: gongyue19941231
+        milestone: B-MBA
         schName: scipy
 serving:
     abseil-cpp:
@@ -938,7 +939,7 @@ serving:
         license: Apache License V2.0
         url: https://github.com/abseil/abseil-cpp
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: absl
     c-ares:
         cpeName: c-ares
@@ -947,7 +948,7 @@ serving:
         license: MIT License
         url: https://github.com/c-ares/c-ares
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: c-ares
     Eigen:
         cpeName: Eigen
@@ -956,7 +957,7 @@ serving:
         license: MPL2 license
         url: https://gitlab.com/libeigen/eigen
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: eigen
     glog:
         cpeName: glog
@@ -965,7 +966,7 @@ serving:
         license: New BSD License
         url: https://github.com/google/glog
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: glog
     protobuf:
         cpeName: protobuf
@@ -974,7 +975,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/protocolbuffers/protobuf
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: protobuf
     grpc:
         cpeName: grpc
@@ -983,7 +984,7 @@ serving:
         license: Apache License V2.0
         url: https://github.com/grpc/grpc/
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: grpc
     googletest:
         cpeName: googletest
@@ -992,7 +993,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/google/googletest/
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: gtest
     JSON for Modern C++:
         cpeName: JSON for Modern C++
@@ -1001,7 +1002,7 @@ serving:
         license: MIT License
         url: https://github.com/nlohmann/json
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: json
     libevent:
         cpeName: libevent
@@ -1010,7 +1011,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/libevent/libevent/
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: libevent
     pybind11:
         cpeName: pybind11
@@ -1019,7 +1020,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/pybind/pybind11/
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: pybind11
     openssl:
         cpeName: openssl
@@ -1028,7 +1029,7 @@ serving:
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: openssl
     re2:
         cpeName: re2
@@ -1037,7 +1038,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/google/re2
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: re2
     zlib:
         cpeName: zlib
@@ -1046,7 +1047,7 @@ serving:
         license: zlib/libpng License
         url: https://github.com/madler/zlib
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: zlib
     numpy:
         cpeName: numpy
@@ -1055,7 +1056,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/numpy/numpy
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: numpy
     psutil:
         cpeName: psutil
@@ -1064,7 +1065,7 @@ serving:
         license: BSD 3-Clause License
         url: https://github.com/giampaolo/psutil
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: psutil
     grpcio:
         cpeName: grpcio
@@ -1073,7 +1074,7 @@ serving:
         license: Apache License V2.0
         url: https://github.com/grpc/grpc.io/
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: grpcio
     requests:
         cpeName: requests
@@ -1082,7 +1083,7 @@ serving:
         license: Apache License V2.0
         url: https://github.com/psf/requests/
         handler: mindwang
-        milestone: B-SIG-MSLite
+        milestone: B-SIG-Infer
         schName: requests
 mindconverter:
     networkx:
@@ -1092,7 +1093,7 @@ mindconverter:
         license: MIT License
         url: https://github.com/networkx/networkx
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: networkx
     protobuf:
         cpeName: protobuf
@@ -1101,7 +1102,7 @@ mindconverter:
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: protobuf
     google-pasta:
         cpeName: google-pasta
@@ -1110,7 +1111,7 @@ mindconverter:
         license: Apache License V2.0
         url: https://github.com/google/pasta/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: google-pasta
     numpy:
         cpeName: numpy
@@ -1119,7 +1120,7 @@ mindconverter:
         license: BSD 3-Clause License
         url: https://www.numpy.org
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: numpy
     yapf:
         cpeName: yapf
@@ -1128,7 +1129,7 @@ mindconverter:
         license: Apache License V2.0
         url: https://github.com/google/yapf
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: yapf
 vue:
     vue:
@@ -1138,7 +1139,7 @@ vue:
         license: MIT License
         url: https://vuejs.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vue
     SlickGrid:
         cpeName: SlickGrid
@@ -1147,7 +1148,7 @@ vue:
         license: MIT License
         url: https://github.com/6pac/SlickGrid
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: SlickGrid
     axios:
         cpeName: axios
@@ -1156,7 +1157,7 @@ vue:
         license: MIT License
         url: https://github.com/mzabriskie/axios
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: axios
     core-js:
         cpeName: core-js
@@ -1165,7 +1166,7 @@ vue:
         license: MIT License
         url: https://github.com/zloirock/core-js
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: core-js
     d3:
         cpeName: d3
@@ -1174,7 +1175,7 @@ vue:
         license: ISC License
         url: https://d3js.org
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: d3
     d3-graphviz:
         cpeName: d3-graphviz
@@ -1183,7 +1184,7 @@ vue:
         license: BSD 3-Clause License
         url: https://github.com/magjac/d3-graphviz
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: d3-graphviz
     echarts:
         cpeName: echarts
@@ -1192,7 +1193,7 @@ vue:
         license: BSD 3-Clause License
         url: http://echarts.apache.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: echarts
     element-ui:
         cpeName: element-ui
@@ -1201,7 +1202,7 @@ vue:
         license: MIT License
         url: http://element.eleme.io
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: element-ui
     vue-cli:
         cpeName: vue-cli
@@ -1210,7 +1211,7 @@ vue:
         license: MIT License
         url: https://cli.vuejs.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vue-cli
     vue-cli-plugin-i18n:
         cpeName: vue-cli-plugin-i18n
@@ -1219,7 +1220,7 @@ vue:
         license: MIT License
         url: https://github.com/kazupon/vue-cli-plugin-i18n
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vue-cli-plugin-i18n
     vue-i18n:
         cpeName: vue-i18n
@@ -1228,7 +1229,7 @@ vue:
         license: MIT License
         url: http://kazupon.github.io/vue-i18n/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vue-i18n
     vue-i18n-loader:
         cpeName: vue-i18n-loader
@@ -1237,7 +1238,7 @@ vue:
         license: MIT License
         url: https://www.patreon.com/kazupon
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vue-i18n-loader
     vue-router:
         cpeName: vue-router
@@ -1246,7 +1247,7 @@ vue:
         license: MIT License
         url: http://router.vuejs.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vue-router
     vuex:
         cpeName: vuex
@@ -1255,7 +1256,7 @@ vue:
         license: MIT License
         url: https://vuex.vuejs.org/
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: vuex
     jquery:
         cpeName: jquery
@@ -1264,7 +1265,7 @@ vue:
         license: MIT License
         url: http://jquery.com
         handler: ljing-git
-        milestone: B-SIG-Data
+        milestone: B-SIG-Visualization
         schName: jquery
 others:
     gensim:
@@ -1323,7 +1324,7 @@ others:
         schName: sacremoses
     okhttp:
         cpeName: okhttp
-        version:  3.14.9
+        version: 3.14.9
         language: Java
         license: Apache License V2.0
         url: https://square.github.io/okhttp/
@@ -1375,6 +1376,15 @@ others:
         handler: zhujiaxing
         milestone: B-SIG-Data
         schName: tensorflow-onnx
+    pycocotools:
+        cpeName: pycocotools
+        version: ">= 2.0.2"
+        language: Python
+        license: Apache License V2.0
+        url: https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
+        handler: zhao_ting_v
+        milestone: B-SIG-Kit
+        schName: pycocotools
 federated:
     zlib:
         cpeName: zlib
@@ -1383,7 +1393,7 @@ federated:
         license: zlib/libpng License
         url: https://github.com/madler/zlib
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: zlib
     abseil-cpp:
         cpeName: abseil-cpp
@@ -1392,7 +1402,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/abseil/abseil-cpp
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: absl
     c-ares:
         cpeName: c-ares
@@ -1401,7 +1411,7 @@ federated:
         license: MIT license
         url: https://github.com/c-ares/c-ares
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: c-ares
     flatbuffers:
         cpeName: flatbuffers
@@ -1410,7 +1420,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/google/flatbuffers
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: flatbuffers
     glog:
         cpeName: glog
@@ -1419,7 +1429,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/glog
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: glog
     googletest:
         cpeName: googletest
@@ -1428,7 +1438,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/googletest
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: gtest
     hiredis:
         cpeName: hiredis
@@ -1437,7 +1447,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/redis/hiredis
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: hiredis
     JSON for Modern C++:
         cpeName: JSON for Modern C++
@@ -1446,7 +1456,7 @@ federated:
         license: MIT license
         url: https://github.com/nlohmann/json
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: nlohmann_json
     libevent:
         cpeName: libevent
@@ -1455,7 +1465,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/libevent/libevent
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: libevent
     openssl:
         cpeName: openssl
@@ -1464,7 +1474,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: openssl
     protobuf:
         cpeName: protobuf
@@ -1473,7 +1483,7 @@ federated:
         license: Apache License V2.0
         url: https://github.com/protocolbuffers/protobuf
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: protobuf
     pybind11:
         cpeName: pybind11
@@ -1482,7 +1492,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/pyind/pybind11
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: pybind11
     re2:
         cpeName: re2
@@ -1491,7 +1501,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/google/re2
         handler: zqstar
-        milestone: B-SIG-InnerDelivery
+        milestone: B-SIG-Infer
         schName: re2
     pocketfft:
         cpeName: pocketfft
@@ -1500,7 +1510,7 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/malfet/pocketfft
         handler: zqstar
-        milestone: IT-SIG-融合计算
+        milestone: B-SIG-Infer
         schName: pocketfft
     OpenBlas:
         cpeName: OpenBlas
@@ -1509,5 +1519,5 @@ federated:
         license: BSD 3-Clause License
         url: https://github.com/OpenMathLib/OpenBLAS
         handler: zqstar
-        milestone: IT-SIG-融合计算
+        milestone: B-SIG-Infer
         schName: OpenBlas
