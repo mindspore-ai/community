@@ -41,7 +41,7 @@ The file path on Unbutu：/usr/local/lib/python3.8/dist-packages/werkzeug/__init
 The file path on MacOS：/usr/local/lib/python3.8/site-packages/werkzeug/__init__.py
 ```
 
-# The architecture for the OpenDataology backend.
+## The architecture for the OpenDataology backend.
 
 ![hierarchical architecture](readme_src/hierarchical-architecture.png)
 
