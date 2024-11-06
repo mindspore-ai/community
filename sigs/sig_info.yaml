@@ -1,50 +1,26 @@
 name: MindSpore SIG
 description: The full name of SIG is "special interest groups". The intention of establishing various technical sigs is to provide an open communication platform for experts, professors and students in this field, promote technical exchanges and win-win cooperation through meeting sharing, project development and other activities, and improve the influence and technical ability of SIG members. Especially for college students, after joining SIGs, they can participate in the project development activities of MindSpore under the guidance of experts, master the advanced technology in the industry, and prepare for future work; You can also communicate face-to-face with industry experts and professors to solve your doubts in scientific research and meet your own bole. Up to now, MindSpore community has established more than ten sigs, including not only the front-end and back-end technologies of MindSpore framework itself, but also algorithm research such as AI security and scientific computing. We also welcome friends with ideas to create their own sigs!
 SIG list:
-  - name: DevelopereXperience SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/dx/README.md
-    introduction: This SIG is responsible for improving the experience of those who upstream contribute or develop applications for MindSpore community.
-    maintainer: Jian Cao (Shanghai Jiaotong University)
+  - name: MindSpore NLP SIG
+    links: https://github.com/mindspore-lab/mindnlp/blob/master/README.md
+    introduction: This SIG is responsible for the development of MindSpore NLP software.
+    maintainer: Yufeng Lv (Huawei)
   - name: Trusted AI SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/security/README_en.md
     introduction: This SIG is responsible for developing trusted AI technologies.
-    maintainer: Xiulang Jin (Huawei)
+    maintainer: Siming Liu (Huawei)
   - name: Usability SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
     introduction: This SIG is responsible for improving the usability of MindSpore for developers.
-    maintainer: Tong Zhang (Huawei)
-  - name: FrontEnd SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
-    introduction: This SIG is responsible for the development of MindSpore front-end expression.
-    maintainer: Nan Wang (Huawei)
+    maintainer: Shize Han (Huawei)
   - name: Compiler SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/compiler/README.md
     introduction: This SIG is responsible for the development of MindSpore high level graph compilation.
     maintainer: Qinghua Zhang (Huawei)
-  - name: Executor SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/executor/README.md
-    introduction: This SIG is responsible for the development of MindSpore back-end support for pipeline.
-    maintainer: Kaisheng Wang (Huawei)
-  - name: ModelZoo SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/modelzoo/README.md
-    introduction: This SIG is responsible for the development of MindSpore modelzoo and additional ops.
-    maintainer: Ting Zhao (Huawei)
   - name: Data SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/data/README.md
     introduction: This SIG is responsible for the development of MindSpore data processing and data format transformation.
     maintainer: Yang Luo (Huawei)
-  - name: Visualization SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/visualization/README.md
-    introduction: This SIG is responsible for the development of Visualized debugging and optimization.
-    maintainer: Jiaxing Zhu (Huawei)
-  - name: MSLITE SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mslite/README.md
-    introduction: This SIG is responsible for the development of MindSpore lite.
-    maintainer: Zhiqiang Zhai (Huawei)
-  - name: Parallel SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/parallel/README.md
-    introduction: This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference.
-    maintainer: Jiahong Qian (Huawei)
   - name: DataCompliance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/datacompliance/README.md
     introduction: This SIG aims to reduce the risk of license compliance and help developers to use and share datasets legally.
@@ -57,6 +33,62 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/CulturalTourism/README.md
     introduction: AI for Cultural tourism industry
     maintainer: Guozeng Sun（School of Computer Science, Shanxi Normal University）
+  - name: MindElec&SicAI SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
+    introduction: Electromagnetic simulation calculation
+    maintainer: Xingzhong Fan（Huawei）
+  - name: MindSpore Flow&Earth SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.en.md
+    introduction: Fluid simulation calculation
+    maintainer: Qinghe Meng（Huawei）
+  - name: RobotVision SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/RobotVision/README.md
+    introduction: Robot vision technology
+    maintainer: Bin Sun（School of Electrical and Information Engineering, Hunan University）
+  - name: MindSpore SPONGE SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_sponge/README.md
+    introduction: Simulation package towards next generation molecular modelling
+    maintainer: Yucheng Zhang (Huawei)
+  - name: TimeSequence SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
+    introduction: Time-sequence data prediction
+    maintainer: Haoyi Zhou（School of Software, Beijing University of Aeronautics and Astronautics）
+  - name: OpenGADL SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/OpenGADL/README.md
+    introduction: OpenGADL software
+    maintainer: Zhou Xichuan (Professor, School of Microelectronics and Communication Engineering, Chongqing University)
+  - name: Computer Vision (CV) Suite SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/Computer%20Vision%20(CV)%20Suite%20SIG/README.md
+    introduction: CV, Computer Vision
+    maintainer: Cong Wang (Huawei)
+  - name: MSAdapter SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/MSAdapter-SIG/README.md
+    introduction: Shengsi MindSpot ecological adaptation tool 
+    maintainer: Lai Cheng(Professor of Pengcheng Laboratory)
+  - name: DevelopereXperience SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/dx/README.md
+    introduction: This SIG is responsible for improving the experience of those who upstream contribute or develop applications for MindSpore community.
+    maintainer: Jian Cao (Shanghai Jiaotong University)
+  - name: FrontEnd SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/frontend/README.md
+    introduction: This SIG is responsible for the development of MindSpore front-end expression.
+    maintainer: Nan Wang (Huawei)
+  - name: Executor SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/executor/README.md
+    introduction: This SIG is responsible for the development of MindSpore back-end support for pipeline.
+    maintainer: Kaisheng Wang (Huawei)
+  - name: Visualization SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/visualization/README.md
+    introduction: This SIG is responsible for the development of Visualized debugging and optimization.
+    maintainer: Jiaxing Zhu (Huawei)
+  - name: MSLITE SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/mslite/README.md
+    introduction: This SIG is responsible for the development of MindSpore lite.
+    maintainer: Zhiqiang Zhai (Huawei)
+  - name: Parallel SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/parallel/README.md
+    introduction: This SIG is responsible for the development of MindSpore's functionality of automatically finding the efficient parallel strategy for DNN training and inference.
+    maintainer: Jiahong Qian (Huawei)
   - name: DeviceAdapter SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/DeviceAdapter/README.md
     introduction: Adapt third party chips to mindspore
@@ -73,14 +105,6 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/MedicalImaging/README.md
     introduction: Medical image-assisted diagnosis
     maintainer: Xuming Zhang（School of Life Science and Technology, Huazhong University of Science and Technology）
-  - name: mindelec SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
-    introduction: Electromagnetic simulation calculation
-    maintainer: Weibing Yang（School of Science, Southeast University）
-  - name: mindflow SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.en.md
-    introduction: Fluid simulation calculation
-    maintainer: hsliu_ustc（Huawei）
   - name: mindquantfinance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantfinance/README.md
     introduction: Quantitative financial analysis
@@ -89,27 +113,3 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_reinforcement/README.md
     introduction: Reinforcement learning
     maintainer: Rongpeng Li（School of Information and Electronic Engineering, Zhejiang University）
-  - name: mindspore_sponge SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_sponge/README.md
-    introduction: Simulation package towards next generation molecular modelling
-    maintainer: Yahao Ding (Huawei)
-  - name: RobotVision SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/RobotVision/README.md
-    introduction: Robot vision technology
-    maintainer: Bin Sun（School of Electrical and Information Engineering, Hunan University）
-  - name: TimeSequence SIG
-    links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
-    introduction: Time-sequence data prediction
-    maintainer: Haoyi Zhou（School of Software, Beijing University of Aeronautics and Astronautics）
-  - name: OpenGADL SIG
-    links: https://gitee.com/mindspore/community/blob/master/sigs/OpenGADL/README.md
-    introduction: OpenGADL software
-    maintainer: Zhou Xichuan (Professor, School of Microelectronics and Communication Engineering, Chongqing University)
-  - name: Computer Vision (CV) Suite SIG
-    links: https://gitee.com/mindspore/community/blob/master/sigs/Computer%20Vision%20(CV)%20Suite%20SIG/README.md
-    introduction: CV, Computer Vision
-    maintainer: Victor (Huawei)
-  - name: MSAdapter SIG
-    links: https://gitee.com/mindspore/community/blob/master/sigs/MSAdapter-SIG/README.md
-    introduction: Shengsi MindSpot ecological adaptation tool 
-    maintainer: Lai Cheng(Professor of Pengcheng Laboratory)
