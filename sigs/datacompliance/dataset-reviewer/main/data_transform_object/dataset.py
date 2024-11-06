@@ -87,7 +87,7 @@ class DatasetObject:
         'dataset_review_list': fields.List(fields.Nested(dataset_review_req), description='The review notes of a single dataset', required=True)
     })
 
-    # Batch datasets is reviwed or not
+    # Batch datasets is reviewed or not
     dataset_is_reviewed_list_resp = user_dataset_review_ns.model("6. dataset_is_reviewed_list_resp", {
         'review_result_list': fields.List(fields.Nested(review_result), description='The review notes of batch datasets'),
         'pending_aibom_list': fields.List(fields.Nested(pending_aibom), description='The AIBOMs of batch datasets'),
