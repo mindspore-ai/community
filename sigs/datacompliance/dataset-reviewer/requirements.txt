@@ -1,0 +1,11 @@
+Flask==1.1.2
+SQLAlchemy==1.4
+Flask-SQLAlchemy==2.5.1
+Flask-Script==2.0.6
+PyMySQL==1.0.2
+Flask-restplus==0.13
+flask_cors == 3.0.10
+xlrd == 1.2.0
+jinja2==3.0.3
+itsdangerous==2.0.1
+werkzeug==0.16.1
