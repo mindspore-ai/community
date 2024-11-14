@@ -5,35 +5,39 @@ SIG list:
     links: https://github.com/mindspore-lab/mindnlp/blob/master/README.md
     introduction: MindSpore NLP技术
     maintainer: Yufeng Lv (Huawei)
-  - name: Trusted AI SIG
+  - name: MindSpore AKG SIG
+    links: https://gitee.com/mindspore/community/blob/master/sigs/akg/README.md
+    introduction: 图算融合编译技术
+    maintainer: Renwei Zhang (Huawei)
+  - name: MindSpore Trusted AI SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/security/README.md
     introduction: AI安全、AI可解释和隐私保护技术
     maintainer: Siming Liu (Huawei)
-  - name: Usability SIG
+  - name: MindSpore Usability SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/usability/README.md
     introduction: MindSpore易用性提升
     maintainer: Shize Han (Huawei)
-  - name: Compiler SIG
+  - name: MindSpore Compiler SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/compiler/README.md
     introduction: MindSpore图编译技术
     maintainer: Qinghua Zhang (Huawei)
-  - name: Data SIG
+  - name: MindSpore Data SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/data/README.md
     introduction: 数据处理和增强技术
     maintainer: Yang Luo (Huawei)
-  - name: DataCompliance SIG
+  - name: MindSpore Data Compliance SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/datacompliance/README.md
     introduction: 数据合规风险分析
     maintainer: Zi Li (Huawei)
-  - name: MindQuantum SIG
+  - name: MindSpore Quantum SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindquantum/README.md
     introduction: 量子计算软件与算法
     maintainer: Haiying Zhao (Huawei)
-  - name: CulturalTourism SIG
+  - name: MindSpore Cultural Tourism SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/CulturalTourism/README.md
     introduction: AI与文旅行业的融合
     maintainer: 孙增国（陕西师范大学计算机科学学院）
-  - name: MindElec&SicAI SIG
+  - name: MindSpore Elec&SicAI SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
     introduction: 电磁仿真计算
     maintainer: Xingzhong Fan（Huawei）
@@ -41,7 +45,7 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.md
     introduction: 流体仿真计算
     maintainer: Qinghe Meng（Huawei）
-  - name: RobotVision SIG
+  - name: MindSpore Robot Vision SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/RobotVision/README.md
     introduction: 机器人视觉技术
     maintainer: 孙斌（湖南大学电气与信息工程学院）
@@ -49,19 +53,19 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_sponge/README.md
     introduction: 生物仿真计算
     maintainer: Yucheng Zhang (Huawei)
-  - name: TimeSequence SIG
+  - name: MindSpore Time Sequence SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/TimeSequence/README.md
     introduction: 时间序列数据预测
     maintainer: 周号益（北京航空航天大学软件学院）
-  - name: OpenGADL SIG
+  - name: MindSpore OpenGADL SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/OpenGADL/README.md
     introduction: 大模型自动化深度学习技术
     maintainer: 周喜川（重庆大学微电子与通信工程学院）
-  - name: 计算机视觉领域套件SIG
+  - name: MindSpore CV SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/Computer%20Vision%20(CV)%20Suite%20SIG/README.md
     introduction: 计算机视觉
     maintainer: Cong Wang (Huawei)
-  - name: MSAdapter SIG
+  - name: MindSpore MindTorch SIG
     links: https://gitee.com/mindspore/community/blob/master/sigs/MSAdapter-SIG/README.md
     introduction: 昇思生态适配工具
     maintainer:  赖铖（鹏城实验室）
