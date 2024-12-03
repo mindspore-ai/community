@@ -513,6 +513,15 @@ mindspore:
         handler: shenwei41
         milestone: B-SIG-Data
         schName: FFmpeg
+    dill:
+        cpeName: dill
+        version: "0.3.8"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/uqfoundation/dill
+        handler: shenwei41
+        milestone: B-SIG-Data
+        schName: dill
 akg:
     decorator:
         cpeName: decorator
