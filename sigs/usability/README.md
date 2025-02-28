@@ -33,12 +33,6 @@
 * Yaoyao（华为MindSpore易用性专家，MindSpore布道师）
 * DavidFFFan（华为MindSpore工具链工程技术专家，负责MindSpore开发调试工具TroubleShooter的设计与开发）
 
-## 体验官
-
-体验昇思MindSpore新版本特性，发现改进点并提出Issue，深度参与MindSpore的建设，与MindSpore共同成长。
-
-[MindSpore体验官](https://www.mindspore.cn/community/SIG)
-
 ## 目标
 
 1. 组织管理：邀请高校师生、开发者参与SIG运作；
@@ -69,7 +63,6 @@
 * 活动频率：每季度发布/刷新任务
 * 易用性现有相关任务：
   1. [易用性SIG开源实习任务](https://gitee.com/mindspore/community/issues/I55JQY)
-  2. [社区常规任务](https://gitee.com/mindspore/community/issues/I4YQNG?from=project-issue)
 * 组织者：易用性技术领域Contributors
 
 ### 3. 产品体验改进活动
