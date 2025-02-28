@@ -26,3 +26,11 @@ list:
     links: https://github.com/shuoliu0-0/EDIS
     introduction: EDIS：药物-靶标相互作用预测的通用框架。
     date: 2023-08-16
+  - name: MindRadar
+    links: https://gitee.com/nudt-674/mind-radar
+    introduction: 信号处理套件
+    date: 2024-08-16
+  - name: MindSpore Lite（DSP版）
+    links: https://gitee.com/nudt-674/mind-radar
+    introduction: 支持飞腾DSP的lite
+    date: 2024-08-16
