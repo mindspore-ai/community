@@ -40,7 +40,7 @@ SIG list:
   - name: MindSpore Elec&SicAI SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
     introduction: Electromagnetic simulation calculation
-    maintainer: Xingzhong Fan（Huawei）
+    maintainer: Weibing Yang（Dean/Professor, Research Institute of Southeast University）
   - name: MindSpore Flow&Earth SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.en.md
     introduction: Fluid simulation calculation
