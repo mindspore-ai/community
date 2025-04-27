@@ -51,7 +51,7 @@ Build the MindSpore Elec basic toolkit based on MindSpore. The basic toolkit has
 
 ### lead members：
 
-* Weibing Lu, Dean/Professor, Research Institute of Southeast University
+* Weibing Yang, Dean/Professor, Research Institute of Southeast University
 * Wu Yang, Associate Researcher, School of Information Science and Engineering, Southeast University
 * Yong Xu, Senior Engineer, Jiangsu Haoyun Liande Information Technology Co., Ltd.
 * Jiaqi Li, Associate Professor, School of Physics, Southeast University

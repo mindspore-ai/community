@@ -40,7 +40,7 @@ SIG list:
   - name: MindSpore Elec&SicAI SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindelec/README.md
     introduction: 电磁仿真计算
-    maintainer: Xingzhong Fan（Huawei）
+    maintainer: 杨卫兵（东南大学科研院）
   - name: MindSpore Flow&Earth SIG
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindflow/README.md
     introduction: 流体仿真计算
