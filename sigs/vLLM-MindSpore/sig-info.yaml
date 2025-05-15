@@ -1,0 +1,108 @@
+name: vLLM-MindSpore
+description: 'MindSpore vLLM-MindSpore SIG'
+mailing_list: dev@mindspore.cn
+maintainers:
+- gitee_id: zhaizhiqiang
+  name: Zhai Zhiqiang
+  email: zhaizhiqiang@huawei.com
+- gitee_id: zichun_ye
+  name: Ye Zichun
+  email: zichun.ye@huawei.com
+- gitee_id: panshaowu
+  name: Pan Shaowu
+  email: panshaowu@huawei.com
+repositories:
+- repo:
+  - mindspore/vllm-mindspore
+  repo_admin:
+  - gitee_id: zhaizhiqiang
+    name: Zhai Zhiqiang
+    email: zhaizhiqiang@huawei.com
+  - gitee_id: zichun_ye
+    name: Ye Zichun
+    email: zichun.ye@huawei.com
+  - gitee_id: panshaowu
+    name: Pan Shaowu
+    email: panshaowu@huawei.com
+  committers:
+  - gitee_id: zlq2020
+    name: Zou Liqin
+    email: zouliqin@huawei.com
+  - gitee_id: tronzhang
+    name: Zhang Zhaochuang
+    email: zhangzhaochuang@huawei.com
+  - gitee_id: erpim
+    name: Deng Yepeng
+    email: dengyepeng@huawei.com
+  - gitee_id: wang_shaocong
+    name: Wang Shaocong
+    email: wangshaocong1@huawei.com
+  - gitee_id: zhang_xue_tong
+    name: Zhang Xuetong
+    email: zhangxuetong@huawei.com
+  - gitee_id: tan-wei-cheng
+    name: Tan Weicheng
+    email: tanweicheng@huawei.com
+
+  contributors:
+  - gitee_id: zhang_xu_hao1230
+    name: Zhang Xuhao
+    email: zhangxuhao6@huawei.com
+  - gitee_id: zhanzhan1
+    name: Zhan Zhan
+    email: zhanzhan1@huawei.com
+  - gitee_id: moran3
+    name: Mo Ran
+    email: moran2@huawei.com
+  - gitee_id: jaqenNNNNN
+    name: Li Jiakun
+    email: lijiakun9@huawei.com
+  - gitee_id: one_east
+    name: Wan Yidong
+    email: wanyidong@huawei.com
+  - gitee_id: r1chardf1d0
+    name: Xia Ruijie
+    email: xiaruijie@huawei.com
+  - gitee_id: alien_0119
+    name: Wang Tianyu
+    email: wangtianyu43@huawei.com
+  - gitee_id: yyyyrf
+    name: You Rifan
+    email: rifanyou@huawei.com
+  - gitee_id: uuhuu
+    name: Hu Zhikun
+    email: huzhikun1@h-partners.com
+  - gitee_id: huandong1
+    name: Hu Andong
+    email: huandong1@huawei.com
+  - gitee_id: dayschan
+    name: Chen Deshi
+    email: chendeshi@huawei.com
+  - gitee_id: ccsszz
+    name: Chang Shaozhong
+    email: changshaozhong@huawei.com
+  - gitee_id: pengjingyou
+    name: Peng Jingyou
+    email: pengjingyou@huawei.com
+  - gitee_id: wangpingan2
+    name: Wang Pingan
+    email: wangpingan2@huawei.com
+  - gitee_id: yang-minghai22
+    name: Yang Minghai
+    email: yangminghai2@huawei.com
+  - gitee_id: yyhxz
+    name: Jin Rencao
+    email: jinrencao@huawei.com
+  - gitee_id: liulili-huawei
+    name: Liu Lili
+    email: liulili715@huawei.com
+  - gitee_id: lvhaoyu1
+    name: Lv Haoyu
+    email: lvhaoyu@huawei.com
+
+branches:
+- repo_branch:
+  - repo: mindspore/vllm-mindspore
+    branch: r0.1
+  keeper:
+  - gitee_id: panshaowu
