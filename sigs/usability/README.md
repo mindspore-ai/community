@@ -17,10 +17,10 @@
 
 ## Contributors
 
-* Chang Zherui （MindSpore API 高级工程师）
+* Chang Zherui (MindSpore API 高级工程师)
 * Yu Jianfeng (MindSpore 编译领域 主任工程师)
 * Qiu Yufeng  (MindSpore API 高级工程师)
-* Wang Ting （MindSpore 信息体验专家） 
+* Wang Ting (MindSpore 信息体验专家)
 
 ## 目标
 
