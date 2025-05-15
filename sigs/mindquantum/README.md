@@ -19,12 +19,13 @@ MindQuantum SIG是为广大开发者提供的共同交流和学习的平台，�
 
 ## Maintainers
 
-* dorothy（MindQuantum社区运营接口人，负责社区运营、宣传推广、优秀开发者和布道师发展等）
-* 周旭（MindQuantum社区资深开发者、布道师，负责MindQuantum生态推广、特性开发和需求收集等）
+* donghufeng（MindQuantum社区资深开发者、布道师，负责MindQuantum核心模块开发）
+* 周俊园（MindQuantum社区资深开发者、布道师，负责MindQuantum核心模块开发）
 
 ## Contributors
 
-* donghufeng（MindQuantum社区资深开发者、布道师，负责MindQuantum核心模块开发）
+* dorothy（MindQuantum社区运营接口人，负责社区运营、宣传推广、优秀开发者和布道师发展等）
+* 周旭（MindQuantum社区资深开发者、布道师，负责MindQuantum生态推广、特性开发和需求收集等）
 * 谢晴兴（MindQuantum社区资深开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 何天深（MndQuantum社区资深开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 何润洪（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
@@ -34,39 +35,32 @@ MindQuantum SIG是为广大开发者提供的共同交流和学习的平台，�
 * 陈泓霖（MindQuantum社区优秀开发者，负责MindQuantum生态推广、特性开发和需求收集等）
 * 闫琪（MindQuantum社区信息体验专家，负责MindQuantum资料与产品体验系列活动组织、用户满意度调查等）
 
-## 2022年目标
-
-1. 组织管理：制定SIG组织管理规范，邀请Maintainers和Contributors初始成员参与SIG运作（至少2名Maintainers和10名Contributors）。
-2. 生态拓展：发展30名SIG组正式成员；发展3名布道师、5位优秀开发者。
-3. 特性开发：收集10+关键特性，规划5+新特性，与开发者共同完成特性开发。
-4. 活动开展：MindQuantum开源成长计划活动参与人次100+，收集改进建议50+；开展技术分享直播10+次，发表技术分享10+篇；拓展高校10+所/300人。
-
 ## 主要活动
 
-### 1. 线上技术分享会
+### 1. 量子计算黑客松
 
-* 活动定位：分享MindQuantum技术和特性，促进开发者深入使用MindQuantum。
-* 活动形式：定期邀请业界专家、高校师生、资深开发者分享话题。
-* 活动频度：每1-2个月/次，每次围绕同一个主题分享3-4个话题。
-* 分享范围：
-  1. MindQuantum常用特性/新特性介绍与演示。
-  2. MindQuantum特性改进建议、特性需求收集、使用体验反馈。
-  3. MindQuantum学习心得、开发经验、使用建议。
-  4. MindQuantum开发任务分发、设计评议、开发讨论、验收颁奖等。
-* 分享嘉宾：任何SIG成员包括高校师生、业界专家、开发者均可。
-* 组织者：Maintains和Contributors。
+* 活动定位：打造国内有影响力的量子计算赛事品牌，专注产教融合，培养量子科技人才，推广MindSpore Quantum框架。
+* 活动形式：针对有挑战的量子计算问题，参赛者需持续迭代、优化解决方案并提交。
+* 活动频度：每年举办，已成功举办多届，是国内最早且影响广泛的量子软件创新大赛。
+* 参赛对象：面向所有对量子计算感兴趣、具备Python编程能力的开发者，可个人或组队参赛。
+* 组织单位：由昇思MindSpore社区主办，联合多所高校及科研机构协办。
+* [2025量子计算黑客松](https://developer.huaweicloud.com/competition/information/1300000041/introduction) 正在进行中。
 
-### 2. MindQuantum特性开发
+### 2. 量子计算组会一起开
+
+* 活动定位：聚焦学术前沿，分享基于MindQuantum发表的科研论文成果，推动MindQuantum在学术研究中的深度应用与影响力。
+* 活动形式：定期邀请使用MindQuantum发表学术论文的高校师生、科研院所学者等，分享其研究工作、创新方法及学术见解。
+* 活动时间：每周一上午10点，[寇享直播](https://www.koushare.com/space/333626)。
+
+### 3. MindQuantum特性开发
 
 * 活动定位：共同参与MindQuantum特性开发，丰富功能，提升性能。
 * 活动形式：定期发布大颗粒特性开发任务，招募开发者共同参与，完成者可获得奖品或者实习工资、实习证明。
 * 活动频度：每季度发布/刷新任务。
-* 任务发布：
-  1. [MindQuantum 开源实习](https://gitee.com/mindspore/community/issues/I55XLC?from=project-issue)。
-  2. [社区常规任务](https://gitee.com/mindspore/community/issues/I4YQNG?from=project-issue)
+* 任务发布：[MindQuantum 开源实习](https://gitee.com/mindspore/community/issues/I55XLC?from=project-issue)。
 * 组织者：Maintains和Contributors。
 
-### 3. 资料与产品体验改进活动
+### 4. 资料与产品体验改进活动
 
 * 活动定位：降低MindQuantum入门门槛，使开发者快速上手，由浅入深了解MindQuantum的能力。收集建议及体验评价，持续提升资料与产品综合体验。
 * 活动形式：开发者通过提交Issue/PR形式提出问题建议或修改，积累积分获得奖品。
@@ -76,19 +70,20 @@ MindQuantum SIG是为广大开发者提供的共同交流和学习的平台，�
   2. 产品体验：随新发布版本进行，针对版本发布的功能特性开展体验活动。
 * 组织者：Maintains和Contributors轮流组织。
 
-### 4. 周例会
+### 5. SIG 例会
 
-* 时间：周一晚上7点，每1-2周开展一次。
+* 时间：周四晚上7点，每月开展一次。
 * 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流。
 * 例会议题：
   1. 固定议题：SIG组成员领取的特性开发任务进展与问题交流。
   2. 选报议题：特性开发阶段性成果演示。
   3. 选报议题：SIG组织管理（如运作规则，成员及其职责等刷新）。
-* 组织者：Maintains和Contributors轮流组织。
+* 会议纪要链接：https://etherpad.mindspore.cn/p/sig-MindSpore-Quantum-meetings
+* 组织者：Maintainers和Contributors轮流组织。
 
 ## 近期活动与例会预告
 
-1. 技术分享会（量子计算组会一起开，寇享直播）
-2. SIG组例会
-
-## 往期活动与例会预告
+1. [2025量子计算黑客松](https://developer.huaweicloud.com/competition/information/1300000041/introduction)
+2. [量子计算组会一起开](https://www.koushare.com/space/333626)
+3. [开源实习](https://gitee.com/mindspore/community/issues/I55XLC?from=project-issue)
+4. [SIG 例会](https://etherpad.mindspore.cn/p/sig-MindSpore-Quantum-meetings)
