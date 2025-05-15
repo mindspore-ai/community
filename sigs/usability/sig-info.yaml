@@ -1,0 +1,39 @@
+name: usability
+description: MindSpore Usability SIG
+created_on: '2025-05-15'
+mailing_list: NA
+maintainers:
+- gitee_id: zwiori
+  name: Zheng Wei
+  organization: Huawei
+  email: victor.zhengwei@huawei.com
+- gitee_id: baochong
+  name: Bao Chong
+  organization: Huawei
+  email: baochong@huawei.com
+- gitee_id: yangzhenzhang
+  name: Yang ZhenZhang
+  organization: Huawei
+  email: yangzhenzhang@huawei.com
+- repo:
+  - mindspore/python/
+  committers:
+  - gitee_id: changzherui
+    name: Chang ZheRui
+    organization: Huawei
+    email: changzherui1@huawei.com
+  - gitee_id: yujianfeng
+    name: Yu JianFeng
+    organization: Huawei
+    email: yujianfeng5@huawei.com
+  - gitee_id: qiuyufeng
+    name: Qiu YuFeng
+    organization: Huawei
+    email: qiuyufeng3@huawei.com
+- repo:
+  - mindspore/docs
+  committers:
+  - gitee_id: wangting
+    name: Wang Ting
+    organization: Huawei
+    email: kathy.wangting@huawei.com
