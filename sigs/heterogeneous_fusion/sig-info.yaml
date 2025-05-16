@@ -1,0 +1,62 @@
+name: heterogeneous_fusion
+description: Building an open southbound interface based on MindSpore, supporting fast access and enablement for registration on various hardware platforms.
+created_on: '2025-05-15'
+mailing_list: dev@mindspore.cn
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: limingqi107
+  name: limingqi
+  organization: Huawei
+  email: limingqi@huawei.com
+maintainers:
+- gitee_id: baochong
+  name: baochong
+  organization: Huawei
+  email: baochong@huawei.com
+- gitee_id: guoqi1024
+  name: guoqi
+  organization: Huawei
+  email: guoqi5@huawei.com
+- gitee_id: limingqi107
+  name: limingqi
+  organization: Huawei
+  email: limingqi@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore
+  repo_admin:
+  - gitee_id: baochong
+    name: baochong
+    organization: Huawei
+    email: baochong@huawei.com
+  - gitee_id: guoqi1024
+    name: guoqi
+    organization: Huawei
+    email: guoqi5@huawei.com
+  - gitee_id: limingqi107
+    name: limingqi
+    organization: Huawei
+    email: limingqi@huawei.com
+  committers:
+  - gitee_id: yuchaojie
+    name: yuchaojie
+    organization: Huawei
+    email: yuchaojie1@huawei.com
+  - gitee_id: zyli2020
+    name: lizhenyu
+    organization: Huawei
+    email: lizhenyu13@huawei.com
+  - gitee_id: ZPaC
+    name: zhoupeichen
+    organization: Huawei
+    email: zhoupeichen@huawei.com
+  contributors:
+  - gitee_id: gaoyong10
+    name: gaoyong
+    organization: Huawei
+    email: gaoyong10@huawei.com
+  - gitee_id: hbhb_bin
+    name: hubin
+    organization: Huawei
+    email: hubin79@huawei.com
