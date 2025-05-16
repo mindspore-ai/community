@@ -1,41 +1,30 @@
 ## SIG简介
 
-易用性SIG（Usability SIG）致力于和开发者共同打造易学易用、灵活高效的AI框架，持续提升MindSpore易用性，助力开发者成功，所涉及的易用性技术领域主要包括以下方面：
-
-1. 信息体验：教程、视频、指南、文档、官网、在线体验等信息资料内容的易理解、易学习程度；
-2. 环境准备：一键式安装方式，多平台安装支持度，编程开发环境（IDE）的一键安装、智能辅助编程能力；
-4. 数据处理：数据处理接口的丰富度与自动调优能力；
-5. 模型开发：API/算子/模型/语法对主流网络的支持程度及易使用程度；
-6. 调试调优：使用框架进行功能调试、性能调试、精度调试的问题快速定位能力，以及框架本身的故障恢复、断点续训能力；
-7. 部署推理：端边云全场景、轻量化部署能力；
-8. 智能化服务：提供智能化服务，方便用户学习和使用MindSpore，如MindSpore知识问答机器人。
-
-易用性SIG是为广大开发者提供的共同交流和学习的平台，欢迎大家一起来分享、交流和共同提升MindSpore的易用性，帮助开发者学好、用好MindSpore，并获得成功。
+易用性SIG（Usability SIG）专注于推动MindSpore易用性（API/文档/教程/案例），该小组由华为MindSpore核心开发团队开发团队，学术专家及社区开发者共同组成，致力于提升开发者体验
 
 ## SIG代码仓
 
-1. [易用性相关工具代码仓](https://gitee.com/msu-sig)
-2. [MindSpore易点通专栏](https://zhuanlan.zhihu.com/p/505794142)
+1. [API](https://gitee.com/mindspore/mindspore/tree/master/mindspore/python/mindspore)
+2. [文档](https://gitee.com/mindspore/mindspore/tree/master/docs)
+3. [教程案例](https://gitee.com/mindspore/docs)
 
 ## Maintainers
 
-* Xiong Shengwu （武汉理工大学计算机科学与技术学院院长）
-* Wang Lei （华为资深架构师，MindSpore首席体验官，SIG发起人）
+* Zheng Wei （MindSpore易用性架构师，SIG Lead）
+* Bao Chong （MindSpore框架架构师）
+* Yang ZhenZhang  （MindSpore并行架构师）
+* Chu JinJin    （MindSpore动态图架构师）
 
 ## Contributors
 
-* Tong （华为MindSpore开发者体验专家，SIG Lead，负责易用性技术领域总体规划、发展布道师）
-* 阿青（华为MindSpore信息体验专家，SIG信息体验Contributor，负责资料与产品体验系列改进活动的组织、用户满意度调查）
-* aaa000（华为运营专家，SIG运营Contributor，负责SIG运营与宣传推广）
-* iambowen（华为MindSporeAI工程技术专家，负责安装、智能化服务领域的易用性技术能力构建）
-* CQU弟中弟（华为MindSpore易用性专家，负责MindSpore易用性关键问题的识别与重点改进、套件领域的易用性技术能力构建）
-* 小铭同学（华为MindSpore DFx专家，负责MindSpore易用性以及其他DFx关键技术的规划、构建）
-* Yaoyao（华为MindSpore易用性专家，MindSpore布道师）
-* DavidFFFan（华为MindSpore工具链工程技术专家，负责MindSpore开发调试工具TroubleShooter的设计与开发）
+* Chang Zherui (MindSpore API 高级工程师)
+* Yu Jianfeng (MindSpore 编译领域 主任工程师)
+* Qiu Yufeng  (MindSpore API 高级工程师)
+* Wang Ting (MindSpore 信息体验专家)
 
 ## 目标
 
-1. 组织管理：邀请高校师生、开发者参与SIG运作；
+1. 组织管理：邀请AI开发者参与SIG运作；
 2. 生态拓展：发展易用性关注者，让更多开发者成为体验官/优秀开发者；
 3. 特性开发：在易用性技术领域中增加多个新任务，招募高校师生、开发者共同参与需求开发；
 4. 活动开展：推广易用性改进体验活动，吸引更多人次参与并收集用户反馈的易用性问题（涵盖关键易用性问题-非文档）；长期开展技术分享活动直播，邀请更多开发者参与议题分享；
@@ -46,11 +35,11 @@
 
 * 活动定位：共同探讨AI框架易用性的相关话题
 * 活动形式：定期邀请业界专家、高校师生、资深开发者分享话题
-* 活动频率：每1-2个月1次，每次围绕同一个共同主题分享3-4个话题
+* 活动频率：每月1次，每次围绕主题分享1-2个话题
 * 分享范围：与易用性技术领域相关的技术话题，包括但不限于：
-  1. MindSpore最新易用性特性介绍与演示
+  1. MindSpore 开发者体验问题
   2. AI工程方法与技术，如安装、数据处理、模型开发、调试调优、推理部署……等方面
-  3. AI领域应用案例，如CV/NLP/Audio/推荐……等领域
+  3. AI领域应用案例，如llm/multimodal等领域
   4. 学习心得、开发经验、使用建议
   5. SIG特性开发任务介绍与成果展示等
 * 分享嘉宾：任何SIG成员，包括高校师生、业界专家、开发者均可
@@ -62,7 +51,6 @@
 * 活动形式：定期发布大颗粒特性开发任务，招募开发者共同参与，完成者可获得奖品或者实习工资、实习证明
 * 活动频率：每季度发布/刷新任务
 * 易用性现有相关任务：
-  1. [易用性SIG开源实习任务](https://gitee.com/mindspore/community/issues/I55JQY)
 * 组织者：易用性技术领域Contributors
 
 ### 3. 产品体验改进活动
