@@ -1,0 +1,41 @@
+name: mindspore_science
+description: MindSpore Science SIG
+created_on: '2025-05-15'
+mailing_list: dev@mindspore.cn
+maintainers:
+- gitee_id: hsliu_ustc
+  name: 刘红升
+  organization: Huawei
+  email: liuhongsheng4@huawei.com
+- gitee_id: gracezou
+  name: 邹婧媛
+  organization: Huawei
+  email: zoujingyuan@huawei.com
+- gitee_id: yanglong_unimelb
+  name: 龙阳扬
+  organization: Huawei
+  email: longyangyang1@huawei.com
+repositories:
+- repo:
+  - mindspore/mindscience
+  committers:
+  - gitee_id: b_rookie
+    name: 郭伯强
+    organization: Huawei
+    email: guoboqiang@huawei.com
+  - gitee_id: mengqinghe0909
+    name: 孟庆鹤
+    organization: Huawei
+    email: qinghe.meng@huawei.com
+  - gitee_id: zzzcseth
+    name: 周传赛
+    organization: Huawei
+    email: zhouchuansai@huawei.com
+  - gitee_id: yangs-siyu9777
+    name: 杨思宇
+    organization: Huawei
+    email: yangsiyu8@huawei.com
+  - gitee_id: wangbo572
+    name: 王博
+    organization: Huawei
+    email: wangbo572@huawei.com
