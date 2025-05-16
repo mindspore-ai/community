@@ -1,7 +1,7 @@
 name: usability
 description: MindSpore Usability SIG
 created_on: '2025-05-15'
-mailing_list: NA
+mailing_list: dev@mindspore.cn
 maintainers:
 - gitee_id: zwiori
   name: Zheng Wei
