@@ -1,0 +1,67 @@
+name: MindSpore Lite
+description: 'MindSpore Lite SIG'
+mailing_list: dev@mindspore.cn
+maintainers:
+- gitee_id: ljl0711
+  name: Lu jiale
+  email: lujiale@huawei.com
+- gitee_id: zgstar
+  name: Zhang Qi
+  email: zhangqi92@huawei.com
+- gitee_id: jianghui58
+  name: Jiang Hui
+  email: jianghui58@huawei.com
+- gitee_id: fatmouse007fatmouse007
+  name: Zhu Guodong
+  email: zhuguodong8@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore
+  repo_admin:
+  - gitee_id: ljl0711
+    name: Lu jiale
+    email: lujiale@huawei.com
+  - gitee_id: zgstar
+    name: Zhang Qi
+    email: zhangqi92@huawei.com
+  - gitee_id: jianghui58
+    name: Jiang Hui
+    email: jianghui58@huawei.com
+  - gitee_id: fatmouse007fatmouse007
+    name: Zhu Guodong
+    email: zhuguodong8@huawei.com
+  committers:
+  - gitee_id: fatmouse007fatmouse007
+    name: Zhu Guodong
+    email: zhuguodong8@huawei.com
+  - gitee_id: jjfeing
+    name: Jiang Jianfei
+    email: jiangjianfei3@huawei.com
+  - gitee_id: YeFeng_24
+    name: Ye Feng
+    email: yefeng24@huawei.com
+  - gitee_id: xu_anyue
+    name: Xu Anyue
+    email: xuanyue@huawei.com
+  - gitee_id: jpc_chenjianping
+    name: Chen Jianping
+    email: jpc.chen@huawei.com
+  contributors:
+  - gitee_id: yangyingchun
+    name: Yang Yingchun
+    email: yangyingchun5@huawei.com
+  - gitee_id: StevenDongyu
+    name: Zhang Dongyu
+    email: zhangdongyu11@huawei.com
+  - gitee_id: gupengcheng0401
+    name: Gu Pengcheng
+    email: gupengcheng4@huawei.com
+  - gitee_id: chengfeng27
+    name: Cheng Feng
+    email: chengfeng27@huawei.com
+branches:
+- repo_branch:
+  - repo: mindspore/mindspore
+    branch: master
+  keeper:
+  - gitee_id: ljl0711
