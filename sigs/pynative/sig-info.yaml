@@ -1,0 +1,50 @@
+name: pynative
+description: The MindSpore Dynamic Graph Mode Framework Development Group (PyNative SIG) focuses on advancing the research, development, and optimization of MindSpore's dynamic graph (Eager Execution) mode. It is dedicated to enhancing the performance, flexibility, and usability of the dynamic graph mode to meet the demands of rapid development, debugging, and execution in the deep learning field.
+created_on: '2025-05-15'
+mailing_list: dev@mindspore.cn
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: chujinjin
+  name: chujinjin
+  organization: Huawei
+  email: chujinjin52@huawei.com
+maintainers:
+- gitee_id: chujinjin
+  name: chujinjin
+  organization: Huawei
+  email: chujinjin52@huawei.com
+- gitee_id: baochong
+  name: baochong
+  organization: Huawei
+  email: baochong@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore
+  repo_admin:
+  - gitee_id: chujinjin
+    name: chujinjin
+    organization: Huawei
+    email: chujinjin52@huawei.com
+  - gitee_id: baochong
+    name: baochong
+    organization: Huawei
+    email: baochong@huawei.com
+  committers:
+  - gitee_id: hwcaifubi
+    name: caifubi
+    organization: Huawei
+    email: caifubi1@huawei.com
+  - gitee_id: luochao60
+    name: luochao
+    organization: Huawei
+    email: luochao60@huawei.com
+  contributors:
+  - gitee_id: 
+    name: pengqi
+    organization: Huawei
+    email: pengqi33@huawei.com
+  - gitee_id: 
+    name: maoyuanpeng
+    organization: Huawei
+    email: maoyuanpeng@huawei.com
