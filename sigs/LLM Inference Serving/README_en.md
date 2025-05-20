@@ -1,13 +1,14 @@
 ## Introduction to SIG
 
-[vLLM](https://github.com/vllm-project/vllm) is a high-performance, user-friendly open-source inference framework that significantly enhances the throughput and storage efficiency of large model inference services. [vLLM-MindSpore](https://gitee.com/mindspore/vllm_mindspore) is an open-source plugin incubated by the MindSpore community, enabling the vLLM framework to use MindSpore as the underlying inference computing platform for large model inference services.
+LLMs are moving from theoretical research to large-scale production. Providing high-throughput and low-latency LLM inference services has become one of the key tasks of AI foundational software stacks. In recent years, open-source LLM serving frameworks like vLLM and SGLang have advanced rapidly, supporting many models and features, and are widely used in academia and industry.
 
-The vLLM-MindSpore SIG is dedicated to maintaining and developing the vLLM-MindSpore plugin, integrating the high usability of vLLM and the high performance of MindSpore to provide high-throughput, low-latency large model inference deployment capabilities. The technical areas involved in vLLM-MindSpore mainly include the following:
+LLM Inference Serving SIG is dedicated to construct high-performance and user-friendly MindSpore-based LLM inference serving capabilities by leveraging open-source inference frameworks like vLLM and SGLang. LLM Inference Serving SIG has brewed [vLLM-MindSpore](https://gitee.com/mindspore/vllm_mindspore), an open source plugin enabling the vLLM framework to use MindSpore as the underlying inference computing platform for large model inference services.
 
-1. **vLLM Compatibility and Adaptation**: Mapping vLLM's PyTorch API calls to MindSpore and adapting to vLLM's plugin interfaces to integrate MindSpore's large model inference components into the vLLM framework.
+The technical areas involved in LLM Inference Serving SIG mainly include the following:
+1. **vLLM Compatibility and Adaptation**: Integrating MindSpore LLM inference capabilities to open-source LLM serving frameworks including vLLM and SGLang. Take vLLM as an example, mapping vLLM's PyTorch API calls to MindSpore and adapting to vLLM's plugin interfaces to integrate MindSpore's large model inference components into the vLLM framework.
 2. **Large Model Inference Acceleration**: Leveraging MindSpore's graph fusion and communication-computation overlap technologies to achieve high-performance large model inference.
 
-The vLLM-MindSpore SIG is an open and collaborative platform for learning and development, welcoming developers to participate in enhancing MindSpore's large model inference capabilities and jointly building a foundation for technological accumulation and industrial success.
+The LLM Inference Serving SIG is an open and collaborative platform for learning and development, welcoming developers to participate in enhancing MindSpore's large model inference capabilities and jointly building a foundation for technological accumulation and industrial success.
 
 ## Maintainers
 
@@ -27,7 +28,7 @@ The vLLM-MindSpore SIG is an open and collaborative platform for learning and de
 ## Goals for 2025
 
 1. Organizational Management: Establish organizational management standards for the SIG and invite initial members of Maintainers and Contributors to participate in SIG operations (3 Maintainers + at least 5 Contributors).
-2. Ecosystem Expansion: Develop 30 official members of the vLLM-MindSpore SIG, over 200 followers; cultivate 5 senior developers and 10 outstanding developers.
+2. Ecosystem Expansion: Develop 30 official members of the LLM Inference Serving SIG, over 200 followers; cultivate 5 senior developers and 10 outstanding developers.
 3. Feature Development: Support at least 20 State-of-the-Art LLMs and MMLMs, continuously adapt to the latest stable versions of vLLM, challenge to follow the evolution of the vLLM main branch, and ensure core features are adapted and supported within 2 days.
 4. Event Organization: Achieve over 300 participants in vLLM-MindSpore experience activities, conduct 3 live technical sharing events, and collect over 10 technical articles.
 
@@ -39,7 +40,7 @@ The vLLM-MindSpore SIG is an open and collaborative platform for learning and de
 * Event Format: Regularly invite industry experts, university faculty and students, and senior developers to share topics.
 * Event Frequency: Once every 1-2 months, focusing on 2-3 topics around the same theme each time.
 * Sharing Scope: Technical topics related to the field of large model inference acceleration, including but not limited to:
-  1. Trends in vLLM architecture and user experience of its features
+  1. Technical architecture and user experience of vLLM, SGLang, and other open source LLM inference serving frameworks
   2. Development direction and improvement points of MindSpore's large model inference acceleration technology
   3. Emerging technologies, development experiences, and application suggestions for large model inference acceleration
   4. Introduction and demonstration of SIG feature development tasks and achievements
@@ -65,7 +66,7 @@ The vLLM-MindSpore SIG is an open and collaborative platform for learning and de
 
 ### 4. Regular Meetings
 
-* Time: 8 PM on Friday or Saturday evenings, held bi-weekly.
+* Time: 7 PM on Wednesday or Thursday evenings, held bi-weekly.
 * Meeting Content: Open routine exchanges for SIG feature development and organizational management.
 * Meeting Topics:
   1. Fixed Topics: Progress and issue exchanges of feature development tasks assigned to SIG members.
