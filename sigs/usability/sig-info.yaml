@@ -15,8 +15,18 @@ maintainers:
   name: Yang ZhenZhang
   organization: Huawei
   email: yangzhenzhang@huawei.com
+repositories:
 - repo:
   - mindspore/python/
+  repo-admin:
+  - gitee_id: zwiori
+    name: Zheng Wei
+    organization: Huawei
+    email: victor.zhengwei@huawei.com
+  - gitee_id: baochong
+    name: Bao Chong
+    organization: Huawei
+    email: baochong@huawei.com
   committers:
   - gitee_id: changzherui
     name: Chang ZheRui
@@ -26,14 +36,31 @@ maintainers:
     name: Yu JianFeng
     organization: Huawei
     email: yujianfeng5@huawei.com
+  - gitee_id: liangchenghui
+    name: Liang ChengHui
+    organization: Huawei
+    email: liangchenghui@huawei.com
+  - gitee_id: tanghuikang
+    name: Tang HuiKang
+    organization: Huawei
+    email: tanghuikang@huawei.com
   - gitee_id: qiuyufeng
     name: Qiu YuFeng
     organization: Huawei
     email: qiuyufeng3@huawei.com
 - repo:
   - mindspore/docs
-  committers:
+  repo-admin:
+  - gitee_id: zwiori
+    name: Zheng Wei
+    organization: Huawei
+    email: victor.zhengwei@huawei.com
   - gitee_id: wangting
     name: Wang Ting
     organization: Huawei
     email: kathy.wangting@huawei.com
+  committers:
+  - gitee_id: mengxian
+    name: Meng Xian
+    organization: Huawei
+    email: mengxian2@huawei.com
