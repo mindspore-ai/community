@@ -17,7 +17,7 @@ maintainers:
   email: yangzhenzhang@huawei.com
 repositories:
 - repo:
-  - mindspore/python/
+  - mindspore/mindspore
   repo-admin:
   - gitee_id: zwiori
     name: Zheng Wei
