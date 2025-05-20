@@ -1,5 +1,5 @@
 name: heterogeneous_fusion
-description: Building an open southbound interface based on MindSpore, supporting fast access and enablement for registration on various hardware platforms.
+description: Building an open southbound interface based on MindSpore, collaborating with industry vendors and academic institutions to build heterogeneous fusion acceleration capabilities and enable full scenario deployment and application.
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 meeting_url: NA
