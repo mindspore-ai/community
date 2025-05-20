@@ -1,5 +1,5 @@
-name: vLLM-MindSpore
-description: 'MindSpore vLLM-MindSpore SIG'
+name: LLM Inference Serving
+description: 'MindSpore LLM Inference Serving SIG'
 mailing_list: dev@mindspore.cn
 maintainers:
 - gitee_id: zhaizhiqiang

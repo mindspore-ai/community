@@ -1,13 +1,14 @@
 ## SIG简介
 
-[vLLM](https://github.com/vllm-project/vllm)是一款高性能、易用的开源推理框架，能够显著提升大模型推理服务的吞吐性能和存储使用效率。[vLLM-MindSpore](https://gitee.com/mindspore/vllm_mindspore)是昇思MindSpore社区孵化的开源插件，可支持vLLM框架以MindSpore为推理计算底座，实现大模型推理服务化部署。
+大模型正在由理论研究阶段逐步进入大规模生产应用阶段，高吞吐、低时延的大模型推理服务部署能力，已成为AI基础软件栈的核心功能之一。近年来，vLLM、SGLang等开源推理服务框架迅速发展，覆盖支持了众多模型和特性，并已广泛应用于学术和工业领域。
 
-vLLM-MindSpore SIG致力于维护和开发vLLM-MindSpore插件，从而有机整合vLLM高易用和MindSpore高性能的技术长版，提供高吞吐、低时延的大模型推理部署能力。vLLM-MindSpore所涉及的技术领域主要包括以下方面：
+LLM Inference Serving SIG致力于通过积极拥抱vLLM、SGLang等开源推理服务框架的软件生态，有机整合其技术长板，提供高性能、易用的MindSpore大模型推理部署能力。LLM Inference Serving SIG已孵化了开源插件[vLLM-MindSpore](https://gitee.com/mindspore/vllm_mindspore)，可支持[vLLM](https://github.com/vllm-project/vllm)框架以MindSpore为推理计算底座，实现大模型推理服务化部署。
 
-1. **vLLM兼容适配**：通过将vLLM的PyTorch API调用映射至MindSpore，并适配vLLM的插件接口，将MindSpore大模型推理组件接入vLLM框架；
+LLM Inference Serving SIG所涉及的技术领域主要包括以下方面：
+1. **开源推理服务框架兼容适配**：将MindSpore大模型推理能力，接入vLLM、SGLang等开源推理服务框架。以vLLM为例，通过将vLLM的PyTorch API调用映射至MindSpore，并适配vLLM的插件接口，将MindSpore大模型推理组件接入vLLM框架。
 2. **大模型推理加速**：依托MindSpore的图融合、通信-计算掩盖等技术，实现高性能的大模型推理。
 
-vLLM-MindSpore SIG是开放开源的交流学习平台，欢迎开发者参与共同提升MindSpore的大模型推理能力，合作共建实现技术沉淀和产业成功。
+LLM Inference Serving SIG是开放开源的交流学习平台，欢迎开发者参与共同提升MindSpore的大模型推理能力，合作共建实现技术沉淀和产业成功。
 
 ## Maintainers
 
@@ -27,7 +28,7 @@ vLLM-MindSpore SIG是开放开源的交流学习平台，欢迎开发者参与�
 ## 2025年目标
 
 1. 组织管理：制定SIG组织管理规范，邀请Maintainers与Contributors初始成员参与SIG运作(3名Maintainers + 至少5名Contributors）；
-2. 生态拓展：发展30位vLLM-MindSpore SIG正式成员、200+关注者；发展5位资深开发者、10位优秀开发者；
+2. 生态拓展：发展30位LLM Inference Serving SIG正式成员、200+关注者；发展5位资深开发者、10位优秀开发者；
 3. 特性开发：支持至少20个SOTA LLM和MMLM，持续适配vLLM最新稳定版本，挑战跟随vLLM主干分支演进，核心特性2天内适配支持；
 4. 活动开展：vLLM-MindSpore体验活动参与人次300+，开展技术分享活动直播3次，征集技术文章10+。
 
@@ -39,7 +40,7 @@ vLLM-MindSpore SIG是开放开源的交流学习平台，欢迎开发者参与�
 * 活动形式：定期邀请业界专家、高校师生、资深开发者分享话题
 * 活动频率：每1-2个月1次，每次围绕同一个共同主题分享2-3个话题
 * 分享范围：与大模型推理加速技术领域相关的技术话题，包括但不限于：
-  1. vLLM的架构演讲趋势和特性使用体验
+  1. vLLM、SGLang等开源推理服务框架的架构演讲趋势和特性使用体验
   2. MindSpore大模型推理加速技术的发展方向和改进点讨论
   3. 大模型推理加速技术的新兴技术、开发经验、应用建议
   4. SIG特性开发任务介绍与成果展示等
@@ -65,7 +66,7 @@ vLLM-MindSpore SIG是开放开源的交流学习平台，欢迎开发者参与�
 
 ### 4. 例会
 
-* 时间：周五或周六晚上20点，每2周开展一次
+* 时间：周三或周四晚上19点，每2周开展一次
 * 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流
 * 例会议题：
   1. 固定议题：SIG成员领取的特性开发任务进展与问题交流
