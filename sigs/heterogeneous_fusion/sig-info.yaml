@@ -1,5 +1,5 @@
-name: heterogeneous_fusion
-description: Building an open southbound interface based on MindSpore, collaborating with industry vendors and academic institutions to build heterogeneous fusion acceleration capabilities and enable full scenario deployment and application.
+name: Heterogeneous Fusion
+description: 基于MindSpore构建开放的南向接口，协同业界厂商和学术机构，构建异构融合加速能力和使能全场景部署与应用。
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 meeting_url: NA
@@ -25,6 +25,9 @@ maintainers:
 repositories:
 - repo:
   - mindspore/mindspore
+  directory:
+    - mindspore/ccsrc/backend
+    - mindspore/ccsrc/plugin
   repo_admin:
   - gitee_id: baochong
     name: baochong
