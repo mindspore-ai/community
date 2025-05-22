@@ -1,5 +1,5 @@
-name: usability
-description: MindSpore Usability SIG
+name: MindSpore Usability
+description: MindSpore 易用性组(Usability SIG)专注于推动MindSpore易用性(Python API/文档/教程/案例)。该小组由华为MindSpore核心开发团队、学术界专家及社区开发者共同组成，致力于提升MindSpore开发者体验
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 maintainers:
@@ -17,7 +17,9 @@ maintainers:
   email: yangzhenzhang@huawei.com
 repositories:
 - repo:
-  - mindspore/mindspore
+  - mindspore/mindspore/
+  directory:
+   - mindspore/python/mindspore
   repo-admin:
   - gitee_id: zwiori
     name: Zheng Wei
