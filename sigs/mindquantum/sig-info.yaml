@@ -1,5 +1,16 @@
-name: mindquantum
-description: MindQuantum is a new-generation general quantum computing framework developed based on the MindSpore. It focuses on algorithm implementation and implementation in the NISQ phase.
+name: MindSpore Quantum
+description: |
+  MindSpore Quantum致力于和开发者共同打造灵活高效、易学易用的量子计算框架，持续提升MindSpore Quantum功能、性能和易用性，助力量子计算技术研究和创新，主要工作包括：
+
+  1. 生态推广：拓展开发者使用MindSpore Quantum进行学习和研究。
+  2. 需求洞察：通过对量子计算发展趋势洞察和技术研究诉求，识别MindSpore Quantum关键需求。
+  3. 版本规划：基于研究创新和价值分析，对需求内容和应用场景等进行分析细化，落实到版本。
+  4. 特性开发：基于版本规划，完成新功能开发和测试。
+  5. 版本适配：随着MindSpore Quantum版本迭代，对已支持的特性进行更新和适配。
+  6. 教程开发和优化：开发和优化MindSpore Quantum教程，为其制作中英文图文，视频教程，帮助开发者更方便的了解和使用MindSpore Quantum。
+  7. 互动答疑：在社区/微信群/论坛等为开发者答疑解惑，活跃社区，提升开发者满意度。
+
+  MindSpore Quantum SIG是为广大开发者提供的共同交流和学习的平台，欢迎大家一起来分享、交流和共同提升MindSpore Quantum功能特性，帮助开发者学好，用好MindSpore Quantum。SIG成员将获得更多专家指导和开发资源支持。
 created_on: '2021-03-27'
 mailing_list: dev@mindspore.cn
 meeting_url: https://etherpad.mindspore.cn/p/sig-MindSpore-Quantum-meetings
