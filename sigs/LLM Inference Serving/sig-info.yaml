@@ -1,5 +1,5 @@
 name: LLM Inference Serving
-description: 'MindSpore LLM Inference Serving SIG'
+description: MindSpore大模型推理服务组（LLM Inference Serving SIG）致力于实现vLLM等开源推理服务框架与MindSpore推理能力的兼容互通，通过整合二者技术长板，提供高性能、易用的大模型推理服务能力。
 mailing_list: dev@mindspore.cn
 maintainers:
 - gitee_id: zhaizhiqiang
