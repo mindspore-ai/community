@@ -1,5 +1,5 @@
-name: pynative
-description: The MindSpore Dynamic Graph Mode Framework Development Group (PyNative SIG) focuses on advancing the research, development, and optimization of MindSpore's dynamic graph (Eager Execution) mode. It is dedicated to enhancing the performance, flexibility, and usability of the dynamic graph mode to meet the demands of rapid development, debugging, and execution in the deep learning field.
+name: MindSpore PyNative
+description: MindSpore PyNative SIG（动态图模式框架开发SIG）专注于推动MindSpore动态图（即时执行， Eager Execution）模式的研发与优化，致力于提升动态图模式的性能、灵活性和易用性，以满足深度学习领域对快速开发、调试、执行等的需求。
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 meeting_url: NA
@@ -21,6 +21,10 @@ maintainers:
 repositories:
 - repo:
   - mindspore/mindspore
+  directory:
+  - mindspore/ccsrc/pynative
+  - mindspore/ccsrc/pyboost
+  - mindspore/ccsrc/runtime/pynative
   repo_admin:
   - gitee_id: chujinjin
     name: chujinjin
