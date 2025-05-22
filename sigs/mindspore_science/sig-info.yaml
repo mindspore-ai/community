@@ -1,5 +1,5 @@
-name: mindspore_science
-description: MindSpore Science SIG
+name: MindSpore Science
+description: MindScience是基于MindSpore融合架构打造的科学计算行业套件，包含了业界领先的数据集、基础模型、预置高精度模型和前后处理工具，加速了科学行业应用开发。MindSpore Science SIG旨在与广大开发者共同将AI与科学计算相结合，助力科学计算借助AI的强大计算能力探索未知领域，提升计算效率和准确性，更好地应对复杂地科学计算问题。
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 maintainers:
