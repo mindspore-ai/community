@@ -1,5 +1,5 @@
 name: MindSpore Lite
-description: 'MindSpore Lite SIG'
+description: 'MindSpore Lite小组（MindSpore Lite Sig）专注于端侧AI的部署优化，该小组由华为MindSpore核心开发团队、学术专家及社区开发者共同组成，致力于构建极速、极智、极简的端侧AI引擎，使能全场景智能应用，帮助用户使能AI能力。'
 mailing_list: dev@mindspore.cn
 maintainers:
 - gitee_id: ljl0711
@@ -17,6 +17,8 @@ maintainers:
 repositories:
 - repo:
   - mindspore/mindspore
+  - directories:
+    mindspore/mindspore/lite 
   repo_admin:
   - gitee_id: ljl0711
     name: Lu jiale
@@ -47,7 +49,7 @@ repositories:
     name: Chen Jianping
     email: jpc.chen@huawei.com
   contributors:
-  - gitee_id: yangyingchun
+  - gitee_id: yangyingchun1999
     name: Yang Yingchun
     email: yangyingchun5@huawei.com
   - gitee_id: StevenDongyu
