@@ -665,7 +665,7 @@ mindarmour:
         language: python
         license: Historical Permission Notice and Disclaimer
         url: https://python-pillow.org
-        handler: jxlang910
+        handler: yyuse
         milestone: B-SIG-InnerDelivery
         schName: pillow
     easydict:
@@ -692,7 +692,7 @@ mindarmour:
         language: python
         license: MIT License
         url: https://github.com/pypa/wheel
-        handler: jxlang910
+        handler: yyuse
         milestone: B-SIG-InnerDelivery
         schName: wheel
     setuptools:
@@ -701,7 +701,7 @@ mindarmour:
         language: python
         license: MIT License
         url: https://github.com/pypa/setuptools
-        handler: jxlang910
+        handler: yyuse
         milestone: B-SIG-InnerDelivery
         schName: setuptools
 
