@@ -34,7 +34,7 @@ repositories:
     name: Chang ZheRui
     organization: Huawei
     email: changzherui1@huawei.com
-  - gitee_id: yujianfeng
+  - gitee_id: ginfungv
     name: Yu JianFeng
     organization: Huawei
     email: yujianfeng5@huawei.com
@@ -42,11 +42,11 @@ repositories:
     name: Liang ChengHui
     organization: Huawei
     email: liangchenghui@huawei.com
-  - gitee_id: tanghuikang
+  - gitee_id: HulkTang
     name: Tang HuiKang
     organization: Huawei
     email: tanghuikang@huawei.com
-  - gitee_id: qiuyufeng
+  - gitee_id: YuFong-Qiu
     name: Qiu YuFeng
     organization: Huawei
     email: qiuyufeng3@huawei.com
@@ -57,12 +57,12 @@ repositories:
     name: Zheng Wei
     organization: Huawei
     email: victor.zhengwei@huawei.com
-  - gitee_id: wangting
+  - gitee_id: gemini524
     name: Wang Ting
     organization: Huawei
     email: kathy.wangting@huawei.com
   committers:
-  - gitee_id: mengxian
+  - gitee_id: bleub
     name: Meng Xian
     organization: Huawei
     email: mengxian2@huawei.com
