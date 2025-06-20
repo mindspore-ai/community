@@ -66,7 +66,7 @@ The LLM Inference Serving SIG is an open and collaborative platform for learning
 
 ### 4. Regular Meetings
 
-* Time: 7 PM on Wednesday or Thursday evenings, held bi-weekly.
+* Time: 16:30 PM on Wednesday or Thursday evenings, held bi-weekly.
 * Meeting Content: Open routine exchanges for SIG feature development and organizational management.
 * Meeting Topics:
   1. Fixed Topics: Progress and issue exchanges of feature development tasks assigned to SIG members.
