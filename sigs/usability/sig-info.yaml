@@ -52,7 +52,7 @@ repositories:
     email: qiuyufeng3@huawei.com
 - repo:
   - mindspore/docs
-  repo-admin:
+  maintainers:
   - gitee_id: zwiori
     name: Zheng Wei
     organization: Huawei
@@ -62,6 +62,10 @@ repositories:
     organization: Huawei
     email: kathy.wangting@huawei.com
   committers:
+  - gitee_id: gemini524
+    name: Wang Ting
+    organization: Huawei
+    email: kathy.wangting@huawei.com
   - gitee_id: bleub
     name: Meng Xian
     organization: Huawei
