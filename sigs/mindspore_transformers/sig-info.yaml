@@ -1,5 +1,5 @@
 name: MindSpore Transformers
-description: MindSpore 大模型套件组（MindSpore Transformers SIG）专注于提供主流大模型训推全流程能力。该小组由华为 MindSpore 核心开发团队、学术界专家及社区开发者共同组成，致力于完善 MindSpore 大模型训练、推理基础能力。
+description: MindSpore Transformers SIG（Special Interest Group）是 MindSpore 开源社区下聚焦 Transformer 类大模型全流程开发与优化的技术团队，涵盖大模型的预训练、微调、推理与部署等关键环节。SIG 团队致力于提升 Transformer类大模型在性能与易用性方面的表现，推动其在实际场景中的高效应用与落地。
 mailing_list: dev@mindspore.cn
 maintainers:
 - gitee_id: Lin-Bert
@@ -23,26 +23,18 @@ repositories:
     organization: Huawei
     email: suhaibo1@huawei.com
   committers:
-  - gitee_id: Lin-Bert
-    name: He Qinglin
-    organization: Huawei
-    email: heqinglin4@huawei.com
-  - gitee_id: suhaibo
-    name: Su Haibo
-    organization: Huawei
-    email: suhaibo1@huawei.com
   - gitee_id: hss-shuai
     name: Huang Shengshuai
     organization: Huawei
     email: huangshengshuai@huawei.com
-  - gitee_id: fft1374
-    name: Li Wen
+  - gitee_id: renyujin
+    name: Ren Yujin
     organization: Huawei
-    email: liwen120@huawei.com
-  - gitee_id: wjlflyer
-    name: Wang Jialin
+    email: renyujin1@huawei.com
+  - gitee_id: chenrayray
+    name: Chen Xinrui
     organization: Huawei
-    email: wangjialin21@huawei.com
+    email: chenxinrui11@huawei.com
   - gitee_id: zyw-hw
     name: zhang Youwen
     organization: Huawei
