@@ -20,8 +20,6 @@ MindSpore Transformers SIG 欢迎开发者参与共同推动 Transformer 大模�
 
 ## Committers
 
-* He Qinglin @Lin-Bert (MindSpore Transformers SIG 负责人)
-* Su Haibo @suhaibo (MindSpore Transformers 架构师)
 * Huang Shengshuai @hss-shuai (MindSpore Transformers 训练负责人)
 * Ren Yujin @renyujin (MindSpore Transformers 推理负责人)
 * Chen Xinrui @chenrayray (MindSpore Transformers 生态&资料负责人)
