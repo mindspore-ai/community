@@ -1,5 +1,6 @@
 name: MindSpore Usability
-description: MindSpore 易用性组(Usability SIG)专注于推动MindSpore易用性(Python API/文档/教程/案例)。该小组由华为MindSpore核心开发团队、学术界专家及社区开发者共同组成，致力于提升MindSpore开发者体验
+description: MindSpore 易用性组(Usability SIG)专注于推动MindSpore易用性(Python API/文档/教程/案例)。该小组由华为MindSpore核心开发团队、学术界专家及社区开发者共同组成，致力于提升MindSpore开发者体验。
+description_en: The MindSpore Usability SIG focuses on promoting the usability of MindSpore (Python APIs, documents, tutorials, and cases). This SIG is composed of Huawei MindSpore core development team, academic experts, and community developers, and is dedicated to improving the MindSpore developer experience.
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 maintainers:

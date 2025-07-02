@@ -1,5 +1,6 @@
 name: Heterogeneous Fusion
 description: 基于MindSpore构建开放的南向接口，协同业界厂商和学术机构，构建异构融合加速能力和使能全场景部署与应用。
+description_en: MindSpore is used to build open southbound interfaces. MindSpore collaborates with industry vendors and academic institutions to build heterogeneous convergence acceleration capabilities and enable all-scenario deployment and application.
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 meeting_url: NA

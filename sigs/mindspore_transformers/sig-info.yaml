@@ -1,5 +1,6 @@
 name: MindSpore Transformers
 description: MindSpore Transformers SIG（Special Interest Group）是 MindSpore 开源社区下聚焦 Transformer 类大模型全流程开发与优化的技术团队，涵盖大模型的预训练、微调、推理与部署等关键环节。SIG 团队致力于提升 Transformer类大模型在性能与易用性方面的表现，推动其在实际场景中的高效应用与落地。
+description_en: The MindSpore Transformers SIG (Special Interest Group) is a technical team under the MindSpore open-source community that focuses on the end-to-end development and optimization of Transformer-based large models, covering key stages such as pre-training, fine-tuning, inference, and deployment. The SIG team is dedicated to enhancing the performance and usability of Transformer-based large models, promoting their efficient application and implementation in real-world scenarios.
 mailing_list: dev@mindspore.cn
 maintainers:
 - gitee_id: Lin-Bert
