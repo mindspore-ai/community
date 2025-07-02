@@ -1,5 +1,6 @@
 name: MindSpore PyNative
 description: MindSpore PyNative SIG（动态图模式框架开发SIG）专注于推动MindSpore动态图（即时执行， Eager Execution）模式的研发与优化，致力于提升动态图模式的性能、灵活性和易用性，以满足深度学习领域对快速开发、调试、执行等的需求。
+description_en: The MindSpore PyNative SIG focuses on promoting the R&D and optimization of the MindSpore dynamic graph (eager execution) mode, and is dedicated to improving the performance, flexibility, and usability of the dynamic graph mode to meet the requirements of the deep learning field for fast development, debugging, and execution.
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 meeting_url: NA
