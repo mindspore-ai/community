@@ -1028,6 +1028,53 @@ golden-stick:
         milestone: B-SIG-QUANT
         schName: pytest
 
+ms_kernaels_internal:
+    torch:
+        cpeName: torch
+        version: "2.1.0"
+        language: Python
+        license: BSD 3-Clause License
+        url: https://pytorch.org/
+        handler: zhanghan
+        milestone: B-Kernels-Internal
+        schName: torch
+    scipy:
+        cpeName: scipy
+        version: ">= 1.5.4"
+        language: Python
+        license: BSD 3-Clause License
+        url: http://scipy.org/
+        handler: zhanghan
+        milestone: B-Kernels-Internal
+        schName: scipy
+    pytest:
+        cpeName: pytest
+        version: 5.4.3
+        language: Python
+        license: MIT License
+        url: https://docs.pytest.org/en/latest/
+        handler: zhanghan
+        milestone: B-Kernels-Internal
+        schName: pytest
+    numpy:
+        cpeName: numpy
+        version: ">= 1.17.0"
+        url: https://www.numpy.org
+        language: Python
+        license: BSD 3-Clause License
+        handler: zhanghan
+        milestone: B-Kernels-Internal
+        schName: numpy
+    googletest:
+        cpeName: googletest
+        version: 1.8.1
+        language: C/C++
+        license: BSD 3-Clause License
+        url: http://code.google.com/p/googletest/
+        handler: zhanghan
+        milestone: B-Kernels-Internal
+        schName: gtest
+        
 others:
     gensim:
         cpeName: gensim
