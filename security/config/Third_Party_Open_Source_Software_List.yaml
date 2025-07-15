@@ -951,6 +951,27 @@ vue:
         handler: ljing-git
         milestone: B-SIG-Visualization
         schName: jquery
+
+vllm-mindspore:
+    numpy:
+        cpeName: numpy
+        version: ">= 1.17.0"
+        url: https://www.numpy.org
+        language: Python
+        license: BSD 3-Clause License
+        handler: dengyepeng
+        milestone: B-SIG-InferNetwork
+        schName: numpy
+    ray:
+        cpeName: ray
+        version: 2.44.0
+        url: https://github.com/ray-project/ray/tree/ray-2.44.0
+        language: Python
+        license: Apache License V2.0
+        handler: dengyepeng
+        milestone: B-SIG-InferNetwork
+        schName: ray
+
 others:
     gensim:
         cpeName: gensim
