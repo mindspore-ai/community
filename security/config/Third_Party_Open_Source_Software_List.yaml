@@ -1074,6 +1074,224 @@ ms_kernaels_internal:
         handler: zhanghan
         milestone: B-Kernels-Internal
         schName: gtest
+
+mindformers:
+    setuptools:
+        cpeName: setuptools
+        version: "70.3.0"
+        language: Python
+        license: MIT License
+        url: https://github.com/pypa/setuptools
+        handler: Lin-Bert
+        milestone: B-SIG-MindFormers
+        schName: setuptools
+    sentencepiece:
+      cpeName: sentencepiece
+      version: ">= 0.2.0"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/google/sentencepiece
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: sentencepiece
+    ftfy:
+      cpeName: ftfy
+      version: ">= 6.1.1"
+      language: Python
+      license: MIT License
+      url: https://github.com/rspeer/python-ftfy
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: ftfy
+    regex:
+      cpeName: regex
+      version: ">= 2022.10.31"
+      language: Python
+      license: Apache License V2.0
+      url: https://docs.rs/regex
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: regex
+    tqdm:
+      cpeName: tqdm
+      version: ">= 4.65.0"
+      language: Python
+      license: MIT License & Mozilla Public License (MPL) V2.0
+      url: https://tqdm.github.io/
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: tqdm
+    pyyaml:
+      cpeName: pyyaml
+      version: ">= 6.0"
+      language: Python
+      license: MIT License
+      url: https://github.com/yaml/pyyaml
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: pyyaml
+    jieba:
+      cpeName: jieba
+      version: ">= 0.42.1"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/fxsjy/jieba
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: jieba
+    rouge_chinese:
+      cpeName: rouge_chinese
+      version: ">= 1.0.3"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/Isaac-JL-Chen/rouge_chinese
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: rouge_chinese
+    nltk:
+      cpeName: nltk
+      version: "3.9.1"
+      language: Python
+      license: Apache License V2.0
+      url: https://www.nltk.org/
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: nltk
+    mindpet:
+      cpeName: mindpet
+      version: "1.0.4"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/mindspore-lab/mindpet
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: mindpet
+    opencv-python-headless:
+      cpeName: opencv-python-headless
+      version: "4.11.0.86"
+      language: Python
+      license: MIT License
+      url: https://github.com/skvark/opencv-python
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: opencv-python-headless
+    pyarrow:
+      cpeName: pyarrow
+      version: "19.0.0"
+      language: Python
+      license: Apache License V2.0
+      url: https://arrow.apache.org/
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: pyarrow
+    tokenizers:
+      cpeName: tokenizers
+      version: "0.21.0"
+      language: Python
+      license: Apache License V2.0
+      url: https://huggingface.co/docs/tokenizers
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: tokenizers
+    astunparse:
+      cpeName: astunparse
+      version: ">= 1.6.3"
+      language: Python
+      license: BSD 3-Clause License
+      url: https://github.com/simonpercivall/astunparse
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: astunparse
+    numpy:
+      cpeName: numpy
+      version: "1.26.4"
+      language: Python
+      license: BSD 3-Clause License
+      url: https://numpy.org/
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: numpy
+    datasets:
+      cpeName: datasets
+      version: "2.18.0"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/huggingface/datasets
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: datasets
+    tiktoken:
+      cpeName: tiktoken
+      version: "0.9.0"
+      language: Python
+      license: MIT License
+      url: https://github.com/openai/tiktoken
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: tiktoken
+    jinja2:
+      cpeName: jinja2
+      version: "3.1.6"
+      language: Python
+      license: BSD 3-Clause License
+      url: https://jinja.palletsprojects.com
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: jinja2
+    setproctitle:
+      cpeName: setproctitle
+      version: "1.3.5"
+      language: Python
+      license: BSD 3-Clause License
+      url: ""
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: setproctitle
+    deprecated:
+      cpeName: deprecated
+      version: "1.2.18"
+      language: Python
+      license: MIT License
+      url: https://github.com/tantale/deprecated
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: deprecated
+    safetensors:
+      cpeName: safetensors
+      version: "0.5.3"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/huggingface/safetensors
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: safetensors
+    tensorboardX:
+      cpeName: tensorboardX
+      version: "2.6.2.2"
+      language: Python
+      license: MIT License
+      url: https://github.com/lanpa/tensorboardX
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: tensorboardX
+    pybind11:
+      cpeName: pybind11
+      version: "2.13.6"
+      language: Python
+      license: BSD 3-Clause License
+      url: https://pybiind11.readthedocs.io/
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: pybind11
+    transformers:
+      cpeName: transformers
+      version: "4.51.3"
+      language: Python
+      license: Apache License V2.0
+      url: https://huggingface.co/docs/transformers
+      handler: Lin-Bert
+      milestone: B-SIG-MindFormers
+      schName: transformers
         
 others:
     gensim:
