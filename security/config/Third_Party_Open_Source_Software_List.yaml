@@ -1193,3 +1193,365 @@ others:
         handler: zhao_ting_v
         milestone: B-SIG-Kit
         schName: pycocotools
+mindspore-lite:
+    packaging:
+        cpeName: packaging
+        version: 20.0
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/pypa/packaging
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: packaging
+    onednn:
+        cpeName: Onednn
+        version: 2.2
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/oneapi-src/oneDNN
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: mkl_dnn
+    flatbuffers:
+        cpeName: flatbuffers
+        version: 2.0.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://google.github.io/flatbuffers/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: flatbuffers
+    sentencepiece:
+        cpeName: sentencepiece
+        version: 0.1.92
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/google/sentencepiece
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: sentencepiece
+    Eigen:
+        cpeName: Eigen
+        version: 3.4.0
+        language: C/C++
+        license: Mozilla Public License (MPL) V2.0
+        url: http://eigen.tuxfamily.org/index.php?title=Main_Page
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: eigen
+    glog:
+        cpeName: glog
+        version: 0.4.0
+        language: Python
+        license: BSD 3-Clause License
+        url: https://github.com/google/glog
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: glog
+    googletest:
+        cpeName: googletest
+        version: 1.8.1
+        language: C/C++
+        license: BSD 3-Clause License
+        url: http://code.google.com/p/googletest/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: gtest
+    opencv:
+        cpeName: opencv
+        version: 4.5.2
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/opencv/opencv
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: opencv
+    opencv-python:
+        cpeName: opencv-python
+        version: ">= 4.1.2.30"
+        language: Python
+        license: MIT License
+        url: https://github.com/skvark/opencv-python
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: opencv-python
+    robin_hood_hashing:
+        cpeName: robin_hood_hashing
+        version: 3.11.5
+        language: C++
+        license: MIT License
+        url: https://github.com/martinus/robin_hood_hashing
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: robin
+    dirent:
+        cpeName: dirent
+        version: 1.23.2
+        language: C/C++
+        license: MIT License
+        url: https://github.com/tronkko/dirent
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: dirent
+    fast_transformer:
+        cpeName: fast_transformer
+        version: 0.5.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/NVIDIA/FasterTransformer
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: fast_transformers
+    abseil-cpp:
+        cpeName: abseil-cpp
+        version: 20210324.2
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/abseil/abseil-cpp
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: absl
+    JSON for Modern C++:
+        cpeName: JSON for Modern C++
+        version: 3.10.1
+        language: C++
+        license: MIT License
+        url: https://github.com/nlohmann/json
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: json
+    pybind11:
+        cpeName: pybind11
+        version: ">= 2.4.3"
+        language: C++
+        license: BSD 3-Clause License
+        url: https://github.com/pybind/pybind11/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: pybind11
+    tinyxml2:
+        cpeName: tinyxml2
+        version: 8.0.0
+        language: C++
+        license: zlib/libpng License
+        url: https://github.com/leethomason/tinyxml2/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: tinyxml2
+    numpy:
+        cpeName: numpy
+        version: ">= 1.17.0"
+        url: https://www.numpy.org
+        language: Python
+        license: BSD 3-Clause License
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: numpy
+    icu:
+        cpeName: icu
+        version: 69.1
+        language: C++
+        license: ICU License
+        url: https://github.com/unicode-org/icu/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: icu4c
+    libevent:
+        cpeName: libevent
+        version: 2.1.12
+        language: C/C++
+        license: BSD 3-Clause License;MIT License;ISC License;BSD 2-Clause
+            License;Creative Commons Public Domain Certification
+        url: https://libevent.org/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: libevent
+    OpenCL-CLHPP:
+        cpeName: OpenCL-CLHPP
+        version: 2.0.12
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/KhronosGroup/OpenCL-CLHPP
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: opencl-clhpp
+    protobuf:
+        cpeName: protobuf
+        version: 3.13.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/protocolbuffers/protobuf
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: protobuf
+    protobuf-arm:
+        cpeName: protobuf
+        version: 3.13.0
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/protocolbuffers/protobuf
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: protobuf_arm
+    sqlite:
+        cpeName: sqlite
+        version: 3.36.0
+        language: C++
+        license: Public Domain
+        url: https://github.com/sqlite/sqlite/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: sqlite
+    libjpeg-turbo:
+        cpeName: libjpeg-turbo
+        version: 2.0.4
+        language: C++
+        license: BSD 3-Clause License
+        url: https://github.com/libjpeg-turbo/libjpeg-turbo/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: jpeg_turbo
+    OpenCV:
+        cpeName: OpenCV
+        version: 4.5.2
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/opencv/opencv/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: opencv
+    zlib:
+        cpeName: zlib
+        version: 1.2.11
+        language: C++
+        license: zlib/libpng License
+        url: https://github.com/madler/zlib/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: zlib
+    Cppjieba:
+        cpeName: Cppjieba
+        version: 5.0.3
+        language: C++
+        license: MIT License
+        url: https://github.com/yanyiwu/cppjieba/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: cppjieba
+    Khronos Group - OpenCL - Headers:
+        cpeName: Khronos Group - OpenCL - Headers
+        version: v2020.12.18
+        language: Python
+        license: Apache License V2.0
+        url: https://github.com/KhronosGroup/OpenCL-Headers/
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: opencl-headers
+    openssl:
+        cpeName: openssl
+        version: 1.1.1k
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/openssl/openssl
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: openssl
+    onnxruntime:
+        cpeName: onnxruntime
+        version: 1.6.0
+        language: python
+        license: MIT License
+        url: https://github.com/microsoft/onnxruntime
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: onnxruntime
+    mockcpp:
+        cpeName: mockcpp
+        version: 2.7
+        language: C/C++
+        license: Apache License V2.0
+        url: https://github.com/sinojelly/mockcpp
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: mockcpp
+    pocketfft:
+        cpeName: pocketfft
+        version: "cpp commitid:0f7aa12"
+        language: C
+        license: BSD 3-Clause License
+        url: https://github.com/malfet/pocketfft
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: pocketfft
+    triton_common:
+        cpeName: triton_common
+        version: "commitid:1df32b982a6ed11ead3271a55b04bf6e7abc1cf9"
+        language: C++
+        license: BSD 3-Clause License
+        url: https://gitee.com/mirrors_triton-inference-server/common
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: triton_common
+    triton_core:
+        cpeName: triton_core
+        version: "commitid:9714cd666d512c4a2c687d028cd4ebf3d354a9dc"
+        language: C++
+        license: BSD 3-Clause License
+        url: https://gitee.com/mirrors_triton-inference-server/core
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: triton_core
+    triton_backend:
+        cpeName: triton_backend
+        version: "commitid:2f3f44eba661af9b4fcd62160eafd9012db32652"
+        language: C++
+        license: BSD 3-Clause License
+        url: https://gitee.com/mirrors_triton-inference-server/backend
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: triton_backend
+    onnx:
+        cpeName: onnx
+        version: v1.6.0
+        language: C++
+        license: Apache License
+        url: https://github.com/onnx/onnx
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: onnx
+    tensorflow:
+        cpeName: tensorflow
+        version: v2.4.1
+        language: C++
+        license: Apache License
+        url: https://github.com/tensorflow/tensorflow
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: tensorflow
+    MNN:
+        cpeName: MNN
+        version: 1.2.0
+        language: C++
+        license: Apache License
+        url: https://github.com/alibaba/MNN
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: MNN
+    coreml:
+        cpeName: coreml
+        version: 4.1
+        language: C++
+        license: BSD 3-Clause License
+        url: https://github.com/apple/coremltools
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: coreml
+    caffe:
+        cpeName: caffe
+        version: 1.0
+        language: C++
+        license: BSD 2-Clause License
+        url: https://github.com/BVLC/caffe
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: caffe
