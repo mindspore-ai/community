@@ -1555,3 +1555,13 @@ mindspore-lite:
         handler: YeFeng_24
         milestone: B-SIG-InnerDelivery
         schName: caffe
+dvm:
+    pybind11:
+        cpeName: pybind11
+        version: ">= 2.4.3"
+        language: C++
+        license: BSD 3-Clause License
+        url: https://github.com/pybind/pybind11/
+        handler: looop5
+        milestone: B-SIG-AKG
+        schName: pybind11
