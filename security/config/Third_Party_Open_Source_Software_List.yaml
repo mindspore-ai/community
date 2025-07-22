@@ -1838,3 +1838,67 @@ toolkits:
         handler: wanghaoran
         milestone: B-SIG-Parallel
         schName: highspy
+mindrlhf:
+    sentencepiece:
+      cpeName: sentencepiece
+      version: ">= 0.2.0"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/google/sentencepiece
+      handler: liuchongming74
+      milestone: B-SIG-MindRLHF
+      schName: sentencepiece
+    regex:
+      cpeName: regex
+      version: ">= 2022.10.31"
+      language: Python
+      license: Apache License V2.0
+      url: https://docs.rs/regex
+      handler: liuchongming74
+      milestone: B-SIG-MindRLHF
+      schName: regex
+    tqdm:
+      cpeName: tqdm
+      version: ">= 4.65.0"
+      language: Python
+      license: MIT License & Mozilla Public License (MPL) V2.0
+      url: https://tqdm.github.io/
+      handler: liuchongming74
+      milestone: B-SIG-MindRLHF
+      schName: tqdm
+    numpy:
+      cpeName: numpy
+      version: "<2.0.0"
+      url: https://www.numpy.org
+      language: Python
+      license: BSD 3-Clause License
+      handler: changzherui
+      milestone: B-SIG-FrontEnd
+      schName: numpy
+    jsonlines:
+      cpeName: jsonlines
+      version: "4.0.0"
+      url: https://github.com/wbolster/jsonlines
+      language: Python
+      license: BSD 3-Clause License
+      handler: liuchongming74
+      milestone: B-SIG-MindRLHF
+      schName: jsonlines
+    safetensors:
+      cpeName: safetensors
+      version: ">=0.4.4"
+      language: Python
+      license: Apache License V2.0
+      url: https://github.com/huggingface/safetensors
+      handler: changzherui
+      milestone: B-SIG-FrontEnd
+      schName: safetensors
+    latex2sympy2_extended:
+      cpeName: latex2sympy2_extended
+      version: ">=1.0.9"
+      language: Python
+      license: MIT License
+      url: https://github.com/OrangeX4/latex2sympy2
+      handler: liuchongming74
+      milestone: B-SIG-MindRLHF
+      schName: latex2sympy2_extended
