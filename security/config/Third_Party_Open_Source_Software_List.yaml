@@ -1783,3 +1783,58 @@ dvm:
         handler: looop5
         milestone: B-SIG-AKG
         schName: pybind11
+toolkits:
+    pyyaml:
+        cpeName: pyyaml
+        version: ">= 6.0"
+        url: https://github.com/yaml/pyyaml
+        language: Python
+        license: MIT License
+        handler: wanghaoran
+        milestone: B-SIG-Parallel
+        schName: pyyaml
+    numpy:
+        cpeName: numpy
+        version: ">= 1.20.0,<2.0.0"
+        url: https://www.numpy.org
+        language: Python
+        license: BSD 3-Clause License
+        handler: wanghaoran
+        milestone: B-SIG-Parallel
+        schName: numpy
+    ortools:
+        cpeName: ortools
+        version: ">= 9.12.0"
+        language: Python
+        license: Apache-2.0 License
+        url: https://pypi.org/project/ortools/
+        handler: wanghaoran
+        milestone: B-SIG-Parallel
+        schName: ortools
+    matplotlib:
+        cpeName: matplotlib
+        version: ">=3.9.0"
+        language: Python
+        license: Python Software Foundation License(PSF)
+        url: https://matplotlib.org
+        handler: wanghaoran
+        milestone: B-SIG-Parallel
+        schName: matplotlib
+    chardet:
+        cpeName: chardet
+        version: ">= 5.2.0"
+        language: Python
+        license: LGPL-2.1 License
+        url: https://github.com/chardet/chardet
+        handler: wanghaoran
+        milestone: B-SIG-Parallel
+        schName: chardet
+    highspy:
+        cpeName: highspy
+        version: ">= 1.6.0"
+        language: Python
+        license: MIT License
+        url: https://github.com/ERGO-Code/HiGHS
+        handler: wanghaoran
+        milestone: B-SIG-Parallel
+        schName: highspy
