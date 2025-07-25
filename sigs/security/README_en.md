@@ -1,6 +1,14 @@
 # SIG Introduction
 
-Trusted AI SIG focuses on models and data trusted technologies in the field of artificial intelligence, and is committed to building a safe and reliable AI computing framework, mainly including the following directions:
+MindSpore Trusted AI SIG contains following two responsibilities：
+
+1. **MindSpore Security Committee**：MindSpore Security Committee receives and responds to MindSpore security issues, provides community security guidance, reviews the safety of code, make decision of the security of the code and carries out security governance.
+
+2. **Trusted AI**：Trusted AI focuses on models and data trusted technologies in the field of artificial intelligence, and is committed to building a safe and reliable AI computing framework.
+
+## Trusted AI
+
+Trusted AI focuses on models and data trusted technologies in the field of artificial intelligence, and is committed to building a safe and reliable AI computing framework, mainly including the following directions:
 :
 
 1. **AI Model's robustness and reliability**: Adversarial samples, adversarial training, explainable AI, data concept drift detection and model fault injection.
@@ -24,12 +32,12 @@ Trusted AI SIG focuses on models and data trusted technologies in the field of a
 **Tips：** Click the edit button on the code page (as shown in the figure below) to directly submit lightweight PR on the web page!
 ![输入图片说明](light_weight_PR.png)
 
-## SIG code repositories
+## Trusted AI code repositories
 
 1. [MindArmour](https://gitee.com/mindspore/mindarmour).
 2. [Federated learning's server](https://gitee.com/mindspore/mindspore/tree/master/mindspore/ccsrc/fl), [Federated learning's client](https://gitee.com/mindspore/mindspore/tree/master/mindspore/lite/java/java/fl_client/src/main/java/com/mindspore/flclient).
 
-## SIG maintainers
+## Trusted AI maintainers
 
 Responsible for running SIG daily activities, formulating the development map of SIG members and the management of coding projects.
 
@@ -121,3 +129,37 @@ The membership of the Trusted AI SIG includes Contributors, Committers, and Main
 * [Friday July 03, 2020](./meetings/002-20200703.md)
 * [Saturday August 08, 2020](./meetings/003-20200808.md)
 * [Friday September 04, 2020](./meetings/004-20200904.md)
+
+## MindSpore Security Committee
+
+MindSpore Security Committee receives and responds to MindSpore security issues, provides community security guidance, reviews the safety of code, make decision of the security of the code and carries out security governance.
+
+### MindSpore Security Guild
+
+* Report vulnerabilities please enter [MindSpore Security Center](https://www.mindspore.cn/security) for detial process.
+* Coding guild[c++ coding guild](https://gitee.com/mindspore/community/blob/master/security/coding_guild_cpp_en.md)和[python coding guild](https://gitee.com/mindspore/community/blob/master/security/coding_guild_python_en.md).
+* MindSpore security design please check [security design](https://gitee.com/mindspore/community/blob/master/security/security_design_guild_en.md) page.
+
+### Code-of-Conduct
+
+* Accept the constraint [MindSpore Code-of-Conduct](https://gitee.com/mindspore/community/blob/master/code-of-conduct_zh_cn.md).
+
+### Meeting Time
+
+* 9:30-10:30 (GMT+8) every other Tuesday through online Meeting
+
+### Members
+
+#### Maintainer
+
+* baochong[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
+
+#### Committer
+
+* chenyijie[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*
+* guoqi[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*
+* husihang[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*
+* hanzhibin[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*
+* liuchongming[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*
+* yangyuan[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*
+* zhangzhaochuang[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*
