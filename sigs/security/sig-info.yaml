@@ -1,5 +1,5 @@
 name: Trusted AI SIG
-description: Trusted AI SIG focus on models and data trust technology in the field of artificial intelligence, including model robustness and interpretability, privacy computing, model security deployment, and so on. Our goal is to build a secure and trusted AI computing framework.
+description: Trusted AI SIG has two respondisbilities. First, trusted ai focus on models and data trust technology in the field of artificial intelligence, including model robustness and interpretability, privacy computing, model security deployment, and so on. Our goal is to build a secure and trusted AI computing framework. Second, MindSpore Security Committee receives and responds to MindSpore security issues, provides community security guidance, reviews the safety of code, make decision of the security of the code and carries out security governance.
 created_on: '2019-12-31'
 mailing_list: NA
 meeting_url: https://etherpad.mindspore.cn/p/meetings-Security
@@ -30,6 +30,10 @@ repositories:
 - repo:
   - mindspore/mindarmour
   committers:
+  - gitee_id: yyuse
+    name: yangyuan
+    organization: Huawei
+    email: yangyuan24@huawei.com
   - gitee_id: jxlang910
     name: Mr. JIn
     organization: Huawei
@@ -70,8 +74,36 @@ repositories:
     name: Mr. JIn
     organization: Huawei
     email: jinxiulang@huawei.com
+  - gitee_id: baochong
+    name: baochong
+    organization: Huawei
+    email: zjbc123@sina.com
+  - gitee_id: guoqi1024
+    name: guoqi
+    organization: Huawei
+    email: guoqi5@huawei.com
+  - gitee_id: liuchongming74
+    name: liuchongming
+    organization: Huawei
+    email: liuchongming1@huawei.com
+  - gitee_id: tronzhang
+    name: zhangzhaochuang
+    organization: Huawei
+    email: zhangzhaochuang@huawei.com
   contributors:
   - gitee_id: shazi4399
     name: Mr. Zhang
     organization: Beijing University of Posts and Telecommunications
     email: NA
+  - gitee_id: siriushsh
+    name: husihang
+    organization: Huawei
+    email: siriushsh@foxmail.com
+  - gitee_id: ZhibinHan
+    name: hanzhibin
+    organization: Huawei
+    email: hanzhibin1@huawei.com
+  - gitee_id: chenyijie6
+    name: chenyijie
+    organization: Huawei
+    email: chenyijie6@huawei.com

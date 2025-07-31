@@ -2,7 +2,7 @@
 
 MindSpore Trusted AI SIG包含以下两个职责：
 
-1. **MindSpore社区安全委员会**：MindSpore安全委员会（SC）负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
+1. **MindSpore社区安全委员会**：MindSpore安全委员会负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
 
 2. **Trusted AI**：聚焦于人工智能领域的模型、数据可信技术，致力于打造安全可靠的AI计算框架。
 
@@ -39,6 +39,7 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 
 负责Trusted AI日常活动的运作、制定Trusted AI成员的培养计划以及开发项目管理。
 
+* [yyuse](https://gitee.com/yyuse)
 * [Ze Wang](https://gitee.com/randywangze)
 * [Mr. Jin](https://gitee.com/jxlang910)
 * [emmmmtang](https://gitee.com/emmmmtang)
@@ -130,7 +131,7 @@ Trusted AI的成员身份包含Contributors、Committers、Maintainers，并且�
 
 ## MindSpore安全委员会
 
-MindSpore安全委员会（SC）负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
+MindSpore安全委员会负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
 
 ### MindSpore社区安全规范
 
@@ -148,16 +149,15 @@ MindSpore安全委员会（SC）负责接受和响应MindSpore相关的安全问
 
 ### MindSpore安全委员会成员
 
-#### Maintainer列表
-
-* 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
-
 #### Committer列表
 
+* 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
 * 陈一杰[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*
 * 郭琦[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*
+* 刘崇鸣[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*
+* 张兆创[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*
+
+#### Contributor列表
+
 * 胡思航[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*
 * 韩志斌[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*
-* 刘崇鸣[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*
-* 杨渊[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*
-* 张兆创[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*

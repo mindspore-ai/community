@@ -150,16 +150,16 @@ MindSpore Security Committee receives and responds to MindSpore security issues,
 
 ### Members
 
-#### Maintainer
-
-* baochong[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
-
 #### Committer
 
+* baochong[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
 * chenyijie[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*
 * guoqi[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*
-* husihang[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*
-* hanzhibin[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*
 * liuchongming[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*
 * yangyuan[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*
 * zhangzhaochuang[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*
+
+#### Contributor
+
+* husihang[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*
+* hanzhibin[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*
