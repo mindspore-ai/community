@@ -149,6 +149,10 @@ MindSpore安全委员会负责接受和响应MindSpore相关的安全问题报�
 
 ### MindSpore安全委员会成员
 
+#### Maintainer列表
+
+* 杨渊[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*
+
 #### Committer列表
 
 * 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
