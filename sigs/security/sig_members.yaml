@@ -60,9 +60,6 @@ Committers:
 - name: chenyijie
   gitee_home: https://gitee.com/chenyijie6
   email: chenyijie6@huawei.com
-- name: yangyuan
-  gitee_home: https://gitee.com/yyuse
-  email: yangyuan24@huawei.com
 
 Maintainers:
 - name: Ze Wang
@@ -76,3 +73,7 @@ Maintainers:
 - name: emmmmtang
   gitee_home: https://gitee.com/emmmmtang
   email: 1203355251@qq.com
+
+- name: yangyuan
+  gitee_home: https://gitee.com/yyuse
+  email: yangyuan24@huawei.com

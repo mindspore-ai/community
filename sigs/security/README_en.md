@@ -150,6 +150,10 @@ MindSpore Security Committee receives and responds to MindSpore security issues,
 
 ### Members
 
+#### Maintainer
+
+* yangyuan[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*
+
 #### Committer
 
 * baochong[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
