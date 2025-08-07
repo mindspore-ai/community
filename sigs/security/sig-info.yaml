@@ -1,31 +1,9 @@
-name: Trusted AI SIG
-description: Trusted AI SIG has two respondisbilities. First, trusted ai focus on models and data trust technology in the field of artificial intelligence, including model robustness and interpretability, privacy computing, model security deployment, and so on. Our goal is to build a secure and trusted AI computing framework. Second, MindSpore Security Committee receives and responds to MindSpore security issues, provides community security guidance, reviews the safety of code, make decision of the security of the code and carries out security governance.
+name: Security & Trusted AI
+description: MindSpore Security & Trusted AI SIG包含以下两个职责：第一个是负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。第二个是聚焦于人工智能领域的模型、数据可信技术，致力于打造安全可靠的AI计算框架。
+description_en: MindSpore Security & Trusted AI SIG has two respondisbilities. First, MindSpore Security receives and responds to MindSpore security issues, provides community security guidance, reviews the safety of code, make decision of the security of the code and carries out security governance. Second, trusted ai focus on models and data trust technology in the field of artificial intelligence, including model robustness and interpretability, privacy computing, model security deployment, and so on. Our goal is to build a secure and trusted AI computing framework.
 created_on: '2019-12-31'
-mailing_list: NA
-meeting_url: https://etherpad.mindspore.cn/p/meetings-Security
-mature_level: startup
-mentors:
-- gitee_id: jxlang910
-  name: Mr. JIn
-  organization: Huawei
-  email: jinxiulang@huawei.com
-- gitee_id: emmmmtang
-  name: Mr. Tang
-  organization: Huawei
-  email: tangcong9@huawei.com
+mailing_list: dev@mindspore.cn
 maintainers:
-- gitee_id: jxlang910
-  name: Mr. JIn
-  organization: Huawei
-  email: jinxiulang@huawei.com
-- gitee_id: emmmmtang
-  name: Mr. Tang
-  organization: Huawei
-  email: tangcong9@huawei.com
-- gitee_id: Mr_GerhardtHu_Fox
-  name: Mr. Hu
-  organization: Northeast University
-  email: 780308144@qq.com
 - gitee_id: yyuse
   name: yangyuan
   organization: Huawei
@@ -34,50 +12,25 @@ repositories:
 - repo:
   - mindspore/mindarmour
   committers:
-  - gitee_id: jxlang910
-    name: Mr. JIn
+  - gitee_id: ZhibinHan
+    name: hanzhibin
     organization: Huawei
-    email: jinxiulang@huawei.com
-  - gitee_id: emmmmtang
-    name: Mr. Tang
+    email: hanzhibin1@huawei.com
+  - gitee_id: yyuse
+    name: yangyuan
     organization: Huawei
-    email: tangcong9@huawei.com
-  - gitee_id: ZhidanLiu
-    name: Miss Liu
-    organization: Huawei
-    email: liuzhidan5@huawei.com
-  - gitee_id: pkuliuliu
-    name: Mr. Liu
-    organization: Huawei
-    email: NA
-  contributors:
-  - gitee_id: liu_luobin
-    name: Mr. Liu
-    organization: Huawei
-    email: NA
-  - gitee_id: limingjun1
-    name: Mr. Li
-    organization: Zhejiang University of Technology
-    email: NA
-  - gitee_id: hu2175
-    name: Rice Zhang
-    organization: Zhejiang University
-    email: 8623924@qq.com
-  - gitee_id: qmckw
-    name: Kewei
-    organization: Huazhong University of Science and Technology
-    email: 2512235663@qq.com
+    email: yangyuan24@huawei.com
 - repo:
   - mindspore/mindspore
   committers:
-  - gitee_id: jxlang910
-    name: Mr. JIn
-    organization: Huawei
-    email: jinxiulang@huawei.com
   - gitee_id: baochong
     name: baochong
     organization: Huawei
     email: zjbc123@sina.com
+  - gitee_id: chenyijie6
+    name: chenyijie
+    organization: Huawei
+    email: chenyijie6@huawei.com
   - gitee_id: guoqi1024
     name: guoqi
     organization: Huawei
@@ -90,20 +43,28 @@ repositories:
     name: zhangzhaochuang
     organization: Huawei
     email: zhangzhaochuang@huawei.com
-  contributors:
-  - gitee_id: shazi4399
-    name: Mr. Zhang
-    organization: Beijing University of Posts and Telecommunications
+  - gitee_id: limingjun1
+    name: Mr. Li
+    organization: Zhejiang University of Technology
     email: NA
+  - gitee_id: hu2175
+    name: Rice Zhang
+    organization: Zhejiang University
+    email: 8623924@qq.com
+  - gitee_id: qmckw
+    name: Kewei
+    organization: Huazhong University of Science and Technology
+    email: 2512235663@qq.com
+  - gitee_id: Mr_GerhardtHu_Fox
+    name: Mr. Hu
+    organization: Northeast University
+    email: 780308144@qq.com
+  contributors:
   - gitee_id: siriushsh
     name: husihang
     organization: Huawei
     email: siriushsh@foxmail.com
-  - gitee_id: ZhibinHan
-    name: hanzhibin
-    organization: Huawei
-    email: hanzhibin1@huawei.com
-  - gitee_id: chenyijie6
-    name: chenyijie
-    organization: Huawei
-    email: chenyijie6@huawei.com
+  - gitee_id: shazi4399
+    name: Mr. Zhang
+    organization: Beijing University of Posts and Telecommunications
+    email: NA

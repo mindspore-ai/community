@@ -1,12 +1,21 @@
 ## SIG简介
 
-MindSpore Trusted AI SIG包含以下两个职责：
+MindSpore Security & Trusted AI SIG包含以下两个方向：
 
-1. **MindSpore社区安全委员会**：MindSpore安全委员会负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
+1. **MindSpore Security**：MindSpore Security负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
 
 2. **Trusted AI**：聚焦于人工智能领域的模型、数据可信技术，致力于打造安全可靠的AI计算框架。
 
-## Trusted AI
+## MindSpore Security & Trusted AI SIG职责
+
+### MindSpore Security
+
+* 协助漏洞修复：及时响应修复已知漏洞。帮助用户系统在成为攻击受害者之前进行漏洞修复，包括提供相关漏洞检测和修复工具。
+* 响应安全问题：响应上报的安全问题。用户通过[MindSpore安全中心](https://www.mindspore.cn/security)中的安全流程上报安全问题，SIG积极响应上报的安全问题，跟踪安全问题的处理进展，并遵循安全问题披露策略对安全问题在社区内进行披露和公告。
+* 安全编码规则：普及安全编码知识是安全团队的目标。安全团队会努力创建文档（[c++编码规范](https://gitee.com/mindspore/community/blob/master/security/coding_guild_cpp_zh_cn.md)和[python编码规范](https://gitee.com/mindspore/community/blob/master/security/coding_guild_python_zh_cn.md)）或开发工具来帮助开发团队避免软件开发过程中的常见陷阱。安全团队还会尝试回答在开发和使用过程中遇到的任何问题。
+* 参与代码审核：安全团队希望能够通过代码审核帮助团队提前发现代码中的漏洞。
+
+### Trusted AI
 
 Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于打造安全可靠的AI计算框架，主要包括以下几个方向：
 
@@ -14,61 +23,54 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 2. **隐私保护**：差分隐私训练、联邦学习、数据脱敏、隐私泄露评估。
 3. **模型部署安全**：模型加密、模型混淆等技术。
 
-## Trusted AI贡献榜
-
-| 名字          | gitee_id                                                  | 社区任务积分 | 提交issue数量 | 提交PR数量 | 提交技术文章数量 | 例会分享次数 | 组织例会次数 |
-|-------------|-----------------------------------------------------------|--------|-----------|--------|----------|--------|--------|
-| H. Zhang    | [@shazi4399](https://gitee.com/shazi4399)                 | 80     | 0         | 2      | 1        | 1      | 0      |
-| M.J. Li     | [@limingjun1](https://gitee.com/limingjun1)               | 35     | 0         | 2      | 1        | 1      | 0      |
-| Z.H. Hu     | [@Mr_GerhardtHu_Fox](https://gitee.com/Mr_GerhardtHu_Fox) | 0      | 0         | 1      | 0        | 1      | 1      |
-| Z.G.C Zhang | [@zhangzhugucheng](https://gitee.com/zhangzhugucheng)     | 0      | 0         | 4      | 0        | 1      | 0      |
-| K.W. Chen   | [@qmckw](https://gitee.com/qmckw)                         | 0      | 0         | 1      | 1        | 0      | 0      |
-| Q.H. Li     |                                                           | 0      | 0         | 0      | 1        | 0      | 0      |
-| J.Y. Wang   |                                                           | 0      | 0         | 0      | 1        | 0      | 0      |
-
-**提示：** SIG成员可以提交PR更新表格数据，提交PR时需要附上相关的依据，如PR的链接、技术文章的链接等等（如果没有，请文字说明）。
-
-**温馨提示：** 点击代码页面上的编辑按钮，可以直接在网页上提交[轻量化PR](https://gitee.com/help/articles/4291#article-header0)！
-
-## Trusted AI代码仓
+## 代码仓
 
 1. [MindArmour](https://gitee.com/mindspore/mindarmour)
-2. [联邦学习云侧](https://gitee.com/mindspore/mindspore/tree/master/mindspore/ccsrc/fl) 、[联邦学习端侧](https://gitee.com/mindspore/mindspore/tree/master/mindspore/lite/java/java/fl_client/src/main/java/com/mindspore/flclient)
+2. [MindSpore社区](https://gitee.com/mindspore)
 
-## Trusted AI负责人
+## SIG成员
 
-负责Trusted AI日常活动的运作、制定Trusted AI成员的培养计划以及开发项目管理。
+### Maintainer
 
-* [yyuse](https://gitee.com/yyuse)
-* [Ze Wang](https://gitee.com/randywangze)
-* [Mr. Jin](https://gitee.com/jxlang910)
-* [emmmmtang](https://gitee.com/emmmmtang)
+* 杨渊[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*，Trusted AI & MindSpore Security
 
-## 2022年目标
+### Committer
 
-１，在隐私保护、模型安全、鲁棒性提升等技术领域增加至少５个新特性；
+* 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*，MindSpore Security
+* 陈一杰[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*，MindSpore Security
+* 郭琦[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*，MindSpore Security
+* 韩志斌[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*，MindSpore Security
+* Kewei[@qmckw](https://gitee.com/qmckw), *2512235663@qq.com*，Trusted AI
+* 刘崇鸣[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*，MindSpore Security
+* Mr. Hu[@Mr_GerhardtHu_Fox](https://gitee.com/Mr_GerhardtHu_Fox), *780308144@qq.com*，Trusted AI
+* Mr. Li[@limingjun1](https://gitee.com/limingjun1), *NA*，Trusted AI
+* Rice Zhang[@hu2175](https://gitee.com/hu2175), *8623924@qq.com*，Trusted AI
+* 张兆创[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*，MindSpore Security
 
-２，培养至少5名SIG Committers。
+### Contributor
+
+* 胡思航[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*，MindSpore Security
+* Mr. Zhang[@shazi4399](https://gitee.com/shazi4399), *NA*，Trusted AI
 
 ## SIG的主要活动
 
-### １，线上技术分享
+### １，线上技术讨论
 
-时间：不定期，1-2月一次，可以在“近期活动预告”中查看
+主要内容：MindSpore安全流程讨论，AI安全技术分享讨论等
 
-主要内容：MindSpore特性讲解、技术综述、论文分享等
+负责人：Maintainers、Committers轮流组织
 
-分享人：SIG内部成员、业界专家教授等
+### 2，会议时间(双周例会)
 
-### ２，技术调研
+时间：每双周二上午9:30~10:30，通过视频会议召开。
 
-时间：每季度一次
+例会内容：议题收集后根据议题进行讨论，如安全编码评审、论文分享、技术调研等
 
-主要内容：发布待调研的论文，SIG成员领取，并在例会上分享
+例会记录：https://etherpad.mindspore.cn/p/meetings-Trusted_AI
 
-负责人：Maintainers、Committers负责收集论文列表。
+负责人：Maintainers、Committers轮流组织
 
-### ３，开发任务发放
+### 3，开发任务发放
 
 [开源实习任务](https://gitee.com/mindspore/community/issues/I557F6)
 
@@ -76,49 +78,13 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 
 负责人：Maintainers、Committers
 
-## ４，周例会(双周例会)
-
-时间：SIG微信群内通知
-
-例会内容：①对齐SIG成员领取的开发任务进展；②SIG成员论文分享；③技术赋能
-
-例会记录：https://etherpad.mindspore.cn/p/meetings-Trusted_AI
-
-负责人：Maintainers、Committers轮流组织
-
-### ５，晋升选拔
+### 4，晋升选拔
 
 时间：半年一次
 
 内容：选拔Committers、Maintainers
 
 负责人：Maintainers
-
-## 成员说明
-
-Trusted AI的成员身份包含Contributors、Committers、Maintainers，并且记录在[SIG名单](./sig_members.yaml)中，各角色的描述和申请条件如下：
-
-### Contributors
-
-* Trusted AI的积极贡献者，参与SIG的日常活动、项目开发等活动，负责代码仓PR(pull requests)的review工作。
-* 申请条件：至少参加2次SIG会议/活动，且至少review过[MindSpore主仓](https://gitee.com/mindspore/mindspore/pulls) 或者[MindArmour仓](https://gitee.com/mindspore/mindarmour/pulls) 的2个PR，在PR中发表的修改评论总数为10个以上。
-
-### Committers
-
-* Trusted AI代码仓的Committer，拥有代码仓PR的合入权限。
-* 申请条件：身份为Contributors，且至少往**Trusted AI代码仓**中合入5个PR。
-
-### Maintainers
-
-* Trusted AI运作的负责人，负责整个Trusted AI的技术研究方向和活动组织。
-* 申请条件：身份为Committers，通过Maintainers资格评审。
-
-### 申请方式
-
-1. Fork [Community仓库](https://gitee.com/mindspore/community) 。
-2. 提交PR，把自己的Gitee主页链接、名字（不要求真名）、注册Gitee的邮箱以及兴趣方向加到[sig_members](./sig_members.yaml)中，PR的描述中需要附加申请的证明，例如评论过的PR、提交合入过的PR等等。提交PR之后，Maintainers会进行审核。
-
-## 近期活动预告
 
 ## 往期会议
 
@@ -129,39 +95,26 @@ Trusted AI的成员身份包含Contributors、Committers、Maintainers，并且�
 * [Saturday August 08, 2020](./meetings/003-20200808.md)
 * [Friday September 04, 2020](./meetings/004-20200904.md)
 
-## MindSpore安全委员会
+## 成员说明
 
-MindSpore安全委员会负责接受和响应MindSpore相关的安全问题报告、提供社区安全编码以及规范的指导、进行社区安全编码的评审，制定和决策，开展社区安全治理。
+MindSpore Security & Trusted AI SIG的成员身份包含Contributors、Committers、Maintainers，并且记录在[SIG名单](./sig_info.yaml)中，各角色的描述和申请条件如下（详细可以查阅官网[角色说明](https://www.mindspore.cn/sig/role-description)）：
 
-### MindSpore社区安全规范
+### Contributors
 
-* 漏洞上报方式请进入[MindSpore安全中心](https://www.mindspore.cn/security)查看具体安全上报流程。
-* 安全编码规范请查看[c++编码规范](https://gitee.com/mindspore/community/blob/master/security/coding_guild_cpp_zh_cn.md)和[python编码规范](https://gitee.com/mindspore/community/blob/master/security/coding_guild_python_zh_cn.md)。
-* MindSpore安全设计请查看[安全设计](https://gitee.com/mindspore/community/blob/master/security/security_design_guild_zh_cn.md)页面。
+* 职责：响应被分配的问题和PR，可以分配问题或PR。
+* 申请条件：Gitee上的注册会员，为SIG或社区做出多方面贡献，熟悉贡献流程，积极参与1个或多个SIG。
 
-### 行为规范
+### Committers
 
-* 接受[MindSpore行为规范](https://gitee.com/mindspore/community/blob/master/code-of-conduct_zh_cn.md)的约束。
+* 职责：评审PR，分发处理问题，跟踪依赖性问题。
+* 申请条件：作为Contributor至少3个月，作为主要审阅者至少参与了6次PR的审阅，审阅或者合并至少20个基本PR到代码库，熟悉代码库。可以自我提名，或由该SIG的审核者或维护者提名。
 
-### 会议时间
+### Maintainers
 
-* 每双周二上午9:30~10:30，通过视频会议召开。
+* 职责：负责SIG的总体规划与策略制定，把握SIG发展方向、审核重点工作方案
+* 申请条件：作为Committer至少3个月，作为主要审阅者至少参与了12次PR的审阅，审阅或合并至少30个基本PR到代码库，熟悉代码库。可以自我提名，也可以由子项目Maintainer提名，并且没有其他子项目Maintainer的反对。
 
-### MindSpore安全委员会成员
+### 申请方式
 
-#### Maintainer列表
-
-* 杨渊[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*
-
-#### Committer列表
-
-* 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*
-* 陈一杰[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*
-* 郭琦[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*
-* 刘崇鸣[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*
-* 张兆创[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*
-
-#### Contributor列表
-
-* 胡思航[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*
-* 韩志斌[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*
+1. Fork [Community仓库](https://gitee.com/mindspore/community) 。
+2. 提交PR，把自己的Gitee主页链接、名字（不要求真名）、注册Gitee的邮箱以及兴趣方向加到[SIG名单](./sig_info.yaml)中，PR的描述中需要附加申请的证明，例如评论过的PR、提交合入过的PR等等。提交PR之后，Maintainers会进行审核。
