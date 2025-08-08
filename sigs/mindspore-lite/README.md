@@ -39,8 +39,8 @@ MindSpore Lite分为离线模块和在线模块两个部分，其框架的总体
 
 ## MindSpore Lite相关代码仓
 
-1. [MindSpore Lite代码仓](https://gitee.com/mindspore/mindspore/tree/master/mindspore/lite)
-2. [MindSpore Lite SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/mindspore_lite)
+1. [MindSpore Lite代码仓](https://gitee.com/mindspore/mindspore-lite)
+2. [MindSpore Lite SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/mindspore-lite)
 
 ## Maintainers
 
