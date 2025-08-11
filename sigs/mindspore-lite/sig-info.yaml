@@ -17,9 +17,7 @@ maintainers:
   email: zhuguodong8@huawei.com
 repositories:
 - repo:
-  - mindspore/mindspore
-  - directories:
-    - mindspore/mindspore/lite 
+  - mindspore/mindspore-lite 
   repo_admin:
   - gitee_id: ljl0711
     name: Lu jiale
