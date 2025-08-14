@@ -20,6 +20,22 @@ repositories:
     name: yangyuan
     organization: Huawei
     email: yangyuan24@huawei.com
+  - gitee_id: limingjun1
+    name: Mr. Li
+    organization: Zhejiang University of Technology
+    email: NA
+  - gitee_id: hu2175
+    name: Rice Zhang
+    organization: Zhejiang University
+    email: 8623924@qq.com
+  - gitee_id: qmckw
+    name: Kewei
+    organization: Huazhong University of Science and Technology
+    email: 2512235663@qq.com
+  - gitee_id: Mr_GerhardtHu_Fox
+    name: Mr. Hu
+    organization: Northeast University
+    email: 780308144@qq.com
 - repo:
   - mindspore/mindspore
   committers:
@@ -43,22 +59,6 @@ repositories:
     name: zhangzhaochuang
     organization: Huawei
     email: zhangzhaochuang@huawei.com
-  - gitee_id: limingjun1
-    name: Mr. Li
-    organization: Zhejiang University of Technology
-    email: NA
-  - gitee_id: hu2175
-    name: Rice Zhang
-    organization: Zhejiang University
-    email: 8623924@qq.com
-  - gitee_id: qmckw
-    name: Kewei
-    organization: Huazhong University of Science and Technology
-    email: 2512235663@qq.com
-  - gitee_id: Mr_GerhardtHu_Fox
-    name: Mr. Hu
-    organization: Northeast University
-    email: 780308144@qq.com
   contributors:
   - gitee_id: siriushsh
     name: husihang
