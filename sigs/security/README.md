@@ -39,7 +39,7 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 * 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*，MindSpore Security
 * 陈一杰[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*，MindSpore Security
 * 郭琦[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*，MindSpore Security
-* 韩志斌[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*，MindSpore Security
+* 韩志斌[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*，MindSpore Security，Trusted AI
 * Kewei[@qmckw](https://gitee.com/qmckw), *2512235663@qq.com*，Trusted AI
 * 刘崇鸣[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*，MindSpore Security
 * Mr. Hu[@Mr_GerhardtHu_Fox](https://gitee.com/Mr_GerhardtHu_Fox), *780308144@qq.com*，Trusted AI
