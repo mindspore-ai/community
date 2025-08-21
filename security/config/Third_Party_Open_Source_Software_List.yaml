@@ -1213,7 +1213,7 @@ mindformers:
       schName: numpy
     datasets:
       cpeName: datasets
-      version: "2.18.0"
+      version: ">= 4.0.0"
       language: Python
       license: Apache License V2.0
       url: https://github.com/huggingface/datasets
