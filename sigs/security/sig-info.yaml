@@ -16,10 +16,6 @@ repositories:
     name: hanzhibin
     organization: Huawei
     email: hanzhibin1@huawei.com
-  - gitee_id: yyuse
-    name: yangyuan
-    organization: Huawei
-    email: yangyuan24@huawei.com
   - gitee_id: limingjun1
     name: Mr. Li
     organization: Zhejiang University of Technology
