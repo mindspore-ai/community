@@ -1,58 +1,124 @@
-# 昇思MindSpore AKG SIG
+## SIG 简介
 
-MindSpore社区成立SIG的初衷是为该领域的专家、教授和学生提供一个开放交流的平台，通过会议分享、项目开发等活动促进技术交流、合作共赢，并使得SIG成员的影响力和技术能力得到提升。
-昇思MindSpore社区欢迎业界专家、学术伙伴在社区成立特别兴趣小组（SIG），作为社区领域技术代言人，打造领域技术品牌，共建昇思MindSpore开源生态。
+AKG 是 Auto Kernel Generator 的简称，在昇思 MindSpore 框架中担任图算融合编译加速的任务。AKG 基于 polyhedral 多面体编译技术，可自动生成满足并行性与数据局部性的调度，目前能够支持 NPU/GPU/CPU 等硬件。AKG 自 2020 年开源以来不断发展，当前 AKG 正在基于 MLIR 进行重构，打造新一代算子编译工具。
 
-## 简介
+与此同时，随着 AI 模型的快速迭代和 AI 软硬件不断演进，AI 产业对高质量算子需求愈发强烈。因此我们进行了基于大模型实现算子生成技术的探索，打造全新算子生成工具 AIKG(Auto Kernel Generator)。AIKG 作为 AKG 的子项目，是一款 AI 驱动的算子代码生成工具，利于大语言模型的代码生成能力，通过 LLM 规划和控制多 Agent 协同，完成多后端、多类型的 AI 算子生成和优化。
 
-MindSpore AKG SIG专注于利用MindSpore AKG在图计算融合编译领域的技术积累，持续完善软件功能，拓展社区生态，为科研人员、教师、学生以及对此领域有深厚兴趣和强大影响力的人们提供一个高效易用的图计算融合编译器，同时提供一个共同交流合作的平台。
+AKG SIG 将持续专注 MindSpore AKG 在算子编译和算子生成领域的技术积累，持续完善软件功能，拓展社区生态，为科研人员、教师、学生以及对此领域有深厚兴趣和强大影响力的人们提供一个高效易用的图计算融合编译器，同时提供一个共同交流合作的平台。
 
-## 使命
+## 目标
 
-持续引入业界先进的算子编译技术，帮助MindSpore AKG进行功能迭代，打造业界领先的算子编译器。
+1. **聚焦代码生成技术方向，推动关键技术演进**
 
-## 工作计划
+   聚焦代码生成技术领域（包括传统的 AI 编译器及基于大模型的代码自动生成等），持续跟踪前沿技术并组织实现落地。
 
-主要围绕成员学术交流活动，为MindSpore AKG的演进和功能完善提供参考。
+   形成高质量的技术方案、设计文档与可复用模块。
 
-### 活动组织
+2. **建设可持续的开源生态**
 
-每年小组都会组织一场大型活动和数场小型活动，包括每个季度固定的校园行活动和每年固定的大型暑期学校活动，邀请组内的核心专家老师准备多个主题进行多天的授课。小组老师将带领成员进行科技调研以及代码仓功能扩展、bug修复等工作。成员也可以自由使用MindSpore AKG软件进行自己的课题研究和开发。
+   基于 AKG（包括 AIKG）完成开源生态算子的优化和生成，与社区上游生态对接，提升可用性与兼容性。
 
-### 开源实习
+   通过标准化接口与组件，支持算子优化和算子生成能力的多场景适配。
 
-小组将在社区内发布开源实习任务和众智任务，供学生和老师认领。当前我们安排的任务包括：
+3. **推动贡献者协作与社区成长**
 
-1. **MindSpore AKG算子支持**  
-   对于新算子提供基于循环和数学表达式的表达，对于融合算子提供以已有算子拼接的展开表达。
+   制定并维护开发、测试、评审、发布等贡献流程。
 
-2. **MindSpore AKG后端支持迭代**  
-   随着包括MLIR社区版本的迭代和硬件的更新，我们计划对后端代码生成能力进行持续更新，并随着更多AI芯片的涌现，添加更多后端的代码生成能力。
+   定期组织开发活动（如 Code Review、Feature Hackathon、线上讨论会）。
 
-## 构成
+   帮助新贡献者快速上手，培养活跃的贡献群体和核心维护者。
 
-### 小组领衔成员
+4. **保障贡献代码质量与可用性**
 
-- 赵捷，湖南大学信息科学与工程学院教授,华为MindSpore社区技术专家委员会委员。
+   输出稳定的里程碑版本和关键能力（如算子调度算法、代码生成 Agent 开发等）。
 
-### 小组成员
+   制定持续集成、性能验证等标准，保证贡献代码质量可靠。
 
-- Renwei Zhang（@anyrenwei），SIG发起人，昇思MindSpore技术专家
-- Zichun Ye （@zichun_ye），SIG Lead与组织者，昇思MindSpore高级工程师
-- 赵捷（@yaozhujia），SIG组织者与运营顾问，AI编译器资深专家
-- Leo（@zhanghanLeo），昇思MindSpore工程师
-- Xinkai（@di-xinkai），昇思MindSpore工程师
-- gent1e（@gent1ezzz），昇思MindSpore工程师
-- pudding，香港科技大学，AI编译器专家
-- 蛋、，华南理工大学，AI编译器开发者
+5. **推动成果落地与场景化应用**
 
-## 会议记录
+   将 SIG 成果应用到实际业务、行业或科研任务中，形成示范案例。
 
-会议记录和提案将定期在此仓库中记录和更新。
+   汇集反馈，持续改进 SIG 的方案和工具。
 
-## 代码仓库
+## 开发方向
 
-- 主AKG代码仓：https://gitee.com/mindspore/akg
-- SIG仓库：https://gitee.com/mindspore/community/tree/master/sigs/akg
+### 1. 关键功能与模块开发
 
-ms.set_context(enable_graph_kernel=True, graph_kernel_flags="--kernel_generator=AKG_V2 --disable_cluster_ops=Cast --enable_expand_ops_ops= BiasAdd ,iasAddGrad, FillV2,FastGelu,FastGeluGrad,FastGeLU,FastGeLUGrad ,SiLU,SiLUGrad, RsqrtGrad,Sigmoid,igmoidGrad,SigmoidCrossEntropyWithLogits,SigmoidCrossEntropyWithLogitsGrad,SquaredDifference,TanhGrad,OnesLike,ZerosLike,ReduceMean,LogSoftmaxGrad,ReLU,ReluGrad, AdamApplyOneWithDecay")
+- 负责 AKG 包括 AIKG 项目核心功能模块的设计、开发与优化。
+- 编写高质量、可复用、可扩展的组件。
+
+### 2. 算子生成与生态集成
+
+- 基于生态需求基于 AKG 包括 AIKG 对于相关算子进行优化或者重生成。
+- 将 AKG 包括 AIKG 对接开源生态框架（vLLM, SGLang 等）。
+
+### 3. 测试、验证与标准化
+
+- 编写并维护单元测试、集成测试、性能测试、精度验证脚本。
+- 制定配置、输出结果的一致性和可复现性标准。
+- 输出可自动化的 CI/CD 流程。
+
+### 4. 文档与示例
+
+- 编写用户文档、开发者手册、API 参考和快速上手教程。
+- 提供可执行示例、Notebook、参考配置。
+- 持续完善 FAQ 和使用指南。
+
+**上述开发方向欢迎感兴趣的开发者参与贡献！**
+
+## 主要活动
+
+主要围绕成员学术交流活动，为 MindSpore AKG 的演进和功能完善提供参考。
+
+### 1. 技术研讨与设计评审
+
+- 组织专题技术分享（如某个 PR 的设计细节、模型训练优化方案）。
+- 开展 RFC（Request for Comments）讨论，对重大设计或功能进行社区评审。
+
+### 2. Issue 跟进与 PR 评审
+
+- 定期梳理 Issue / Pull Request。
+- 组织 Maintainer 和 Committer 团队进行 PR Review。
+- 对外公开 Review 记录和决议，保持透明。
+
+### 3. 社区沟通与对外分享
+
+- 维护讨论渠道（如 Gitee Issue、邮件列表、微信群、社区论坛等）。
+- 不定期举办社区 Meetup、分享会，分享 SIG 进展与行业、科研成功经验。
+
+### 4. 活动组织
+
+每年小组都会组织一场大型活动和数场小型活动，包括每个季度固定的校园行活动和每年固定的大型暑期学校活动，邀请组内的核心专家老师准备多个主题进行多天的授课。小组老师将带领成员进行科技调研以及代码仓功能扩展、bug 修复等工作。成员也可以自由使用 MindSpore AKG 软件进行自己的课题研究和开发。
+
+## SIG 组织管理
+
+### Maintainers
+
+- Zhang, Renwei （AKG 项目负责人，SIG 负责人）
+- Ye, Zichun （AKG 项目架构师）
+- Liu, Chao (AKG 项目负责人)
+
+### Committers
+
+- Zheng, Zuohe (AKG 项目核心开发者，负责 AKG 新一代架构适配)
+- Yi, Yanzhi (AIKG 子项目负责人，负责 AIKG 子项目整体架构设计)
+- Hu, Jiahui (AKG 项目核心开发者，负责 AI 算子编译优化)
+- Du, Jinye (AIKG 子项目核心开发者，负责 AIKG 代码生成优化功能开发)
+
+### 成员身份说明
+
+SIG 的成员身份包括 Contributor、Committer、Maintainer，各角色的描述如下：
+
+#### Contributor （贡献者）
+
+- 职责范围：SIG 组及 MindSpore AKG 项目的重要贡献者，代码仓库问题的主要修复者和代码开发者。
+
+#### Committer （审核者）
+
+- 职责范围：SIG 组部分仓库的看护者，是这部分仓库的第一责任人，审核其他成员的贡献。
+- 要求：经验丰富，富有责任心、出色的技术能力和管理能力。从 Contributors 中选拔，有持续稳定的代码贡献。
+
+#### Maintainer （维护者）
+
+- 职责范围：SIG 组组长、牵引者、规划者，需做好 SIG 组的发展和演进，同时也是 MindSpore AKG 项目 Owner，清楚项目的 Roadmap 版本规划、开发计划，对项目进行管理。
+- 要求：经验丰富，富有责任心、出色的技术能力和管理能力。从 Committers 中选拔。
