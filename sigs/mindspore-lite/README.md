@@ -1,6 +1,6 @@
 ## SIG简介
 
-MindSpore Lite小组（MindSpore Lite Sig）专注于端侧AI的部署优化，该小组由华为MindSpore核心开发团队、学术专家及社区开发者共同组成，致力于构建极速、极智、极简的端侧AI引擎，使能全场景智能应用，帮助用户使能AI能力。
+MindSpore Lite面向多种硬件后端设备（昇腾、麒麟等）提供轻量化AI推理加速能力，使能智能应用，为开发者提供端到端的解决方案，为算法工程师和数据科学家提供开发友好、运行高效、部署灵活的体验。
 MindSpore Lite聚焦AI技术在端侧设备上的部署和运行，已经在华为HMS和智能终端的图像分类、目标识别、人脸识别、文字识别等应用中广泛使用，未来MindSpore Lite将与MindSpore AI社区一起，致力于丰富AI软硬件应用生态。MindSpore Lite的优势：
 
 1. **极致性能**
@@ -42,20 +42,23 @@ MindSpore Lite分为离线模块和在线模块两个部分，其框架的总体
 1. [MindSpore Lite代码仓](https://gitee.com/mindspore/mindspore-lite)
 2. [MindSpore Lite SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/mindspore-lite)
 
+## 工作例会
+
+- 例会时间：每双周一次，北京时间周二16:00-17:00。
+- 会议主题：以打造高性能、便捷部署的AI推理引擎为目标，结合内外部关键需求，制定MindSpore Lite迭代版本需求规划，串讲关键需求设计，同步开发进展，发布实习任务等活动。
+
 ## Maintainers
 
-- 卢家乐（MindSpore Lite社区责任人，负责社区运营、宣传推广、优秀开发者和布道师发展等）
-- 朱国栋（MindSpore Lite资深工程师，社区运营接口人，负责社区运营，、宣传推广、优秀开发者和布道师发展等）
-- 张琦（MindSpore Lite资深工程师，负责MindSpore Lite框架特性设计、开发和需求收集等）
-- 蒋辉（MindSpore Lite资深工程师，负责MindSpore Lite框架特性设计、开发和需求收集等）
+- 姜建飞（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
+- 朱国栋（MindSpore Lite资深工程师，社区运营接口人，负责社区运营、宣传推广、优秀开发者和布道师发展等）
+- 叶锋（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
+- 徐安越（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
 
 ## Committers
 
-- 姜建飞（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
-- 朱国栋（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
-- 叶锋（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
-- 徐安越（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
-- 陈建平（MindSpore Lite资深工程师，负责MindSpore Lite框架需求讨论、特性设计、代码评审等）
+- 蒋辉（MindSpore Lite资深工程师，负责MindSpore Lite框架特性设计、开发和需求收集等）
+- 卢家乐（MindSpore Lite社区责任人，负责社区运营、宣传推广、优秀开发者和布道师发展等）
+- 张琦（MindSpore Lite资深工程师，负责MindSpore Lite框架特性设计、开发和需求收集等）
 
 ## Contributors
 
