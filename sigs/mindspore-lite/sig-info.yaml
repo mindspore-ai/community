@@ -1,52 +1,46 @@
 name: MindSpore Lite
-description: 'MindSpore Lite小组（MindSpore Lite SIG）专注于端侧AI的部署优化。该小组由华为MindSpore核心开发团队、学术界专家及社区开发者共同组成，致力于构建极速、极智、极简的端侧AI引擎，使能全场景智能应用，帮助用户使能AI能力。'
-description_en: 'The MindSpore Lite SIG focuses on optimizing on-device AI deployment. This SIG is composed of Huawei MindSpore core development team, academic experts, and community developers. It is dedicated to building a fast, intelligent, and simple AI engine on the device, enabling all-scenario intelligent applications, and helping users enable AI capabilities.'
+description: 'MindSpore Lite面向多种硬件后端设备（昇腾、麒麟等）提供轻量化AI推理加速能力，使能智能应用，为开发者提供端到端的解决方案，为算法工程师和数据科学家提供开发友好、运行高效、部署灵活的体验。'
+description_en: 'MindSpore Lite provides lightweight AI inference acceleration capabilities for a variety of hardware backend devices (Ascend, Kirin, etc.), enabling intelligent applications, providing developers with end-to-end solutions, and offering algorithm engineers and data scientists a development-friendly, efficient, and flexible deployment experience.'
 mailing_list: dev@mindspore.cn
 maintainers:
-- gitee_id: ljl0711
-  name: Lu jiale
-  email: lujiale@huawei.com
-- gitee_id: zgstar
-  name: Zhang Qi
-  email: zhangqi92@huawei.com
-- gitee_id: jianghui58
-  name: Jiang Hui
-  email: jianghui58@huawei.com
+- gitee_id: jjfeing
+  name: Jiang Jianfei
+  email: jiangjianfei3@huawei.com
 - gitee_id: fatmouse007fatmouse007
   name: Zhu Guodong
   email: zhuguodong8@huawei.com
+- gitee_id: YeFeng_24
+  name: Ye Feng
+  email: yefeng24@huawei.com
+- gitee_id: xu_anyue
+  name: Xu Anyue
+  email: xuanyue@huawei.com  
 repositories:
 - repo:
   - mindspore/mindspore-lite 
   repo_admin:
-  - gitee_id: ljl0711
-    name: Lu jiale
-    email: lujiale@huawei.com
-  - gitee_id: zgstar
-    name: Zhang Qi
-    email: zhangqi92@huawei.com
-  - gitee_id: jianghui58
-    name: Jiang Hui
-    email: jianghui58@huawei.com
-  - gitee_id: fatmouse007fatmouse007
-    name: Zhu Guodong
-    email: zhuguodong8@huawei.com
-  committers:
-  - gitee_id: fatmouse007fatmouse007
-    name: Zhu Guodong
-    email: zhuguodong8@huawei.com
   - gitee_id: jjfeing
     name: Jiang Jianfei
     email: jiangjianfei3@huawei.com
+  - gitee_id: fatmouse007fatmouse007
+    name: Zhu Guodong
+    email: zhuguodong8@huawei.com
   - gitee_id: YeFeng_24
     name: Ye Feng
     email: yefeng24@huawei.com
   - gitee_id: xu_anyue
     name: Xu Anyue
     email: xuanyue@huawei.com
-  - gitee_id: jpc_chenjianping
-    name: Chen Jianping
-    email: jpc.chen@huawei.com
+  committers:
+  - gitee_id: jianghui58
+    name: Jiang Hui
+    email: jianghui58@huawei.com
+  - gitee_id: ljl0711
+    name: Lu jiale
+    email: lujiale@huawei.com
+  - gitee_id: zgstar
+    name: Zhang Qi
+    email: zhangqi92@huawei.com
   contributors:
   - gitee_id: yangyingchun1999
     name: Yang Yingchun
@@ -62,7 +56,7 @@ repositories:
     email: chengfeng27@huawei.com
 branches:
 - repo_branch:
-  - repo: mindspore/mindspore
+  - repo: mindspore/mindspore-lite
     branch: master
   keeper:
   - gitee_id: ljl0711
