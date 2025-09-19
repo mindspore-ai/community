@@ -971,6 +971,15 @@ vllm-mindspore:
         handler: dengyepeng
         milestone: B-SIG-InferNetwork
         schName: ray
+    transformers:
+        cpeName: transformers
+        version: 4.51.3
+        language: Python
+        license: Apache License V2.0
+        url: https://huggingface.co/docs/transformers
+        handler: dengyepeng
+        milestone: B-SIG-InferNetwork
+        schName: transformers
 
 golden-stick:
     numpy:
