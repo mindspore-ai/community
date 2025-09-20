@@ -1294,7 +1294,7 @@ mindformers:
       schName: pybind11
     transformers:
       cpeName: transformers
-      version: "4.51.3"
+      version: "4.53.0"
       language: Python
       license: Apache License V2.0
       url: https://huggingface.co/docs/transformers
