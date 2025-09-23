@@ -1421,49 +1421,22 @@ others:
         milestone: B-SIG-Kit
         schName: pycocotools
 mindspore-lite:
-    packaging:
-        cpeName: packaging
-        version: 20.0
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/pypa/packaging
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: packaging
-    onednn:
-        cpeName: Onednn
-        version: 2.2
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/oneapi-src/oneDNN
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: mkl_dnn
     flatbuffers:
         cpeName: flatbuffers
         version: 2.0.0
         language: C/C++
         license: Apache License V2.0
         url: https://google.github.io/flatbuffers/
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: flatbuffers
-    sentencepiece:
-        cpeName: sentencepiece
-        version: 0.1.92
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/google/sentencepiece
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: sentencepiece
     Eigen:
         cpeName: Eigen
         version: 3.4.0
         language: C/C++
         license: Mozilla Public License (MPL) V2.0
         url: http://eigen.tuxfamily.org/index.php?title=Main_Page
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: eigen
     glog:
@@ -1490,7 +1463,7 @@ mindspore-lite:
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/opencv/opencv
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencv
     opencv-python:
@@ -1499,7 +1472,7 @@ mindspore-lite:
         language: Python
         license: MIT License
         url: https://github.com/skvark/opencv-python
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencv-python
     robin_hood_hashing:
@@ -1511,33 +1484,6 @@ mindspore-lite:
         handler: YeFeng_24
         milestone: B-SIG-InnerDelivery
         schName: robin
-    dirent:
-        cpeName: dirent
-        version: 1.23.2
-        language: C/C++
-        license: MIT License
-        url: https://github.com/tronkko/dirent
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: dirent
-    fast_transformer:
-        cpeName: fast_transformer
-        version: 0.5.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/NVIDIA/FasterTransformer
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: fast_transformers
-    abseil-cpp:
-        cpeName: abseil-cpp
-        version: 20210324.2
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/abseil/abseil-cpp
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: absl
     JSON for Modern C++:
         cpeName: JSON for Modern C++
         version: 3.10.1
@@ -1556,15 +1502,6 @@ mindspore-lite:
         handler: YeFeng_24
         milestone: B-SIG-InnerDelivery
         schName: pybind11
-    tinyxml2:
-        cpeName: tinyxml2
-        version: 8.0.0
-        language: C++
-        license: zlib/libpng License
-        url: https://github.com/leethomason/tinyxml2/
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: tinyxml2
     numpy:
         cpeName: numpy
         version: ">= 1.17.0"
@@ -1574,32 +1511,13 @@ mindspore-lite:
         handler: YeFeng_24
         milestone: B-SIG-InnerDelivery
         schName: numpy
-    icu:
-        cpeName: icu
-        version: 69.1
-        language: C++
-        license: ICU License
-        url: https://github.com/unicode-org/icu/
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: icu4c
-    libevent:
-        cpeName: libevent
-        version: 2.1.12
-        language: C/C++
-        license: BSD 3-Clause License;MIT License;ISC License;BSD 2-Clause
-            License;Creative Commons Public Domain Certification
-        url: https://libevent.org/
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: libevent
     OpenCL-CLHPP:
         cpeName: OpenCL-CLHPP
         version: 2.0.12
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/KhronosGroup/OpenCL-CLHPP
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencl-clhpp
     protobuf:
@@ -1620,22 +1538,13 @@ mindspore-lite:
         handler: YeFeng_24
         milestone: B-SIG-InnerDelivery
         schName: protobuf_arm
-    sqlite:
-        cpeName: sqlite
-        version: 3.36.0
-        language: C++
-        license: Public Domain
-        url: https://github.com/sqlite/sqlite/
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: sqlite
     libjpeg-turbo:
         cpeName: libjpeg-turbo
         version: 2.0.4
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/libjpeg-turbo/libjpeg-turbo/
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: jpeg_turbo
     OpenCV:
@@ -1644,7 +1553,7 @@ mindspore-lite:
         language: C++
         license: Apache License V2.0
         url: https://github.com/opencv/opencv/
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencv
     zlib:
@@ -1653,25 +1562,16 @@ mindspore-lite:
         language: C++
         license: zlib/libpng License
         url: https://github.com/madler/zlib/
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: zlib
-    Cppjieba:
-        cpeName: Cppjieba
-        version: 5.0.3
-        language: C++
-        license: MIT License
-        url: https://github.com/yanyiwu/cppjieba/
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: cppjieba
     Khronos Group - OpenCL - Headers:
         cpeName: Khronos Group - OpenCL - Headers
         version: v2020.12.18
         language: Python
         license: Apache License V2.0
         url: https://github.com/KhronosGroup/OpenCL-Headers/
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencl-headers
     openssl:
@@ -1689,7 +1589,7 @@ mindspore-lite:
         language: python
         license: MIT License
         url: https://github.com/microsoft/onnxruntime
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: onnxruntime
     mockcpp:
@@ -1761,7 +1661,7 @@ mindspore-lite:
         language: C++
         license: Apache License
         url: https://github.com/alibaba/MNN
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: MNN
     coreml:
@@ -1770,7 +1670,7 @@ mindspore-lite:
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/apple/coremltools
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: coreml
     caffe:
