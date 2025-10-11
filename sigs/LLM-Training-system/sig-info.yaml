@@ -1,0 +1,73 @@
+name: LLM-Training-System
+description: LLM Training System SIG（Special Interest Group）是 MindSpore 开源社区下聚焦于利用分布式并行技术加速AI大模型训练的技术团队，团队致力于提升语言、多模态、全模态等大模型在分布式并行训练场景下的易用性与性能等方面的表现，提供可高效开发、灵活组合多种并行策略的并行编程范式，简化并行编程的复杂度，为开发者带来极简高效的分布式并行训练体验。
+description_en: The LLM Training System SIG (Special Interest Group) is a technical team within the MindSpore open-source community focused on accelerating AI large model training using distributed parallel technologies. The team is dedicated to enhancing the usability and performance of large models (such as language, multimodal, and omnidirectional models) in distributed parallel training scenarios. It provides a parallel programming paradigm that enables efficient development and flexible combination of various parallel strategies, simplifies the complexity of parallel programming, and offers developers an extremely simple and efficient distributed parallel training experience.
+created_on: '2025-10-11'
+mailing_list: TO_BE_CLARIFIED
+meeting_url: TO_BE_CLARIFIED
+mature_level: startup
+mentors:
+- gitee_id: NA
+  name: Li Cheng
+  organization: University of Science and Technology of China
+  email: chengli7@ustc.edu.cn
+maintainers:
+- gitee_id: stsuteng
+  name: Su Teng
+  organization: HUAWEI
+  email: suteng@huawei.com
+- gitee_id: yangzhenzhang
+  name: Yang Zhenzhang
+  organization: HUAWEI
+  email: yangzhenzhang@huawei.com
+- gitee_id: kisnwang
+  name: Wang Kaisheng
+  organization: HUAWEI
+  email: wangkaisheng2@huawei.com
+- gitee_id: yao_yf
+  name: Yao Yifan
+  organization: HUAWEI
+  email: yaoyifan1@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore/
+  directory:
+   - mindspore/python/mindspore/parallel
+  repo-admin:
+  - gitee_id: yangzhenzhang
+    name: Yang Zhenzhang
+    organization: Huawei
+    email: yangzhenzhang@huawei.com
+  committers:
+  - gitee_id: HulkTang
+    name: Tang Huikang
+    organization: HUAWEI
+    email: tanghuikang@huawei.com
+  - gitee_id: liu-yanwei6
+    name: Liu Yanwei
+    organization: HUAWEI
+    email: liuyanwei6@huawei.com
+  - gitee_id: bj-wang
+    name: Wang Haoran
+    organization: HUAWEI
+    email: wanghaoran19@huawei.com
+  - gitee_id: askmiao
+    name: Miao Yanming
+    organization: HUAWEI
+    email: miaoyanming@huawei.com
+  contributors:
+  - gitee_id: wangjincheng2
+    name: 王金成
+    organization: 西安电子科技大学
+    email: TO_BE_CLARIFIED
+  - gitee_id: miaokongmiao
+    name: 缪孔苗
+    organization: 西安电子科技大学
+    email: TO_BE_CLARIFIED
+  - gitee_id: jiaoyuheng1
+    name: 焦宇恒
+    organization: 浙江大学
+    email: TO_BE_CLARIFIED
+  - gitee_id: huangjiani1
+    name: 黄佳妮
+    organization: 上海交通大学
+    email: TO_BE_CLARIFIED
