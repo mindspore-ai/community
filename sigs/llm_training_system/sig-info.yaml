@@ -1,4 +1,4 @@
-name: LLM-Training-System
+name: LLM Training System
 description: LLM Training System SIG（Special Interest Group）是 MindSpore 开源社区下聚焦于利用分布式并行技术加速AI大模型训练的技术团队，团队致力于提升语言、多模态、全模态等大模型在分布式并行训练场景下的易用性与性能等方面的表现，提供可高效开发、灵活组合多种并行策略的并行编程范式，简化并行编程的复杂度，为开发者带来极简高效的分布式并行训练体验。
 description_en: The LLM Training System SIG (Special Interest Group) is a technical team within the MindSpore open-source community focused on accelerating AI large model training using distributed parallel technologies. The team is dedicated to enhancing the usability and performance of large models (such as language, multimodal, and omnidirectional models) in distributed parallel training scenarios. It provides a parallel programming paradigm that enables efficient development and flexible combination of various parallel strategies, simplifies the complexity of parallel programming, and offers developers an extremely simple and efficient distributed parallel training experience.
 created_on: '2025-10-11'
