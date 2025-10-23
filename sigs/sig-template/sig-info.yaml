@@ -1,0 +1,48 @@
+name: sig-template
+description: SIG中文簡介
+description_en: This is a sample sig. Please copy it over and modify it accordingly.
+created_on: '2019-12-30'
+mailing_list: dev@mindspore.cn
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: starMan
+  name: Anna
+  email: xxx@mindspore.cn
+maintainers:
+- gitee_id: Joyce
+  name: JoyceS
+  organization: Huawei
+  email: yyyyyyy@qq.com
+- gitee_id: Jane
+  name: JaneDou
+  organization: RealT
+  email: xxxxxxx@gmail.com
+repositories:
+- repo: 
+  - mindspore/mindspore
+  directory:
+   - mindspore/python/mindspore
+  repo-admin:
+  - gitee_id: Jay
+    name: JayDou
+    organization: RealT
+    email: xxxxxxx@gmail.com
+  committers:
+  - gitee_id: infra_superman
+    name: Clark_Ken
+    organization: Justice_L
+    email: zzzzzzz@xx.org
+  contributors:
+  - gitee_id: liliblue
+    name: Lisa
+    organization: Justice_L
+    email: lilylisa@xx.org
+- repo: 
+  - mindspore/docs
+  - mindspore/blog
+  committers:
+  - gitee_id: Bob
+    name: BobMa
+    organization: Justice_L
+    email: zzzzzzz@yahoo.com 
