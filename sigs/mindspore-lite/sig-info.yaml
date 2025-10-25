@@ -38,9 +38,6 @@ repositories:
   - gitee_id: ljl0711
     name: Lu jiale
     email: lujiale@huawei.com
-  - gitee_id: zgstar
-    name: Zhang Qi
-    email: zhangqi92@huawei.com
   contributors:
   - gitee_id: yangyingchun1999
     name: Yang Yingchun
