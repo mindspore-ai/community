@@ -4,39 +4,31 @@ description_en: The MindSpore Science SIG aims to combine AI with scientific com
 created_on: '2025-05-15'
 mailing_list: dev@mindspore.cn
 maintainers:
-- gitee_id: hsliu_ustc
-  name: hsliu_ustc
+- gitee_id: novigrad
+  name: Chen_Yu
   organization: Huawei
-  email: liuhongsheng4@huawei.com
-- gitee_id: gracezou
-  name: gracezou
+  email: chenyu289@huawei.com
+- gitee_id: yi-zhang95
+  name: Yi_zhang95
   organization: Huawei
-  email: zoujingyuan@huawei.com
-- gitee_id: yanglong_unimelb
-  name: yanglong_unimelb
-  organization: Huawei
-  email: longyangyang1@huawei.com
+  email: zhangyi430@huawei.com
 repositories:
 - repo:
   - mindspore/mindscience
   committers:
-  - gitee_id: b_rookie
-    name: b_rookie
+  - gitee_id: wuzhf9
+    name: Zhi Feng Wu
     organization: Huawei
-    email: guoboqiang@huawei.com
-  - gitee_id: mengqinghe0909
-    name: mengqinghe0909
+    email: wuzhifeng17@huawei.com
+  - gitee_id: yanglong_unimelb
+    name: yanglong
     organization: Huawei
-    email: qinghe.meng@huawei.com
-  - gitee_id: zzzcseth
-    name: zzzcseth
+    email: longyangyang1@huawei.com
+  - gitee_id: birfied
+    name: chendanyang
     organization: Huawei
-    email: zhouchuansai@huawei.com
-  - gitee_id: yangs-siyu9777
-    name: yangs-siyu9777
+    email: chendanyang4@huawei.com
+  - gitee_id: zhang-minyan
+    name: zhang-minyan
     organization: Huawei
-    email: yangsiyu8@huawei.com
-  - gitee_id: wangbo572
-    name: wangbo572
-    organization: Huawei
-    email: wangbo572@huawei.com
+    email: zhangminyan3@huawei.com
