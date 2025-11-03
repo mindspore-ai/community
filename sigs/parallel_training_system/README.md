@@ -1,8 +1,8 @@
-# LLM Training System SIG简介
+# Parallel Training System SIG简介
 
-LLM Training System SIG（Special Interest Group）是 MindSpore 开源社区下聚焦于利用分布式并行技术加速AI大模型训练的技术团队，团队致力于提升语言、多模态、全模态等大模型在分布式并行训练场景下的易用性与性能等方面的表现，提供可高效开发、灵活组合多种并行策略的并行编程范式，简化并行编程的复杂度，为开发者带来极简高效的分布式并行训练体验。
+Parallel Training System SIG（Special Interest Group）是 MindSpore 开源社区下聚焦于利用分布式并行技术加速AI大模型训练的技术团队，团队致力于提升语言、多模态、全模态等大模型在分布式并行训练场景下的易用性与性能等方面的表现，提供可高效开发、灵活组合多种并行策略的并行编程范式，简化并行编程的复杂度，为开发者带来极简高效的分布式并行训练体验。
 
-MindSpore Parallel SIG 所涉及的技术领域主要包括以下方面：
+Parallel Training System SIG 所涉及的技术领域主要包括以下方面：
 
 1. **并行优化**：通过数据并行、张量并行和流水线并行等并行技术，将训练任务拆分到多个计算设备上协同处理，显著提升大规模模型训练效率，解决单机算力瓶颈问题。
 2. **计算优化**：采用混合精度训练、算子融合、稀疏计算等技术降低计算开销；通过减少浮点运算次数、合并内存访问操作、优化kernel调度，在保证精度的同时提升计算吞吐量，大幅缩短训练时间。
@@ -18,11 +18,14 @@ SIG为上述领域的专家、爱好者提供了一个交流、合作的平台�
 
 ## SIG代码仓
 
-1. [LLM Training System SIG](https://gitee.com/mindspore/community/tree/master/sigs/llm_training_system)
+1. [Parallel Training System SIG](https://gitee.com/mindspore/community/tree/master/sigs/parallel_training_system)
+
+## Mentors
+
+* Li Cheng （中国科学技术大学特任研究员）
 
 ## Maintainers
 
-* Li Cheng （中国科学技术大学特任研究员）
 * Su Teng @stsuteng （MindSpore首席专家，SIG发起人）
 * Yang Zhenzhang @yangzhenzhang (MindSpore分布式并行训练技术专家)
 * Wang Kaisheng @kisnwang (MindSpore分布式并行训练技术专家)

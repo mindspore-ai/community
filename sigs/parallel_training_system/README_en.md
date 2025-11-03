@@ -1,6 +1,6 @@
-# LLM Training System SIG Introduction
+# Parallel Training System SIG Introduction
 
-The LLM Training System SIG (Special Interest Group) is a technical team within the MindSpore open-source community focused on accelerating AI large model training using distributed parallel technologies. The team is dedicated to enhancing the usability and performance of large models (such as language, multimodal, and omnidirectional models) in distributed parallel training scenarios. It provides a parallel programming paradigm that enables efficient development and flexible combination of various parallel strategies, simplifies the complexity of parallel programming, and offers developers an extremely simple and efficient distributed parallel training experience.
+The Parallel Training System SIG (Special Interest Group) is a technical team within the MindSpore open-source community focused on accelerating AI large model training using distributed parallel technologies. The team is dedicated to enhancing the usability and performance of large models (such as language, multimodal, and omnidirectional models) in distributed parallel training scenarios. It provides a parallel programming paradigm that enables efficient development and flexible combination of various parallel strategies, simplifies the complexity of parallel programming, and offers developers an extremely simple and efficient distributed parallel training experience.
 
 The technical areas covered by the MindSpore Parallel SIG mainly include the following aspects:
 
@@ -24,11 +24,14 @@ The SIG provides a platform for experts and enthusiasts in the above fields to c
 
 ## SIG Repository
 
-1. [LLM Training System SIG](https://gitee.com/mindspore/community/tree/master/sigs/LLM-Training-System)
+1. [Parallel Training System SIG](https://gitee.com/mindspore/community/tree/master/sigs/LLM-Training-System)
+
+## Mentors
+
+* Li Cheng (Special Appointment Researcher, University of Science and Technology of China)
 
 ## Maintainers
 
-* Li Cheng (Special Appointment Researcher, University of Science and Technology of China)
 * Su Teng @stsuteng (MindSpore Chief Expert, SIG Initiator)
 * Yang Zhenzhang @yangzhenzhang (MindSpore Distributed Parallel Training Technology Expert)
 * Wang Kaisheng @kisnwang (MindSpore Distributed Parallel Training Technology Expert)
