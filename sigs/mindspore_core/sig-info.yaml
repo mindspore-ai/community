@@ -1,0 +1,94 @@
+name: MindSpore Core 
+description: MindSpore Core SIG（MindSpore基础框架开发SIG）专注于推动MindSpore基础能力完善稳定: 构建Mindpore的底层基础能力和基础表达，提供nn、数学等计算算子，自动微分，设备管理等功能，提供张量、模型等基础表达，以及动态图执行、静态图加速能力。
+description_en: The MindSpore Core SIG focuses on improving and stabilizing MindSpore's fundamental capabilities: building the underlying capabilities and basic representations of MindSpore, providing computational operators such as nn and  mathematical functions, providing automatic differentiation, device management and other functions, providing basic repesentations such as tensor and models, as well as dynamic graph execution and basic graph acceleration capabilities.
+created_on: '2025-11-17'
+mailing_list: dev@mindspore.cn
+meeting_url: NA
+mature_level: startup
+mentors:
+- gitee_id: baochong
+  name: baochong
+  organization: Huawei
+  email: baochong@huawei.com
+maintainers:
+- gitee_id: baochong
+  name: baochong
+  organization: Huawei
+  email: baochong@huawei.com
+- gitee_id: chujinjin
+  name: chujinjin
+  organization: Huawei
+  email: chujinjin52@huawei.com
+- gitee_id: limingqi107
+  name: limingqi
+  organization: Huawei
+  email: limingqi@huawei.com
+- gitee_id: KinFung 
+  name: yujianfeng
+  organization: Huawei
+  email: yujianfeng5@huawei.com
+repositories:
+- repo:
+  - mindspore/mindspore
+  directory:
+  - mindspore/ccsrc
+  - mindspore/python/mindspore
+  repo_admin:
+  - gitee_id: chujinjin
+    name: chujinjin
+    organization: Huawei
+    email: chujinjin52@huawei.com
+  - gitee_id: limingqi107
+    name: limingqi
+    organization: Huawei
+    email: limingqi@huawei.com
+  - gitee_id: KinFung 
+    name: yujianfeng
+    organization: Huawei
+    email: yujianfeng5@huawei.com
+  committers:
+  - gitee_id: hwcaifubi
+    name: caifubi
+    organization: Huawei
+    email: caifubi1@huawei.com
+  - gitee_id: luochao60
+    name: luochao
+    organization: Huawei
+    email: luochao60@huawei.com
+  - gitee_id: yuchaojie
+    name: yuchaojie
+    organization: Huawei
+    email: yuchaojie1@huawei.com
+  - gitee_id: zyli2020
+    name: lizhenyu
+    organization: Huawei
+    email: lizhenyu13@huawei.com
+  - gitee_id: zhangyinxia
+    name: zhangyinxia
+    organization: Huawei
+    email: zhangyinxia@huawei.com
+  - gitee_id: hbhb_bin
+    name: hubin
+    organization: Huawei
+    email: hubin79@huawei.com
+  - gitee_id: RayWang
+    name: wangrui
+    organization: Huawei
+    email: wangrui178@huawei.com
+  - gitee_id: Joker
+    name: huangbingjian
+    organization: Huawei
+    email: huangbingjian1@huawei.com
+  contributors:
+  - gitee_id: 
+    name: pengqi
+    organization: Huawei
+    email: pengqi33@huawei.com
+  - gitee_id: 
+    name: maoyuanpeng
+    organization: Huawei
+    email: maoyuanpeng@huawei.com
+  - gitee_id: gaoyong10
+    name: gaoyong
+    organization: Huawei
+    email: gaoyong10@huawei.com
