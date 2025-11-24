@@ -8,9 +8,9 @@ MindSpore core主要构建Mindpore的底层基础能力和基础表达，提供n
 2. 功能演进：模型构建能力、模型训推基础能力、模型序列化保存与加载、模型动态图和静态图执行能力、Ascend等异构硬件加速优化与表达、自动微分能力等。
 3. 竞争力特性：面向下一代ascend硬件的平滑演讲与针对性优化；供灵活的开放能力，如自定义算子、hook、自定义pass等。
 
-## PyNative相关代码仓
+## 相关代码仓
 
-1. [MindSpore 代码仓](https://gitee.com/mindspore/mindspore)
+1. [MindSpore 代码仓](https://gitee.com/mindspore/mindspore/ccsrc（除tools）、https://gitee.com/mindspore/mindspore/include、https://gitee.com/mindspore/mindspore/ops、https://gitee.com/mindspore/mindspore/ccsrc/core)
 2. [MindSpore Core SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/mindspore_core)
 
 ## Maintainers
