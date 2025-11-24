@@ -10,7 +10,7 @@ MindSpore core主要构建Mindpore的底层基础能力和基础表达，提供n
 
 ## 相关代码仓
 
-1. [MindSpore 代码仓](https://gitee.com/mindspore/mindspore/ccsrc（除tools）、https://gitee.com/mindspore/mindspore/include、https://gitee.com/mindspore/mindspore/ops、https://gitee.com/mindspore/mindspore/ccsrc/core)
+1. [MindSpore 代码仓](https://gitee.com/mindspore/mindspore)
 2. [MindSpore Core SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/mindspore_core)
 
 ## Maintainers
