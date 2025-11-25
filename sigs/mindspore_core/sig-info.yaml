@@ -31,7 +31,20 @@ repositories:
 - repo:
   - mindspore/mindspore
   directory:
-  - mindspore/ccsrc
+  - mindspore/ccsrc/backend
+  - mindspore/ccsrc/cluster
+  - mindspore/ccsrc/cmake
+  - mindspore/ccsrc/frontend
+  - mindspore/ccsrc/include
+  - mindspore/ccsrc/minddata
+  - mindspore/ccsrc/plugin
+  - mindspore/ccsrc/pybind_api
+  - mindspore/ccsrc/pynative
+  - mindspore/ccsrc/runtime
+  - mindspore/ccsrc/utils
+  - mindspore/core
+  - mindspore/include
+  - mindspore/ops
   - mindspore/python/mindspore
   repo_admin:
   - gitee_id: chujinjin
