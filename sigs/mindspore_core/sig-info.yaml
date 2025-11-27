@@ -1,6 +1,6 @@
 name: MindSpore Core 
-description: MindSpore Core SIG（MindSpore基础框架开发SIG）专注于推动MindSpore基础能力完善稳定: 构建Mindpore的底层基础能力和基础表达，提供nn、数学等计算算子，自动微分，设备管理等功能，提供张量、模型等基础表达，以及动态图执行、静态图加速能力。
-description_en: The MindSpore Core SIG focuses on improving and stabilizing MindSpore's fundamental capabilities: building the underlying capabilities and basic representations of MindSpore, providing computational operators such as nn and  mathematical functions, providing automatic differentiation, device management and other functions, providing basic repesentations such as tensor and models, as well as dynamic graph execution and basic graph acceleration capabilities.
+description: MindSpore Core SIG（MindSpore基础框架开发SIG）专注于推动MindSpore基础能力完善稳定, 构建Mindpore的底层基础能力和基础表达，提供nn、数学等计算算子，自动微分，设备管理等功能，提供张量、模型等基础表达，以及动态图执行、静态图加速能力。
+description_en: The MindSpore Core SIG focuses on improving and stabilizing MindSpore's fundamental capabilities, building the underlying capabilities and basic representations of MindSpore, providing computational operators such as nn and  mathematical functions, providing automatic differentiation, device management and other functions, providing basic repesentations such as tensor and models, as well as dynamic graph execution and basic graph acceleration capabilities.
 created_on: '2025-11-17'
 mailing_list: dev@mindspore.cn
 meeting_url: NA
