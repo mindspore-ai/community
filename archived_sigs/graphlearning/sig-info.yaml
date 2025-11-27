@@ -1,0 +1,32 @@
+name: graphlearning
+description: Focus on the latest technologies and applications in the direction of graph computing and graph learning, explore more expressive graph learning models, build a graph learning framework that is simple to use and computationally efficient, and apply graph learning methods to actual scenarios to achieve better results.
+created_on: '2019-12-31'
+mailing_list: NA
+meeting_url: Na
+mature_level: startup
+mentors:
+- gitee_id: sophie
+  name: Luo Lan
+  organization: Huawei
+  email: luolan13@huawei.com
+maintainers:
+- gitee_id: sophie
+  name: Luo Lan
+  organization: Huawei
+  email: luolan13@huawei.com
+- gitee_id: fengxun
+  name: Feng Xun
+  organization: Huawei
+  email: fengxun5@huawei.com
+repositories:
+- repo:
+  - MindSpore/graphlearning
+  committers:
+    - gitee_id: sophie
+      name: Luo Lan
+      organization: Huawei
+      email: luolan13@huawei.com
+    - gitee_id: fengxun
+      name: Feng Xun
+      organization: Huawei
+      email: fengxun5@huawei.com
