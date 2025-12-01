@@ -117,3 +117,11 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_reinforcement/README.md
     introduction: 强化学习
     maintainer: 李荣鹏（浙江大学信息与电子工程学院）
+  - name: pynative SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/pynative/README.md
+    introduction: MindSpore动态图模式
+    maintainer: 褚金锦（华为）
+  - name:  heterogeneous_fusion SIG
+    links: https://gitee.com/mindspore/community/tree/master/sigs/heterogeneous_fusion/README.md
+    introduction: 构建MindSpore开放的南向接口，支持异构融合加速能力
+    maintainer: 黎明奇（华为）
