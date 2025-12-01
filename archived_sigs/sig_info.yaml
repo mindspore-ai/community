@@ -117,3 +117,11 @@ SIG list:
     links: https://gitee.com/mindspore/community/tree/master/sigs/mindspore_reinforcement/README.md
     introduction: Reinforcement learning
     maintainer: Rongpeng Li（School of Information and Electronic Engineering, Zhejiang University）
+  - name: pynative SIG
+    links: https://gitee.com/mindspore/community/tree/master/archived_sigs/pynative/README.md
+    introduction: pynative model
+    maintainer: chujinjin（huawei）
+  - name: heterogeneous_fusion SIG
+    links: https://gitee.com/mindspore/community/tree/master/archived_sigs/heterogeneous_fusion/README.md
+    introduction: building open southbound interface, and supportting heterogeneous convergence acceleration capabilities
+    maintainer: limingqi107（huawei）
