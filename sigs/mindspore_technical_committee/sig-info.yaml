@@ -1,0 +1,60 @@
+name: MindSpore Technical Committee
+description: 昇思MindSpore开源社区技术委员会（MindSpore Technical Committee）是昇思MindSpore开源社区的技术领导机构，负责社区技术决策、技术资源协同调度，保障社区版本高质量发布。
+description_en: The MindSpore Technical Committee is the technical steering committee of the MindSpore community. It oversees architectural and technical decision-making, allocates and coordinates technical resources, and ensures that all community releases meet the required standards of quality and reliability.
+mailing_list: tc@mindspore.cn
+maintainers:
+- gitee_id: fenglin99
+  name: Jin Xuefeng
+  organization: Huawei
+  email: jinxuefeng@huawei.com
+- gitee_id: yufan0518
+  name: Yu Fan
+  organization: Huawei
+  email: fan.yu@huawei.com
+- gitee_id: stsuteng
+  name: Su Teng
+  organization: Huawei
+  email: suteng@huawei.com
+- gitee_id: helloyesterday
+  name: Yang Yi
+  organization: Shenzhen Bay Laboratory
+  email: yangyi@szbl.ac.cn
+- gitee_id: lynnnnnnnnnnnnn
+  name: Wu Lingxiang
+  organization: Institute of Automation, Chinese Academy of Sciences
+  email: lingxiang.wu@nlpr.ia.ac.cn
+- gitee_id: yaozhujia
+  name: Zhao Jie
+  organization: Hunan University
+  email: jiezhao@hnu.edu.cn
+- gitee_id: leechjiang
+  name: Jiang Li
+  organization: Shanghai Jiao Tong University
+  email: jiangli@cs.sjtu.edu.cn
+- gitee_id: yu-jun888
+  name: Yu Jun
+  organization: University of Science and Technology of China
+  email: harryjun@ustc.edu.cn
+- gitee_id: superxieyuan
+  name: Xie Yuan
+  organization: East China Normal University
+  email: yxie@cs.ecnu.edu.cn
+- gitee_id: cmmnku
+  name: Cheng Mingming
+  organization: Nankai University
+  email: cmm@nankai.edu.cn
+- gitee_id: waywill
+  name: Dou Zhicheng
+  organization: Renmin University of China
+  email: dou@ruc.edu.cn
+- gitee_id: luckylol
+  name: Yi Cheng
+  organization: iSoftStone Information Technology (Group) Co., Ltd
+  email: chengyid@isoftstone.com
+- gitee_id: fisheryy
+  name: Yu Yue
+  organization: Pengcheng Laboratory
+  email: yuy@pcl.ac.cn
+repositories:
+- repo:
+  - mindspore/community
