@@ -380,7 +380,7 @@ mindspore:
         schName: re2
     openssl:
         cpeName: openssl
-        version: 1.1.1k
+        version: 3.5.4
         language: C++
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
