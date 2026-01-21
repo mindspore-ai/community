@@ -3,40 +3,68 @@ description: MindSpore Transformers SIG（Special Interest Group）是 MindSpore
 description_en: The MindSpore Transformers SIG (Special Interest Group) is a technical team under the MindSpore open-source community that focuses on the end-to-end development and optimization of Transformer-based large models, covering key stages such as pre-training, fine-tuning, inference, and deployment. The SIG team is dedicated to enhancing the performance and usability of Transformer-based large models, promoting their efficient application and implementation in real-world scenarios.
 mailing_list: dev@mindspore.cn
 maintainers:
-- gitee_id: Lin-Bert
+- atomgit_id: Lin-Bert
   name: He Qinglin
   organization: Huawei
   email: heqinglin4@huawei.com
-- gitee_id: suhaibo
+- atomgit_id: suhaibo
   name: Su Haibo
   organization: Huawei
   email: suhaibo1@huawei.com
+- atomgit_id: fft1374
+  name: Li Wen
+  organization: Huawei
+  email: liwen120@huawei.com
+- atomgit_id: hss-shuai
+  name: Huang Shengshuai
+  organization: Huawei
+  email: huangshengshuai@huawei.com
+- atomgit_id: wjlflyer
+  name: Wang Jialin
+  organization: Huawei
+  email: wangjialin21@huawei.com
+- atomgit_id: zyw-hw
+  name: Zhang Youwen
+  organization: Huawei
+  email: zhangyouwen7@huawei.com
+- atomgit_id: renyujin
+  name: Ren Yujin
+  organization: Huawei
+  email: renyujin1@huawei.com
 repositories:
 - repo:
   - mindspore/mindformers
-  repo-admin:
-  - gitee_id: Lin-Bert
-    name: He Qinglin
-    organization: Huawei
-    email: heqinglin4@huawei.com
-  - gitee_id: suhaibo
-    name: Su Haibo
-    organization: Huawei
-    email: suhaibo1@huawei.com
   committers:
-  - gitee_id: hss-shuai
-    name: Huang Shengshuai
-    organization: Huawei
-    email: huangshengshuai@huawei.com
-  - gitee_id: renyujin
-    name: Ren Yujin
-    organization: Huawei
-    email: renyujin1@huawei.com
-  - gitee_id: chenrayray
+  - atomgit_id: chenrayray
     name: Chen Xinrui
     organization: Huawei
     email: chenxinrui11@huawei.com
-  - gitee_id: zyw-hw
-    name: zhang Youwen
+  - atomgit_id: husichao
+    name: Hu Sichao
     organization: Huawei
-    email: zhangyouwen7@huawei.com
+    email: husichao2@huawei.com
+  - atomgit_id: lanshaozuishuai
+    name: Lan Xiang
+    organization: Huawei
+    email: lanxiang12@h-partners.com
+  - atomgit_id: niu-junhao01
+    name: Niu Junhao
+    organization: Huawei
+    email: niujunhao@h-partners.com
+  - atomgit_id: sunyu-xuan
+    name: Sun Yuxuan
+    organization: Huawei
+    email: sunyuxuan4@huawei.com
+  - atomgit_id: Jingwei Huang
+    name: Huang Jingwei
+    organization: Huawei
+    email: huangjingwei4@huawei.com
+  - atomgit_id: pengjingyou
+    name: Peng Jingyou
+    organization: Huawei
+    email: pengjingyou@huawei.com
+  - atomgit_id: wang_shaocong
+    name: Wang Shaocong
+    organization: Huawei
+    email: wangshaocong1@huawei.com
+  
