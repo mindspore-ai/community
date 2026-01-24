@@ -23,7 +23,7 @@ maintainers:
   name: limingqi
   organization: Huawei
   email: limingqi@huawei.com
-- atomgit_id: KinFung 
+- atomgit_id: ginFung 
   name: yujianfeng
   organization: Huawei
   email: yujianfeng5@huawei.com
@@ -55,7 +55,7 @@ repositories:
     name: limingqi
     organization: Huawei
     email: limingqi@huawei.com
-  - atomgit_id: KinFung 
+  - atomgit_id: ginFung 
     name: yujianfeng
     organization: Huawei
     email: yujianfeng5@huawei.com
