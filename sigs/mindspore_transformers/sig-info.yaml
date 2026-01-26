@@ -11,60 +11,27 @@ maintainers:
   name: Su Haibo
   organization: Huawei
   email: suhaibo1@huawei.com
-- atomgit_id: fft1374
-  name: Li Wen
-  organization: Huawei
-  email: liwen120@huawei.com
-- atomgit_id: hss-shuai
-  name: Huang Shengshuai
-  organization: Huawei
-  email: huangshengshuai@huawei.com
-- atomgit_id: wjlflyer
-  name: Wang Jialin
-  organization: Huawei
-  email: wangjialin21@huawei.com
-- atomgit_id: zyw-hw
-  name: Zhang Youwen
-  organization: Huawei
-  email: zhangyouwen7@huawei.com
-- atomgit_id: renyujin
-  name: Ren Yujin
-  organization: Huawei
-  email: renyujin1@huawei.com
 repositories:
 - repo:
   - mindspore/mindformers
   committers:
-  - atomgit_id: chenrayray
-    name: Chen Xinrui
+  - atomgit_id: fft1374
+    name: Li Wen
     organization: Huawei
-    email: chenxinrui11@huawei.com
-  - atomgit_id: husichao
-    name: Hu Sichao
+    email: liwen120@huawei.com
+  - atomgit_id: hss-shuai
+    name: Huang Shengshuai
     organization: Huawei
-    email: husichao2@huawei.com
-  - atomgit_id: lanshaozuishuai
-    name: Lan Xiang
+    email: huangshengshuai@huawei.com
+  - atomgit_id: wjlflyer
+    name: Wang Jialin
     organization: Huawei
-    email: lanxiang12@h-partners.com
-  - atomgit_id: niu-junhao01
-    name: Niu Junhao
+    email: wangjialin21@huawei.com
+  - atomgit_id: zyw-hw
+    name: Zhang Youwen
     organization: Huawei
-    email: niujunhao@h-partners.com
-  - atomgit_id: sunyu-xuan
-    name: Sun Yuxuan
+    email: zhangyouwen7@huawei.com
+  - atomgit_id: renyujin
+    name: Ren Yujin
     organization: Huawei
-    email: sunyuxuan4@huawei.com
-  - atomgit_id: Jingwei Huang
-    name: Huang Jingwei
-    organization: Huawei
-    email: huangjingwei4@huawei.com
-  - atomgit_id: pengjingyou
-    name: Peng Jingyou
-    organization: Huawei
-    email: pengjingyou@huawei.com
-  - atomgit_id: wang_shaocong
-    name: Wang Shaocong
-    organization: Huawei
-    email: wangshaocong1@huawei.com
-  
+    email: renyujin1@huawei.com
