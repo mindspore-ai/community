@@ -4,7 +4,7 @@ description_en: MindSpore Security & Trusted AI SIG has two respondisbilities. F
 created_on: '2019-12-31'
 mailing_list: dev@mindspore.cn
 maintainers:
-- gitee_id: yyuse
+- atomgit_id: yyuse
   name: yangyuan
   organization: Huawei
   email: yangyuan24@huawei.com
@@ -12,55 +12,51 @@ repositories:
 - repo:
   - mindspore/mindarmour
   committers:
-  - gitee_id: ZhibinHan
+  - atomgit_id: ZhibinHan
     name: hanzhibin
     organization: Huawei
     email: hanzhibin1@huawei.com
-  - gitee_id: limingjun1
+  - atomgit_id: limingjun1
     name: Mr. Li
     organization: Zhejiang University of Technology
     email: NA
-  - gitee_id: hu2175
+  - atomgit_id: hu2175
     name: Rice Zhang
     organization: Zhejiang University
     email: 8623924@qq.com
-  - gitee_id: qmckw
+  - atomgit_id: qmckw
     name: Kewei
     organization: Huazhong University of Science and Technology
     email: 2512235663@qq.com
-  - gitee_id: Mr_GerhardtHu_Fox
+  - atomgit_id: Mr_GerhardtHu_Fox
     name: Mr. Hu
     organization: Northeast University
     email: 780308144@qq.com
 - repo:
   - mindspore/mindspore
   committers:
-  - gitee_id: baochong
+  - atomgit_id: baochong
     name: baochong
     organization: Huawei
     email: zjbc123@sina.com
-  - gitee_id: chenyijie6
-    name: chenyijie
-    organization: Huawei
-    email: chenyijie6@huawei.com
-  - gitee_id: guoqi1024
+  - atomgit_id: guoqi1024
     name: guoqi
     organization: Huawei
     email: guoqi5@huawei.com
-  - gitee_id: liuchongming74
+  - atomgit_id: liuchongming74
     name: liuchongming
     organization: Huawei
     email: liuchongming1@huawei.com
-  - gitee_id: tronzhang
+  - atomgit_id: tronzhang
     name: zhangzhaochuang
     organization: Huawei
     email: zhangzhaochuang@huawei.com
   contributors:
-  - gitee_id: siriushsh
+  - atomgit_id: siriushsh
     name: husihang
     organization: Huawei
     email: siriushsh@foxmail.com
-  - gitee_id: shazi4399
+  - atomgit_id: shazi4399
     name: Mr. Zhang
     organization: Beijing University of Posts and Telecommunications
     email: NA
