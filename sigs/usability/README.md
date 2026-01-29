@@ -4,9 +4,9 @@
 
 ## SIG代码仓
 
-1. [API](https://gitee.com/mindspore/mindspore/tree/master/mindspore/python/mindspore)
-2. [文档](https://gitee.com/mindspore/mindspore/tree/master/docs)
-3. [教程案例](https://gitee.com/mindspore/docs)
+1. [API](https://gitcode.com/mindspore/mindspore/tree/master/mindspore/python/mindspore)
+2. [文档](https://gitcode.com/mindspore/mindspore/tree/master/docs)
+3. [教程案例](https://gitcode.com/mindspore/docs)
 
 ## Maintainers
 
