@@ -3,45 +3,48 @@ description: MindSpore AKG SIG 专注于利用 MindSpore AKG 在算子编译和�
 description_en: The MindSpore AKG SIG focuses on leveraging the technical accumulation of MindSpore AKG in the field of operator compilation and operator generation, continuously improving software functionality, expanding the community ecosystem, and providing an efficient and easy-to-use graph computation fusion compiler for researchers, teachers, students, and those with a deep interest and strong influence in this field, while also providing a platform for collaborative communication.
 mailing_list: dev@mindspore.cn
 maintainers:
-  - gitee_id: anyrenwei
+  - atomgit_id: anyrenwei
     name: Zhang, Renwei
     email: zhangrenwei1@huawei.com
-  - gitee_id: zichun_ye
+  - atomgit_id: zichun_ye
     name: Ye, Zichun
     email: zichun.ye@huawei.com
-  - gitee_id: corleoneliu
+  - atomgit_id: corleoneliu
     name: Liu, Chao
     email: liuchao195@huawei.com
 repositories:
   - repo:
       - mindspore/akg
     repo_admin:
-      - gitee_id: anyrenwei
+      - atomgit_id: anyrenwei
         name: Zhang, Renwei
         email: zhangrenwei1@huawei.com
-      - gitee_id: zichun_ye
+      - atomgit_id: zichun_ye
         name: Ye, Zichun
         email: zichun.ye@huawei.com
-      - gitee_id: corleoneliu
+      - atomgit_id: corleoneliu
         name: Liu, Chao
         email: liuchao195@huawei.com
     committers:
-      - gitee_id: zhengzuohe
+      - atomgit_id: zhengzuohe
         name: Zheng, Zuohe
         email: zhengzuohe@huawei.com
-      - gitee_id: yiyanzhi_akane
+      - atomgit_id: yiyanzhi_akane
         name: Yi, Yanzhi
         email: yiyanzhi@huawei.com
-      - gitee_id: hujiahui8
+      - atomgit_id: hujiahui8
         name: Hu, Jiahui
         email: hujiahui8@huawei.com
-      - gitee_id: dujinye
+      - atomgit_id: dujinye
         name: Du, Jinye
         email: dujinye1@huawei.com
+      - atomgit_id: xchang1121
+        name: Chang, Xiangyu
+        email: changxiangyu1@huawei.com
 
 branches:
   - repo_branch:
       - repo: mindspore/akg
         branch: br_aikg
     keeper:
-      - gitee_id: zichun_ye
+      - atomgit_id: zichun_ye
