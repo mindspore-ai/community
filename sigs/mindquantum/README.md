@@ -14,21 +14,22 @@ MindSpore Quantum SIG是为广大开发者提供的共同交流和学习的平�
 
 ## MindSpore Quantum 代码仓
 
-1. [MindSpore Quantum 代码仓](https://gitee.com/mindspore/mindquantum)
-2. [MindSpore Quantum SIG工作目录](https://gitee.com/mindspore/community/tree/master/sigs/mindquantum)
+1. [MindSpore Quantum 代码仓](https://atomgit.com/mindspore/mindquantum)
+2. [MindSpore Quantum SIG工作目录](https://atomgit.com/mindspore/community/tree/master/sigs/mindquantum)
 
 ## Maintainers
 
-* donghufeng（MindSpore Quantum项目资深开发者、布道师，负责MindSpore Quantum核心模块开发）
 * 周俊园（MindSpore Quantum项目资深开发者、布道师，负责MindSpore Quantum核心模块开发）
 
 ## Contributors
 
 * dorothy（MindSpore Quantum项目运营接口人，负责项目运营、宣传推广、优秀开发者和布道师发展等）
+* 何润洪（MindSpore Quantum项目优秀开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
 * 周旭（MindSpore Quantum项目资深开发者、布道师，负责MindSpore Quantum生态推广、特性开发和需求收集等）
 * 谢晴兴（MindSpore Quantum项目资深开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
-* 何天深（MndQuantum项目资深开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
-* 何润洪（MindSpore Quantum项目优秀开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
+* 李婷（MindSpore Quantum项目信息体验专家，负责MindSpore Quantum资料与产品体验系列活动组织、用户满意度调查等）
+* donghufeng（MindSpore Quantum项目资深开发者、布道师，负责MindSpore Quantum核心模块开发）
+* 何天深（MindSpore Quantum项目资深开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
 * 唐加亮（MindSpore Quantum项目优秀开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
 * 储贻达（MindSpore Quantum项目优秀开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
 * 阿拉帕提·阿不力米提（MindSpore Quantum项目优秀开发者，负责MindSpore Quantum生态推广、特性开发和需求收集等）
@@ -44,7 +45,6 @@ MindSpore Quantum SIG是为广大开发者提供的共同交流和学习的平�
 * 活动频度：每年举办，已成功举办多届，是国内最早且影响广泛的量子软件创新大赛。
 * 参赛对象：面向所有对量子计算感兴趣、具备Python编程能力的开发者，可个人或组队参赛。
 * 组织单位：由昇思MindSpore社区主办，联合多所高校及科研机构协办。
-* [2025量子计算黑客松](https://developer.huaweicloud.com/competition/information/1300000041/introduction) 正在进行中。
 
 ### 2. 量子计算组会一起开
 
@@ -57,7 +57,7 @@ MindSpore Quantum SIG是为广大开发者提供的共同交流和学习的平�
 * 活动定位：共同参与MindSpore Quantum特性开发，丰富功能，提升性能。
 * 活动形式：定期发布大颗粒特性开发任务，招募开发者共同参与，完成者可获得奖品或者实习工资、实习证明。
 * 活动频度：每季度发布/刷新任务。
-* 任务发布：[MindSpore Quantum 开源实习](https://gitee.com/mindspore/community/issues/I55XLC?from=project-issue)。
+* 任务发布：[MindSpore Quantum 开源实习](https://atomgit.com/mindspore/community/issues/I55XLC?from=project-issue)。
 * 组织者：Maintains和Contributors。
 
 ### 4. 资料与产品体验改进活动
@@ -72,7 +72,7 @@ MindSpore Quantum SIG是为广大开发者提供的共同交流和学习的平�
 
 ### 5. SIG 例会
 
-* 时间：周四晚上7点，每月开展一次。
+* 时间：每个月的第一个周三，上午11点。
 * 例会内容：面向SIG特性开发和组织管理工作，进行开放式的例行交流。
 * 例会议题：
   1. 固定议题：SIG组成员领取的特性开发任务进展与问题交流。
@@ -83,7 +83,6 @@ MindSpore Quantum SIG是为广大开发者提供的共同交流和学习的平�
 
 ## 近期活动与例会预告
 
-1. [2025量子计算黑客松](https://developer.huaweicloud.com/competition/information/1300000041/introduction)
-2. [量子计算组会一起开](https://www.koushare.com/space/333626)
-3. [开源实习](https://gitee.com/mindspore/community/issues/I55XLC?from=project-issue)
-4. [SIG 例会](https://etherpad.mindspore.cn/p/sig-MindSpore-Quantum-meetings)
+1. [量子计算组会一起开](https://www.koushare.com/space/333626)
+2. [开源实习](https://atomgit.com/mindspore/community/issues/I55XLC?from=project-issue)
+3. [SIG 例会](https://etherpad.mindspore.cn/p/sig-MindSpore-Quantum-meetings)
