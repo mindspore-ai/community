@@ -12,7 +12,7 @@ MindSpore Security & Trusted AI SIG包含以下两个方向：
 
 * 协助漏洞修复：及时响应修复已知漏洞。帮助用户系统在成为攻击受害者之前进行漏洞修复，包括提供相关漏洞检测和修复工具。
 * 响应安全问题：响应上报的安全问题。用户通过[MindSpore安全中心](https://www.mindspore.cn/security)中的安全流程上报安全问题，SIG积极响应上报的安全问题，跟踪安全问题的处理进展，并遵循安全问题披露策略对安全问题在社区内进行披露和公告。
-* 安全编码规则：普及安全编码知识是安全团队的目标。安全团队会努力创建文档（[c++编码规范](https://gitee.com/mindspore/community/blob/master/security/coding_guild_cpp_zh_cn.md)和[python编码规范](https://gitee.com/mindspore/community/blob/master/security/coding_guild_python_zh_cn.md)）或开发工具来帮助开发团队避免软件开发过程中的常见陷阱。安全团队还会尝试回答在开发和使用过程中遇到的任何问题。
+* 安全编码规则：普及安全编码知识是安全团队的目标。安全团队会努力创建文档（[c++编码规范](https://atomgit.com/mindspore/community/blob/master/security/coding_guild_cpp_zh_cn.md)和[python编码规范](https://atomgit.com/mindspore/community/blob/master/security/coding_guild_python_zh_cn.md)）或开发工具来帮助开发团队避免软件开发过程中的常见陷阱。安全团队还会尝试回答在开发和使用过程中遇到的任何问题。
 * 参与代码审核：安全团队希望能够通过代码审核帮助团队提前发现代码中的漏洞。
 
 ### Trusted AI
@@ -25,32 +25,31 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 
 ## 代码仓
 
-1. [MindArmour](https://gitee.com/mindspore/mindarmour)
-2. [MindSpore社区](https://gitee.com/mindspore)
+1. [MindArmour](https://atomgit.com/mindspore/mindarmour)
+2. [MindSpore社区](https://atomgit.com/mindspore)
 
 ## SIG成员
 
 ### Maintainer
 
-* 杨渊[@yyuse](https://gitee.com/yyuse), *yangyuan24@huawei.com*，Trusted AI & MindSpore Security
+* 杨渊[@yyuse](https://atomgit.com/yyuse), *yangyuan24@huawei.com*，Trusted AI & MindSpore Security
 
 ### Committer
 
-* 鲍翀[@baochong](https://gitee.com/baochong), *zjbc123@sina.com*，MindSpore Security
-* 陈一杰[@chenyijie6](https://gitee.com/chenyijie6), *chenyijie6@huawei.com*，MindSpore Security
-* 郭琦[@guoqi1024](https://gitee.com/guoqi1024), *guoqi5@huawei.com*，MindSpore Security
-* 韩志斌[@ZhibinHan](https://gitee.com/ZhibinHan), *hanzhibin1@huawei.com*，MindSpore Security，Trusted AI
-* Kewei[@qmckw](https://gitee.com/qmckw), *2512235663@qq.com*，Trusted AI
-* 刘崇鸣[@liuchongming74](https://gitee.com/liuchongming74), *liuchongming1@huawei.com*，MindSpore Security
-* Mr. Hu[@Mr_GerhardtHu_Fox](https://gitee.com/Mr_GerhardtHu_Fox), *780308144@qq.com*，Trusted AI
-* Mr. Li[@limingjun1](https://gitee.com/limingjun1), *NA*，Trusted AI
-* Rice Zhang[@hu2175](https://gitee.com/hu2175), *8623924@qq.com*，Trusted AI
-* 张兆创[@tronzhang](https://gitee.com/tronzhang), *zhangzhaochuang@huawei.com*，MindSpore Security
+* 鲍翀[@baochong](https://atomgit.com/baochong), *zjbc123@sina.com*，MindSpore Security
+* 郭琦[@guoqi1024](https://atomgit.com/guoqi1024), *guoqi5@huawei.com*，MindSpore Security
+* 韩志斌[@ZhibinHan](https://atomgit.com/ZhibinHan), *hanzhibin1@huawei.com*，MindSpore Security，Trusted AI
+* Kewei[@qmckw](https://atomgit.com/qmckw), *2512235663@qq.com*，Trusted AI
+* 刘崇鸣[@liuchongming74](https://atomgit.com/liuchongming74), *liuchongming1@huawei.com*，MindSpore Security
+* Mr. Hu[@Mr_GerhardtHu_Fox](https://atomgit.com/Mr_GerhardtHu_Fox), *780308144@qq.com*，Trusted AI
+* Mr. Li[@limingjun1](https://atomgit.com/limingjun1), *NA*，Trusted AI
+* Rice Zhang[@hu2175](https://atomgit.com/hu2175), *8623924@qq.com*，Trusted AI
+* 张兆创[@tronzhang](https://atomgit.com/tronzhang), *zhangzhaochuang@huawei.com*，MindSpore Security
 
 ### Contributor
 
-* 胡思航[@siriushsh](https://gitee.com/siriushsh), *siriushsh@foxmail.com*，MindSpore Security
-* Mr. Zhang[@shazi4399](https://gitee.com/shazi4399), *NA*，Trusted AI
+* 胡思航[@siriushsh](https://atomgit.com/siriushsh), *siriushsh@foxmail.com*，MindSpore Security
+* Mr. Zhang[@shazi4399](https://atomgit.com/shazi4399), *NA*，Trusted AI
 
 ## SIG的主要活动
 
@@ -72,7 +71,7 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 
 ### 3，开发任务发放
 
-[开源实习任务](https://gitee.com/mindspore/community/issues/I557F6)
+[开源实习任务](https://atomgit.com/mindspore/community/issues/2060)
 
 时间：每季度一次
 
@@ -102,7 +101,7 @@ MindSpore Security & Trusted AI SIG的成员身份包含Contributors、Committer
 ### Contributors
 
 * 职责：响应被分配的问题和PR，可以分配问题或PR。
-* 申请条件：Gitee上的注册会员，为SIG或社区做出多方面贡献，熟悉贡献流程，积极参与1个或多个SIG。
+* 申请条件：AtomGit上的注册会员，为SIG或社区做出多方面贡献，熟悉贡献流程，积极参与1个或多个SIG。
 
 ### Committers
 
@@ -116,5 +115,5 @@ MindSpore Security & Trusted AI SIG的成员身份包含Contributors、Committer
 
 ### 申请方式
 
-1. Fork [Community仓库](https://gitee.com/mindspore/community) 。
-2. 提交PR，把自己的Gitee主页链接、名字（不要求真名）、注册Gitee的邮箱以及兴趣方向加到[SIG名单](./sig_info.yaml)中，PR的描述中需要附加申请的证明，例如评论过的PR、提交合入过的PR等等。提交PR之后，Maintainers会进行审核。
+1. Fork [Community仓库](https://atomgit.com/mindspore/community) 。
+2. 提交PR，把自己的AtomGit主页链接、名字（不要求真名）、注册AtomGit的邮箱以及兴趣方向加到[SIG名单](./sig_info.yaml)中，PR的描述中需要附加申请的证明，例如评论过的PR、提交合入过的PR等等。提交PR之后，Maintainers会进行审核。
