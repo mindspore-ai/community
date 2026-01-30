@@ -2,7 +2,7 @@
 
 LLMs are moving from theoretical research to large-scale production. Providing high-throughput and low-latency LLM inference services has become one of the key tasks of AI foundational software stacks. In recent years, open-source LLM serving frameworks like vLLM and SGLang have advanced rapidly, supporting many models and features, and are widely used in academia and industry.
 
-LLM Inference Serving SIG is dedicated to construct high-performance and user-friendly MindSpore-based LLM inference serving capabilities by leveraging open-source inference frameworks like vLLM and SGLang. LLM Inference Serving SIG has brewed [vLLM-MindSpore](https://gitee.com/mindspore/vllm_mindspore), an open source plugin enabling the vLLM framework to use MindSpore as the underlying inference computing platform for large model inference services.
+LLM Inference Serving SIG is dedicated to construct high-performance and user-friendly MindSpore-based LLM inference serving capabilities by leveraging open-source inference frameworks like vLLM and SGLang. LLM Inference Serving SIG has brewed [vLLM-MindSpore](https://gitcode.com/mindspore/vllm-mindspore), an open source plugin enabling the vLLM framework to use MindSpore as the underlying inference computing platform for large model inference services.
 
 The technical areas involved in LLM Inference Serving SIG mainly include the following:
 1. **vLLM Compatibility and Adaptation**: Integrating MindSpore LLM inference capabilities to open-source LLM serving frameworks including vLLM and SGLang. Take vLLM as an example, mapping vLLM's PyTorch API calls to MindSpore and adapting to vLLM's plugin interfaces to integrate MindSpore's large model inference components into the vLLM framework.

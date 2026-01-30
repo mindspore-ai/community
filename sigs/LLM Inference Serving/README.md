@@ -2,7 +2,7 @@
 
 大模型正在由理论研究阶段逐步进入大规模生产应用阶段，高吞吐、低时延的大模型推理服务部署能力，已成为AI基础软件栈的核心功能之一。近年来，vLLM、SGLang等开源推理服务框架迅速发展，覆盖支持了众多模型和特性，并已广泛应用于学术和工业领域。
 
-LLM Inference Serving SIG致力于通过积极拥抱vLLM、SGLang等开源推理服务框架的软件生态，有机整合其技术长板，提供高性能、易用的MindSpore大模型推理部署能力。LLM Inference Serving SIG已孵化了开源插件[vLLM-MindSpore](https://gitee.com/mindspore/vllm_mindspore)，可支持[vLLM](https://github.com/vllm-project/vllm)框架以MindSpore为推理计算底座，实现大模型推理服务化部署。
+LLM Inference Serving SIG致力于通过积极拥抱vLLM、SGLang等开源推理服务框架的软件生态，有机整合其技术长板，提供高性能、易用的MindSpore大模型推理部署能力。LLM Inference Serving SIG已孵化了开源插件[vLLM-MindSpore](https://gitcode.com/mindspore/vllm-mindspore)，可支持[vLLM](https://github.com/vllm-project/vllm)框架以MindSpore为推理计算底座，实现大模型推理服务化部署。
 
 LLM Inference Serving SIG所涉及的技术领域主要包括以下方面：
 1. **开源推理服务框架兼容适配**：将MindSpore大模型推理能力，接入vLLM、SGLang等开源推理服务框架。以vLLM为例，通过将vLLM的PyTorch API调用映射至MindSpore，并适配vLLM的插件接口，将MindSpore大模型推理组件接入vLLM框架。
@@ -13,7 +13,7 @@ LLM Inference Serving SIG是开放开源的交流学习平台，欢迎开发者�
 ## Maintainers
 
 * Zhai Zhiqiang (MindSpore推理架构设计团队Leader，华为技术专家）
-* Ye Zichun (数学博士，华为主任工程师）
+* Deng Yepeng (MindSpore开发者，华为高级工程师)
 * Pan Shaowu (MindSpore开发者，华为技术专家)
 
 ## Committers
