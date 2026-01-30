@@ -18,7 +18,7 @@ SIG为上述领域的专家、爱好者提供了一个交流、合作的平台�
 
 ## SIG代码仓
 
-1. [Parallel Training System SIG](https://gitee.com/mindspore/community/tree/master/sigs/parallel_training_system)
+1. [Parallel Training System SIG](https://atomgit.com/mindspore/community/tree/master/sigs/parallel_training_system)
 
 ## Mentors
 
@@ -92,7 +92,7 @@ SIG为上述领域的专家、爱好者提供了一个交流、合作的平台�
 
 ### 4. 社区沟通与对外分享
 
-* 维护讨论渠道（如 Gitee Issue、邮件列表、微信群、社区论坛等）。
+* 维护讨论渠道（如 AtomGit Issue、邮件列表、微信群、社区论坛等）。
 * 不定期举办社区 Meetup、分享会，分享 SIG 进展与行业、科研成功经验。
 
 ---
@@ -120,8 +120,8 @@ SIG的成员身份包括Maintainer、Committer、Contributor，各角色的描�
 #### Committer
 
 * 责任与权益：
-  1. 评审 PR：对 Contributor 提交的 PR 完成评审，评审可以参考社区的编程建议和[安全编程规范](https://gitee.com/mindspore/community/blob/master/guidelines/python_programming_specification_zh_cn.md)。
-  2. 分发处理问题:请参考“[问题处理流程](https://gitee.com/mindspore/community/blob/master/guidelines/issue_process_CN.md)”。
+  1. 评审 PR：对 Contributor 提交的 PR 完成评审，评审可以参考社区的编程建议和[安全编程规范](https://atomgit.com/mindspore/community/blob/master/guidelines/python_programming_specification_zh_cn.md)。
+  2. 分发处理问题:请参考“[问题处理流程](https://atomgit.com/mindspore/community/blob/master/guidelines/issue_process_CN.md)”。
   3. 跟踪依赖性问题：在开发分支中，其他 SIG 组的软跟踪依赖性问题：在开发分支中，其他 SIG 组的更新可能会到导致破坏本 SIG 内项目的依赖关系。此时 Committer 会收到告警提示，Committer 应尽力重建处理。依赖关系出错可能会使最终用户无法更新系统，打包团队也会介入并重建存在依赖性问题的项目，但 Committer 不应依赖这些重建。
   4. 如有接口变更，需要通知可能会影响到的 SIG。Committer 应了解并评审&决策变更造成的依赖影响，并公告和发送 API 或 ABI 变更的告警邮件。这类公告应在变更发生至少一周前完成，并应通知到所有可能受影响的 SIG。
 
@@ -141,8 +141,8 @@ SIG的成员身份包括Maintainer、Committer、Contributor，各角色的描�
   注意：经常贡献代码的成员应积极的参与代码审查，有机会成为 SIG 的审核者 Committer
 
 * 加入要求：
-  1. Gitee 上的注册会员
-  2. 为 SIG 或社区做出多方面贡献，包括不限于：在 Gitee 上提交或审核 PR；在 Gitee 上对问题进行归档或评论；参与 SIG 或社区讨论
+  1. AtomGit 上的注册会员
+  2. 为 SIG 或社区做出多方面贡献，包括不限于：在 AtomGit 上提交或审核 PR；在 AtomGit 上对问题进行归档或评论；参与 SIG 或社区讨论
   3. 已阅读 贡献者指南，熟知贡献流程
   4. 积极参与 1 个或多个 SIG
 

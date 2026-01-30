@@ -24,7 +24,7 @@ The SIG provides a platform for experts and enthusiasts in the above fields to c
 
 ## SIG Repository
 
-1. [Parallel Training System SIG](https://gitee.com/mindspore/community/tree/master/sigs/LLM-Training-System)
+1. [Parallel Training System SIG](https://atomgit.com/mindspore/community/tree/master/sigs/parallel_training_system)
 
 ## Mentors
 
@@ -98,7 +98,7 @@ The SIG provides a platform for experts and enthusiasts in the above fields to c
 
 ### 4. Community Communication and External Sharing
 
-* Maintain discussion channels (e.g., Gitee Issues, mailing lists, WeChat groups, community forums, etc.).
+* Maintain discussion channels (e.g., AtomGit Issues, mailing lists, WeChat groups, community forums, etc.).
 * Periodically host community meetups and sharing sessions to disseminate SIG progress and successful industry and research experiences.
 
 ---
@@ -126,8 +126,8 @@ Member roles within the SIG include Members, Contributors, and Maintainers. The 
 #### Committer
 
 * Responsibilities and Benefits:
-  1. Review PRs: Complete reviews of PRs submitted by Contributors, following the community's [Programming Recommendations and Secure Coding Standards](https://gitee.com/mindspore/community/blob/master/guidelines/python_programming_specification_zh_cn.md).
-  2. Handle assigned issues: Refer to the "[Issue Handling Process](https://gitee.com/mindspore/community/blob/master/guidelines/issue_process_CN.md)".
+  1. Review PRs: Complete reviews of PRs submitted by Contributors, following the community's [Programming Recommendations and Secure Coding Standards](https://atomgit.com/mindspore/community/blob/master/guidelines/python_programming_specification_zh_cn.md).
+  2. Handle assigned issues: Refer to the "[Issue Handling Process](https://atomgit.com/mindspore/community/blob/master/guidelines/issue_process_CN.md)".
   3. Track dependency issues: In the development branch, updates from other SIGs may break dependencies of projects within this SIG. Committers will receive alerts and should attempt to resolve these issues. Dependency errors may prevent end-users from updating systems. While packaging teams may intervene and rebuild affected projects, Committers should not rely solely on such rebuilds.
   4. Notify potentially affected SIGs of interface changes: Committers must understand, review, and decide on the impact of changes due to dependencies, and announce/send alert emails for API or ABI changes. Such announcements should be made at least one week before the change and notify all potentially affected SIGs.
 * Requirements to Join:
@@ -145,8 +145,8 @@ Member roles within the SIG include Members, Contributors, and Maintainers. The 
   3. Can be assigned issues or PRs.
   Note: Members who frequently contribute code should actively participate in code reviews and have the opportunity to become SIG Committers (Reviewers).
 * Requirements to Join:
-  1. Registered member on Gitee.
-  2. Made various contributions to the SIG or community, including but not limited to: submitting or reviewing PRs on Gitee; filing or commenting on issues on Gitee; participating in SIG or community discussions.
+  1. Registered member on AtomGit.
+  2. Made various contributions to the SIG or community, including but not limited to: submitting or reviewing PRs on AtomGit; filing or commenting on issues on AtomGit; participating in SIG or community discussions.
   3. Have read the Contributor Guide and are familiar with the contribution process.
   4. Active participation in 1 or more SIGs.
 

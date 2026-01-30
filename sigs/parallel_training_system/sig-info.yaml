@@ -5,52 +5,49 @@ created_on: '2025-10-11'
 mailing_list: dev@mindspore.cn
 mature_level: startup
 mentors:
-- gitee_id: NA
+- atomgit_id: NA
   name: Li Cheng
   organization: University of Science and Technology of China
   email: chengli7@ustc.edu.cn
 maintainers:
-- gitee_id: stsuteng
+- atomgit_id: suteng
   name: Su Teng
   organization: HUAWEI
   email: suteng@huawei.com
-- gitee_id: yangzhenzhang
+- atomgit_id: yangzhenzhang
   name: Yang Zhenzhang
   organization: HUAWEI
   email: yangzhenzhang@huawei.com
-- gitee_id: kisnwang
+- atomgit_id: kisnwang
   name: Wang Kaisheng
   organization: HUAWEI
   email: wangkaisheng2@huawei.com
-- gitee_id: yao_yf
+- atomgit_id: yao_yf
   name: Yao Yifan
   organization: HUAWEI
   email: yaoyifan1@huawei.com
 repositories:
 - repo:
-  - mindspore/mindspore/
-  directory:
-   - mindspore/python/mindspore/parallel
-   - mindspore/ccsrc/frontend/parallel
+  - mindspore/hyper-parallel/
   repo-admin:
-  - gitee_id: yangzhenzhang
+  - atomgit_id: yangzhenzhang
     name: Yang Zhenzhang
     organization: Huawei
     email: yangzhenzhang@huawei.com
   committers:
-  - gitee_id: HulkTang
-    name: Tang Huikang
+  - atomgit_id: changzherui
+    name: Chang Zherui
     organization: HUAWEI
-    email: tanghuikang@huawei.com
-  - gitee_id: liu-yanwei6
+    email: changzherui1@huawei.com
+  - atomgit_id: liu-yanwei6
     name: Liu Yanwei
     organization: HUAWEI
     email: liuyanwei6@huawei.com
-  - gitee_id: bj-wang
+  - atomgit_id: bj-wang
     name: Wang Haoran
     organization: HUAWEI
     email: wanghaoran19@huawei.com
-  - gitee_id: askmiao
+  - atomgit_id: askmiaomiao
     name: Miao Yanming
     organization: HUAWEI
     email: miaoyanming@huawei.com
