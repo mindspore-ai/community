@@ -51,6 +51,10 @@ repositories:
     name: zhangzhaochuang
     organization: Huawei
     email: zhangzhaochuang@huawei.com
+  - atomgit_id: r1chardf1d0
+    name: xiaruijie
+    organization: Huawei
+    email: xiaruijie@huawei.com
   contributors:
   - atomgit_id: siriushsh
     name: husihang
