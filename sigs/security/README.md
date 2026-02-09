@@ -45,6 +45,7 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 * Mr. Li[@limingjun1](https://atomgit.com/limingjun1), *NA*，Trusted AI
 * Rice Zhang[@hu2175](https://atomgit.com/hu2175), *8623924@qq.com*，Trusted AI
 * 张兆创[@tronzhang](https://atomgit.com/tronzhang), *zhangzhaochuang@huawei.com*，MindSpore Security
+* 夏睿杰[@r1chardf1d0](https://atomgit.com/r1chardf1d0), *xiaruijie@huawei.com*，MindSpore Security
 
 ### Contributor
 
