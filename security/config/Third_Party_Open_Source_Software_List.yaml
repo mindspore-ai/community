@@ -8,18 +8,9 @@ mindspore:
         handler: nicholas_yhr
         milestone: B-Deploy
         schName: packaging
-    cub:
-        cpeName: cub
-        version: 1.8.0
-        language: C/C++
-        license: BSD 3-Clause License
-        url: https://github.com/NVIDIA/cub
-        handler: david-he91
-        milestone: B-SIG-OPS
-        schName: cub
     onednn:
         cpeName: Onednn
-        version: 2.2
+        version: 3.10.1
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/oneapi-src/oneDNN
@@ -46,7 +37,7 @@ mindspore:
         schName: sentencepiece
     Eigen:
         cpeName: Eigen
-        version: 3.4.0
+        version: 5.0.0
         language: C/C++
         license: Mozilla Public License (MPL) V2.0
         url: http://eigen.tuxfamily.org/index.php?title=Main_Page
