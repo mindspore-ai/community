@@ -24,6 +24,11 @@ MindSpore Transformers SIG 欢迎开发者参与共同推动 Transformer 大模�
 * Ren Yujin @renyujin (MindSpore Transformers 推理负责人)
 * Chen Xinrui @chenrayray (MindSpore Transformers 生态&资料负责人)
 * Zhang Youwen @zyw-hw (MindSpore Transformers 安全负责人)
+* Niu Junhao @alpha-junh (MindSpore Transformers 训练流程&数据集核心开发者)
+* Zhang Senzhen @senzhen-town (MindSpore Transformers 权重核心开发者)
+* Hu Sichao @husichao (MindSpore Transformers 并行训练核心开发者)
+* Peng Jingyou @pengjingyou (MindSpore Transformers 基础模型库核心开发者)
+* Sun Yuxuan @sunyu-xuan (MindSpore Transformers 社区对接核心开发者)
 
 ## 目标
 

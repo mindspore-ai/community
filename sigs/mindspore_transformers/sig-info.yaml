@@ -35,3 +35,23 @@ repositories:
     name: Ren Yujin
     organization: Huawei
     email: renyujin1@huawei.com
+  - atomgit_id: alpha-junh
+    name: Niu Junhao
+    organization: Huawei
+    email: niujunhao@h-partners.com
+  - atomgit_id: senzhen-town
+    name: Zhang Senzhen
+    organization: Huawei
+    email: zhangsenzhen1@huawei.com
+  - atomgit_id: husichao
+    name: Hu Sichao
+    organization: Huawei
+    email: husichao2@huawei.com
+  - atomgit_id: pengjingyou
+    name: Peng Jingyou
+    organization: Huawei
+    email: pengjingyou@huawei.com
+  - atomgit_id: sunyu-xuan
+    name: Sun Yuxuan
+    organization: Huawei
+    email: sunyuxuan4@huawei.com
