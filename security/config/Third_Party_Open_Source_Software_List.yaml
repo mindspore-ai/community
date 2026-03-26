@@ -1423,7 +1423,7 @@ mindspore-lite:
         schName: flatbuffers
     Eigen:
         cpeName: Eigen
-        version: 3.4.0
+        version: 5.0.0
         language: C/C++
         license: Mozilla Public License (MPL) V2.0
         url: http://eigen.tuxfamily.org/index.php?title=Main_Page
@@ -1432,7 +1432,7 @@ mindspore-lite:
         schName: eigen
     glog:
         cpeName: glog
-        version: 0.4.0
+        version: 0.7.1
         language: Python
         license: BSD 3-Clause License
         url: https://github.com/google/glog
@@ -1445,9 +1445,18 @@ mindspore-lite:
         language: C/C++
         license: BSD 3-Clause License
         url: http://code.google.com/p/googletest/
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: gtest
+    openmpi:
+        cpeName: openmpi
+        version: 4.1.4
+        language: C/C++
+        license: BSD 3-Clause License
+        url: https://www.open-mpi.org/
+        handler: YeFeng_24
+        milestone: B-SIG-Runtime
+        schName: ompi
     opencv:
         cpeName: opencv
         version: 4.5.2
@@ -1477,11 +1486,11 @@ mindspore-lite:
         schName: robin
     JSON for Modern C++:
         cpeName: JSON for Modern C++
-        version: 3.10.1
+        version: 3.12.0
         language: C++
         license: MIT License
         url: https://github.com/nlohmann/json
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: json
     pybind11:
@@ -1529,15 +1538,6 @@ mindspore-lite:
         handler: YeFeng_24
         milestone: B-SIG-InnerDelivery
         schName: protobuf_arm
-    libjpeg-turbo:
-        cpeName: libjpeg-turbo
-        version: 2.0.4
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/libjpeg-turbo/libjpeg-turbo/
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: jpeg_turbo
     OpenCV:
         cpeName: OpenCV
         version: 4.5.2
@@ -1589,18 +1589,9 @@ mindspore-lite:
         language: C/C++
         license: Apache License V2.0
         url: https://github.com/sinojelly/mockcpp
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: mockcpp
-    pocketfft:
-        cpeName: pocketfft
-        version: "cpp commitid:0f7aa12"
-        language: C
-        license: BSD 3-Clause License
-        url: https://github.com/malfet/pocketfft
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: pocketfft
     triton_common:
         cpeName: triton_common
         version: "commitid:1df32b982a6ed11ead3271a55b04bf6e7abc1cf9"
@@ -1630,11 +1621,11 @@ mindspore-lite:
         schName: triton_backend
     onnx:
         cpeName: onnx
-        version: v1.6.0
+        version: v1.19.1
         language: C++
         license: Apache License
         url: https://github.com/onnx/onnx
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: onnx
     tensorflow:
@@ -1643,12 +1634,12 @@ mindspore-lite:
         language: C++
         license: Apache License
         url: https://github.com/tensorflow/tensorflow
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: tensorflow
     MNN:
         cpeName: MNN
-        version: 1.2.0
+        version: 3.3.0
         language: C++
         license: Apache License
         url: https://github.com/alibaba/MNN
@@ -1670,7 +1661,7 @@ mindspore-lite:
         language: C++
         license: BSD 2-Clause License
         url: https://github.com/BVLC/caffe
-        handler: YeFeng_24
+        handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: caffe
 dvm:
