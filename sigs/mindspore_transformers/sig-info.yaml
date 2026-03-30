@@ -11,6 +11,10 @@ maintainers:
   name: Su Haibo
   organization: Huawei
   email: suhaibo1@huawei.com
+- atomgit_id: hss-shuai
+  name: Huang Shengshuai
+  organization: Huawei
+  email: huangshengshuai@huawei.com
 repositories:
 - repo:
   - mindspore/mindformers
@@ -19,10 +23,6 @@ repositories:
     name: Li Wen
     organization: Huawei
     email: liwen120@huawei.com
-  - atomgit_id: hss-shuai
-    name: Huang Shengshuai
-    organization: Huawei
-    email: huangshengshuai@huawei.com
   - atomgit_id: wjlflyer
     name: Wang Jialin
     organization: Huawei
@@ -55,3 +55,7 @@ repositories:
     name: Sun Yuxuan
     organization: Huawei
     email: sunyuxuan4@huawei.com
+  - atomgit_id: chenrayray
+    name: Chen Xinrui
+    organization: Huawei
+    email: chenxinrui11@huawei.com
