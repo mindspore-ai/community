@@ -1078,7 +1078,7 @@ ms_kernaels_internal:
 mindformers:
     setuptools:
         cpeName: setuptools
-        version: "70.3.0"
+        version: "80.10.2"
         language: Python
         license: MIT License
         url: https://github.com/pypa/setuptools
