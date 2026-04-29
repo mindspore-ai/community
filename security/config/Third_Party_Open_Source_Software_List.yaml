@@ -217,11 +217,11 @@ mindspore:
         schName: icu4c
     openmpi:
         cpeName: openmpi
-        version: 4.1.4
+        version: 5.0.10
         language: C/C++
         license: BSD 3-Clause License
         url: https://www.open-mpi.org/
-        handler: zpac
+        handler: zhangyinxia
         milestone: B-SIG-Runtime
         schName: ompi
     libevent:
