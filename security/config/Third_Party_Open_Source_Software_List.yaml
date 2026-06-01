@@ -1414,7 +1414,7 @@ others:
 mindspore-lite:
     flatbuffers:
         cpeName: flatbuffers
-        version: 2.0.0
+        version: 25.9.23
         language: C/C++
         license: Apache License V2.0
         url: https://google.github.io/flatbuffers/
@@ -1466,15 +1466,6 @@ mindspore-lite:
         handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencv-python
-    robin_hood_hashing:
-        cpeName: robin_hood_hashing
-        version: 3.11.5
-        language: C++
-        license: MIT License
-        url: https://github.com/martinus/robin_hood_hashing
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: robin
     JSON for Modern C++:
         cpeName: JSON for Modern C++
         version: 3.12.0
@@ -1612,7 +1603,7 @@ mindspore-lite:
         schName: onnx
     tensorflow:
         cpeName: tensorflow
-        version: v2.4.1
+        version: v2.20.0
         language: C++
         license: Apache License
         url: https://github.com/tensorflow/tensorflow
@@ -1630,7 +1621,7 @@ mindspore-lite:
         schName: MNN
     coreml:
         cpeName: coreml
-        version: 4.1
+        version: 9.0
         language: C++
         license: BSD 3-Clause License
         url: https://github.com/apple/coremltools
