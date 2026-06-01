@@ -1448,15 +1448,6 @@ mindspore-lite:
         handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: gtest
-    openmpi:
-        cpeName: openmpi
-        version: 4.1.4
-        language: C/C++
-        license: BSD 3-Clause License
-        url: https://www.open-mpi.org/
-        handler: YeFeng_24
-        milestone: B-SIG-Runtime
-        schName: ompi
     opencv:
         cpeName: opencv
         version: 4.5.2
@@ -1565,15 +1556,6 @@ mindspore-lite:
         handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencl-headers
-    openssl:
-        cpeName: openssl
-        version: 3.5.4
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/openssl/openssl
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: openssl
     onnxruntime:
         cpeName: onnxruntime
         version: 1.6.0
