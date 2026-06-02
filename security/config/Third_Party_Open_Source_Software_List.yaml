@@ -1414,7 +1414,7 @@ others:
 mindspore-lite:
     flatbuffers:
         cpeName: flatbuffers
-        version: 25.9.23
+        version: 25.12.19
         language: C/C++
         license: Apache License V2.0
         url: https://google.github.io/flatbuffers/
