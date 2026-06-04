@@ -586,15 +586,6 @@ akg:
         handler: looop5
         milestone: B-SIG-AKG
         schName: pytest
-    ncurses:
-        cpeName: ncurses
-        version: 6.2
-        language: C++
-        license: MIT License
-        url: https://invisible-island.net/ncurses/
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: ncurses
     pandas:
         cpeName: pandas
         version: ">= 1.0.2"
