@@ -1628,6 +1628,15 @@ mindspore-lite:
         handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: caffe
+    ml_dtypes:
+        cpeName: ml_dtypes
+        version: 0.5.4
+        language: python
+        license: Apache License V2.0
+        url: https://github.com/jax-ml/ml_dtypes
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: ml_dtypes
 dvm:
     pybind11:
         cpeName: pybind11
