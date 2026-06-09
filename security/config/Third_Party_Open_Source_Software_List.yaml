@@ -86,8 +86,8 @@ mindspore:
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
-        handler: echomingzhu
-        milestone: B-MBA
+        handler: hz893
+        milestone: B-SIG-FrontEnd
         schName: scipy
     tables:
         cpeName: tables
@@ -375,7 +375,7 @@ mindspore:
         language: C++
         license: Apache License V2.0
         url: https://github.com/openssl/openssl
-        handler: ljl0711
+        handler: zhangyinxia
         milestone: B-SIG-InnerDelivery
         schName: openssl
     scikit-learn:
@@ -520,7 +520,7 @@ akg:
         language: Python
         license: BSD 2-Clause license
         url: https://github.com/micheles/decorator
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: decorator
     incubator-tvm:
@@ -529,7 +529,7 @@ akg:
         language: Python/C++
         license: Apache License V2.0
         url: https://github.com/apache/tvm
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: tvm
     isl:
@@ -538,7 +538,7 @@ akg:
         language: C
         license: MIT License
         url: https://libisl.sourceforge.io/
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: isl
     googletest:
@@ -547,7 +547,7 @@ akg:
         language: C++
         license: BSD 3-Clause License
         url: http://code.google.com/p/googletest/
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: gtest
     numpy:
@@ -556,7 +556,7 @@ akg:
         language: Python
         license: BSD 3-Clause License
         url: https://www.numpy.org
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: numpy
     xgboost:
@@ -565,7 +565,7 @@ akg:
         language: Python
         license: Apache License V2.0
         url: https://github.com/dmlc/xgboost
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: xgboost
     scipy:
@@ -574,7 +574,7 @@ akg:
         language: Python
         license: BSD 3-Clause License
         url: http://scipy.org/
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: scipy
     pytest:
@@ -583,7 +583,7 @@ akg:
         language: Python
         license: MIT License
         url: https://docs.pytest.org/en/latest/
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: pytest
     pandas:
@@ -592,7 +592,7 @@ akg:
         language: Python
         license: BSD 3-Clause License
         url: https://pandas.pydata.org/
-        handler: looop5
+        handler: corleoneliu
         milestone: B-SIG-AKG
         schName: pandas
 mindarmour:
@@ -942,7 +942,7 @@ vllm-mindspore:
         language: Python
         license: BSD 3-Clause License
         handler: dengyepeng
-        milestone: B-SIG-InferNetwork
+        milestone: B-SIG-InferVllm
         schName: numpy
     ray:
         cpeName: ray
@@ -951,7 +951,7 @@ vllm-mindspore:
         language: Python
         license: Apache License V2.0
         handler: dengyepeng
-        milestone: B-SIG-InferNetwork
+        milestone: B-SIG-InferVllm
         schName: ray
     transformers:
         cpeName: transformers
@@ -960,7 +960,7 @@ vllm-mindspore:
         license: Apache License V2.0
         url: https://huggingface.co/docs/transformers
         handler: dengyepeng
-        milestone: B-SIG-InferNetwork
+        milestone: B-SIG-InferVllm
         schName: transformers
 
 golden-stick:
@@ -1074,7 +1074,7 @@ mindformers:
         license: MIT License
         url: https://github.com/pypa/setuptools
         handler: Lin-Bert
-        milestone: B-SIG-MindFormers
+        milestone: B-SIG-MindFormers-Train
         schName: setuptools
     sentencepiece:
       cpeName: sentencepiece
@@ -1083,7 +1083,7 @@ mindformers:
       license: Apache License V2.0
       url: https://github.com/google/sentencepiece
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: sentencepiece
     ftfy:
       cpeName: ftfy
@@ -1092,7 +1092,7 @@ mindformers:
       license: MIT License
       url: https://github.com/rspeer/python-ftfy
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: ftfy
     regex:
       cpeName: regex
@@ -1101,7 +1101,7 @@ mindformers:
       license: Apache License V2.0
       url: https://docs.rs/regex
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: regex
     tqdm:
       cpeName: tqdm
@@ -1110,7 +1110,7 @@ mindformers:
       license: MIT License & Mozilla Public License (MPL) V2.0
       url: https://tqdm.github.io/
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: tqdm
     pyyaml:
       cpeName: pyyaml
@@ -1119,7 +1119,7 @@ mindformers:
       license: MIT License
       url: https://github.com/yaml/pyyaml
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: pyyaml
     jieba:
       cpeName: jieba
@@ -1128,7 +1128,7 @@ mindformers:
       license: Apache License V2.0
       url: https://github.com/fxsjy/jieba
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: jieba
     rouge_chinese:
       cpeName: rouge_chinese
@@ -1137,7 +1137,7 @@ mindformers:
       license: Apache License V2.0
       url: https://github.com/Isaac-JL-Chen/rouge_chinese
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: rouge_chinese
     nltk:
       cpeName: nltk
@@ -1146,7 +1146,7 @@ mindformers:
       license: Apache License V2.0
       url: https://www.nltk.org/
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: nltk
     mindpet:
       cpeName: mindpet
@@ -1155,7 +1155,7 @@ mindformers:
       license: Apache License V2.0
       url: https://github.com/mindspore-lab/mindpet
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: mindpet
     opencv-python-headless:
       cpeName: opencv-python-headless
@@ -1164,7 +1164,7 @@ mindformers:
       license: MIT License
       url: https://github.com/skvark/opencv-python
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: opencv-python-headless
     pyarrow:
       cpeName: pyarrow
@@ -1173,7 +1173,7 @@ mindformers:
       license: Apache License V2.0
       url: https://arrow.apache.org/
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: pyarrow
     tokenizers:
       cpeName: tokenizers
@@ -1182,7 +1182,7 @@ mindformers:
       license: Apache License V2.0
       url: https://huggingface.co/docs/tokenizers
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: tokenizers
     astunparse:
       cpeName: astunparse
@@ -1191,7 +1191,7 @@ mindformers:
       license: BSD 3-Clause License
       url: https://github.com/simonpercivall/astunparse
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: astunparse
     numpy:
       cpeName: numpy
@@ -1200,7 +1200,7 @@ mindformers:
       license: BSD 3-Clause License
       url: https://numpy.org/
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: numpy
     datasets:
       cpeName: datasets
@@ -1209,7 +1209,7 @@ mindformers:
       license: Apache License V2.0
       url: https://github.com/huggingface/datasets
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: datasets
     tiktoken:
       cpeName: tiktoken
@@ -1218,7 +1218,7 @@ mindformers:
       license: MIT License
       url: https://github.com/openai/tiktoken
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: tiktoken
     jinja2:
       cpeName: jinja2
@@ -1227,7 +1227,7 @@ mindformers:
       license: BSD 3-Clause License
       url: https://jinja.palletsprojects.com
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: jinja2
     setproctitle:
       cpeName: setproctitle
@@ -1236,7 +1236,7 @@ mindformers:
       license: BSD 3-Clause License
       url: ""
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: setproctitle
     deprecated:
       cpeName: deprecated
@@ -1245,7 +1245,7 @@ mindformers:
       license: MIT License
       url: https://github.com/tantale/deprecated
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: deprecated
     safetensors:
       cpeName: safetensors
@@ -1254,7 +1254,7 @@ mindformers:
       license: Apache License V2.0
       url: https://github.com/huggingface/safetensors
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: safetensors
     tensorboardX:
       cpeName: tensorboardX
@@ -1263,7 +1263,7 @@ mindformers:
       license: MIT License
       url: https://github.com/lanpa/tensorboardX
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: tensorboardX
     pybind11:
       cpeName: pybind11
@@ -1272,7 +1272,7 @@ mindformers:
       license: BSD 3-Clause License
       url: https://pybiind11.readthedocs.io/
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: pybind11
     transformers:
       cpeName: transformers
@@ -1281,7 +1281,7 @@ mindformers:
       license: Apache License V2.0
       url: https://huggingface.co/docs/transformers
       handler: Lin-Bert
-      milestone: B-SIG-MindFormers
+      milestone: B-SIG-MindFormers-Train
       schName: transformers
         
 others:
