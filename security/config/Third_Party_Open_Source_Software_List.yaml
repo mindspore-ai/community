@@ -1538,6 +1538,16 @@ mindspore-lite:
         handler: fatmouse007fatmouse007
         milestone: B-SIG-InnerDelivery
         schName: opencl-headers
+    openssl:
+        cpeName: openssl
+        version: 3.5.4
+        language: C++
+        license: Apache License V2.0
+        url: https://github.com/openssl/openssl
+        handler: YeFeng_24
+        milestone: B-SIG-InnerDelivery
+        schName: openssl
+        branch: r2.7, r2.7.1, r2.7.2, r2.8, r2.9
     onnxruntime:
         cpeName: onnxruntime
         version: 1.6.0
