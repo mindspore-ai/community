@@ -1,0 +1,55 @@
+mindspore:
+  version:
+    - master
+    - r2.7
+    - r2.7.1
+    - r2.7.2
+    - r2.8
+    - r2.9
+mindspore-lite:
+  version:
+    - master
+    - r2.7
+    - r2.7.1
+    - r2.7.2
+    - r2.8
+    - r2.9
+mindformers:
+  version:
+    - master
+    - r1.7.0
+    - r1.8.0
+    - r1.9.0
+akg:
+  version:
+    - master
+mindarmour:
+  version:
+    - master
+mindscience:
+  version:
+    - master
+mindconverter:
+  version:
+    - master
+vllm-mindspore:
+  version:
+    - master
+golden-stick:
+  version:
+    - master
+ms_kernels_internal:
+  version:
+    - master
+others:
+  version:
+    - master
+dvm:
+  version:
+    - master
+toolkits:
+  version:
+    - master
+mindrlhf:
+  version:
+    - master
