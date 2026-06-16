@@ -1019,7 +1019,7 @@ golden-stick:
         milestone: B-SIG-QUANT
         schName: pytest
 
-ms_kernaels_internal:
+ms_kernels_internal:
     torch:
         cpeName: torch
         version: "2.1.0"
