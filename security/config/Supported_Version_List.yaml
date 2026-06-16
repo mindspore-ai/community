@@ -17,7 +17,6 @@ mindspore-lite:
 mindformers:
   version:
     - master
-    - r1.7.0
     - r1.8.0
     - r1.9.0
 akg:
@@ -48,8 +47,5 @@ dvm:
   version:
     - master
 toolkits:
-  version:
-    - master
-mindrlhf:
   version:
     - master
