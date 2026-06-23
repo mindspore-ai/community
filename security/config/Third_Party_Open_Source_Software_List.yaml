@@ -185,7 +185,7 @@ mindspore:
     url: https://www.numpy.org
     language: Python
     license: BSD 3-Clause License
-    handler: changzherui
+    handler: changzherui1
     milestone: B-SIG-FrontEnd
     schName: numpy
   matplotlib:
@@ -249,7 +249,7 @@ mindspore:
     language: C/C++
     license: Apache License V2.0
     url: https://github.com/protocolbuffers/protobuf
-    handler: changzherui
+    handler: changzherui1
     milestone: B-SIG-FrontEnd
     schName: protobuf
   protobuf-arm:
@@ -258,7 +258,7 @@ mindspore:
     language: C/C++
     license: Apache License V2.0
     url: https://github.com/protocolbuffers/protobuf
-    handler: changzherui
+    handler: changzherui1
     milestone: B-SIG-FrontEnd
     schName: protobuf_arm
   grpc:
@@ -438,7 +438,7 @@ mindspore:
     language: Python
     license: Apache License V2.0
     url: https://github.com/huggingface/safetensors
-    handler: changzherui
+    handler: changzherui1
     milestone: B-SIG-FrontEnd
     schName: safetensors
   jemalloc:
@@ -604,7 +604,7 @@ mindarmour:
     language: Python
     license: BSD 3-Clause License
     url: https://www.numpy.org
-    handler: changzherui
+    handler: changzherui1
     milestone: B-SIG-FrontEnd
     schName: numpy
   scipy:
