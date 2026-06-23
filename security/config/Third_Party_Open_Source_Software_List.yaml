@@ -1,1714 +1,1486 @@
 mindspore:
-    packaging:
-        cpeName: packaging
-        version: 20.0
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/pypa/packaging
-        handler: nicholas_yhr
-        milestone: B-Deploy
-        schName: packaging
-    onednn:
-        cpeName: Onednn
-        version: 3.10.1
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/oneapi-src/oneDNN
-        handler: zuochuanyong
-        milestone: B-SIG-InnerDelivery
-        schName: mkl_dnn
-    flatbuffers:
-        cpeName: flatbuffers
-        version: 2.0.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://google.github.io/flatbuffers/
-        handler: ljl0711
-        milestone: B-SIG-InnerDelivery
-        schName: flatbuffers
-    sentencepiece:
-        cpeName: sentencepiece
-        version: 0.1.92
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/google/sentencepiece
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: sentencepiece
-    Eigen:
-        cpeName: Eigen
-        version: 5.0.0
-        language: C/C++
-        license: Mozilla Public License (MPL) V2.0
-        url: http://eigen.tuxfamily.org/index.php?title=Main_Page
-        handler: liangchenghui
-        milestone: B-SIG-OPS
-        schName: eigen
-    glog:
-        cpeName: glog
-        version: 0.4.0
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/google/glog
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: glog
-    googletest:
-        cpeName: googletest
-        version: 1.8.1
-        language: C/C++
-        license: BSD 3-Clause License
-        url: http://code.google.com/p/googletest/
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: gtest
-    opencv:
-        cpeName: opencv
-        version: 4.5.2
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/opencv/opencv
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: opencv
-    opencv-python:
-        cpeName: opencv-python
-        version: ">= 4.1.2.30"
-        language: Python
-        license: MIT License
-        url: https://github.com/skvark/opencv-python
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: opencv-python
-    scipy:
-        cpeName: scipy
-        version: ">= 1.5.4"
-        language: Python
-        license: BSD 3-Clause License
-        url: http://scipy.org/
-        handler: hz893
-        milestone: B-SIG-FrontEnd
-        schName: scipy
-    tables:
-        cpeName: tables
-        version: ">= 3.6.1"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/PyTables/PyTables
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: tables
-    robin_hood_hashing:
-        cpeName: robin_hood_hashing
-        version: 3.11.5
-        language: C++
-        license: MIT License
-        url: https://github.com/martinus/robin_hood_hashing
-        handler: hewei
-        milestone: B-SIG-Compiler
-        schName: robin
-    astunparse:
-        cpeName: astunparse
-        version: 1.6.3
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/simonpercivall/astunparse
-        handler: ZhibinGuo
-        milestone: B-SIG-FrontEnd
-        schName: astunparse
-    dirent:
-        cpeName: dirent
-        version: 1.23.2
-        language: C/C++
-        license: MIT License
-        url: https://github.com/tronkko/dirent
-        handler: qiuzhongya
-        milestone: B-SIG-Ascend
-        schName: dirent
-    fast_transformer:
-        cpeName: fast_transformer
-        version: 0.5.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/NVIDIA/FasterTransformer
-        handler: liulili-huawei
-        milestone: B-SIG-Infer
-        schName: fast_transformers
-    Pillow:
-        cpeName: Pillow
-        version: ">= 6.2.0"
-        language: Python
-        license: Historical Permission Notice and Disclaimer
-        url: https://python-pillow.org
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: pillow
-    abseil-cpp:
-        cpeName: abseil-cpp
-        version: 20210324.2
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/abseil/abseil-cpp
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: absl
-    JSON for Modern C++:
-        cpeName: JSON for Modern C++
-        version: 3.10.1
-        language: C++
-        license: MIT License
-        url: https://github.com/nlohmann/json
-        handler: nicholas_yhr
-        milestone: B-Deploy
-        schName: json
-    pybind11:
-        cpeName: pybind11
-        version: ">= 2.4.3"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/pybind/pybind11/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: pybind11
-    tinyxml2:
-        cpeName: tinyxml2
-        version: 8.0.0
-        language: C++
-        license: zlib/libpng License
-        url: https://github.com/leethomason/tinyxml2/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: tinyxml2
-    numpy:
-        cpeName: numpy
-        version: ">= 1.17.0"
-        url: https://www.numpy.org
-        language: Python
-        license: BSD 3-Clause License
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
-        schName: numpy
-    matplotlib:
-        cpeName: matplotlib
-        version: ">= 3.1.3"
-        language: Python
-        license: Python Software Foundation License(PSF)
-        url: https://matplotlib.org
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: matplotlib
-    asttokens:
-        cpeName: asttokens
-        version: ">= 2.0.4"
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/gristlabs/asttokens
-        handler: huangbingjian
-        milestone: B-SIG-Compiler
-        schName: asttokens
-    icu:
-        cpeName: icu
-        version: 69.1
-        language: C++
-        license: ICU License
-        url: https://github.com/unicode-org/icu/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: icu4c
-    openmpi:
-        cpeName: openmpi
-        version: 5.0.10
-        language: C/C++
-        license: BSD 3-Clause License
-        url: https://www.open-mpi.org/
-        handler: zhangyinxia
-        milestone: B-SIG-Runtime
-        schName: ompi
-    libevent:
-        cpeName: libevent
-        version: 2.1.12
-        language: C/C++
-        license: BSD 3-Clause License;MIT License;ISC License;BSD 2-Clause
-            License;Creative Commons Public Domain Certification
-        url: https://libevent.org/
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: libevent
-    OpenCL-CLHPP:
-        cpeName: OpenCL-CLHPP
-        version: 2.0.12
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/OpenCL-CLHPP
-        handler: ljl0711
-        milestone: B-SIG-InnerDelivery
-        schName: opencl-clhpp
-    protobuf:
-        cpeName: protobuf
-        version: 3.13.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/protocolbuffers/protobuf
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
-        schName: protobuf
-    protobuf-arm:
-        cpeName: protobuf
-        version: 3.13.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/protocolbuffers/protobuf
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
-        schName: protobuf_arm
-    grpc:
-        cpeName: grpc
-        version: 1.36.1
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/grpc/grpc/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: grpc
-    c-ares:
-        cpeName: c-ares
-        version: "1_19_1"
-        language: C++
-        license: MIT License, c-ares License
-        url: https://github.com/c-ares/c-ares/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: c-ares
-    pandas:
-        cpeName: pandas
-        version: ">= 1.0.2"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://pandas.pydata.org/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: pandas
-    sqlite:
-        cpeName: sqlite
-        version: 3.46.1
-        language: C++
-        license: Public Domain
-        url: https://github.com/sqlite/sqlite/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: sqlite
-    easydict:
-        cpeName: easydict
-        version: ">= 1.9"
-        language: Python
-        license: LGPL V3.0
-        url: https://github.com/makinacorpus/easydict
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: easydict
-    libjpeg-turbo:
-        cpeName: libjpeg-turbo
-        version: 2.0.4
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/libjpeg-turbo/libjpeg-turbo/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: jpeg_turbo
-    OpenCV:
-        cpeName: OpenCV
-        version: 4.5.2
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/opencv/opencv/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: opencv
-    zlib:
-        cpeName: zlib
-        version: 1.2.11
-        language: C++
-        license: zlib/libpng License
-        url: https://github.com/madler/zlib/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: zlib
-    nccl:
-        cpeName: nccl
-        version: 2.16.5-1-${CUDA_VERSION}
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/NVIDIA/nccl/
-        handler: zpac
-        milestone: B-SIG-Runtime
-        schName: nccl
-    Cppjieba:
-        cpeName: Cppjieba
-        version: 5.0.3
-        language: C++
-        license: MIT License
-        url: https://github.com/yanyiwu/cppjieba/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: cppjieba
-    Khronos Group - OpenCL - Headers:
-        cpeName: Khronos Group - OpenCL - Headers
-        version: v2020.12.18
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/OpenCL-Headers/
-        handler: ljl0711
-        milestone: B-SIG-InnerDelivery
-        schName: opencl-headers
-    re2:
-        cpeName: re2
-        version: 20191201
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/google/re2/
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: re2
-    openssl:
-        cpeName: openssl
-        version: 3.5.7
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/openssl/openssl
-        handler: zhangyinxia
-        milestone: B-SIG-InnerDelivery
-        schName: openssl
-    scikit-learn:
-        cpeName: scikit-learn
-        version: ">= 0.14"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/scikit-learn/scikit-learn
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: scikit-learn
-    psutil:
-        cpeName: psutil
-        version: ">= 5.7.0"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/giampaolo/psutil
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: psutil
-    cmsis:
-        cpeName: cmsis
-        version: 5.7.0
-        language: C
-        license: Apache License V2.0
-        url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
-        handler: ljl0711
-        milestone: B-SIG-InnerDelivery
-        schName: cmsis
-    onnxruntime:
-        cpeName: onnxruntime
-        version: 1.6.0
-        language: python
-        license: MIT License
-        url: https://github.com/microsoft/onnxruntime
-        handler: liangchenghui
-        milestone: B-SIG-OPS
-        schName: onnxruntime
-    decorator:
-        cpeName: decorator
-        version: 4.4.0
-        language: Python
-        license: BSD 2-Clause license
-        url: https://github.com/micheles/decorator
-        handler: looop5
-        milestone: B-SIG-AKG
-        schName: decorator
-    cuCollections:
-        cpeName: cuCollections
-        version: d6ba69b1
-        language: C++/Cuda
-        license: Apache License V2.0
-        url: https://github.com/NVIDIA/cuCollections
-        handler: zyli2020
-        milestone: B-SIG-Runtime
-        schName: cucollections
-    safetensors:
-        cpeName: safetensors
-        version: ">= 0.4.4"
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/huggingface/safetensors
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
-        schName: safetensors
-    jemalloc:
-        cpeName: jemalloc
-        version: 5.3.0
-        language: C++
-        license: BSD 2-Clause license
-        url: https://github.com/jemalloc/jemalloc
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: jemalloc
-    mockcpp:
-        cpeName: mockcpp
-        version: 2.7
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/sinojelly/mockcpp
-        handler: liuchongming74
-        milestone: B-SIG-Parallel
-        schName: mockcpp
-    pocketfft:
-        cpeName: pocketfft
-        version: "cpp commitid:0f7aa12"
-        language: C
-        license: BSD 3-Clause License
-        url: https://github.com/malfet/pocketfft
-        handler: echomingzhu
-        milestone: B-MBA
-        schName: pocketfft
-    triton_common:
-        cpeName: triton_common
-        version: "commitid:1df32b982a6ed11ead3271a55b04bf6e7abc1cf9"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://gitee.com/mirrors_triton-inference-server/common
-        handler: jpc_chenjianping
-        milestone: B-SIG-InnerDelivery
-        schName: triton_common
-    triton_core:
-        cpeName: triton_core
-        version: "commitid:9714cd666d512c4a2c687d028cd4ebf3d354a9dc"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://gitee.com/mirrors_triton-inference-server/core
-        handler: jpc_chenjianping
-        milestone: B-SIG-InnerDelivery
-        schName: triton_core
-    triton_backend:
-        cpeName: triton_backend
-        version: "commitid:2f3f44eba661af9b4fcd62160eafd9012db32652"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://gitee.com/mirrors_triton-inference-server/backend
-        handler: jpc_chenjianping
-        milestone: B-SIG-InnerDelivery
-        schName: triton_backend
-    FFmpeg:
-        cpeName: ffmpeg
-        version: 5.1.2
-        language: C
-        license: GPL V2.0, GPL V3.0, LGPL V3.0
-        url: https://github.com/FFmpeg/FFmpeg
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: FFmpeg
-    dill:
-        cpeName: dill
-        version: "0.3.8"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/uqfoundation/dill
-        handler: shenwei41
-        milestone: B-SIG-Data
-        schName: dill
+  packaging:
+    cpeName: packaging
+    version: 20.0
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/pypa/packaging
+    handler: nicholas_yhr
+    milestone: B-Deploy
+    schName: packaging
+  onednn:
+    cpeName: Onednn
+    version: 3.10.1
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/oneapi-src/oneDNN
+    handler: zuochuanyong
+    milestone: B-SIG-InnerDelivery
+    schName: mkl_dnn
+  flatbuffers:
+    cpeName: flatbuffers
+    version: 2.0.0
+    language: C/C++
+    license: Apache License V2.0
+    url: https://google.github.io/flatbuffers/
+    handler: ljl0711
+    milestone: B-SIG-InnerDelivery
+    schName: flatbuffers
+  sentencepiece:
+    cpeName: sentencepiece
+    version: 0.1.92
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/google/sentencepiece
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: sentencepiece
+  Eigen:
+    cpeName: Eigen
+    version: 5.0.0
+    language: C/C++
+    license: Mozilla Public License (MPL) V2.0
+    url: http://eigen.tuxfamily.org/index.php?title=Main_Page
+    handler: liangchenghui
+    milestone: B-SIG-OPS
+    schName: eigen
+  glog:
+    cpeName: glog
+    version: 0.4.0
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/google/glog
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: glog
+  googletest:
+    cpeName: googletest
+    version: 1.8.1
+    language: C/C++
+    license: BSD 3-Clause License
+    url: http://code.google.com/p/googletest/
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: gtest
+  opencv:
+    cpeName: opencv
+    version: 4.5.2
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/opencv/opencv
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: opencv
+  opencv-python:
+    cpeName: opencv-python
+    version: ">= 4.1.2.30"
+    language: Python
+    license: MIT License
+    url: https://github.com/skvark/opencv-python
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: opencv-python
+  scipy:
+    cpeName: scipy
+    version: ">= 1.5.4"
+    language: Python
+    license: BSD 3-Clause License
+    url: http://scipy.org/
+    handler: hz893
+    milestone: B-SIG-FrontEnd
+    schName: scipy
+  tables:
+    cpeName: tables
+    version: ">= 3.6.1"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/PyTables/PyTables
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: tables
+  robin_hood_hashing:
+    cpeName: robin_hood_hashing
+    version: 3.11.5
+    language: C++
+    license: MIT License
+    url: https://github.com/martinus/robin_hood_hashing
+    handler: hewei
+    milestone: B-SIG-Compiler
+    schName: robin
+  astunparse:
+    cpeName: astunparse
+    version: 1.6.3
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/simonpercivall/astunparse
+    handler: ZhibinGuo
+    milestone: B-SIG-FrontEnd
+    schName: astunparse
+  dirent:
+    cpeName: dirent
+    version: 1.23.2
+    language: C/C++
+    license: MIT License
+    url: https://github.com/tronkko/dirent
+    handler: qiuzhongya
+    milestone: B-SIG-Ascend
+    schName: dirent
+  fast_transformer:
+    cpeName: fast_transformer
+    version: 0.5.0
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/NVIDIA/FasterTransformer
+    handler: liulili-huawei
+    milestone: B-SIG-Infer
+    schName: fast_transformers
+  Pillow:
+    cpeName: Pillow
+    version: ">= 6.2.0"
+    language: Python
+    license: Historical Permission Notice and Disclaimer
+    url: https://python-pillow.org
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: pillow
+  abseil-cpp:
+    cpeName: abseil-cpp
+    version: 20210324.2
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/abseil/abseil-cpp
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: absl
+  JSON for Modern C++:
+    cpeName: JSON for Modern C++
+    version: 3.10.1
+    language: C++
+    license: MIT License
+    url: https://github.com/nlohmann/json
+    handler: nicholas_yhr
+    milestone: B-Deploy
+    schName: json
+  pybind11:
+    cpeName: pybind11
+    version: ">= 2.4.3"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://github.com/pybind/pybind11/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: pybind11
+  tinyxml2:
+    cpeName: tinyxml2
+    version: 8.0.0
+    language: C++
+    license: zlib/libpng License
+    url: https://github.com/leethomason/tinyxml2/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: tinyxml2
+  numpy:
+    cpeName: numpy
+    version: ">= 1.17.0"
+    url: https://www.numpy.org
+    language: Python
+    license: BSD 3-Clause License
+    handler: changzherui
+    milestone: B-SIG-FrontEnd
+    schName: numpy
+  matplotlib:
+    cpeName: matplotlib
+    version: ">= 3.1.3"
+    language: Python
+    license: Python Software Foundation License(PSF)
+    url: https://matplotlib.org
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: matplotlib
+  asttokens:
+    cpeName: asttokens
+    version: ">= 2.0.4"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/gristlabs/asttokens
+    handler: huangbingjian
+    milestone: B-SIG-Compiler
+    schName: asttokens
+  icu:
+    cpeName: icu
+    version: 69.1
+    language: C++
+    license: ICU License
+    url: https://github.com/unicode-org/icu/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: icu4c
+  openmpi:
+    cpeName: openmpi
+    version: 5.0.10
+    language: C/C++
+    license: BSD 3-Clause License
+    url: https://www.open-mpi.org/
+    handler: zhangyinxia
+    milestone: B-SIG-Runtime
+    schName: ompi
+  libevent:
+    cpeName: libevent
+    version: 2.1.12
+    language: C/C++
+    license: BSD 3-Clause License;MIT License; ISC License; BSD 2-Clause
+      License;Creative Commons Public Domain Certification
+    url: https://libevent.org/
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: libevent
+  OpenCL-CLHPP:
+    cpeName: OpenCL-CLHPP
+    version: 2.0.12
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/KhronosGroup/OpenCL-CLHPP
+    handler: ljl0711
+    milestone: B-SIG-InnerDelivery
+    schName: opencl-clhpp
+  protobuf:
+    cpeName: protobuf
+    version: 3.13.0
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/protocolbuffers/protobuf
+    handler: changzherui
+    milestone: B-SIG-FrontEnd
+    schName: protobuf
+  protobuf-arm:
+    cpeName: protobuf
+    version: 3.13.0
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/protocolbuffers/protobuf
+    handler: changzherui
+    milestone: B-SIG-FrontEnd
+    schName: protobuf_arm
+  grpc:
+    cpeName: grpc
+    version: 1.36.1
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/grpc/grpc/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: grpc
+  c-ares:
+    cpeName: c-ares
+    version: "1_19_1"
+    language: C++
+    license: MIT License, c-ares License
+    url: https://github.com/c-ares/c-ares/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: c-ares
+  pandas:
+    cpeName: pandas
+    version: ">= 1.0.2"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://pandas.pydata.org/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: pandas
+  sqlite:
+    cpeName: sqlite
+    version: 3.46.1
+    language: C++
+    license: Public Domain
+    url: https://github.com/sqlite/sqlite/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: sqlite
+  easydict:
+    cpeName: easydict
+    version: ">= 1.9"
+    language: Python
+    license: LGPL V3.0
+    url: https://github.com/makinacorpus/easydict
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: easydict
+  libjpeg-turbo:
+    cpeName: libjpeg-turbo
+    version: 2.0.4
+    language: C++
+    license: BSD 3-Clause License
+    url: https://github.com/libjpeg-turbo/libjpeg-turbo/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: jpeg_turbo
+  OpenCV:
+    cpeName: OpenCV
+    version: 4.5.2
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/opencv/opencv/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: opencv
+  zlib:
+    cpeName: zlib
+    version: 1.2.11
+    language: C++
+    license: zlib/libpng License
+    url: https://github.com/madler/zlib/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: zlib
+  nccl:
+    cpeName: nccl
+    version: 2.16.5-1-${CUDA_VERSION}
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/NVIDIA/nccl/
+    handler: zpac
+    milestone: B-SIG-Runtime
+    schName: nccl
+  Cppjieba:
+    cpeName: Cppjieba
+    version: 5.0.3
+    language: C++
+    license: MIT License
+    url: https://github.com/yanyiwu/cppjieba/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: cppjieba
+  Khronos Group - OpenCL - Headers:
+    cpeName: Khronos Group - OpenCL - Headers
+    version: v2020.12.18
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/KhronosGroup/OpenCL-Headers/
+    handler: ljl0711
+    milestone: B-SIG-InnerDelivery
+    schName: opencl-headers
+  re2:
+    cpeName: re2
+    version: 20191201
+    language: C++
+    license: BSD 3-Clause License
+    url: https://github.com/google/re2/
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: re2
+  openssl:
+    cpeName: openssl
+    version: 3.5.7
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/openssl/openssl
+    handler: zhangyinxia
+    milestone: B-SIG-InnerDelivery
+    schName: openssl
+  scikit-learn:
+    cpeName: scikit-learn
+    version: ">= 0.14"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/scikit-learn/scikit-learn
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: scikit-learn
+  psutil:
+    cpeName: psutil
+    version: ">= 5.7.0"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/giampaolo/psutil
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: psutil
+  cmsis:
+    cpeName: cmsis
+    version: 5.7.0
+    language: C
+    license: Apache License V2.0
+    url: http://www.arm.com/zh/products/processors/cortex-m/cortex-microcontroller-software-interface-standard.php
+    handler: ljl0711
+    milestone: B-SIG-InnerDelivery
+    schName: cmsis
+  onnxruntime:
+    cpeName: onnxruntime
+    version: 1.6.0
+    language: Python
+    license: MIT License
+    url: https://github.com/microsoft/onnxruntime
+    handler: liangchenghui
+    milestone: B-SIG-OPS
+    schName: onnxruntime
+  decorator:
+    cpeName: decorator
+    version: 4.4.0
+    language: Python
+    license: BSD 2-Clause license
+    url: https://github.com/micheles/decorator
+    handler: looop5
+    milestone: B-SIG-AKG
+    schName: decorator
+  cuCollections:
+    cpeName: cuCollections
+    version: d6ba69b1
+    language: C++/Cuda
+    license: Apache License V2.0
+    url: https://github.com/NVIDIA/cuCollections
+    handler: zyli2020
+    milestone: B-SIG-Runtime
+    schName: cucollections
+  safetensors:
+    cpeName: safetensors
+    version: ">= 0.4.4"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/huggingface/safetensors
+    handler: changzherui
+    milestone: B-SIG-FrontEnd
+    schName: safetensors
+  jemalloc:
+    cpeName: jemalloc
+    version: 5.3.0
+    language: C++
+    license: BSD 2-Clause license
+    url: https://github.com/jemalloc/jemalloc
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: jemalloc
+  mockcpp:
+    cpeName: mockcpp
+    version: 2.7
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/sinojelly/mockcpp
+    handler: liuchongming74
+    milestone: B-SIG-Parallel
+    schName: mockcpp
+  pocketfft:
+    cpeName: pocketfft
+    version: "cpp commitid:0f7aa12"
+    language: C
+    license: BSD 3-Clause License
+    url: https://github.com/malfet/pocketfft
+    handler: echomingzhu
+    milestone: B-MBA
+    schName: pocketfft
+  triton_common:
+    cpeName: triton_common
+    version: "commitid:1df32b982a6ed11ead3271a55b04bf6e7abc1cf9"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://gitee.com/mirrors_triton-inference-server/common
+    handler: jpc_chenjianping
+    milestone: B-SIG-InnerDelivery
+    schName: triton_common
+  triton_core:
+    cpeName: triton_core
+    version: "commitid:9714cd666d512c4a2c687d028cd4ebf3d354a9dc"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://gitee.com/mirrors_triton-inference-server/core
+    handler: jpc_chenjianping
+    milestone: B-SIG-InnerDelivery
+    schName: triton_core
+  triton_backend:
+    cpeName: triton_backend
+    version: "commitid:2f3f44eba661af9b4fcd62160eafd9012db32652"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://gitee.com/mirrors_triton-inference-server/backend
+    handler: jpc_chenjianping
+    milestone: B-SIG-InnerDelivery
+    schName: triton_backend
+  FFmpeg:
+    cpeName: ffmpeg
+    version: 5.1.2
+    language: C
+    license: GPL V2.0, GPL V3.0, LGPL V3.0
+    url: https://github.com/FFmpeg/FFmpeg
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: FFmpeg
+  dill:
+    cpeName: dill
+    version: "0.3.8"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/uqfoundation/dill
+    handler: shenwei41
+    milestone: B-SIG-Data
+    schName: dill
+
 akg:
-    decorator:
-        cpeName: decorator
-        version: 4.4.0
-        language: Python
-        license: BSD 2-Clause license
-        url: https://github.com/micheles/decorator
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: decorator
-    incubator-tvm:
-        cpeName: tvm
-        version: 0.6
-        language: Python/C++
-        license: Apache License V2.0
-        url: https://github.com/apache/tvm
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: tvm
-    isl:
-        cpeName: isl
-        version: 0.22
-        language: C
-        license: MIT License
-        url: https://libisl.sourceforge.io/
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: isl
-    googletest:
-        cpeName: googletest
-        version: 1.8.1
-        language: C++
-        license: BSD 3-Clause License
-        url: http://code.google.com/p/googletest/
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: gtest
-    numpy:
-        cpeName: numpy
-        version: 1.17.0
-        language: Python
-        license: BSD 3-Clause License
-        url: https://www.numpy.org
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: numpy
-    xgboost:
-        cpeName: xgboost
-        version: 0.9
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/dmlc/xgboost
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: xgboost
-    scipy:
-        cpeName: scipy
-        version: ">= 1.5.4"
-        language: Python
-        license: BSD 3-Clause License
-        url: http://scipy.org/
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: scipy
-    pytest:
-        cpeName: pytest
-        version: 5.4.3
-        language: Python
-        license: MIT License
-        url: https://docs.pytest.org/en/latest/
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: pytest
-    pandas:
-        cpeName: pandas
-        version: ">= 1.0.2"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://pandas.pydata.org/
-        handler: corleoneliu
-        milestone: B-SIG-AKG
-        schName: pandas
+  decorator:
+    cpeName: decorator
+    version: 4.4.0
+    language: Python
+    license: BSD 2-Clause license
+    url: https://github.com/micheles/decorator
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: decorator
+  incubator-tvm:
+    cpeName: tvm
+    version: 0.6
+    language: Python/C++
+    license: Apache License V2.0
+    url: https://github.com/apache/tvm
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: tvm
+  isl:
+    cpeName: isl
+    version: 0.22
+    language: C
+    license: MIT License
+    url: https://libisl.sourceforge.io/
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: isl
+  googletest:
+    cpeName: googletest
+    version: 1.8.1
+    language: C++
+    license: BSD 3-Clause License
+    url: http://code.google.com/p/googletest/
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: gtest
+  numpy:
+    cpeName: numpy
+    version: 1.17.0
+    language: Python
+    license: BSD 3-Clause License
+    url: https://www.numpy.org
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: numpy
+  xgboost:
+    cpeName: xgboost
+    version: 0.9
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/dmlc/xgboost
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: xgboost
+  scipy:
+    cpeName: scipy
+    version: ">= 1.5.4"
+    language: Python
+    license: BSD 3-Clause License
+    url: http://scipy.org/
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: scipy
+  pytest:
+    cpeName: pytest
+    version: 5.4.3
+    language: Python
+    license: MIT License
+    url: https://docs.pytest.org/en/latest/
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: pytest
+  pandas:
+    cpeName: pandas
+    version: ">= 1.0.2"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://pandas.pydata.org/
+    handler: corleoneliu
+    milestone: B-SIG-AKG
+    schName: pandas
+
 mindarmour:
-    numpy:
-        cpeName: numpy
-        version: 1.17.0
-        language: Python
-        license: BSD 3-Clause License
-        url: https://www.numpy.org
-        handler: changzherui
-        milestone: B-SIG-FrontEnd
-        schName: numpy
-    scipy:
-        cpeName: scipy
-        version: 1.5.4
-        language: Python
-        license: BSD 3-Clause License
-        url: http://scipy.org/
-        handler: echomingzhu
-        milestone: B-SIG-FrontEnd
-        schName: scipy
-    pytest:
-        cpeName: pytest
-        version: 5.4.3
-        language: Python
-        license: MIT License
-        url: https://docs.pytest.org/en/latest/
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName: pytest
-    matplotlib:
-        cpeName: matplotlib
-        version: 3.2.1
-        language: python
-        license: Python Software Foundation License(PSF)
-        url: https://matplotlib.org
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: matplotlib
-    scikit-learn:
-        cpeName: scikit-learn
-        version: 0.23.1
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/scikit-learn/scikit-learn
-        handler: rainyhorse
-        milestone: B-SIG-InnerDelivery
-        schName: scikit-learn
-    pillow:
-        cpeName: pillow
-        version: 9.3.0
-        language: python
-        license: Historical Permission Notice and Disclaimer
-        url: https://python-pillow.org
-        handler: yyuse
-        milestone: B-SIG-InnerDelivery
-        schName: pillow
-    easydict:
-        cpeName: easydict
-        version: 1.9
-        language: python
-        license: GNU Lesser General Public License v3.0
-        url: https://github.com/makinacorpus/easydict
-        handler: zhao_ting_v
-        milestone: B-SIG-InnerDelivery
-        schName: easydict
-    opencv-python:
-        cpeName: opencv-python
-        version: ">= 4.1.2.30"
-        language: python
-        license: MIT License
-        url: https://github.com/skvark/opencv-python
-        handler: zhao_ting_v
-        milestone: B-SIG-InnerDelivery
-        schName: opencv-python
-    wheel:
-        cpeName: wheel
-        version: 0.32.0
-        language: python
-        license: MIT License
-        url: https://github.com/pypa/wheel
-        handler: yyuse
-        milestone: B-SIG-InnerDelivery
-        schName: wheel
-    setuptools:
-        cpeName: setuptools
-        version: 40.8.0
-        language: python
-        license: MIT License
-        url: https://github.com/pypa/setuptools
-        handler: yyuse
-        milestone: B-SIG-InnerDelivery
-        schName: setuptools
+  numpy:
+    cpeName: numpy
+    version: 1.17.0
+    language: Python
+    license: BSD 3-Clause License
+    url: https://www.numpy.org
+    handler: changzherui
+    milestone: B-SIG-FrontEnd
+    schName: numpy
+  scipy:
+    cpeName: scipy
+    version: 1.5.4
+    language: Python
+    license: BSD 3-Clause License
+    url: http://scipy.org/
+    handler: echomingzhu
+    milestone: B-SIG-FrontEnd
+    schName: scipy
+  pytest:
+    cpeName: pytest
+    version: 5.4.3
+    language: Python
+    license: MIT License
+    url: https://docs.pytest.org/en/latest/
+    handler: henryshi1
+    milestone: B-SIG-FrontEnd
+    schName: pytest
+  matplotlib:
+    cpeName: matplotlib
+    version: 3.2.1
+    language: Python
+    license: Python Software Foundation License(PSF)
+    url: https://matplotlib.org
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: matplotlib
+  scikit-learn:
+    cpeName: scikit-learn
+    version: 0.23.1
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/scikit-learn/scikit-learn
+    handler: rainyhorse
+    milestone: B-SIG-InnerDelivery
+    schName: scikit-learn
+  pillow:
+    cpeName: pillow
+    version: 9.3.0
+    language: Python
+    license: Historical Permission Notice and Disclaimer
+    url: https://python-pillow.org
+    handler: yyuse
+    milestone: B-SIG-InnerDelivery
+    schName: pillow
+  easydict:
+    cpeName: easydict
+    version: 1.9
+    language: Python
+    license: GNU Lesser General Public License v3.0
+    url: https://github.com/makinacorpus/easydict
+    handler: zhao_ting_v
+    milestone: B-SIG-InnerDelivery
+    schName: easydict
+  opencv-python:
+    cpeName: opencv-python
+    version: ">= 4.1.2.30"
+    language: Python
+    license: MIT License
+    url: https://github.com/skvark/opencv-python
+    handler: zhao_ting_v
+    milestone: B-SIG-InnerDelivery
+    schName: opencv-python
+  wheel:
+    cpeName: wheel
+    version: 0.32.0
+    language: Python
+    license: MIT License
+    url: https://github.com/pypa/wheel
+    handler: yyuse
+    milestone: B-SIG-InnerDelivery
+    schName: wheel
+  setuptools:
+    cpeName: setuptools
+    version: 40.8.0
+    language: Python
+    license: MIT License
+    url: https://github.com/pypa/setuptools
+    handler: yyuse
+    milestone: B-SIG-InnerDelivery
+    schName: setuptools
 
 mindscience:
-    pyevtk:
-        cpeName: pyevtk
-        version: ">= 1.4.1"
-        language: python
-        license: MIT License
-        url: https://github.com/paulo-herrera/PyEVTK
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: pyevtk
-    numpy:
-        cpeName: numpy
-        version: 1.17.0
-        language: python
-        license: BSD 3-Clause License
-        url: https://www.numpy.org
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: numpy
-    matplotlib:
-        cpeName: matplotlib
-        version: 3.2.1
-        language: python
-        license: Python Software Foundation License(PSF)
-        url: https://matplotlib.org
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: matplotlib
-    opencv-python:
-        cpeName: opencv-python
-        version: ">= 4.1.2.30"
-        language: python
-        license: MIT License
-        url: https://github.com/skvark/opencv-python
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: opencv-python
-    easydict:
-        cpeName: easydict
-        version: 1.9
-        language: python
-        license: GNU Lesser General Public License v3.0
-        url: https://github.com/makinacorpus/easydict
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: easydict
-    pillow:
-        cpeName: pillow
-        version: 8.2.0
-        language: Python
-        license: Historical Permission Notice and Disclaimer
-        url: https://python-pillow.org
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: pillow
-    scipy:
-        cpeName: scipy
-        version: 1.7.0
-        language: Python
-        license: BSD 3-Clause License
-        url: http://scipy.org/
-        handler: gongyue19941231
-        milestone: B-MBA
-        schName: scipy
-mindconverter:
-    networkx:
-        cpeName: networkx
-        version: 2.5
-        language: python
-        license: MIT License
-        url: https://github.com/networkx/networkx
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: networkx
-    protobuf:
-        cpeName: protobuf
-        version: ">= 3.13.0"
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/protocolbuffers/protobuf
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: protobuf
-    google-pasta:
-        cpeName: google-pasta
-        version: ">= 0.1.8"
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/google/pasta/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: google-pasta
-    numpy:
-        cpeName: numpy
-        version: ">= 1.17.0"
-        language: python
-        license: BSD 3-Clause License
-        url: https://www.numpy.org
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: numpy
-    yapf:
-        cpeName: yapf
-        version: ">= 0.30.0"
-        language: js
-        license: Apache License V2.0
-        url: https://github.com/google/yapf
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: yapf
-vue:
-    vue:
-        cpeName: vue
-        version: 2.6.14
-        language: js
-        license: MIT License
-        url: https://vuejs.org/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vue
-    SlickGrid:
-        cpeName: SlickGrid
-        version: 2.4.22
-        language: python
-        license: MIT License
-        url: https://github.com/6pac/SlickGrid
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: SlickGrid
-    axios:
-        cpeName: axios
-        version: 0.21.4
-        language: js
-        license: MIT License
-        url: https://github.com/mzabriskie/axios
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: axios
-    core-js:
-        cpeName: core-js
-        version: 3.6.5
-        language: js
-        license: MIT License
-        url: https://github.com/zloirock/core-js
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: core-js
-    d3:
-        cpeName: d3
-        version: 5.15.0
-        language: js
-        license: ISC License
-        url: https://d3js.org
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: d3
-    d3-graphviz:
-        cpeName: d3-graphviz
-        version: 3.0.4
-        language: js
-        license: BSD 3-Clause License
-        url: https://github.com/magjac/d3-graphviz
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: d3-graphviz
-    echarts:
-        cpeName: echarts
-        version: 5.2.1
-        language: js
-        license: BSD 3-Clause License
-        url: http://echarts.apache.org/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: echarts
-    element-ui:
-        cpeName: element-ui
-        version: 2.13.0
-        language: js
-        license: MIT License
-        url: http://element.eleme.io
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: element-ui
-    vue-cli:
-        cpeName: vue-cli
-        version: 4.5.7
-        language: js
-        license: MIT License
-        url: https://cli.vuejs.org/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vue-cli
-    vue-cli-plugin-i18n:
-        cpeName: vue-cli-plugin-i18n
-        version: 0.6.1
-        language: js
-        license: MIT License
-        url: https://github.com/kazupon/vue-cli-plugin-i18n
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vue-cli-plugin-i18n
-    vue-i18n:
-        cpeName: vue-i18n
-        version: 8.25.0
-        language: js
-        license: MIT License
-        url: http://kazupon.github.io/vue-i18n/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vue-i18n
-    vue-i18n-loader:
-        cpeName: vue-i18n-loader
-        version: 0.6.1
-        language: js
-        license: MIT License
-        url: https://www.patreon.com/kazupon
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vue-i18n-loader
-    vue-router:
-        cpeName: vue-router
-        version: 3.5.2
-        language: js
-        license: MIT License
-        url: http://router.vuejs.org/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vue-router
-    vuex:
-        cpeName: vuex
-        version: 3.6.2
-        language: js
-        license: MIT License
-        url: https://vuex.vuejs.org/
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: vuex
-    jquery:
-        cpeName: jquery
-        version: 3.5.0
-        language: js
-        license: MIT License
-        url: http://jquery.com
-        handler: ljing-git
-        milestone: B-SIG-Visualization
-        schName: jquery
+  pyevtk:
+    cpeName: pyevtk
+    version: ">= 1.4.1"
+    language: Python
+    license: MIT License
+    url: https://github.com/paulo-herrera/PyEVTK
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: pyevtk
+  numpy:
+    cpeName: numpy
+    version: 1.17.0
+    language: Python
+    license: BSD 3-Clause License
+    url: https://www.numpy.org
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: numpy
+  matplotlib:
+    cpeName: matplotlib
+    version: 3.2.1
+    language: Python
+    license: Python Software Foundation License(PSF)
+    url: https://matplotlib.org
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: matplotlib
+  opencv-python:
+    cpeName: opencv-python
+    version: ">= 4.1.2.30"
+    language: Python
+    license: MIT License
+    url: https://github.com/skvark/opencv-python
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: opencv-python
+  easydict:
+    cpeName: easydict
+    version: 1.9
+    language: Python
+    license: GNU Lesser General Public License v3.0
+    url: https://github.com/makinacorpus/easydict
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: easydict
+  pillow:
+    cpeName: pillow
+    version: 8.2.0
+    language: Python
+    license: Historical Permission Notice and Disclaimer
+    url: https://python-pillow.org
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: pillow
+  scipy:
+    cpeName: scipy
+    version: 1.7.0
+    language: Python
+    license: BSD 3-Clause License
+    url: http://scipy.org/
+    handler: gongyue19941231
+    milestone: B-MBA
+    schName: scipy
 
 vllm-mindspore:
-    numpy:
-        cpeName: numpy
-        version: ">= 1.17.0"
-        url: https://www.numpy.org
-        language: Python
-        license: BSD 3-Clause License
-        handler: dengyepeng
-        milestone: B-SIG-InferVllm
-        schName: numpy
-    ray:
-        cpeName: ray
-        version: ">= 2.48.0"
-        url: https://github.com/ray-project/ray
-        language: Python
-        license: Apache License V2.0
-        handler: dengyepeng
-        milestone: B-SIG-InferVllm
-        schName: ray
-    transformers:
-        cpeName: transformers
-        version: 4.57.1
-        language: Python
-        license: Apache License V2.0
-        url: https://huggingface.co/docs/transformers
-        handler: dengyepeng
-        milestone: B-SIG-InferVllm
-        schName: transformers
+  numpy:
+    cpeName: numpy
+    version: ">= 1.17.0"
+    url: https://www.numpy.org
+    language: Python
+    license: BSD 3-Clause License
+    handler: erpim
+    milestone: B-SIG-InferVllm
+    schName: numpy
+  ray:
+    cpeName: ray
+    version: ">= 2.48.0"
+    url: https://github.com/ray-project/ray
+    language: Python
+    license: Apache License V2.0
+    handler: erpim
+    milestone: B-SIG-InferVllm
+    schName: ray
+  transformers:
+    cpeName: transformers
+    version: 4.57.1
+    language: Python
+    license: Apache License V2.0
+    url: https://huggingface.co/docs/transformers
+    handler: erpim
+    milestone: B-SIG-InferVllm
+    schName: transformers
 
 golden-stick:
-    numpy:
-        cpeName: numpy
-        version: ">= 1.20.0,<2.0.0"
-        url: https://www.numpy.org
-        language: Python
-        license: BSD 3-Clause License
-        handler: hangangqiang
-        milestone: B-SIG-QUANT
-        schName: numpy
-    scipy:
-        cpeName: scipy
-        version: ">= 1.5.2"
-        url: https://scipy.org/
-        language: Python
-        license: BSD 3-Clause License
-        handler: hangangqiang
-        milestone: B-SIG-QUANT
-        schName: scipy
-    pyyaml:
-        cpeName: pyyaml
-        version: ">= 6.0"
-        url: https://pyyaml.org/
-        language: Python
-        license: MIT License
-        handler: hangangqiang
-        milestone: B-SIG-QUANT
-        schName: pyyaml
-    matplotlib:
-        cpeName: matplotlib
-        version: "3.10.0"
-        url: https://matplotlib.org/
-        language: Python
-        license: BSD 3-Clause License
-        handler: hangangqiang
-        milestone: B-SIG-QUANT
-        schName: matplotlib
-    prettytable:
-        cpeName: prettytable
-        version: 3.16.0
-        url: https://github.com/prettytable/prettytable/
-        language: Python
-        license: BSD 3-Clause License
-        handler: hangangqiang
-        milestone: B-SIG-QUANT
-        schName: prettytable
-    pytest:
-        cpeName: pytest
-        version: ">= 1.6.0"
-        url: https://docs.pytest.org/
-        language: Python
-        license: MIT License
-        handler: hangangqiang
-        milestone: B-SIG-QUANT
-        schName: pytest
+  numpy:
+    cpeName: numpy
+    version: ">= 1.20.0,<2.0.0"
+    url: https://www.numpy.org
+    language: Python
+    license: BSD 3-Clause License
+    handler: hangangqiang
+    milestone: B-SIG-QUANT
+    schName: numpy
+  scipy:
+    cpeName: scipy
+    version: ">= 1.5.2"
+    url: https://scipy.org/
+    language: Python
+    license: BSD 3-Clause License
+    handler: hangangqiang
+    milestone: B-SIG-QUANT
+    schName: scipy
+  pyyaml:
+    cpeName: pyyaml
+    version: ">= 6.0"
+    url: https://pyyaml.org/
+    language: Python
+    license: MIT License
+    handler: hangangqiang
+    milestone: B-SIG-QUANT
+    schName: pyyaml
+  matplotlib:
+    cpeName: matplotlib
+    version: "3.10.0"
+    url: https://matplotlib.org/
+    language: Python
+    license: BSD 3-Clause License
+    handler: hangangqiang
+    milestone: B-SIG-QUANT
+    schName: matplotlib
+  prettytable:
+    cpeName: prettytable
+    version: 3.16.0
+    url: https://github.com/prettytable/prettytable/
+    language: Python
+    license: BSD 3-Clause License
+    handler: hangangqiang
+    milestone: B-SIG-QUANT
+    schName: prettytable
+  pytest:
+    cpeName: pytest
+    version: ">= 1.6.0"
+    url: https://docs.pytest.org/
+    language: Python
+    license: MIT License
+    handler: hangangqiang
+    milestone: B-SIG-QUANT
+    schName: pytest
 
 ms_kernels_internal:
-    torch:
-        cpeName: torch
-        version: "2.1.0"
-        language: Python
-        license: BSD 3-Clause License
-        url: https://pytorch.org/
-        handler: zhanghan
-        milestone: B-Kernels-Internal
-        schName: torch
-    scipy:
-        cpeName: scipy
-        version: ">= 1.5.4"
-        language: Python
-        license: BSD 3-Clause License
-        url: http://scipy.org/
-        handler: zhanghan
-        milestone: B-Kernels-Internal
-        schName: scipy
-    pytest:
-        cpeName: pytest
-        version: 5.4.3
-        language: Python
-        license: MIT License
-        url: https://docs.pytest.org/en/latest/
-        handler: zhanghan
-        milestone: B-Kernels-Internal
-        schName: pytest
-    numpy:
-        cpeName: numpy
-        version: ">= 1.17.0"
-        url: https://www.numpy.org
-        language: Python
-        license: BSD 3-Clause License
-        handler: zhanghan
-        milestone: B-Kernels-Internal
-        schName: numpy
-    googletest:
-        cpeName: googletest
-        version: 1.8.1
-        language: C/C++
-        license: BSD 3-Clause License
-        url: http://code.google.com/p/googletest/
-        handler: zhanghan
-        milestone: B-Kernels-Internal
-        schName: gtest
+  torch:
+    cpeName: torch
+    version: "2.1.0"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://pytorch.org/
+    handler: zhanghan
+    milestone: B-Kernels-Internal
+    schName: torch
+  scipy:
+    cpeName: scipy
+    version: ">= 1.5.4"
+    language: Python
+    license: BSD 3-Clause License
+    url: http://scipy.org/
+    handler: zhanghan
+    milestone: B-Kernels-Internal
+    schName: scipy
+  pytest:
+    cpeName: pytest
+    version: 5.4.3
+    language: Python
+    license: MIT License
+    url: https://docs.pytest.org/en/latest/
+    handler: zhanghan
+    milestone: B-Kernels-Internal
+    schName: pytest
+  numpy:
+    cpeName: numpy
+    version: ">= 1.17.0"
+    url: https://www.numpy.org
+    language: Python
+    license: BSD 3-Clause License
+    handler: zhanghan
+    milestone: B-Kernels-Internal
+    schName: numpy
+  googletest:
+    cpeName: googletest
+    version: 1.8.1
+    language: C/C++
+    license: BSD 3-Clause License
+    url: http://code.google.com/p/googletest/
+    handler: zhanghan
+    milestone: B-Kernels-Internal
+    schName: gtest
 
 mindformers:
-    setuptools:
-        cpeName: setuptools
-        version: "80.10.2"
-        language: Python
-        license: MIT License
-        url: https://github.com/pypa/setuptools
-        handler: Lin-Bert
-        milestone: B-SIG-MindFormers-Train
-        schName: setuptools
-    sentencepiece:
-      cpeName: sentencepiece
-      version: ">= 0.2.0"
-      language: Python
-      license: Apache License V2.0
-      url: https://github.com/google/sentencepiece
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: sentencepiece
-    ftfy:
-      cpeName: ftfy
-      version: ">= 6.1.1"
-      language: Python
-      license: MIT License
-      url: https://github.com/rspeer/python-ftfy
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: ftfy
-    regex:
-      cpeName: regex
-      version: ">= 2022.10.31"
-      language: Python
-      license: Apache License V2.0
-      url: https://docs.rs/regex
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: regex
-    tqdm:
-      cpeName: tqdm
-      version: ">= 4.65.0"
-      language: Python
-      license: MIT License & Mozilla Public License (MPL) V2.0
-      url: https://tqdm.github.io/
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: tqdm
-    pyyaml:
-      cpeName: pyyaml
-      version: ">= 6.0"
-      language: Python
-      license: MIT License
-      url: https://github.com/yaml/pyyaml
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: pyyaml
-    jieba:
-      cpeName: jieba
-      version: ">= 0.42.1"
-      language: Python
-      license: Apache License V2.0
-      url: https://github.com/fxsjy/jieba
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: jieba
-    rouge_chinese:
-      cpeName: rouge_chinese
-      version: ">= 1.0.3"
-      language: Python
-      license: Apache License V2.0
-      url: https://github.com/Isaac-JL-Chen/rouge_chinese
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: rouge_chinese
-    nltk:
-      cpeName: nltk
-      version: "3.9.1"
-      language: Python
-      license: Apache License V2.0
-      url: https://www.nltk.org/
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: nltk
-    mindpet:
-      cpeName: mindpet
-      version: "1.0.4"
-      language: Python
-      license: Apache License V2.0
-      url: https://github.com/mindspore-lab/mindpet
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: mindpet
-    opencv-python-headless:
-      cpeName: opencv-python-headless
-      version: "4.11.0.86"
-      language: Python
-      license: MIT License
-      url: https://github.com/skvark/opencv-python
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: opencv-python-headless
-    pyarrow:
-      cpeName: pyarrow
-      version: "19.0.0"
-      language: Python
-      license: Apache License V2.0
-      url: https://arrow.apache.org/
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: pyarrow
-    tokenizers:
-      cpeName: tokenizers
-      version: "0.21.0"
-      language: Python
-      license: Apache License V2.0
-      url: https://huggingface.co/docs/tokenizers
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: tokenizers
-    astunparse:
-      cpeName: astunparse
-      version: ">= 1.6.3"
-      language: Python
-      license: BSD 3-Clause License
-      url: https://github.com/simonpercivall/astunparse
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: astunparse
-    numpy:
-      cpeName: numpy
-      version: "1.26.4"
-      language: Python
-      license: BSD 3-Clause License
-      url: https://numpy.org/
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: numpy
-    datasets:
-      cpeName: datasets
-      version: ">= 4.0.0"
-      language: Python
-      license: Apache License V2.0
-      url: https://github.com/huggingface/datasets
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: datasets
-    tiktoken:
-      cpeName: tiktoken
-      version: "0.9.0"
-      language: Python
-      license: MIT License
-      url: https://github.com/openai/tiktoken
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: tiktoken
-    jinja2:
-      cpeName: jinja2
-      version: "3.1.6"
-      language: Python
-      license: BSD 3-Clause License
-      url: https://jinja.palletsprojects.com
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: jinja2
-    setproctitle:
-      cpeName: setproctitle
-      version: "1.3.5"
-      language: Python
-      license: BSD 3-Clause License
-      url: ""
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: setproctitle
-    deprecated:
-      cpeName: deprecated
-      version: "1.2.18"
-      language: Python
-      license: MIT License
-      url: https://github.com/tantale/deprecated
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: deprecated
-    safetensors:
-      cpeName: safetensors
-      version: "0.5.3"
-      language: Python
-      license: Apache License V2.0
-      url: https://github.com/huggingface/safetensors
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: safetensors
-    tensorboardX:
-      cpeName: tensorboardX
-      version: "2.6.2.2"
-      language: Python
-      license: MIT License
-      url: https://github.com/lanpa/tensorboardX
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: tensorboardX
-    pybind11:
-      cpeName: pybind11
-      version: "2.13.6"
-      language: Python
-      license: BSD 3-Clause License
-      url: https://pybiind11.readthedocs.io/
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: pybind11
-    transformers:
-      cpeName: transformers
-      version: "4.57.1"
-      language: Python
-      license: Apache License V2.0
-      url: https://huggingface.co/docs/transformers
-      handler: Lin-Bert
-      milestone: B-SIG-MindFormers-Train
-      schName: transformers
-        
+  setuptools:
+    cpeName: setuptools
+    version: "80.10.2"
+    language: Python
+    license: MIT License
+    url: https://github.com/pypa/setuptools
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: setuptools
+  sentencepiece:
+    cpeName: sentencepiece
+    version: ">= 0.2.0"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/google/sentencepiece
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: sentencepiece
+  ftfy:
+    cpeName: ftfy
+    version: ">= 6.1.1"
+    language: Python
+    license: MIT License
+    url: https://github.com/rspeer/python-ftfy
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: ftfy
+  regex:
+    cpeName: regex
+    version: ">= 2022.10.31"
+    language: Python
+    license: Apache License V2.0
+    url: https://docs.rs/regex
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: regex
+  tqdm:
+    cpeName: tqdm
+    version: ">= 4.65.0"
+    language: Python
+    license: MIT License & Mozilla Public License (MPL) V2.0
+    url: https://tqdm.github.io/
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: tqdm
+  pyyaml:
+    cpeName: pyyaml
+    version: ">= 6.0"
+    language: Python
+    license: MIT License
+    url: https://github.com/yaml/pyyaml
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: pyyaml
+  jieba:
+    cpeName: jieba
+    version: ">= 0.42.1"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/fxsjy/jieba
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: jieba
+  rouge_chinese:
+    cpeName: rouge_chinese
+    version: ">= 1.0.3"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/Isaac-JL-Chen/rouge_chinese
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: rouge_chinese
+  nltk:
+    cpeName: nltk
+    version: "3.9.1"
+    language: Python
+    license: Apache License V2.0
+    url: https://www.nltk.org/
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: nltk
+  mindpet:
+    cpeName: mindpet
+    version: "1.0.4"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/mindspore-lab/mindpet
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: mindpet
+  opencv-python-headless:
+    cpeName: opencv-python-headless
+    version: "4.11.0.86"
+    language: Python
+    license: MIT License
+    url: https://github.com/skvark/opencv-python
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: opencv-python-headless
+  pyarrow:
+    cpeName: pyarrow
+    version: "19.0.0"
+    language: Python
+    license: Apache License V2.0
+    url: https://arrow.apache.org/
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: pyarrow
+  tokenizers:
+    cpeName: tokenizers
+    version: "0.21.0"
+    language: Python
+    license: Apache License V2.0
+    url: https://huggingface.co/docs/tokenizers
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: tokenizers
+  astunparse:
+    cpeName: astunparse
+    version: ">= 1.6.3"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/simonpercivall/astunparse
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: astunparse
+  numpy:
+    cpeName: numpy
+    version: "1.26.4"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://numpy.org/
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: numpy
+  datasets:
+    cpeName: datasets
+    version: ">= 4.0.0"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/huggingface/datasets
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: datasets
+  tiktoken:
+    cpeName: tiktoken
+    version: "0.9.0"
+    language: Python
+    license: MIT License
+    url: https://github.com/openai/tiktoken
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: tiktoken
+  jinja2:
+    cpeName: jinja2
+    version: "3.1.6"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://jinja.palletsprojects.com
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: jinja2
+  setproctitle:
+    cpeName: setproctitle
+    version: "1.3.5"
+    language: Python
+    license: BSD 3-Clause License
+    url: ""
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: setproctitle
+  deprecated:
+    cpeName: deprecated
+    version: "1.2.18"
+    language: Python
+    license: MIT License
+    url: https://github.com/tantale/deprecated
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: deprecated
+  safetensors:
+    cpeName: safetensors
+    version: "0.5.3"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/huggingface/safetensors
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: safetensors
+  tensorboardX:
+    cpeName: tensorboardX
+    version: "2.6.2.2"
+    language: Python
+    license: MIT License
+    url: https://github.com/lanpa/tensorboardX
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: tensorboardX
+  pybind11:
+    cpeName: pybind11
+    version: "2.13.6"
+    language: Python
+    license: BSD 3-Clause License
+    url: https://pybind11.readthedocs.io/
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: pybind11
+  transformers:
+    cpeName: transformers
+    version: "4.57.1"
+    language: Python
+    license: Apache License V2.0
+    url: https://huggingface.co/docs/transformers
+    handler: Lin-Bert
+    milestone: B-SIG-MindFormers-Train
+    schName: transformers
+
 others:
-    gensim:
-        cpeName: gensim
-        version: 3.8.1
-        language: Python
-        license: LGPL V2.1
-        url: http://radimrehurek.com/gensim
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: gensim
-    SymPy:
-        cpeName: SymPy
-        version: '1.4'
-        language: Python
-        license: BSD 3-Clause License
-        url: http://www.sympy.org/en/index.html
-        handler: henryshi1
-        milestone: B-SIG-FrontEnd
-        schName: SymPy
-    ProjectQ:
-        cpeName: ProjectQ
-        version: 0.5.1
-        language: Python
-        license: Apache License V2.0
-        url: https://projectq.ch/
-        handler: kangyangzc
-        milestone: B-MBA
-        schName: ProjectQ
-    sacrebleu:
-        cpeName: sacrebleu
-        version: 1.4.14
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/mjpost/sacrebleu
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: sacrebleu
-    subword-nmt:
-        cpeName: subword-nmt
-        version: 0.3.7
-        language: Python
-        license: MIT License
-        url: https://github.com/rsennrich/subword-nmt
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: subword-nmt
-    sacremoses:
-        cpeName: sacremoses
-        version: 0.0.35
-        language: Python
-        license: MIT License
-        url: https://github.com/alvations/sacremoses
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: sacremoses
-    okhttp:
-        cpeName: okhttp
-        version: 3.14.9
-        language: Java
-        license: Apache License V2.0
-        url: https://square.github.io/okhttp/
-        handler: yangxixin
-        milestone: B-SIG-InnerDelivery
-        schName: okhttp
-    The Legion of the Bouncy Castle:
-        cpeName: The Legion of the Bouncy Castle
-        version: 1.68
-        language: Java
-        license: MIT License
-        url: http://www.bouncycastle.org/
-        handler: yangxixin
-        milestone: B-SIG-InnerDelivery
-        schName: The Legion of the Bouncy Castle
-    SPIRV-Tools:
-        cpeName: SPIRV-Tools
-        version: 2020.6
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/SPIRV-Tools
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName: SPIRV-Tools
-    Vulkan-ValidationLayers:
-        cpeName: Vulkan-ValidationLayers
-        version: 1.2.162.0
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/Vulkan-ValidationLayers
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName: Vulkan-ValidationLayers
-    SPIRV-Headers:
-        cpeName: SPIRV-Headers
-        version: 1.5.4
-        language: python
-        license: MIT License
-        url: https://github.com/KhronosGroup/SPIRV-Headers
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName: SPIRV-Headers
-    tensorflow-onnx:
-        cpeName: tensorflow-onnx
-        version: 1.7.1
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/onnx/tensorflow-onnx/tree/v1.7.1
-        handler: zhujiaxing
-        milestone: B-SIG-Data
-        schName: tensorflow-onnx
-    pycocotools:
-        cpeName: pycocotools
-        version: ">= 2.0.2"
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
-        handler: zhao_ting_v
-        milestone: B-SIG-Kit
-        schName: pycocotools
+  gensim:
+    cpeName: gensim
+    version: 3.8.1
+    language: Python
+    license: LGPL V2.1
+    url: http://radimrehurek.com/gensim
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: gensim
+  SymPy:
+    cpeName: SymPy
+    version: '1.4'
+    language: Python
+    license: BSD 3-Clause License
+    url: http://www.sympy.org/en/index.html
+    handler: henryshi1
+    milestone: B-SIG-FrontEnd
+    schName: SymPy
+  ProjectQ:
+    cpeName: ProjectQ
+    version: 0.5.1
+    language: Python
+    license: Apache License V2.0
+    url: https://projectq.ch/
+    handler: kangyangzc
+    milestone: B-MBA
+    schName: ProjectQ
+  sacrebleu:
+    cpeName: sacrebleu
+    version: 1.4.14
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/mjpost/sacrebleu
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: sacrebleu
+  subword-nmt:
+    cpeName: subword-nmt
+    version: 0.3.7
+    language: Python
+    license: MIT License
+    url: https://github.com/rsennrich/subword-nmt
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: subword-nmt
+  sacremoses:
+    cpeName: sacremoses
+    version: 0.0.35
+    language: Python
+    license: MIT License
+    url: https://github.com/alvations/sacremoses
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: sacremoses
+  okhttp:
+    cpeName: okhttp
+    version: 3.14.9
+    language: Java
+    license: Apache License V2.0
+    url: https://square.github.io/okhttp/
+    handler: yangxixin
+    milestone: B-SIG-InnerDelivery
+    schName: okhttp
+  The Legion of the Bouncy Castle:
+    cpeName: The Legion of the Bouncy Castle
+    version: 1.68
+    language: Java
+    license: MIT License
+    url: http://www.bouncycastle.org/
+    handler: yangxixin
+    milestone: B-SIG-InnerDelivery
+    schName: The Legion of the Bouncy Castle
+  SPIRV-Tools:
+    cpeName: SPIRV-Tools
+    version: 2020.6
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/KhronosGroup/SPIRV-Tools
+    handler: zhujiaxing
+    milestone: B-SIG-Data
+    schName: SPIRV-Tools
+  Vulkan-ValidationLayers:
+    cpeName: Vulkan-ValidationLayers
+    version: 1.2.162.0
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/KhronosGroup/Vulkan-ValidationLayers
+    handler: zhujiaxing
+    milestone: B-SIG-Data
+    schName: Vulkan-ValidationLayers
+  SPIRV-Headers:
+    cpeName: SPIRV-Headers
+    version: 1.5.4
+    language: Python
+    license: MIT License
+    url: https://github.com/KhronosGroup/SPIRV-Headers
+    handler: zhujiaxing
+    milestone: B-SIG-Data
+    schName: SPIRV-Headers
+  tensorflow-onnx:
+    cpeName: tensorflow-onnx
+    version: 1.7.1
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/onnx/tensorflow-onnx/tree/v1.7.1
+    handler: zhujiaxing
+    milestone: B-SIG-Data
+    schName: tensorflow-onnx
+  pycocotools:
+    cpeName: pycocotools
+    version: ">= 2.0.2"
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/cocodataset/cocoapi/tree/master/PythonAPI
+    handler: zhao_ting_v
+    milestone: B-SIG-Kit
+    schName: pycocotools
+
 mindspore-lite:
-    flatbuffers:
-        cpeName: flatbuffers
-        version: 25.12.19
-        language: C/C++
-        license: Apache License V2.0
-        url: https://google.github.io/flatbuffers/
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: flatbuffers
-    Eigen:
-        cpeName: Eigen
-        version: 5.0.0
-        language: C/C++
-        license: Mozilla Public License (MPL) V2.0
-        url: http://eigen.tuxfamily.org/index.php?title=Main_Page
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: eigen
-    glog:
-        cpeName: glog
-        version: 0.7.1
-        language: Python
-        license: BSD 3-Clause License
-        url: https://github.com/google/glog
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: glog
-    googletest:
-        cpeName: googletest
-        version: 1.8.1
-        language: C/C++
-        license: BSD 3-Clause License
-        url: http://code.google.com/p/googletest/
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: gtest
-    opencv:
-        cpeName: opencv
-        version: 4.5.2
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/opencv/opencv
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: opencv
-    opencv-python:
-        cpeName: opencv-python
-        version: ">= 4.1.2.30"
-        language: Python
-        license: MIT License
-        url: https://github.com/skvark/opencv-python
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: opencv-python
-    JSON for Modern C++:
-        cpeName: JSON for Modern C++
-        version: 3.12.0
-        language: C++
-        license: MIT License
-        url: https://github.com/nlohmann/json
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: json
-    pybind11:
-        cpeName: pybind11
-        version: ">= 2.4.3"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/pybind/pybind11/
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: pybind11
-    numpy:
-        cpeName: numpy
-        version: ">= 1.17.0"
-        url: https://www.numpy.org
-        language: Python
-        license: BSD 3-Clause License
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: numpy
-    OpenCL-CLHPP:
-        cpeName: OpenCL-CLHPP
-        version: 2.0.12
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/OpenCL-CLHPP
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: opencl-clhpp
-    protobuf:
-        cpeName: protobuf
-        version: 3.13.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/protocolbuffers/protobuf
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: protobuf
-    protobuf-arm:
-        cpeName: protobuf
-        version: 3.13.0
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/protocolbuffers/protobuf
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: protobuf_arm
-    OpenCV:
-        cpeName: OpenCV
-        version: 4.5.2
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/opencv/opencv/
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: opencv
-    zlib:
-        cpeName: zlib
-        version: 1.2.11
-        language: C++
-        license: zlib/libpng License
-        url: https://github.com/madler/zlib/
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: zlib
-    Khronos Group - OpenCL - Headers:
-        cpeName: Khronos Group - OpenCL - Headers
-        version: v2020.12.18
-        language: Python
-        license: Apache License V2.0
-        url: https://github.com/KhronosGroup/OpenCL-Headers/
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: opencl-headers
-    openssl:
-        cpeName: openssl
-        version: 3.5.4
-        language: C++
-        license: Apache License V2.0
-        url: https://github.com/openssl/openssl
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: openssl
-        branch: r2.7, r2.7.1, r2.7.2, r2.8, r2.9
-    onnxruntime:
-        cpeName: onnxruntime
-        version: 1.6.0
-        language: python
-        license: MIT License
-        url: https://github.com/microsoft/onnxruntime
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: onnxruntime
-    mockcpp:
-        cpeName: mockcpp
-        version: 2.7
-        language: C/C++
-        license: Apache License V2.0
-        url: https://github.com/sinojelly/mockcpp
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: mockcpp
-    triton_common:
-        cpeName: triton_common
-        version: "commitid:1df32b982a6ed11ead3271a55b04bf6e7abc1cf9"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://gitee.com/mirrors_triton-inference-server/common
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: triton_common
-    triton_core:
-        cpeName: triton_core
-        version: "commitid:9714cd666d512c4a2c687d028cd4ebf3d354a9dc"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://gitee.com/mirrors_triton-inference-server/core
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: triton_core
-    triton_backend:
-        cpeName: triton_backend
-        version: "commitid:2f3f44eba661af9b4fcd62160eafd9012db32652"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://gitee.com/mirrors_triton-inference-server/backend
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: triton_backend
-    onnx:
-        cpeName: onnx
-        version: v1.19.1
-        language: C++
-        license: Apache License
-        url: https://github.com/onnx/onnx
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: onnx
-    tensorflow:
-        cpeName: tensorflow
-        version: v2.20.0
-        language: C++
-        license: Apache License
-        url: https://github.com/tensorflow/tensorflow
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: tensorflow
-    MNN:
-        cpeName: MNN
-        version: 3.3.0
-        language: C++
-        license: Apache License
-        url: https://github.com/alibaba/MNN
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: MNN
-    coreml:
-        cpeName: coreml
-        version: 9.0
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/apple/coremltools
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: coreml
-    caffe:
-        cpeName: caffe
-        version: 1.0
-        language: C++
-        license: BSD 2-Clause License
-        url: https://github.com/BVLC/caffe
-        handler: fatmouse007fatmouse007
-        milestone: B-SIG-InnerDelivery
-        schName: caffe
-    ml_dtypes:
-        cpeName: ml_dtypes
-        version: 0.5.4
-        language: python
-        license: Apache License V2.0
-        url: https://github.com/jax-ml/ml_dtypes
-        handler: YeFeng_24
-        milestone: B-SIG-InnerDelivery
-        schName: ml_dtypes
+  flatbuffers:
+    cpeName: flatbuffers
+    version: 25.12.19
+    language: C/C++
+    license: Apache License V2.0
+    url: https://google.github.io/flatbuffers/
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: flatbuffers
+  Eigen:
+    cpeName: Eigen
+    version: 5.0.0
+    language: C/C++
+    license: Mozilla Public License (MPL) V2.0
+    url: http://eigen.tuxfamily.org/index.php?title=Main_Page
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: eigen
+  glog:
+    cpeName: glog
+    version: 0.7.1
+    language: Python
+    license: BSD 3-Clause License
+    url: https://github.com/google/glog
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: glog
+  googletest:
+    cpeName: googletest
+    version: 1.8.1
+    language: C/C++
+    license: BSD 3-Clause License
+    url: http://code.google.com/p/googletest/
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: gtest
+  opencv:
+    cpeName: opencv
+    version: 4.5.2
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/opencv/opencv
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: opencv
+  opencv-python:
+    cpeName: opencv-python
+    version: ">= 4.1.2.30"
+    language: Python
+    license: MIT License
+    url: https://github.com/skvark/opencv-python
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: opencv-python
+  JSON for Modern C++:
+    cpeName: JSON for Modern C++
+    version: 3.12.0
+    language: C++
+    license: MIT License
+    url: https://github.com/nlohmann/json
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: json
+  pybind11:
+    cpeName: pybind11
+    version: ">= 2.4.3"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://github.com/pybind/pybind11/
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: pybind11
+  numpy:
+    cpeName: numpy
+    version: ">= 1.17.0"
+    url: https://www.numpy.org
+    language: Python
+    license: BSD 3-Clause License
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: numpy
+  OpenCL-CLHPP:
+    cpeName: OpenCL-CLHPP
+    version: 2.0.12
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/KhronosGroup/OpenCL-CLHPP
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: opencl-clhpp
+  protobuf:
+    cpeName: protobuf
+    version: 3.13.0
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/protocolbuffers/protobuf
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: protobuf
+  protobuf-arm:
+    cpeName: protobuf
+    version: 3.13.0
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/protocolbuffers/protobuf
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: protobuf_arm
+  OpenCV:
+    cpeName: OpenCV
+    version: 4.5.2
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/opencv/opencv/
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: opencv
+  zlib:
+    cpeName: zlib
+    version: 1.2.11
+    language: C++
+    license: zlib/libpng License
+    url: https://github.com/madler/zlib/
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: zlib
+  Khronos Group - OpenCL - Headers:
+    cpeName: Khronos Group - OpenCL - Headers
+    version: v2020.12.18
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/KhronosGroup/OpenCL-Headers/
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: opencl-headers
+  openssl:
+    cpeName: openssl
+    version: 3.5.4
+    language: C++
+    license: Apache License V2.0
+    url: https://github.com/openssl/openssl
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: openssl
+    branch:
+      - r2.7
+      - r2.7.1
+      - r2.7.2
+      - r2.8
+      - r2.9
+  onnxruntime:
+    cpeName: onnxruntime
+    version: 1.6.0
+    language: Python
+    license: MIT License
+    url: https://github.com/microsoft/onnxruntime
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: onnxruntime
+  mockcpp:
+    cpeName: mockcpp
+    version: 2.7
+    language: C/C++
+    license: Apache License V2.0
+    url: https://github.com/sinojelly/mockcpp
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: mockcpp
+  triton_common:
+    cpeName: triton_common
+    version: "commitid:1df32b982a6ed11ead3271a55b04bf6e7abc1cf9"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://gitee.com/mirrors_triton-inference-server/common
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: triton_common
+  triton_core:
+    cpeName: triton_core
+    version: "commitid:9714cd666d512c4a2c687d028cd4ebf3d354a9dc"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://gitee.com/mirrors_triton-inference-server/core
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: triton_core
+  triton_backend:
+    cpeName: triton_backend
+    version: "commitid:2f3f44eba661af9b4fcd62160eafd9012db32652"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://gitee.com/mirrors_triton-inference-server/backend
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: triton_backend
+  onnx:
+    cpeName: onnx
+    version: v1.19.1
+    language: C++
+    license: Apache License
+    url: https://github.com/onnx/onnx
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: onnx
+  tensorflow:
+    cpeName: tensorflow
+    version: v2.20.0
+    language: C++
+    license: Apache License
+    url: https://github.com/tensorflow/tensorflow
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: tensorflow
+  MNN:
+    cpeName: MNN
+    version: 3.3.0
+    language: C++
+    license: Apache License
+    url: https://github.com/alibaba/MNN
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: MNN
+  coreml:
+    cpeName: coreml
+    version: 9.0
+    language: C++
+    license: BSD 3-Clause License
+    url: https://github.com/apple/coremltools
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: coreml
+  caffe:
+    cpeName: caffe
+    version: 1.0
+    language: C++
+    license: BSD 2-Clause License
+    url: https://github.com/BVLC/caffe
+    handler: fatmouse007fatmouse007
+    milestone: B-SIG-InnerDelivery
+    schName: caffe
+  ml_dtypes:
+    cpeName: ml_dtypes
+    version: 0.5.4
+    language: Python
+    license: Apache License V2.0
+    url: https://github.com/jax-ml/ml_dtypes
+    handler: YeFeng_24
+    milestone: B-SIG-InnerDelivery
+    schName: ml_dtypes
+
 dvm:
-    pybind11:
-        cpeName: pybind11
-        version: ">= 2.4.3"
-        language: C++
-        license: BSD 3-Clause License
-        url: https://github.com/pybind/pybind11/
-        handler: looop5
-        milestone: B-SIG-AKG
-        schName: pybind11
-toolkits:
-    pyyaml:
-        cpeName: pyyaml
-        version: ">= 6.0"
-        url: https://github.com/yaml/pyyaml
-        language: Python
-        license: MIT License
-        handler: wanghaoran
-        milestone: B-SIG-Parallel
-        schName: pyyaml
-    numpy:
-        cpeName: numpy
-        version: ">= 1.20.0,<2.0.0"
-        url: https://www.numpy.org
-        language: Python
-        license: BSD 3-Clause License
-        handler: wanghaoran
-        milestone: B-SIG-Parallel
-        schName: numpy
-    ortools:
-        cpeName: ortools
-        version: ">= 9.12.0"
-        language: Python
-        license: Apache-2.0 License
-        url: https://pypi.org/project/ortools/
-        handler: wanghaoran
-        milestone: B-SIG-Parallel
-        schName: ortools
-    matplotlib:
-        cpeName: matplotlib
-        version: ">=3.9.0"
-        language: Python
-        license: Python Software Foundation License(PSF)
-        url: https://matplotlib.org
-        handler: wanghaoran
-        milestone: B-SIG-Parallel
-        schName: matplotlib
-    chardet:
-        cpeName: chardet
-        version: ">= 5.2.0"
-        language: Python
-        license: LGPL-2.1 License
-        url: https://github.com/chardet/chardet
-        handler: wanghaoran
-        milestone: B-SIG-Parallel
-        schName: chardet
-    highspy:
-        cpeName: highspy
-        version: ">= 1.6.0"
-        language: Python
-        license: MIT License
-        url: https://github.com/ERGO-Code/HiGHS
-        handler: wanghaoran
-        milestone: B-SIG-Parallel
-        schName: highspy
+  pybind11:
+    cpeName: pybind11
+    version: ">= 2.4.3"
+    language: C++
+    license: BSD 3-Clause License
+    url: https://github.com/pybind/pybind11/
+    handler: looop5
+    milestone: B-SIG-AKG
+    schName: pybind11
