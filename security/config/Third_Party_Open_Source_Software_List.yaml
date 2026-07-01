@@ -696,7 +696,7 @@ mindscience:
     language: Python
     license: MIT License
     url: https://github.com/paulo-herrera/PyEVTK
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: pyevtk
   numpy:
@@ -705,7 +705,7 @@ mindscience:
     language: Python
     license: BSD 3-Clause License
     url: https://www.numpy.org
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: numpy
   matplotlib:
@@ -714,7 +714,7 @@ mindscience:
     language: Python
     license: Python Software Foundation License(PSF)
     url: https://matplotlib.org
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: matplotlib
   opencv-python:
@@ -723,7 +723,7 @@ mindscience:
     language: Python
     license: MIT License
     url: https://github.com/skvark/opencv-python
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: opencv-python
   easydict:
@@ -732,7 +732,7 @@ mindscience:
     language: Python
     license: GNU Lesser General Public License v3.0
     url: https://github.com/makinacorpus/easydict
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: easydict
   pillow:
@@ -741,7 +741,7 @@ mindscience:
     language: Python
     license: Historical Permission Notice and Disclaimer
     url: https://python-pillow.org
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: pillow
   scipy:
@@ -750,7 +750,7 @@ mindscience:
     language: Python
     license: BSD 3-Clause License
     url: http://scipy.org/
-    handler: gongyue19941231
+    handler: wuzhf9
     milestone: B-MBA
     schName: scipy
 
@@ -847,7 +847,7 @@ ms_kernels_internal:
     license: BSD 3-Clause License
     url: https://pytorch.org/
     handler: zhanghan
-    milestone: B-Kernels-Internal
+    milestone: B-SIG-InnerDelivery
     schName: torch
   scipy:
     cpeName: scipy
@@ -856,7 +856,7 @@ ms_kernels_internal:
     license: BSD 3-Clause License
     url: http://scipy.org/
     handler: zhanghan
-    milestone: B-Kernels-Internal
+    milestone: B-SIG-InnerDelivery
     schName: scipy
   pytest:
     cpeName: pytest
@@ -865,7 +865,7 @@ ms_kernels_internal:
     license: MIT License
     url: https://docs.pytest.org/en/latest/
     handler: zhanghan
-    milestone: B-Kernels-Internal
+    milestone: B-SIG-InnerDelivery
     schName: pytest
   numpy:
     cpeName: numpy
@@ -874,7 +874,7 @@ ms_kernels_internal:
     language: Python
     license: BSD 3-Clause License
     handler: zhanghan
-    milestone: B-Kernels-Internal
+    milestone: B-SIG-InnerDelivery
     schName: numpy
   googletest:
     cpeName: googletest
@@ -883,7 +883,7 @@ ms_kernels_internal:
     license: BSD 3-Clause License
     url: http://code.google.com/p/googletest/
     handler: zhanghan
-    milestone: B-Kernels-Internal
+    milestone: B-SIG-InnerDelivery
     schName: gtest
 
 mindformers:
