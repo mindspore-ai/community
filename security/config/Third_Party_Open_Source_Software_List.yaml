@@ -604,7 +604,7 @@ mindarmour:
     language: Python
     license: BSD 3-Clause License
     url: https://www.numpy.org
-    handler: changzherui1
+    handler: yyuse
     milestone: B-SIG-FrontEnd
     schName: numpy
   scipy:
@@ -613,7 +613,7 @@ mindarmour:
     language: Python
     license: BSD 3-Clause License
     url: http://scipy.org/
-    handler: echomingzhu
+    handler: yyuse
     milestone: B-SIG-FrontEnd
     schName: scipy
   pytest:
@@ -622,7 +622,7 @@ mindarmour:
     language: Python
     license: MIT License
     url: https://docs.pytest.org/en/latest/
-    handler: henryshi1
+    handler: yyuse
     milestone: B-SIG-FrontEnd
     schName: pytest
   matplotlib:
@@ -658,7 +658,7 @@ mindarmour:
     language: Python
     license: GNU Lesser General Public License v3.0
     url: https://github.com/makinacorpus/easydict
-    handler: zhao_ting_v
+    handler: yyuse
     milestone: B-SIG-InnerDelivery
     schName: easydict
   opencv-python:
@@ -667,7 +667,7 @@ mindarmour:
     language: Python
     license: MIT License
     url: https://github.com/skvark/opencv-python
-    handler: zhao_ting_v
+    handler: yyuse
     milestone: B-SIG-InnerDelivery
     schName: opencv-python
   wheel:
@@ -846,7 +846,7 @@ ms_kernels_internal:
     language: Python
     license: BSD 3-Clause License
     url: https://pytorch.org/
-    handler: zhanghan
+    handler: zhanghanLeo10
     milestone: B-SIG-InnerDelivery
     schName: torch
   scipy:
@@ -855,7 +855,7 @@ ms_kernels_internal:
     language: Python
     license: BSD 3-Clause License
     url: http://scipy.org/
-    handler: zhanghan
+    handler: zhanghanLeo10
     milestone: B-SIG-InnerDelivery
     schName: scipy
   pytest:
@@ -864,7 +864,7 @@ ms_kernels_internal:
     language: Python
     license: MIT License
     url: https://docs.pytest.org/en/latest/
-    handler: zhanghan
+    handler: zhanghanLeo10
     milestone: B-SIG-InnerDelivery
     schName: pytest
   numpy:
@@ -873,7 +873,7 @@ ms_kernels_internal:
     url: https://www.numpy.org
     language: Python
     license: BSD 3-Clause License
-    handler: zhanghan
+    handler: zhanghanLeo10
     milestone: B-SIG-InnerDelivery
     schName: numpy
   googletest:
@@ -882,7 +882,7 @@ ms_kernels_internal:
     language: C/C++
     license: BSD 3-Clause License
     url: http://code.google.com/p/googletest/
-    handler: zhanghan
+    handler: zhanghanLeo10
     milestone: B-SIG-InnerDelivery
     schName: gtest
 
