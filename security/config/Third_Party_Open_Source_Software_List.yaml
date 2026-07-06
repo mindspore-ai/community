@@ -898,7 +898,7 @@ mindformers:
     schName: setuptools
   sentencepiece:
     cpeName: sentencepiece
-    version: ">= 0.2.0"
+    version: ">= 0.2.1"
     language: Python
     license: Apache License V2.0
     url: https://github.com/google/sentencepiece
