@@ -16,22 +16,6 @@ repositories:
     name: hanzhibin
     organization: Huawei
     email: hanzhibin1@huawei.com
-  - atomgit_id: limingjun1
-    name: Mr. Li
-    organization: Zhejiang University of Technology
-    email: NA
-  - atomgit_id: hu2175
-    name: Rice Zhang
-    organization: Zhejiang University
-    email: 8623924@qq.com
-  - atomgit_id: qmckw
-    name: Kewei
-    organization: Huazhong University of Science and Technology
-    email: 2512235663@qq.com
-  - atomgit_id: Mr_GerhardtHu_Fox
-    name: Mr. Hu
-    organization: Northeast University
-    email: 780308144@qq.com
 - repo:
   - mindspore/mindspore
   committers:
@@ -47,6 +31,14 @@ repositories:
     name: liuchongming
     organization: Huawei
     email: liuchongming1@huawei.com
+  - atomgit_id: zhangyinxia
+    name: zhangyinxia
+    organization: Huawei
+    email: zhangyinxia@huawei.com
+  - atomgit_id: fangwenyi1
+    name: fangwenyi
+    organization: Huawei
+    email: fangwenyi@huawei.com
   - atomgit_id: tronzhang
     name: zhangzhaochuang
     organization: Huawei
@@ -64,7 +56,3 @@ repositories:
     name: husihang
     organization: Huawei
     email: siriushsh@foxmail.com
-  - atomgit_id: shazi4399
-    name: Mr. Zhang
-    organization: Beijing University of Posts and Telecommunications
-    email: NA

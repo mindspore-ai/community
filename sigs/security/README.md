@@ -39,18 +39,15 @@ Trusted AI 聚焦于人工智能领域的模型、数据可信技术，致力于
 * 鲍翀[@baochong](https://atomgit.com/baochong), *zjbc123@sina.com*，MindSpore Security
 * 郭琦[@guoqi1024](https://atomgit.com/guoqi1024), *guoqi5@huawei.com*，MindSpore Security
 * 韩志斌[@ZhibinHan](https://atomgit.com/ZhibinHan), *hanzhibin1@huawei.com*，MindSpore Security，Trusted AI
-* Kewei[@qmckw](https://atomgit.com/qmckw), *2512235663@qq.com*，Trusted AI
+* 张银霞[@zhangyinxia](https://atomgit.com/zhangyinxia), *zhangyinxia@huawei.com*，MindSpore Security
+* 方文仪[@fangwenyi1](https://atomgit.com/fangwenyi1), *fangwenyi@huawei.com*，MindSpore Security
 * 刘崇鸣[@liuchongming74](https://atomgit.com/liuchongming74), *liuchongming1@huawei.com*，MindSpore Security
-* Mr. Hu[@Mr_GerhardtHu_Fox](https://atomgit.com/Mr_GerhardtHu_Fox), *780308144@qq.com*，Trusted AI
-* Mr. Li[@limingjun1](https://atomgit.com/limingjun1), *NA*，Trusted AI
-* Rice Zhang[@hu2175](https://atomgit.com/hu2175), *8623924@qq.com*，Trusted AI
 * 张兆创[@tronzhang](https://atomgit.com/tronzhang), *zhangzhaochuang@huawei.com*，MindSpore Security
 * 夏睿杰[@r1chardf1d0](https://atomgit.com/r1chardf1d0), *xiaruijie@huawei.com*，MindSpore Security
 
 ### Contributor
 
 * 胡思航[@siriushsh](https://atomgit.com/siriushsh), *siriushsh@foxmail.com*，MindSpore Security
-* Mr. Zhang[@shazi4399](https://atomgit.com/shazi4399), *NA*，Trusted AI
 
 ## SIG的主要活动
 
