@@ -889,7 +889,7 @@ ms_kernels_internal:
 mindformers:
   setuptools:
     cpeName: setuptools
-    version: "80.10.2"
+    version: ">= 83.0.0"
     language: Python
     license: MIT License
     url: https://github.com/pypa/setuptools
