@@ -51,7 +51,7 @@ mindspore:
     license: BSD 3-Clause License
     url: https://github.com/google/glog
     handler: rainyhorse
-    milestone: B-SIG-InnerDelivery
+    milestone: B-Deploy
     schName: glog
   googletest:
     cpeName: googletest
@@ -60,7 +60,7 @@ mindspore:
     license: BSD 3-Clause License
     url: http://code.google.com/p/googletest/
     handler: rainyhorse
-    milestone: B-SIG-InnerDelivery
+    milestone: B-Deploy
     schName: gtest
   opencv:
     cpeName: opencv
@@ -96,7 +96,7 @@ mindspore:
     license: BSD 3-Clause License
     url: https://github.com/PyTables/PyTables
     handler: rainyhorse
-    milestone: B-SIG-InnerDelivery
+    milestone: B-Deploy
     schName: tables
   robin_hood_hashing:
     cpeName: robin_hood_hashing
@@ -195,7 +195,7 @@ mindspore:
     license: Python Software Foundation License(PSF)
     url: https://matplotlib.org
     handler: rainyhorse
-    milestone: B-SIG-InnerDelivery
+    milestone: B-Deploy
     schName: matplotlib
   asttokens:
     cpeName: asttokens
@@ -232,7 +232,7 @@ mindspore:
       License;Creative Commons Public Domain Certification
     url: https://libevent.org/
     handler: rainyhorse
-    milestone: B-SIG-InnerDelivery
+    milestone: B-Deploy
     schName: libevent
   OpenCL-CLHPP:
     cpeName: OpenCL-CLHPP
@@ -385,7 +385,7 @@ mindspore:
     license: BSD 3-Clause License
     url: https://github.com/scikit-learn/scikit-learn
     handler: rainyhorse
-    milestone: B-SIG-InnerDelivery
+    milestone: B-Deploy
     schName: scikit-learn
   psutil:
     cpeName: psutil
