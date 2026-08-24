@@ -222,7 +222,7 @@ mindspore:
     license: BSD 3-Clause License
     url: https://www.open-mpi.org/
     handler: zhangyinxia
-    milestone: B-SIG-Runtime
+    milestone: B-SIG-DeviceResource
     schName: ompi
   libevent:
     cpeName: libevent
@@ -376,7 +376,7 @@ mindspore:
     license: Apache License V2.0
     url: https://github.com/openssl/openssl
     handler: zhangyinxia
-    milestone: B-SIG-InnerDelivery
+    milestone: B-SIG-DeviceResource
     schName: openssl
   scikit-learn:
     cpeName: scikit-learn
