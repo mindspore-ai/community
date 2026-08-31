@@ -231,8 +231,8 @@ mindspore:
     license: BSD 3-Clause License;MIT License; ISC License; BSD 2-Clause
       License;Creative Commons Public Domain Certification
     url: https://libevent.org/
-    handler: rainyhorse
-    milestone: B-Deploy
+    handler: zhangyinxia
+    milestone: B-SIG-DeviceResource
     schName: libevent
   OpenCL-CLHPP:
     cpeName: OpenCL-CLHPP
