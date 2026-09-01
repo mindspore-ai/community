@@ -226,7 +226,7 @@ mindspore:
     schName: ompi
   libevent:
     cpeName: libevent
-    version: 2.1.12
+    version: 2.1.13
     language: C/C++
     license: BSD 3-Clause License;MIT License; ISC License; BSD 2-Clause
       License;Creative Commons Public Domain Certification
