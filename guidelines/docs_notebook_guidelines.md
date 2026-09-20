@@ -22,43 +22,37 @@ ipynb文件名和图片名使用全小写，单词间可使用_分隔。
 Notebook文档使用Markdown和运行代码两种单元格组合的形式。
 
 - Markdown单元格格式要求参考[MindSpore Markdown文档写作要求](./docs_markdown_guidelines.md)。
-- 运行代码单元格格式要求参考编码规范。
+- 运行代码单元格格式要求参考[Python编程规范](./python_programming_specification_zh_cn.md)。
 
 ## 内容大纲
 
 1. 标题（与当前主题相关）：`# xxxx`。
-2. 作者：名字加Gitee或Github个人链接。
+2. 作者：名字加Gitee、GitHub或AtomGit个人链接。
 3. 资源链接标签：使用“图片+链接”的格式，`&emsp;`表示分隔符。
 
     如：
 
     ```text
-    [![在线运行](https://gitee.com/mindspore/docs/raw/master/resource/_static/logo_modelarts.png)](https://authoring-modelarts-cnnorth4.huaweicloud.com/console/lab?share-url-b64=aHR0cHM6Ly9taW5kc3BvcmUtd2Vic2l0ZS5vYnMuY24tbm9ydGgtNC5teWh1YXdlaWNsb3VkLmNvbS9ub3RlYm9vay9tb2RlbGFydHMvbWluZHNwb3JlX3F1aWNrX3N0YXJ0LmlweW5i&imageid=65f636a0-56cf-49df-b941-7d2a07ba8c8c)&emsp;[![下载Notebook](https://gitee.com/mindspore/docs/raw/master/resource/_static/logo_notebook.png)](https://obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/master/tutorials/zh_cn/beginner/mindspore_quick_start.ipynb)&emsp;[![下载样例代码](https://gitee.com/mindspore/docs/raw/master/resource/_static/logo_download_code.png)](https://obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/master/tutorials/zh_cn/beginner/mindspore_quick_start.py)&emsp;[![查看源文件](https://gitee.com/mindspore/docs/raw/master/resource/_static/logo_source.png)](https://gitee.com/mindspore/docs/blob/master/tutorials/source_zh_cn/beginner/quick_start.ipynb)
+    [![下载Notebook](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/website-images/master/resource/_static/logo_notebook.png)](https://obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/master/tutorials/zh_cn/beginner/mindspore_quick_start.ipynb)&emsp;[![下载样例代码](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/website-images/master/resource/_static/logo_download_code.png)](https://obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/master/tutorials/zh_cn/beginner/mindspore_quick_start.py)&emsp;[![查看源文件](https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/website-images/master/resource/_static/logo_source.png)](https://atomgit.com/mindspore/docs/blob/master/tutorials/source_zh_cn/beginner/quick_start.ipynb)
     ```
 
     每个链接构成的方法如下：
 
-    - 在线运行：
-
-        ```text
-        authoring-modelarts-cnnorth4.huaweicloud.com/console/lab?share-url-bs64={Notebook存储地址的base64编码}&image_id={镜像id}
-        ```
-
     - 下载Notebook：
 
         ```text
-        obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/{Gitee中docs仓的分支}/{中文zh_cn/英文en}/{Gitee仓库中该Notebook的地址}
+        obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/{AtomGit中docs仓的分支}/{中文zh_cn/英文en}/{AtomGit仓库中该Notebook的地址}
         ```
 
     - 下载样例代码：
 
         ```text
-        obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/{Gitee中docs仓的分支}/{中文zh_cn/英文en}/{Gitee仓库中该Notebook对应的py文件地址}
+        obs.dualstack.cn-north-4.myhuaweicloud.com/mindspore-website/notebook/{AtomGit中docs仓的分支}/{中文zh_cn/英文en}/{AtomGit仓库中该Notebook对应的py文件地址}
         ```
 
         后缀由.ipynb改为.py。
 
-    - 查看源文件：Gitee仓库中该Notebook文件的地址。
+    - 查看源文件：AtomGit仓库中该Notebook文件的地址。
 
 4. 概述。
 5. 整体流程。
@@ -71,7 +65,7 @@ Notebook文档使用Markdown和运行代码两种单元格组合的形式。
 
 补充说明：
 
-- 整体结构可以参考[快速入门](https://gitee.com/mindspore/docs/blob/master/tutorials/source_zh_cn/beginner/quick_start.ipynb)。
+- 整体结构可以参考[快速入门](https://atomgit.com/mindspore/docs/blob/master/tutorials/source_zh_cn/beginner/quick_start.ipynb)。
 - 内容中不要含有个人信息（可以在文件开头附加作者和个人链接）。
 - 每个代码单元格建议有输出结果展示，帮助用户加深理解。
 - 要求可全文档一键重复多次运行（注意：需编写相关代码在重复运行时删除过期或无效的相关文件）。
@@ -99,10 +93,10 @@ Notebook文档使用Markdown和运行代码两种单元格组合的形式。
             - 测试数据集路径写为：`./datasets/{ipynb的文件名}/{数据集名称}/test/{数据文件}`。
         - 自定义数据集：
 
-            - 单张图片的存放
+            - 单张图片的存放路径
 
                 例如 `test.jpg`文件，放置路径：`./datasets/{ipynb的文件名}/images/test.jpg`。
-            - 单个文件的存放
+            - 单个文件的存放路径
 
                 例如 `test.csv`文件，放置路径：`./datasets/{ipynb的文件名}/docs/test.csv`。
             - MindRecord数据放置
@@ -120,7 +114,7 @@ Notebook文档使用Markdown和运行代码两种单元格组合的形式。
 
 ## 表格
 
-文中的表格使用Markdown写法，需要确保每行上下的格式符号“|”对齐，且符号“：---------”的长度超过表中该列的最长部分。
+文中的表格使用Markdown写法，需要确保每行上下的格式符号“|”对齐，且符号“:---------”的长度超过表中该列的最长部分。
 
 ## 其他
 
