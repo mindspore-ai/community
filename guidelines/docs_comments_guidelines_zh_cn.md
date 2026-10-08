@@ -7,16 +7,9 @@
     - [Python API注释规范](#python-api注释规范)
         - [注释格式](#注释格式)
         - [注意事项](#注意事项)
-        - [Python示例](#python示例)
-            - [类](#类)
-            - [方法](#方法)
-            - [基于yaml生成的Tensor方法](#基于yaml文件生成的mindsporetensor方法)
-            - [公式](#公式)
-            - [链接](#链接)
     - [C++ API注释规范](#c-api注释规范)
         - [注释格式](#注释格式)
         - [注意事项](#注意事项)
-        - [完整示例](#完整示例)
 
 <!-- /TOC -->
 
@@ -350,7 +343,7 @@ Supported Platforms:
             3. 其他专有名词（用\text包裹）
 
                 ```text
-                \text{sigmoid}, \test{Tanh} ...
+                \text{sigmoid}, \text{Tanh} ...
                 ```
 
 - 父类方法的显示
@@ -391,20 +384,20 @@ Supported Platforms:
 
     ```text
     .. list-table:: Title            # 表格标题
-    :widths: 25 25 25               # 表格列宽
-    :header-rows: 1
+        :widths: 25 25 25           # 表格列宽
+        :header-rows: 1
 
-    * - Heading row 1, column 1     # 表头
-        - Heading row 1, column 2
-        - Heading row 1, column 3
-    * - Row 1, column 1
-        -                             # 表格内容为空
-        - Row 1, column 3
-    * - Row 2, column 1
-        - Row 2, column 2
-        - Row 2,
+        * - Heading row 1, column 1 # 表头
+            - Heading row 1, column 2
+            - Heading row 1, column 3
+        * - Row 1, column 1
+            -                       # 表格内容为空
+            - Row 1, column 3
+        * - Row 2, column 1
+            - Row 2, column 2
+            - Row 2,
                                     # 表格内容如需换行，在中间增加一个空行
-        column 3
+            column 3
     ```
 
     显示效果：
@@ -425,9 +418,9 @@ Supported Platforms:
         ```text
         .. code-block::
 
-        Content1
-        Content2
-        Content3
+            Content1
+            Content2
+            Content3
         ```
 
 - 在注释中引用其他接口。
@@ -501,278 +494,6 @@ Supported Platforms:
     ```
 
     并将图片提交至：<https://gitee.com/mindspore/mindspore/blob/master/docs/api/api_python/dataset_audio/frequency_masking.png>。
-
-### Python示例
-
-#### 类
-
-```python
-class Tensor(Tensor_):
-    """
-    Tensor is used for data storage.
-
-    Tensor inherits tensor object in C++.
-    Some functions are implemented in C++ and some functions are implemented in Python.
-
-    Args:
-        input_data (Tensor, float, int, bool, tuple, list, numpy.ndarray): Input data of the tensor.
-        dtype (:class:`mindspore.dtype`): Input data should be None, bool or numeric type defined in `mindspore.dtype`.
-            The argument is used to define the data type of the output tensor. If it is ``None``, the data type of the
-            output tensor will be as same as the `input_data`. Default: ``None``.
-
-    Outputs:
-        Tensor, with the same shape as `input_data`.
-
-    Examples:
-        >>> # initialize a tensor with input data
-        >>> t1 = Tensor(np.zeros([1, 2, 3]), mindspore.float32)
-        >>> assert isinstance(t1, Tensor)
-        >>> assert t1.shape == (1, 2, 3)
-        >>> assert t1.dtype == mindspore.float32
-        ...
-        >>> # initialize a tensor with a float scalar
-        >>> t2 = Tensor(0.1)
-        >>> assert isinstance(t2, Tensor)
-        >>> assert t2.dtype == mindspore.float64
-    """
-
-    def __init__(self, input_data, dtype=None):
-        ...
-```
-
-显示效果可访问[这里](https://www.mindspore.cn/docs/en/master/api_python/mindspore/mindspore.Tensor.html)。
-
-#### 方法
-
-```python
-def ms_function(fn=None, obj=None, input_signature=None):
-    """
-    Create a callable MindSpore graph from a python function.
-
-    This allows the MindSpore runtime to apply optimizations based on graph.
-
-    Args:
-        fn (Function): The Python function that will be run as a graph. Default: ``None``.
-        obj (Object): The Python Object that provides the information for identifying the compiled function. Default:
-            ``None``.
-        input_signature (MetaTensor): The MetaTensor which describes the input arguments. The MetaTensor specifies
-            the shape and dtype of the Tensor and they will be supplied to this function. If `input_signature`
-            is specified, each input to `fn` must be a `Tensor`. And the input parameters of `fn` cannot accept
-            `**kwargs`. The shape and dtype of actual inputs should keep the same as `input_signature`. Otherwise,
-            TypeError will be raised. Default: ``None``.
-
-    Returns:
-        Function, if `fn` is not ``None``, returns a callable function that will execute the compiled function; If `fn` is
-        ``None``, returns a decorator and when this decorator invokes with a single `fn` argument, the callable function is
-        equal to the case when `fn` is not ``None``.
-
-    Examples:
-        >>> def tensor_add(x, y):
-        ...     z = F.tensor_add(x, y)
-        ...     return z
-        ...
-        >>> @ms_function
-        ... def tensor_add_with_dec(x, y):
-        ...     z = F.tensor_add(x, y)
-        ...     return z
-        ...
-        >>> @ms_function(input_signature=(MetaTensor(mindspore.float32, (1, 1, 3, 3)),
-        ...                               MetaTensor(mindspore.float32, (1, 1, 3, 3))))
-        ... def tensor_add_with_sig(x, y):
-        ...     z = F.tensor_add(x, y)
-        ...     return z
-        ...
-        >>> x = Tensor(np.ones([1, 1, 3, 3]).astype(np.float32))
-        >>> y = Tensor(np.ones([1, 1, 3, 3]).astype(np.float32))
-        ...
-        >>> tensor_add_graph = ms_function(fn=tensor_add)
-        >>> out = tensor_add_graph(x, y)
-        >>> out = tensor_add_with_dec(x, y)
-        >>> out = tensor_add_with_sig(x, y)
-    """
-    ...
-```
-
-显示效果可访问[这里](https://www.mindspore.cn/docs/en/master/api_python/mindspore/mindspore.ms_function.html)。
-
-#### 基于yaml文件生成的mindspore.Tensor方法
-
-```text
-gather:
-  description: |
-    gather(dim, index) -> Tensor
-
-    Gather data from a tensor by indices.
-
-    .. math::
-        output[(i_0, i_1, ..., i_{dim}, i_{dim+1}, ..., i_n)] =
-        input[(i_0, i_1, ..., index[(i_0, i_1, ..., i_{dim}, i_{dim+1}, ..., i_n)], i_{dim+1}, ..., i_n)]
-
-    .. warning::
-        On Ascend, the behavior is unpredictable in the following cases:
-
-        - the value of `index` is not in the range `[-self.shape[dim], self.shape[dim])` in forward;
-        - the value of `index` is not in the range `[0, self.shape[dim])` in backward.
-
-    Args:
-        dim (int): the axis to index along, must be in range `[-self.rank, self.rank)`.
-        index (Tensor): The index tensor, with int32 or int64 data type. An valid `index` should be:
-
-            - `index.rank == self.rank`;
-            - for `axis != dim`, `index.shape[axis] <= self.shape[axis]`;
-            - the value of `index` is in range `[-self.shape[dim], self.shape[dim])`.
-
-    Returns:
-        Tensor, has the same type as `self` and the same shape as `index`.
-
-    Raises:
-        ValueError: If the shape of `index` is illegal.
-        ValueError: If `dim` is not in `[-self.rank, self.rank)`.
-        ValueError: If the value of `index` is out of the valid range.
-        TypeError: If the type of `index` is illegal.
-
-    Supported Platforms:
-        ``Ascend`` ``GPU`` ``CPU``
-
-    Examples:
-        >>> import mindspore
-        >>> import numpy as np
-        >>> from mindspore import Tensor
-        >>> input = Tensor(np.array([[-0.1, 0.3, 3.6], [0.4, 0.5, -3.2]]), mindspore.float32)
-        >>> index = Tensor(np.array([[0, 0], [1, 1]]), mindspore.int32)
-        >>> output = input.gather(1, index)
-        >>> print(output)
-        [[-0.1 -0.1]
-         [0.5   0.5]]
-
-    .. method:: Tensor.gather(input_indices, axis, batch_dims=0) -> Tensor
-        :noindex:
-
-    Returns the slice of the input tensor corresponding to the elements of `input_indices` on the specified `axis`.
-
-    The following figure shows the calculation process of Gather commonly:
-
-    .. image:: ../../images/Gather.png
-
-    where params represents the input `input_params`, and indices represents the index to be sliced `input_indices`.
-
-    .. note::
-        1. The value of input_indices must be in the range of `[0, input_param.shape[axis])`.
-           On CPU and GPU, an error is raised if an out of bound indice is found. On Ascend, the results may be
-           undefined.
-        2. The data type of self cannot be
-           `bool_ <https://www.mindspore.cn/docs/en/master/api_python/mindspore/mindspore.dtype.html>`_ on Ascend
-           platform currently.
-
-    Args:
-        input_indices (Tensor): Index tensor to be sliced, the shape of tensor is :math:`(y_1, y_2, ..., y_S)`.
-            Specifies the indices of elements of the original Tensor. The data type can be int32 or int64.
-        axis (Union(int, Tensor[int])): Specifies the dimension index to gather indices.
-            It must be greater than or equal to `batch_dims`.
-            When `axis` is a Tensor, the size must be 1.
-        batch_dims (int): Specifies the number of batch dimensions. It must be less than or euqal to the rank
-            of `input_indices`. Default: ``0`` .
-
-    Returns:
-        Tensor, the shape of tensor is
-        :math:`input\_params.shape[:axis] + input\_indices.shape[batch\_dims:] + input\_params.shape[axis + 1:]`.
-
-    Raises:
-        TypeError:  If `axis` is not an int or Tensor.
-        ValueError: If `axis` is a Tensor and its size is not 1.
-        TypeError:  If `self` is not a tensor.
-        TypeError:  If `input_indices` is not a tensor of type int.
-        RuntimeError: If `input_indices` is out of range `[0, input_param.shape[axis])` on CPU or GPU.
-
-    Supported Platforms:
-        ``Ascend`` ``GPU`` ``CPU``
-
-    Examples:
-        >>> import mindspore
-        >>> import numpy as np
-        >>> from mindspore import Tensor
-        >>> # case1: input_indices is a Tensor with shape (5, ).
-        >>> input_params = Tensor(np.array([1, 2, 3, 4, 5, 6, 7]), mindspore.float32)
-        >>> input_indices = Tensor(np.array([0, 2, 4, 2, 6]), mindspore.int32)
-        >>> axis = 0
-        >>> output = input_params.gather(input_indices=input_indices, axis=axis)
-        >>> print(output)
-        [1. 3. 5. 3. 7.]
-        >>> # case2: input_indices is a Tensor with shape (2, 2). When the input_params has one dimension,
-        >>> # the output shape is equal to the input_indices shape.
-        >>> input_indices = Tensor(np.array([[0, 2], [2, 6]]), mindspore.int32)
-        >>> axis = 0
-        >>> output = input_params.gather(input_indices=input_indices, axis=axis)
-        >>> print(output)
-        [[1. 3.]
-         [3. 7.]]
-        >>> # case3: input_indices is a Tensor with shape (2, ) and
-        >>> # input_params is a Tensor with shape (3, 4) and axis is 0.
-        >>> input_params = Tensor(np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]), mindspore.float32)
-        >>> input_indices = Tensor(np.array([0, 2]), mindspore.int32)
-        >>> axis = 0
-        >>> output = input_params.gather(input_indices=input_indices, axis=axis)
-        >>> print(output)
-        [[ 1.  2.  3.  4.]
-         [ 9. 10. 11. 12.]]
-        >>> # case4: input_indices is a Tensor with shape (2, ) and
-        >>> # input_params is a Tensor with shape (3, 4) and axis is 1, batch_dims is 1.
-        >>> input_params = Tensor(np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]), mindspore.float32)
-        >>> input_indices = Tensor(np.array([0, 2, 1]), mindspore.int32)
-        >>> axis = 1
-        >>> batch_dims = 1
-        >>> output = input_params.gather(input_indices, axis, batch_dims)
-        >>> print(output)
-        [ 1.  7. 10.]
-```
-
-- 首行注释为接口定义， 格式为 `xxx(param1, param2)`，不需要加类名前缀Tensor，直接写接口名即可。
-- 有重载函数时，不需要顶格书写，与正文缩进一样，使用 `.. method:: Tensor.xxx` ，并换行再缩进4格添加标签 `:noindex:` ，注意不要用 `mindspore.Tensor.xxx` 作为定义。
-- 使用 `.. image:: ../xxx.png` 引用图片时，以中文文档与图片的相对位置为准，英文注释写法与中文文档保持一致。
-- 如果需要引用 `mindspore.Tensor.xxx` 相关接口的内容，推荐写成 :func:`Tensor.xxx` 。
-
-显示效果可访问[这里](https://www.mindspore.cn/docs/en/master/api_python/mindspore/Tensor/mindspore.Tensor.gather.html)。
-
-#### 公式
-
-```python
-class Conv2d(_Conv):
-    r"""
-    2D convolution layer.
-
-    Apply a 2D convolution over an input tensor which is typically of shape :math:`(N, C_{in}, H_{in}, W_{in})`,
-    where :math:`N` is batch size, :math:`C_{in}` is channel number, and :math:`H_{in}, W_{in})` are height and width.
-    For each batch of shape :math:`(C_{in}, H_{in}, W_{in})`, the formula is defined as:
-
-    .. math::
-
-        out_j = \sum_{i=0}^{C_{in} - 1} ccor(W_{ij}, X_i) + b_j,
-
-    ...
-    """
-```
-
-显示效果可访问[这里](https://www.mindspore.cn/docs/en/master/api_python/nn/mindspore.nn.Conv2d.html)。
-
-#### 链接
-
-```python
-class BatchNorm(PrimitiveWithInfer):
-    r"""
-    Batch Normalization for input data and updated parameters.
-
-    Batch Normalization is widely used in convolutional neural networks. This operation
-    applies Batch Normalization over input to avoid internal covariate shift as described
-    in the paper `Batch Normalization: Accelerating Deep Network Training by Reducing Internal
-    Covariate Shift <https://arxiv.org/abs/1502.03167>`_. It rescales and recenters the
-    features using a mini-batch of data and the learned parameters which can be described
-    in the following formula,
-
-    ...
-    """
-```
-
-显示效果可访问[这里](https://www.mindspore.cn/docs/en/master/api_python/ops/mindspore.ops.BatchNorm.html)。
 
 ## C++ API注释规范
 
@@ -862,14 +583,14 @@ class BatchNorm(PrimitiveWithInfer):
     /// \return Reference count of a certain memory currently.
     ```
 
-- 示例代码，格式如下，`\par Example`作为前缀，示例代码位于`\code`和`\endcode`之间：
+- 示例代码，格式如下，`\par Example`作为前缀，示例代码位于`\code`和`\endcode`之间。为了便于阅读，相对缩进4个空格：
 
     ```cpp
     /// \par Example
     /// \code
-    /// /* Set number of workers(threads) to process the dataset in parallel */
-    /// std::shared_ptr<Dataset> ds = ImageFolder(folder_path, true);
-    /// ds = ds->SetNumWorkers(16);
+    ///     /* Set number of workers(threads) to process the dataset in parallel */
+    ///     std::shared_ptr<Dataset> ds = ImageFolder(folder_path, true);
+    ///     ds = ds->SetNumWorkers(16);
     /// \endcode
     ```
 
@@ -882,38 +603,3 @@ class BatchNorm(PrimitiveWithInfer):
     ```cpp
     /// \brief Referring to @ref mindspore.nn.Cell for detail.
     ```
-
-### 完整示例
-
-```cpp
-/// \brief Function to create a MnistDataset.
-/// \note The generated dataset has two columns ["image", "label"].
-/// \param[in] dataset_dir Path to the root directory that contains the dataset.
-/// \param[in] usage Part of dataset of MNIST, can be "train", "test" or "all" (default = "all").
-/// \param[in] sampler Shared pointer to a sampler object used to choose samples from the dataset. If sampler is not
-///     given, a `RandomSampler` will be used to randomly iterate the entire dataset (default = RandomSampler()).
-/// \param[in] cache Tensor cache to use (default=nullptr which means no cache is used).
-/// \return Shared pointer to the MnistDataset.
-/// \par Example
-/// \code
-///      /* Define dataset path and MindData object */
-///      std::string folder_path = "/path/to/mnist_dataset_directory";
-///      std::shared_ptr<Dataset> ds = Mnist(folder_path, "all", std::make_shared<RandomSampler>(false, 20));
-///
-///      /* Create iterator to read dataset */
-///      std::shared_ptr<Iterator> iter = ds->CreateIterator();
-///      std::unordered_map<std::string, mindspore::MSTensor> row;
-///      iter->GetNextRow(&row);
-///
-///      /* Note: In MNIST dataset, each dictionary has keys "image" and "label" */
-///      auto image = row["image"];
-/// \endcode
-inline std::shared_ptr<MnistDataset> MS_API
-Mnist(const std::string &dataset_dir, const std::string &usage = "all",
-      const std::shared_ptr<Sampler> &sampler = std::make_shared<RandomSampler>(),
-      const std::shared_ptr<DatasetCache> &cache = nullptr) {
-  return std::make_shared<MnistDataset>(StringToChar(dataset_dir), StringToChar(usage), sampler, cache);
-}
-```
-
-根据以上注释内容输出的API文档页面为[Function mindspore::dataset::Coco](https://www.mindspore.cn/lite/api/en/master/generate/function_mindspore_dataset_Mnist-1.html)。

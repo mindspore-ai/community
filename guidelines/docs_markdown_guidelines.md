@@ -5,7 +5,7 @@
 - [MindSpore Markdown文档写作要求](#mindspore-markdown文档写作要求)
     - [文档命名](#文档命名)
     - [标题](#标题)
-    - [gitee链接](#gitee链接)
+    - [源文件链接](#源文件链接)
     - [概述](#概述)
     - [注意事项](#注意事项)
     - [有序/无序列表](#有序无序列表)
@@ -38,16 +38,17 @@ Markdown文件名和图片名使用全小写，单词间可使用_分隔。
 ### 三级标题
 ```
 
-## gitee链接
+## 源文件链接
 
-每个Markdown文件添加链到自身的gitee链接，方便在网页上直接跳转到gitee页面。
+每个Markdown文件添加链接到自身的AtomGit链接，方便在网页上直接跳转到AtomGit页面。
 
-- 文中使用gitee链接时，目录应为`https://gitee.com/mindspore/docs/tree/xxx`，文件应为`https://gitee.com/mindspore/docs/blob/xxx`。
+- 文中使用AtomGit链接时，目录应为`https://atomgit.com/mindspore/docs/tree/xxx`，文件应为`https://atomgit.com/mindspore/docs/blob/xxx`。
+- logo图片使用OBS链接：`https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/website-images/master/resource/_static/xxx`。
 
 示例：
 
 ```markdown
-<a href="https://gitee.com/mindspore/docs/blob/master/tutorials/source_zh_cn/beginner/quick_start.ipynb" target="_blank"><img src="https://gitee.com/mindspore/docs/raw/master/resource/_static/logo_source.png"></a>
+<a href="https://atomgit.com/mindspore/docs/blob/master/tutorials/source_zh_cn/beginner/quick_start.ipynb" target="_blank"><img src="https://mindspore-website.obs.cn-north-4.myhuaweicloud.com/website-images/master/resource/_static/logo_source.png"></a>
 ```
 
 ## 概述
@@ -181,7 +182,7 @@ Python函数、方法、类的注释
 
 ## 术语
 
-统一术语大小写：MindSpore、CIFAR-10、Python等。详见[术语表](https://www.mindspore.cn/docs/zh-CN/master/design/glossary.html)。
+统一术语大小写：MindSpore、CIFAR-10、Python等。
 
 ## 参考文献
 
@@ -243,4 +244,4 @@ Python函数、方法、类的注释
 ## 英文
 
 - 中英文内容需同步修改。
-- 英文文档需链英文链接。如将`zh-CN`改成`en`。
+- 英文文档需链接到英文页面。如将`zh-CN`改成`en`。
